@@ -1,6 +1,14 @@
 var gulp = require('gulp')
+var markdown = require('gulp-markdown')
 var sass = require('gulp-sass')
 var browserSync = require('browser-sync')
+
+gulp.task('markdown', function() {
+	return gulp
+		.src('./src/posts/markdown/**/*.md')
+		.pipe(markdown())
+		.pipe(gulp.dest('./src/posts/html'))
+})
 
 gulp.task('sass', function() {
 	return gulp
