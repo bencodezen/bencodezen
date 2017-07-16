@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bencodezen/bencodezen.github.io/issues"
   },
-  "homepage": "https://github.com/bencodezen/bencodezen.github.io#readme"
+  "homepage": "https://github.com/bencodezen/bencodezen.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
