@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/bencodezen/bencodezen.github.io.git"
   },
-  "keywords": ["blog"],
+  "keywords": [
+    "blog"
+  ],
   "author": "Ben Hong <bhong@politico.com>",
   "license": "UNLICENSED",
   "bugs": {
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/bencodezen/bencodezen.github.io#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
   }
 }
