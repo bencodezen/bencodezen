@@ -1,0 +1,23 @@
+// General Styles
+
+$ff-code: 'Oxygen Mono', monospace;
+$ff-heading: 'Oxygen', sans-serif;
+$ff-text: 'Nunito', sans-serif;
+
+html {
+	font-family: $ff-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $ff-heading;
+}
+
+code,
+pre {
+	font-family: $ff-code;
+}
