@@ -1,7 +1,7 @@
 {
   "name": "bencodezen.github.io",
   "version": "1.5.0",
-  "description": "A blog about web, coding, tech, and other ramblings by Ben Hong",
+  "description": "A blog about coding, tech, and other ramblings by Ben Hong",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/bencodezen/bencodezen.github.io.git"
   },
-  "keywords": [
-    "blog"
-  ],
+  "keywords": ["blog"],
   "author": "Ben Hong <bhong@politico.com>",
   "license": "UNLICENSED",
   "bugs": {
