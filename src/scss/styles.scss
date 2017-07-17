@@ -8,6 +8,10 @@ html {
 	font-family: $ff-text;
 }
 
+body {
+	margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -20,4 +24,60 @@ h6 {
 code,
 pre {
 	font-family: $ff-code;
+}
+
+.landing {
+	&__header {
+		max-width: 780px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 1.5rem;
+		padding-bottom: 1.7rem;
+		border-bottom: 2px solid black;
+	}
+
+	&__main {
+		max-width: 780px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__subtitle {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-family: $ff-heading;
+	}
+
+	&__title {
+		font-size: 3rem;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.post {
+	p {
+		font-size: 1.125rem;
+		line-height: 1.6;
+	}
+
+	&__date {
+		margin-top: 0;
+		font-style: italic;
+	}
+
+	&__title {
+		font-size: 1.8rem;
+		margin-bottom: 0.75rem;
+
+		a {
+			color: #326874;
+			text-decoration: none;
+			transition: 1s color linear;
+
+			&:hover {
+				color: darken(#326874, 15%);
+			}
+		}
+	}
 }
