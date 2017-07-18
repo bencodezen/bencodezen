@@ -1,0 +1,22 @@
+// ============================================================================
+// LAYOUT: #Header
+// ============================================================================
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
+$blue-midnight: rgb(7, 14, 53); // #070e35
+$green-plantation: rgb(40, 81, 79); // #28514f
+$blue-zodiac: rgb(15, 31, 68); // #0f1f44
+
+.top {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(113deg, $blue-midnight, $green-plantation);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

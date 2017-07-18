@@ -1,0 +1,15 @@
+// ============================================================================
+// COMPONENT: #Navigation
+// ============================================================================
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+  color: $white;
+  font-family: $fontFamilyHeading;
+
+  li {
+    padding: 0 10px;
+  }
+}

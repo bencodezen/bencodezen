@@ -1,0 +1,32 @@
+// ============================================================================
+// COMPONENT: #Project
+// ============================================================================
+
+.project {
+  position: relative;
+  padding: 0;
+
+  &__info {
+    background: $darkBlue;
+    padding: 10px;
+    text-align: center;
+    color: $white;
+  }
+
+  &__title {
+    letter-spacing: 2px;
+    font-weight: normal;
+  }
+
+  .tagline {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+
+    &:after,
+    &:before {
+      content: '-';
+      display: inline-block;
+    }
+  }
+}
