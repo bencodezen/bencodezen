@@ -1,0 +1,70 @@
+// ============================================================================
+// COMPONENT: #SocialBar
+// ============================================================================
+
+.social-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-bottom: 8px;
+  list-style: none;
+
+  @media (min-width: 600px) {
+    width: 600px;
+  }
+
+  li {
+    flex: 1;
+  }
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  color: #326874;
+  font-size: 1.8em;
+  text-decoration: none;
+
+  @media (min-width: 768px) {
+    font-size: 2.2em;
+  }
+
+  @media (min-width: 960px) {
+    font-size: 2.5em;
+  }
+
+  i {
+    transition: color 0.1s ease-in-out;
+  }
+
+  &:hover {
+    text-decoration: none;
+
+    .icon-sign {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  &:visited {
+    color: $gold;
+  }
+}
+
+.icon-sign {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+  opacity: 0;
+  text-align: center;
+  transform: translateY(-10px);
+  transition: opacity 0.25s, transform 0.25s ease-out;
+
+  p {
+    font-size: 0.5em;
+  }
+}

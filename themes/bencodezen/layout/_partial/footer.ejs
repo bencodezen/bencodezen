@@ -1,0 +1,60 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+    	<ul class="social-bar">
+          <li>
+            <a class="social-icon" href="http://www.twitter.com/bencodezen">
+              <i class="fa fa-twitter"></i>
+              <span class="icon-sign">
+                <p>Twitter</p>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="http://www.codepen.io/BenCodeZen/">
+              <i class="fa fa-codepen"></i>
+              <span class="icon-sign">
+                <p>CodePen</p>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="http://www.github.com/bencodezen">
+              <i class="fa fa-github"></i>
+              <span class="icon-sign">
+                <p>GitHub</p>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="http://www.gitlab.com/bencodezen">
+              <i class="fa fa-gitlab"></i>
+              <span class="icon-sign">
+                <p>GitLab</p>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="http://stackoverflow.com/users/5100020/bencodezen">
+              <i class="fa fa-stack-overflow"></i>
+              <span class="icon-sign">
+                <p>Stack Overflow</p>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="http://www.linkedin.com/in/hongb1">
+              <i class="fa fa-linkedin"></i>
+              <span class="icon-sign">
+                <p>LinkedIn</p>
+              </span>
+            </a>
+          </li>
+        </ul>
+        <p class="footer__text">&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>. <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a></p>
+    </div>
+  </div>
+</footer>
