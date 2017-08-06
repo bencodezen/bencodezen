@@ -33,7 +33,7 @@ Pretty simple and semantic right? For every number in numberList, generate a `<p
 
 ReactJS on the other hand is not so simple. Here was the basic code I was working with:
 
-```
+```javascript
 class Numbers from Component {
 	state = {
 		numberList: [1, 2, 3]
@@ -50,7 +50,7 @@ class Numbers from Component {
 
 As most are aware, there is very little magic with ReactJS. So the concise and semantic syntax of VueJS is not available to us. Where does that leave us? Improving our JavaScript chops and using the map function!
 
-```
+```javascript
 class Numbers from Component {
 	state = {
 		numberList: [1, 2, 3]
@@ -73,7 +73,7 @@ class Numbers from Component {
 
 As you can see, we've assigned the map function to a `const` variable which we then generate within our JSX. Now the problem I ran into came into my desire to pull the function outside of the render function.
 
-```
+```javascript
 class Numbers from Component {
 	state = {
 		numberList: [1, 2, 3]
@@ -104,7 +104,7 @@ When I first wrote that function, I read it as "When I call generateNumbers, it 
 
 This is the correct code:
 
-```
+```javascript
 class Numbers from Component {
 	state = {
 		numberList: [1, 2, 3]
