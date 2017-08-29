@@ -1,9 +1,6 @@
 ---
 title: A Change in Scenery
 date: 2017-05-04 12:23:37
-categories: Journal
-tags:
-	- travel
 ---
 
 Over these past couple of months, I have had the opportunity to work on some fun and challenging projects. And while it's been a phenomenal learning experience, it has been a bit of a whirlwind and I'm a little burnt out. So in an effort to try and get my head on straight again, I decided to get out of town for a bit.

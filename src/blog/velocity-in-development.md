@@ -1,10 +1,6 @@
 ---
 title: Velocity in Development
 date: 2017-04-17 22:12:48
-categories:
-	- Reflections
-tags:
-	- agile
 ---
 
 Nowadays, it is pretty much impossible to get involved with a project without hearing about "being more agile." And even though I have been on a variety of projects of various agile flavors, one term that I've heard consistently is the team's "velocity."

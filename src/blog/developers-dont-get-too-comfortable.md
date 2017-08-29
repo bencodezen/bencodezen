@@ -1,10 +1,6 @@
 ---
 title: "Developers. Don't Get Too Comfortable"
 date: 2017-03-11 12:28:44
-tags:
-	- advice
-	- career
-	- jobs
 ---
 
 I had heard about Milton Glaser's ["Ten Thing I Have Learned"](https://www.miltonglaser.com/files/Essays-10things-8400.pdf) essay from numerous people, but it wasn't until a recent mention on [@FrontEndHH](https://twitter.com/frontendhh) by [Gordon Zhu](https://twitter.com/gordon_zhu) that I finally decided to check it out. And while the essay as a whole contains great advice, the following section struck of chord with me: "2. If you have a choice, never have a job."

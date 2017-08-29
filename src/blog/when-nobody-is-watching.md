@@ -1,11 +1,7 @@
 ---
 title: "When Nobody is Watching"
 date: 2017-03-04 15:08:55
-tags:
-  - inspiration
-  - creativity
 ---
-
 
 While I was taking a break today, I decided to check to see if one of my favorite choreographers [Matt Steffanina](https://www.youtube.com/channel/UCczFdwWpVEpoqb-eMm4c4dQ) had any new material up for some creative inspiration. And after a couple of videos, I stumbled upon this surprising gem:
 

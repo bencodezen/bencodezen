@@ -2,7 +2,6 @@
 title: Emerging From a Crucible
 date: 2017-04-16 15:22:12
 categories: Journal
-tags:
 ---
 
 It's been a little over a month since I last wrote here. And in that time, I have challenged myself to dive headfirst into projects equipped with little more than a belief that I could figure it out along the way. I'm proud to say that in this past month, I found myself completely immersed in two projects that would take me into technology I had always been hesitant to learn: (1) a proper client-side JS framework and (2) hybrid mobile app technology.
