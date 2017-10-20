@@ -1,6 +1,6 @@
 import Typography from 'typography'
-import oceanBeachTheme from 'typography-theme-ocean-beach'
+import parnassusTheme from 'typography-theme-parnassus'
 
-const typography = new Typography(oceanBeachTheme)
+const typography = new Typography(parnassusTheme)
 
 export default typography
