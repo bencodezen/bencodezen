@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import BlogPostPreview from '../components/BlogPostPreview'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
@@ -10,15 +11,7 @@ export default ({ data }) => (
 			<div>
 				<h2>{data.allMarkdownRemark.totalCount} Posts</h2>
 				{data.allMarkdownRemark.edges.map(({ node }) => (
-					<div key={node.id}>
-						<Link to={node.fields.slug}>
-							<h3>
-								{node.frontmatter.title}{' '}
-								<span>— {node.frontmatter.date}</span>
-							</h3>
-						</Link>
-						<p>{node.excerpt}</p>
-					</div>
+					<BlogPostPreview node={node} />
 				))}
 			</div>
 		</main>
