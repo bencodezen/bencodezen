@@ -1,17 +1,29 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
 
 const Footer = props => {
 	return (
-		<footer>
+		<FooterContainer>
+			<p style={{ marginBottom: 0, lineHeight: 1 }}>
+				&copy; Ben Hong 2017
+			</p>
 			<p>
-				© Ben Hong 2017. Got a request or bug?{' '}
+				Got a request or bug?{' '}
 				<a href="https://github.com/bencodezen/bencodezen/issues">
 					Submit it here!
 				</a>
 			</p>
-		</footer>
+		</FooterContainer>
 	)
 }
+
+const FooterContainer = styled.footer`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8rem;
+`
 
 export default Footer
