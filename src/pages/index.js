@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 
 export default ({ data }) => (
-	<div style={{ margin: '3rem auto', maxWidth: 600 }}>
-		<h1>{data.site.siteMetadata.title}</h1>
+	<div style={{ margin: '3rem auto', padding: '0 2rem', maxWidth: 600 }}>
+		<Header />
 		<div>
 			<h2>{data.allMarkdownRemark.totalCount} Posts</h2>
 			{data.allMarkdownRemark.edges.map(({ node }) => (
@@ -18,6 +20,7 @@ export default ({ data }) => (
 				</div>
 			))}
 		</div>
+		<Footer />
 	</div>
 )
 
