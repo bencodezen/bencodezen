@@ -11,7 +11,7 @@ export default ({ data }) => (
 			<div>
 				<h2>{data.allMarkdownRemark.totalCount} Posts</h2>
 				{data.allMarkdownRemark.edges.map(({ node }) => (
-					<BlogPostPreview node={node} />
+					<BlogPostPreview key={node.id} node={node} />
 				))}
 			</div>
 		</main>
