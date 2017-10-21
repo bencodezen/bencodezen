@@ -7,9 +7,9 @@ import Header from '../components/Header'
 export default ({ data }) => (
 	<div>
 		<Header />
-		<main style={{ margin: '3rem auto', padding: '0 2rem', maxWidth: 600 }}>
+		<main style={{ margin: '3rem auto', padding: '0 2rem', maxWidth: 680 }}>
 			<div>
-				<h2>{data.allMarkdownRemark.totalCount} Posts</h2>
+				<h2>Blog Posts</h2>
 				{data.allMarkdownRemark.edges.map(({ node }) => (
 					<BlogPostPreview key={node.id} node={node} />
 				))}
