@@ -1,5 +1,3 @@
-![Build Status](https://gitlab.com/pages/hexo/badges/master/build.svg)
-
 # BenCodeZen
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
