@@ -20,7 +20,11 @@ const BlogPostPreview = ({ node }) => {
 
 			<p>{node.excerpt}</p>
 
-			<Link to={node.fields.slug} className={styles.button}>
+			<Link
+				to={node.fields.slug}
+				className={styles.button}
+				style={{ fontFamily: headerFontFamily }}
+			>
 				Read More >
 			</Link>
 		</ArticleContainer>
