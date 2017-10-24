@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { headerFontFamily } from '../utils/variables'
 import styles from '../styles/button.module.css'
+import postStyles from '../styles/blog-post.module.css'
 
 const BlogPostPreview = ({ node }) => {
 	return (

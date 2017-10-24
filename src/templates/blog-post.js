@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import postStyles from '../styles/blog-post.module.css'
 
 export default ({ data }) => {
 	const post = data.markdownRemark
