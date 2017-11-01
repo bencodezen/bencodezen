@@ -15,6 +15,10 @@ const platforms = [
 	{
 		name: 'GitHub',
 		url: 'https://www.github.com/bencodezen'
+	},
+	{
+		name: 'StackOverflow',
+		url: 'https://stackoverflow.com/users/5100020/bencodezen'
 	}
 ]
 
