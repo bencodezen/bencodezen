@@ -1,6 +1,6 @@
 ---
-title: imperative-vs-declarative
-tags:
+title: Imperative vs. Declarative Programming
+date: 2017-11-06 17:21:22
 ---
 
 Apparently I write a lot of my code in imperative. Whoops.
