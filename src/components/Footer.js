@@ -6,7 +6,7 @@ const Footer = props => {
 	return (
 		<FooterContainer>
 			<p style={{ marginBottom: 0, lineHeight: 1 }}>
-				&copy; Ben Hong 2017
+				&copy; Ben Hong 2018
 			</p>
 			<p>
 				Got a request or bug?{' '}
