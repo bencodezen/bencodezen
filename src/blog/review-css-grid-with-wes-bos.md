@@ -3,14 +3,14 @@ title: "Review: CSS Grid with Wes Bos"
 date: 2018-01-10 23:39:00
 ---
 
-As most of you know, Wes Bos is responsible for creating some of the best courses out there on popular development topics (often front-end). And with all the buzz about CSS Grid, I was looking forward the day he would release a course on it. Much to my delight, I managed to get early access to the course!
+As most of you know, [Wes Bos](https://twitter.com/wesbos) is responsible for creating some of the best [courses](http://wesbos.com/courses/) out there on popular development topics (that are typically front-end). And with all the buzz about [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), I was looking forward the day he would release a course on it. Much to my delight, I managed to get early access to the course!
 
 <!-- more -->
 
 ## Overview
 
 * **Course:** CSS Grid (Early Access)
-* **Instructor**: Wes Bos
+* **Instructor**: [Wes Bos](https://twitter.com/wesbos)
 * **Prerequisite:** Basic HTML & CSS Knowledge
 * **Price:** Free
 * **Methodology:** Paired Programming
@@ -20,7 +20,7 @@ As most of you know, Wes Bos is responsible for creating some of the best course
 
 I've been wanting to learn more about CSS Grid since I first heard about it back in 2016. Sadly to say, here we are almost two years later and it has sat on the backburner up until now. I've read a few articles and tried a couple of tutorials from time to time; but as much as I don't want to admit it, there was always some excuse to put it off to another time (i.e., browser support, etc.).
 
-Regardless, when I heard that Wes was coming out with a CSS Grid course, I couldn't be more thrilled since his Flexbox course was how I gained a solid understanding of the topic. So as far as I was concerned, the stars had aligned and it was time for me to finally learn CSS Grid.
+Regardless, when I heard that Wes was coming out with a CSS Grid course, I couldn't be more thrilled since his [Flexbox course](https://flexbox.io/) was how I gained a solid understanding of the topic. So as far as I was concerned, the stars had aligned and it was time for me to finally learn CSS Grid.
 
 ## Review
 
