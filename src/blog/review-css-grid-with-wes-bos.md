@@ -50,6 +50,8 @@ If there was one thing I could "change", it would have been great to hear Wes' t
 
 That said, based on my new knowledge of CSS Grid, the biggest obstacle to using this in production is getting stakeholders to understand that the site will not look the same in every browser. After all, from what I've just learned about CSS Grid, there's no fallback CSS that can replicate what its capable of. If there are polyfills that people are using that are reliable and performant, I'd be curious to learn more about that for sure.
 
+***Update:*** Wes was prompt with responding to this request with the the following article from [Rachel Andrew](https://twitter.com/rachelandrew) on [Using CSS Grid: Supporting Browsers Without Grid](https://www.smashingmagazine.com/2017/11/css-grid-supporting-browsers-without-grid/). And on that note, it was good to see that my instincts on the topic weren't totally off!
+
 ## Final Thoughts
 
 Although it's taken me two years to finally get on the CSS Grid train, the wait has been worth it. This course was exactly what I needed to start using CSS Grid within my projects. I can't wait for it to be released to the rest of the world so you can also see just how big of a game changer CSS Grid is!
