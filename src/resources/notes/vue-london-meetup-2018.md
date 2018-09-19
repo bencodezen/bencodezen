@@ -86,3 +86,52 @@ In this talk, you’ll learn about my experience building Elocute, a web app for
 When we think of CSS and Accessibility, what comes to mind? Is it adding alt attributes to image tags? How about colour contrast? Is `:focus` given that much thought since browser's style these by default? Often, focus outlines are turned off in CSS to meet non-inclusive design standards, but this causes problems for keyboard users. How can we make the web a more inclusive place while maintaining design intent?.
 
 As we build more and more things on the web, we must do our part in building excellent, accessible user experiences. Except native default browser styling of the `:focus` pseudo-class is rather blah, don't you think? There has to be a better way to add some pizzazz to elements when users navigate without a mouse. In this talk, demoing numerous ways to provide custom focus styles despite known limitations in the web platform. For users with disabilities, it's imperative that visual design finds a way to meet in the middle.
+
+## Talk
+
+- Phenomenal video by Apple on accessibility and the impact of applications
+- "We're building applications for everyone. Not just for me."
+- Michael Supa was hired to help IBM build software...
+- Why do you care so much about accessibility?
+  - Because he wants to make things his mom can use
+  - Find out what your own why is
+- Tales from the Script Podcast - @taleftscript
+  - If you want to be on it
+- "It's like security. You don't wait to bake it in at the beginning. It starts at the inception of the product."
+- Numeronym is where you take the first letter and the last letter, and you put the number of letters together for #a11y #i18n
+- What is accessibility?
+  - "Web accessibility means that EVERYONE can use the web"
+  - "The web is **not** a barrier to people with dsiabilities, it is the **solution**."
+- What happens when we don't think about accessibility?
+  - You get sued
+  - Great infograph of "Federal Website Accessibility Lawsuits by State in 2017"
+
+## Let's Talk About Focus
+
+- Why do we need focus?
+  - Great example of macular degeneration
+- Developer vs Designer
+  - Could you just remove it? But what are you going to do replace it?
+  - Don't ever just remove the outline of focus to zero. You're removing it for everyone.
+  - Even Eric Meyer's reset styles tells you to define the focus styles
+- :focus-ring is supposed to be the same as :moz-focus-ring
+  - It's now :focus-visible
+- Importance of Focus
+  - There needs to be a way for people to navigate the experience and know what they are doing
+  - Login and password inputs are a great example of this
+  - It indicates where you are and what your'e doing
+  - "Any keyboard operable user interace has a mode of operation where the keyboard focus indicator is visible."
+- Demos of Browsers and How They Handle Focus
+
+  - Great demo of the browsers and how they handle mouse and keyboard focus
+
+- Love the typography he uses
+- The slides are very simple
+
+- Personal anecdote about his mom is super powerful
+- "If you can't raise your hand, nod."
+  = "The developer community is the reason I'm here."
+
+- Check out Chris DeMars website
+- Tales from the Script Podcast - @taleftscript
+  - If you want to be on it
