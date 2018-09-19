@@ -3,9 +3,77 @@ title: Vue.js London Meetup 2018
 date: 2018-09-19 19:20:10
 ---
 
-# State of the Vuenion (with contribution tips) by [Chris Fritz](https://www.twitter.com/chrisvfritz)
+# State of the Vuenion (and how to contribute) by [Chris Fritz](https://www.twitter.com/chrisvfritz)
 
 It’s a great time to be a Vue developer! Vue CLI 3 and VuePress have been released. Vast improvements were added to the devtools, ESLint plugin, and newsletter. Between it all, it’s never been easier to quickly build robust apps that automatically follow best practices. In this talk, you’ll learn more about what’s new, how you can use these features, and how you - yes, you - can contribute to making the Vue ecosystem even better.
+
+## Agenda
+
+1. Now released
+2. Coming soon
+
+## Now released
+
+- Vue CLI 3: How is it different?
+  - Instead of things being based on templates, they based on plugins
+    - But it is still configurable
+  - Webpack requires a fair amount of knowledge to make changes
+  - With new projects created by VUe CLI 3, you don't have to maintain anything!
+  - All you have to do is upgrade your plugin and it will make sure everything is working together properly!
+  - Never needed to eject in his experience with various enterprise level applications
+  - Webpack Chain allows you to make detailed modifications within a webpack file
+  - `vue ui`
+    - Allows you to do a lot of the same things you wanted to with a command line
+    - But it also gives you an overview of how your project is doing
+    - Great way to manage your plugins and even explore new ones!
+    - It will revolutionize your expectations of what you should expect from a developer environment
+- Build your own plugins
+  - https://cli.vuejs.org/dev-guide/plugin-dev.html
+- eslint-plugin-vue
+  - `no-unused-components` as a way to check whether the component is being used anywhere
+  - You can submit your own rules at github.com/vuejs/eslint-plugin-vue/issues
+- Improvements to news.vuejs.org
+  - Searchable stories within the official Vue.js newsletter
+  - You can browse by tag
+  - Submit a story at news.vuejs.org/submit
+- There is also a podcast!
+  - A five minute recap of the newsletter
+- VuePress
+  - docs framework
+  - sounds like WordPress, but it's not for blogging (yet!)
+  - Quickly build beautiful docs
+  - Adopted by communities outside of the Vue.js community
+  - All it is is Markdown, JavaScript and Vue
+
+## Coming soon
+
+- Vue Directives in JSX
+  - In the past, you'd do something like `<input onKeydown={this.save}} />`
+  - You'll be able to do `<input vOn:keydown_enter_prevent={this.save} />`
+- DevTools Improvements
+  - Routing Tab: History
+    - Allows you to see your routing history and see what params and options were passed
+    - This helps you see what happened and how you ended up where you are
+    - You can also see all of the routes rthat you've defined / dynamically defined
+  - Performance Tab: FPS
+    - Let's you inspect information about events
+    - Component render times
+  - Editable data/state
+  - The DevTool is also a Vue app! :mind-blown:
+
+## Vue Sprints
+
+- About
+  - 1 week
+  - 1 place
+  - 1 focus
+- First one was in August 2018 on tooling in Wroclaw, Poland
+- Support more sprints at opencollective.com/vuejs
+
+## Notes
+
+- Competition for animation of 3D Vue London logo
+- "How many people enjoy modifying Webpack files? Okay. 3-5 masochists."
 
 # Engaging Native Mobile Apps with Vue and NativeScript by [Jen Looper](https://www.twitter.com/jenlooper)
 
