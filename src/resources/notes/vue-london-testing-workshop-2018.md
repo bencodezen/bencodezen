@@ -260,7 +260,28 @@ Jest also uses modules, so you need to configure to compile it into 'commonjs'
   - If the mocks are simple
   - When the unit contract is to call function
 
+## Async Code
+
+- Jest has first class support for async functions
+- You can also convert your test function into an async function that waits a function
+- Even if you try to resolve the Promise immediately, the assertion will get run first
+- So the solution is to use the helper called `await flushPromises()`
+
+## Microtasks
+
+- A Promise callback is considered a microtask
+- tasks-microtasks-queues-and-schedules from Jake Archibald
+- What the Hell is the Event Loop? https://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html
+
+## Mocking Modules
+
+- You can mockResolvedValue, but there is a difference with how the modules system works.
+
 ## Questions
+
+## Mocking Modules
+
+- You can mockResolvedValue, but there is a difference with how the modules system works.
 
 1. What percentage of time does it typically take for the process?
 
