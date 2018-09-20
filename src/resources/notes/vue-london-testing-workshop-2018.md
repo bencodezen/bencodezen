@@ -277,6 +277,28 @@ Jest also uses modules, so you need to configure to compile it into 'commonjs'
 
 - You can mockResolvedValue, but there is a difference with how the modules system works.
 
+## Timer Functions
+
+- The standard timer functions we're used needs to be mocked in unit tests
+- Jest has their own mock functions for fake timers
+
+## Testing Vuex Store
+
+There are two main approaches:
+
+1. Test store parts separately
+
+- Benefits is that it's really fine-grained
+- Problem is that it is very brittle
+
+2. Test store instance
+
+## Steps
+
+1. Install Vuex
+2. Create a store instance
+3. Test instance
+
 ## Questions
 
 ## Mocking Modules
