@@ -247,6 +247,19 @@ Jest also uses modules, so you need to configure to compile it into 'commonjs'
   - Warning: Never install VueRouter on the base constructor
   - https://vue-test-utils.vuejs.org/guides/#using-with-vue-router
 
+## Mocks
+
+- There are mock functions and mock objects
+- This makes it a little confusing
+- You can use "toHaveBeenCalled" and "toHaveBeenCalledWith"
+- They are great, but they can
+  - Make tests more brittle
+  - Can be buggy
+  - Are extra overhead
+- When should you use mocks
+  - If the mocks are simple
+  - When the unit contract is to call function
+
 ## Questions
 
 1. What percentage of time does it typically take for the process?
