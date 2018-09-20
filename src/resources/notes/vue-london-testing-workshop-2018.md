@@ -222,6 +222,7 @@ Jest also uses modules, so you need to configure to compile it into 'commonjs'
 - Unanswered question: There isn't always a right way of doing things
 - Makes refactoring difficult: This means that when you split up components, you have to split up the tests too. This can increase the barrier to refactoring.
 - High maintenance: They will often break when new features are added
+- Assertions that test actual values are often more valuable than simply comparing booleans
 
 # Code Coverage
 
@@ -238,6 +239,13 @@ Jest also uses modules, so you need to configure to compile it into 'commonjs'
 - You need to test two different parts:
   - Test that a component reacts to event
   - Test that a component emitted the event
+
+## Stubbing Components
+
+- Vue Router is a great library, but the components are hard to test
+- RouterLinkStub is something you can import from '@vue/test-utils'
+  - Warning: Never install VueRouter on the base constructor
+  - https://vue-test-utils.vuejs.org/guides/#using-with-vue-router
 
 ## Questions
 
