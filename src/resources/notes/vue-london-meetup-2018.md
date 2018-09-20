@@ -81,6 +81,22 @@ Do you have a beautiful website built with Vue? Great! Now you need a mobile app
 
 In this talk, you’ll learn about my experience building Elocute, a web app for language teachers with a paired mobile app that students use to perfect their spoken language skills. You’ll discover how to build for the web and mobile platforms using NativeScript and Vue, making the most of the best of both platforms - data entry on the web, and speech-to-text on mobile. Let’s learn about how Vue can be used to build for the web and mobile apps, sharing the love.
 
+## Notes
+
+- NativeScript is a way to build mobile apps with JavaScript
+- You can use Vue.js with it now!
+- Why Vue?
+  - Vue's 2.0 adoption of the virtual DOM enables native mobile rendering
+  - Offers a great way for web developers to embrace mobile platforms
+  - Vue is lightweight and thus highly appropriate for mobile
+  - There is great code-sharing potential between Vue and NativeScript
+- How does NativeScript work with Vue?
+  - You use `nativescript-vue` instead of the normal `vue` package
+  - Bootstrapping the app is a little different
+  - The templates are different since NativeScript has modules that let you build what you need since it's not the same web DOM elements that you are familiar with. It's fairly straightforward though.
+- Check out the play.nativescript.org to play around with the app
+- Used the Elocute app as a case study for the integration of mobile and web apps
+
 # Focusing on Focus by [Chris DeMars](https://www.twitter.com/saltnburnem)
 
 When we think of CSS and Accessibility, what comes to mind? Is it adding alt attributes to image tags? How about colour contrast? Is `:focus` given that much thought since browser's style these by default? Often, focus outlines are turned off in CSS to meet non-inclusive design standards, but this causes problems for keyboard users. How can we make the web a more inclusive place while maintaining design intent?.
