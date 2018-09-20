@@ -217,6 +217,28 @@ Jest also uses modules, so you need to configure to compile it into 'commonjs'
 2. Act: This is where you perform the actions needed that trigger that output that you expect
 3. Assert: Checks that the actions performed have produced the output that you expect
 
+## Testing components is difficult
+
+- Unanswered question: There isn't always a right way of doing things
+- Makes refactoring difficult: This means that when you split up components, you have to split up the tests too. This can increase the barrier to refactoring.
+- High maintenance: They will often break when new features are added
+
+# Code Coverage
+
+- `jest --coverage`
+- He doesn't use code coverage on any of his projects
+- If you strive for 100% code coverage, you get a lower diminishing ROI over time
+- The majority of benefit is in the first 50-70% of the code
+- So rule of thumb, don't try for 100% code coverage for applications. It's not worth it.
+- For libraries though, it's a different story.
+
+# Vue Events
+
+- Allows a child component to communicate to a parent component
+- You need to test two different parts:
+  - Test that a component reacts to event
+  - Test that a component emitted the event
+
 ## Questions
 
 1. What percentage of time does it typically take for the process?
