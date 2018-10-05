@@ -299,11 +299,45 @@ There are two main approaches:
 2. Create a store instance
 3. Test instance
 
-## Questions
-
 ## Mocking Modules
 
 - You can mockResolvedValue, but there is a difference with how the modules system works.
+
+## Vuex-connected components
+
+Two approaches
+
+- Mock $store
+- Install Vuex on localVue
+
+## Snapshot Testing
+
+- Visual regression testing is quite hard to setup
+- The alternative is to use snapshot tests
+  - They are similar to visual regression in that they compare a before and after
+  - The main diffrence is that the value is serialized on a snapshot
+- This is great for making sure presentational HTML doesn't change
+- Lots of coverage with little code
+- All you need to do is mount the component and pass the wrapper.element to matchSnapshot.
+
+## Integration Tests
+
+- Mock part of the system
+- Tricky to define
+- More coverage with less code
+- Can be difficult to debug
+- Recommends Cypress
+
+## E2E Tests
+
+- WebDriver
+  - Automate the browser to interact with the entire app
+  - No mocking at all
+  - W3C Recommendation
+  - It can be slow, flakey and difficult to debug
+  - Recommends running WebDriver tests against a Docker instance
+
+## Questions
 
 1. What percentage of time does it typically take for the process?
 
