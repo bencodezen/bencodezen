@@ -1,14 +1,20 @@
 <script>
 export default {
-    name: 'BlogPostPreview'
+    name: 'BlogPostPreview',
+    props: {
+        post: {
+            type: Object,
+            required: true
+        }
+    }
 }
 </script>
 
 <template>
 	<section>
-        <time>August 7, 2018</time>
-        <h3>Weekly Progress #1</h3>
-        <p>Prologue I have recently taken an interest in trying to utilizing the OKRs on my personal life. It has been a rather complex journey of…</p>
+        <time>{{ post.date }}</time>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.tease }}</p>
         <a class="button" href="#">Read More ></a>
     </section>
 </template>
