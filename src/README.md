@@ -1,1 +1,6 @@
-# Home Page
+# Blog Posts
+
+<BlogPostPreview />
+<BlogPostPreview />
+<BlogPostPreview />
+<BlogPostPreview />
