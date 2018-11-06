@@ -14,13 +14,25 @@ export default {
             type: String,
             required: false
         }
+    },
+    computed: {
+        formatPublishDate() {
+            const dateFormat = new Date(this._props.publishDate)
+            const options = {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            } 
+            
+            return dateFormat.toLocaleDateString('en-US', options)
+        }
     }
 }
 </script>
 
 <template>
 	<section>
-        <time>{{ publishDate }}</time>
+        <time>{{ formatPublishDate }}</time>
         <h3 class="blog-post__title">{{ title }}</h3>
         <p v-if="excerpt" v-html="excerpt"></p>
         <a class="button blog-post__button " href="#">Read More ></a>
