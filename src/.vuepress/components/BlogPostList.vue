@@ -9,8 +9,11 @@ export default {
     },
     computed: {
         filteredList() {
-            if (this.$options.propsData) {
-                return this.$options.propsData.list.filter(item => item.path.indexOf("/blog/") > -1)
+            const props = this.$options.propsData
+
+            if (props) {
+                return props.list.filter(item => item.path.indexOf("/blog/") > -1)
+                    .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
             }
         }
     }
