@@ -7,9 +7,9 @@ Over the past few years, I’ve had the chance to talk with multiple designers a
 
 To get a few of the obvious counter arguments out of the way, I’m going to be speaking purely from a front-end perspective since that’s my area of expertise; but I do think the sentiments in this post still apply to the rest of the field. In addition, I’m well aware of the fact that a number of things could be playing into a developer (or his team) being able to build X feature. Many reasonable explanations include:
 
-* No access or control of the necessary source code
-* System constraints from legacy code / poor architectural decisions made in the past
-* No scope, time and/or money
+- No access or control of the necessary source code
+- System constraints from legacy code / poor architectural decisions made in the past
+- No scope, time and/or money
 
 ## The Problem
 

@@ -20,7 +20,12 @@ export default {
 <template>
 	<ul>
         <li v-for="item in filteredList">
-            {{ item.path }}</li>
+            <BlogPostPreview 
+                :excerpt="item.excerpt" 
+                :publishDate="item.frontmatter.date"
+                :title="item.frontmatter.title"
+            />
+        </li>
     </ul>
 </template>
 

@@ -2,9 +2,17 @@
 export default {
     name: 'BlogPostPreview',
     props: {
-        post: {
-            type: Object,
+        publishDate: {
+            type: String,
             required: true
+        },
+        title: {
+            type: String,
+            required: true
+        },
+        excerpt: {
+            type: String,
+            required: false
         }
     }
 }
@@ -12,8 +20,9 @@ export default {
 
 <template>
 	<section>
-        <time>{{ post.date }}</time>
-        <h3>{{ post.title }}</h3>
+        <time>{{ publishDate }}</time>
+        <h3>{{ title }}</h3>
+        <p v-if="excerpt" v-html="excerpt"></p>
         <a class="button" href="#">Read More ></a>
     </section>
 </template>
