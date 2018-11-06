@@ -26,6 +26,7 @@ export default {
             class="blog-list__item">
             <BlogPostPreview 
                 :excerpt="item.excerpt" 
+                :path="item.path"
                 :publishDate="item.frontmatter.date"
                 :title="item.frontmatter.title"
             />

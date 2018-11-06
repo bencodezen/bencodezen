@@ -10,6 +10,10 @@ export default {
             type: String,
             required: true
         },
+        path: {
+            type: String,
+            required: true
+        },
         excerpt: {
             type: String,
             required: false
@@ -35,7 +39,7 @@ export default {
         <time>{{ formatPublishDate }}</time>
         <h3 class="blog-post__title">{{ title }}</h3>
         <p v-if="excerpt" v-html="excerpt"></p>
-        <a class="button blog-post__button " href="#">Read More ></a>
+        <a class="button blog-post__button " :href="path">Read More ></a>
     </section>
 </template>
 
