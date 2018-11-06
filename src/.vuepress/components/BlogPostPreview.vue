@@ -14,7 +14,6 @@ export default {
 	<section>
         <time>{{ post.date }}</time>
         <h3>{{ post.title }}</h3>
-        <p>{{ post.tease }}</p>
         <a class="button" href="#">Read More ></a>
     </section>
 </template>
