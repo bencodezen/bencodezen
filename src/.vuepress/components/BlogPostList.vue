@@ -18,8 +18,9 @@ export default {
 </script>
 
 <template>
-	<ul>
-        <li v-for="item in filteredList">
+	<ul class="blog-list">
+        <li v-for="item in filteredList"
+            class="blog-list__item">
             <BlogPostPreview 
                 :excerpt="item.excerpt" 
                 :publishDate="item.frontmatter.date"
@@ -29,5 +30,13 @@ export default {
     </ul>
 </template>
 
-<style>
+<style scoped>
+.blog-list {
+	padding: 0;
+	margin: 0;
+}
+
+.blog-list__item {
+	list-style-type: none;
+}
 </style>

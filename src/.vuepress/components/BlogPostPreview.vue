@@ -21,13 +21,22 @@ export default {
 <template>
 	<section>
         <time>{{ publishDate }}</time>
-        <h3>{{ title }}</h3>
+        <h3 class="blog-post__title">{{ title }}</h3>
         <p v-if="excerpt" v-html="excerpt"></p>
-        <a class="button" href="#">Read More ></a>
+        <a class="button blog-post__button " href="#">Read More ></a>
     </section>
 </template>
 
 <style scoped>
+.blog-post__button {
+	margin-bottom: 1.5rem;
+	display: inline-block;
+}
+
+.blog-post__title {
+	margin-top: 0.5rem;
+}
+
 .button {
 	border: 1px solid #32c8cf;
 	border-radius: 4px;
