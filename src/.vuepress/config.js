@@ -6,6 +6,10 @@ module.exports = {
 		docsDir: 'src',
 		editLinks: true,
 		editLinkText: 'Found a bug? Help me improve this page!',
-		nav: [{ text: 'Home', link: '/' }, { text: 'About', link: '/about/' }]
+		nav: [
+			{ text: 'Home', link: '/' },
+			{ text: 'About', link: '/about/' },
+			{ text: 'Contact', link: '/contact/' }
+		]
 	}
 }
