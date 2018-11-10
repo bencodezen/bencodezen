@@ -1,10 +1,11 @@
 module.exports = {
 	title: 'BenCodeZen',
 	themeConfig: {
-		nav: [
-			{ text: 'Home', link: '/' },
-			{ text: 'About', link: '/about/' },
-			{ text: 'GitLab', link: 'https://www.gitlab.com/bencodezen' }
-		]
+		repo: 'https://gitlab.com/bencodezen/bencodezen',
+		repoLabel: 'GitLab',
+		docsDir: 'src',
+		editLinks: true,
+		editLinkText: 'Found a bug? Help me improve this page!',
+		nav: [{ text: 'Home', link: '/' }, { text: 'About', link: '/about/' }]
 	}
 }
