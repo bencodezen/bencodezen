@@ -3,7 +3,7 @@ module.exports = {
 	themeConfig: {
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Twitter', link: 'https://www.twitter.com/bencodezen' },
+			{ text: 'About', link: '/about/' },
 			{ text: 'GitLab', link: 'https://www.gitlab.com/bencodezen' }
 		]
 	}
