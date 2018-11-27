@@ -15,3 +15,7 @@ If you're looking for me around the IoT, here's a comprehensive list of everywhe
 - [CodePen](https://codepen.io/bencodezen/)
 - [StackOverflow](https://stackoverflow.com/users/5100020/bencodezen)
 - [Notist](https://noti.st/bencodezen)
+
+## Ask Me Anything (AMA)
+
+If you have any questions for me that I didn't answer here, feel free to [open an Issue](https://gitlab.com/bencodezen/bencodezen/issues/new?issue) with the `question` label and I'll do my best to answer it! 
