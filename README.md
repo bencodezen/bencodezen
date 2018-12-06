@@ -1,20 +1,9 @@
 # BenCodeZen
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-## Table of Contents
-
-- [Dependencies](#dependencies)
-- [Setup](#setup)
-- [Get in Touch](#get-in-touch)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## Dependencies
 
-- [GatsbyJS](https://www.gatsbyjs.org/) - Static site generator based on ReactJS
+- [VuePress](https://vuepress.vuejs.org/) - Static site generator based with a [Vue.js](https://www.vuejs.org) powered theming system
 - [Netlify](https://www.netlify.com/) - Continuous deployment w/ git hooks
-- [DocToc](https://github.com/thlorenz/doctoc) - Table of contents generator for markdown files
 
 ## Setup
 
