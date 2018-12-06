@@ -1,6 +1,7 @@
 ---
 title: Boring Solutions
 date: 2018-08-01 20:23:04
+excerpt: Whelp. Here I am again. This must be like the tenth attempt of mine to get my coding blog up and running. And while that may be discouraging in hindsight, as the saying goes, you only fail when you stop trying. So here I am trying again. 
 ---
 
 Whelp. Here I am again. This must be like the tenth attempt of mine to get my coding blog up and running. And while that may be discouraging in hindsight, as the saying goes, you only fail when you stop trying. So here I am trying again. 

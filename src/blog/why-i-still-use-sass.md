@@ -1,6 +1,7 @@
 ---
 title: Why I Still Use Sass
 date: 2018-01-24 09:40:57
+excerpt: Recently I've been going back and forth on whether or not it was time for me to return to pure CSS land. With my recent foray in CSS Grid, CSS Variables, and Scoped CSS, there was a serious moment where I considered just going to CSS + PostCSS for all my styling going forward.
 ---
 
 ## Background
@@ -10,7 +11,6 @@ Recently I've been going back and forth on whether or not it was time for me to 
 There was even a tweet around this time by [@danabramov](https://www.twitter.com/dan_abramov) which seemed so timely to my internal dilemma on what to do:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Why do people love Sass so much? What I see when considering integrating it: segfaults that drag for months with no solution (<a href="https://t.co/JazCmdDakE">https://t.co/JazCmdDakE</a>), native crashes (<a href="https://t.co/FI5RzmZhdH">https://t.co/FI5RzmZhdH</a>), wrong binaries (<a href="https://t.co/xsc6QgbkuK">https://t.co/xsc6QgbkuK</a>), path issues (<a href="https://t.co/4flMs9b9wJ">https://t.co/4flMs9b9wJ</a>).</p>&mdash; Dan Abramov (@dan_abramov) <a href="https://twitter.com/dan_abramov/status/952639729777954816?ref_src=twsrc%5Etfw">January 14, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 And while I've used Sass for most of my career, I couldn't help but see his point with the amount of issues I've seen with integrations. Coincidentally, I had also ran into an issue with a Vue app I've been working on where a nested component with Sass partials was causing the entire Webpack to freeze and stop working. What made it even worse was that there was no error indicating this and diagnosing this was an absolute pain.
 
