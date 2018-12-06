@@ -1,6 +1,7 @@
 module.exports = {
 	title: 'BenCodeZen',
 	ga: '92645815',
+	dest: './public',
 	themeConfig: {
 		repo: 'https://gitlab.com/bencodezen/bencodezen',
 		repoLabel: 'GitLab',
