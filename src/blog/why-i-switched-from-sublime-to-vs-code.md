@@ -1,13 +1,12 @@
 ---
 title: Why I Switched from Sublime to VS Code
 date: 2017-11-06 17:21:22
+excerpt: Let me begin by stating that I have a been a hardcore Sublime Text user for the past 3 years. Not only did I spend $80 on a full license, but I also purchased Wes Bos' Sublime Text Power User guide for $45 so I could get even better at it. In other words, I was committed to the tool and had invested the time and money in it.
 ---
 
 Let me begin by stating that I have a been a hardcore Sublime Text user for the past 3 years. Not only did I spend $80 on a full license, but I also purchased Wes Bos' Sublime Text Power User guide for $45 so I could get even better at it. In other words, I was committed to the tool and had invested the time and money in it.
 
 That said, my text editor is one of my most critical tools to my life. Because not only do I use it for work, but I also use it a lot for personal projects and hobbies as well. So yeah, it's a big deal to me and I can get very protective of my tool. Yet, there was enough buzz from people I respected in the field to pique my interest. And then as fate would have it, a friend of mine also made the jump and gave me the final push I needed to give it a shot.
-
-<!-- more -->
 
 ## My Top Three Reasons for Using VS Code
 
