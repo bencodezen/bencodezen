@@ -38,7 +38,7 @@ export default {
 	<section>
         <time>{{ formatPublishDate }}</time>
         <h3 class="blog-post__title">{{ title }}</h3>
-        <p v-if="excerpt" v-html="excerpt"></p>
+        <p v-if="excerpt">{{ excerpt }}</p>
         <a class="button blog-post__button " :href="path">Read More ></a>
     </section>
 </template>
