@@ -1,6 +1,8 @@
 ---
 title: Do It Even If It's Ugly
 date: 2017-03-01 23:47:05
+excerpt: I read this article by Addy Osmani a while back that was in response to the "How It Feels to Learn JavaScript in 2016" post. For those who have not read it, the essence of the article boiled down to this
+
 ---
 
 I read [this article](https://medium.com/@addyosmani/totally-get-your-frustration-ea11adf237e3#.uiw3hwcli) by [Addy Osmani](https://twitter.com/addyosmani) a while back that was in response to the "How It Feels to Learn JavaScript in 2016" post. For those who haven't read it, the essence of the article boiled down to this:

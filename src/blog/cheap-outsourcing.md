@@ -1,6 +1,7 @@
 ---
 title: '"Cheap" Outsourcing'
 date: 2017-05-06 13:07:17
+excerpt: 'I was reading my daily Quora digest this morning and the following post: \"What did you do to make your software career better?\" To my surprise and disappointment, one of the most upvoted answers was "to quit ... [because of] cheap outsourcing." And while outsourcing has had an impact on the job market, this answer is complete nonsense'
 ---
 
 I was reading my daily Quora digest this morning and the following post: ["What did you do to make your software career better?"](https://www.quora.com/What-did-you-do-to-make-your-software-career-better) To my surprise and disappointment, one of the most upvoted answers was "to quit ... [because of] cheap outsourcing." And while outsourcing has had an impact on the job market, this answer is complete nonsense.

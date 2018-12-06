@@ -1,11 +1,10 @@
 ---
 title: Practicing the Act of Creating
 date: 2017-11-02 22:34:21
+excerpt: With November being National Novel Writing Month (NaNoWriMo), I thought it would be appropriate to follow a similar theme and to simply try to write a post every day this month. I know that it will be a challenging endeavor since it means I'll have to come up with twenty-eight more topics to write about, but I think it'll be a worthwhile adventure!
 ---
 
 With November being [National Novel Writing Month](https://nanowrimo.org/) (NaNoWriMo), I thought it would be appropriate to follow a similar theme and to simply try to write a post every day this month. I know that it will be a challenging endeavor since it means I'll have to come up with twenty-eight more topics to write about, but I think it'll be a worthwhile adventure!
-
-<!-- more -->
 
 ## The inspiration for this...
 
