@@ -4,6 +4,8 @@ date: 2017-09-16 10:09:65
 excerpt: As most people are aware, imposter syndrome and other insecurities constantly plague many of us. Unless you have your head completely buried in the ground ignoring your surroundings, there is always that nagging voice of not being good enough or falling behind.
 ---
 
+# {{ $page.title }}
+
 ## Introduction
 
 As most people are aware, imposter syndrome and other insecurities constantly plague many of us. Unless you have your head completely buried in the ground ignoring your surroundings, there is always that nagging voice of not being good enough or falling behind. For instance, while I have managed to successfully transition into the world of software development even though I’m completely self-taught, there is this never-ending feeling of inadequacy as I watch other developers do amazing things or see classically trained developers start picking up similar skills and me feeling like I have to play yet another game of catch-up to prove myself.

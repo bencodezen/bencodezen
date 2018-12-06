@@ -4,6 +4,8 @@ date: 2017-11-09 12:09:12
 excerpt: Now that I had solved the Rubik's cube, one would think that I would never touch a Rubik's cube again. However, if my accomplishment was merely solving the cube once, this wouldn't really be a note worthy achievement. Because at the end of the day, my goal was to be able to solve any standard Rubik's cube without any instructions. So the last few days have been an interesting exploration into the power of repetition and there is value to doing the same thing over and over again.
 ---
 
+# {{ $page.title }}
+
 Now that I had solved the Rubik's cube, one would think that I would never touch a Rubik's cube again. However, if my accomplishment was merely solving the cube once, this wouldn't really be a note worthy achievement. Because at the end of the day, my goal was to be able to solve any standard Rubik's cube without any instructions. So the last few days have been an interesting exploration into the power of repetition and there is value to doing the same thing over and over again.
 
 When I first solved the cube, I needed to look at the instructions every time and try my best not to fumble my way through it. Before I knew it, I was able to do this entirely by memory. Then a funny thing happened, the more I solved it, the more I began to understand why I was turning or twisting the cube a certain way. With added uniqueness of the Rubik's cube being a 3D puzzle, this allowed my brain to twist and turn in many different ways as I would shift the perspective on the cube.

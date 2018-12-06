@@ -4,13 +4,13 @@ date: 2017-04-17 22:12:48
 excerpt: Nowadays, it is pretty much impossible to get involved with a project without hearing about "being more agile." And even though I have been on a variety of projects of various agile flavors, one term that I've heard consistently is the team's "velocity."
 ---
 
+# {{ $page.title }}
+
 Nowadays, it is pretty much impossible to get involved with a project without hearing about "being more agile." And even though I have been on a variety of projects of various agile flavors, one term that I've heard consistently is the team's "velocity."
 
 For those who aren't as familiar with agile projects, velocity at its core can be defined as the number of tickets (i.e., work) that an individual or team can complete in a sprint (i.e., a set amount of time). To no one's surprise, the general sentiment is that the more work you can get done in the allotted time frame is a good thing.
 
 With that premise in mind, it doesn't take much for someone to come to the simple conclusion that one's value as a developer is dependent on how many tickets you can close. I was no exception to this. However, I have recently taken it upon myself to finally journey into the often forgotten realm of test driven development (TDD). And as luck would have it, my entire perspective was about to be flipped upside down by [Eric Elliot](https://twitter.com/_ericelliott).
-
-<!-- more -->
 
 Contrary to the popular definition of velocity, Eric argues that velocity for a developer should not be measured by how many tickets a developer can close. In fact, he thinks that it is "absolutely ridiculous." Instead, he proposes that velocity "is a measure of [the] team's ability to adapt and ability to add or remove things from the app quickly."
 

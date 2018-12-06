@@ -4,6 +4,8 @@ date: 2017-03-11 12:28:44
 excerpt: I recently read "Ten Things I Have Learned" by Milton Glaser and was struck by the notion of the idea of "never having a job."
 ---
 
+# {{ $page.title }}
+
 I had heard about Milton Glaser's ["Ten Thing I Have Learned"](https://www.miltonglaser.com/files/Essays-10things-8400.pdf) essay from numerous people, but it wasn't until a recent mention on [@FrontEndHH](https://twitter.com/frontendhh) by [Gordon Zhu](https://twitter.com/gordon_zhu) that I finally decided to check it out. And while the essay as a whole contains great advice, the following section struck of chord with me: "2. If you have a choice, never have a job."
 
 > ‘Never have a job, because if you have a job someday someone will take it away from you and then you will be unprepared for your old age. For me, it has always been the same every since the age of 12. I wake up in the morning and I try to figure out how am I going to put bread on the table today? It is the same at 75, I wake up every morning and I think how am I going to put bread on the table today? I am exceedingly well prepared for my old age’ [John Cage] said.

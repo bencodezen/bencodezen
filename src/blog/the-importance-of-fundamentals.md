@@ -4,6 +4,8 @@ date: 2017-08-18 14:30:31
 excerpt: "As a self-taught developer, I've hit a couple of key milestones in my career: (1) managing to get a job in the field without any formal training and (2) proving that I was able to keep up with everyone and push forward regardless of the challenges in front of me. That said, there is always a question of what to do next. New framework? New language? New technology stack?"
 ---
 
+# {{ $page.title }}
+
 As a self-taught developer, I've hit a couple of key milestones in my career: (1) managing to get a job in the field without any formal training and (2) proving that I was able to keep up with everyone and push forward regardless of the challenges in front of me. That said, there is always a question of what to do next. New framework? New language? New technology stack?
 
 Contrary to the obvious choice of learning something completely new, I like to spend time going back to see what new resources have come up for new developers. Whether it is new tutorials or seeing what the curriculum  for online programs like Udacity are, Taking a page from my martial arts background, I find that there is one thing I can never spend too much time on: **fundamentals**.

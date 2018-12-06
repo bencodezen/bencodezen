@@ -4,6 +4,8 @@ date: 2018-08-07 04:56:04
 excerpt: As most frontend developers are aware, one of the most frustrating aspects of our job is that we are often evaluated based on the quality of designs that we are building. Whether we like it or not, it is the first thing people see when we send them portfolio items / projects we've worked on. So while this is not as crippling to those with design skills, those of us that fall on the more technical side often have to resort to templates and design systems in order to work on projects without a designer.
 ---
 
+# {{ $page.title }}
+
 As most frontend developers are aware, one of the most frustrating aspects of our job is that we are often evaluated based on the quality of designs that we are building. Whether we like it or not, it is the first thing people see when we send them portfolio items / projects we've worked on. So while this is not as crippling to those with design skills, those of us that fall on the more technical side often have to resort to templates and design systems in order to work on projects without a designer.
 
 While this is good enough for some, I have personally wrestled with a feeling of frustration and inadequacy when it comes to new projects I want to work on. And though I am not proud to admit it, the inability to create a good looking design has stopped me full on in my tracks to releasing things to the public. I am aware that my standards are much higher than I need them to be, but this nagging sensation is something I can't seem to get rid of.

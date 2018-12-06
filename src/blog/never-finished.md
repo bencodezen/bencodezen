@@ -4,6 +4,8 @@ date: 2016-04-01 02:00:00
 excerpt: I cannot even begin to count how many times I tried to launch this blog. Each time I sat down to do so, I would get caught up in the million things that I wanted to do with it and end up lost in the sea of ideas and possibility (i.e., articles, tutorials, embedded CodePens featuring awesome animations I would make, etc.).
 ---
 
+# {{ $page.title }}
+
 I cannot even begin to count how many times I tried to launch this blog. Each time I sat down to do so, I would get caught up in the million things that I wanted to do with it and end up lost in the sea of ideas and possibility (i.e., articles, tutorials, embedded CodePens featuring awesome animations I would make, etc.).
 
 This would have gone on for much longer if it had not been for a conversation I had with my fiancee a couple of weeks ago. I was hitting another low point in my journey. I was getting frustrated with my progress as a developer and felt the gap between myself and the greats increasing with each passing day.
