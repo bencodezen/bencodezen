@@ -32,7 +32,7 @@ This page is inspired from Wes Bos' [Uses](https://wesbos.com/uses/) page.
     - [oh my zsh](https://ohmyz.sh/) with [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k) is what I use instead of bash since the overall experience is more enjoyable for me in the terminal and makes everything visually pleasing to look at
 - [Operator Mono](http://www.typography.com/fonts/operator/overview/) is my font of choice. And yes, I was crazy enough to pay $200 for it. My basic rationale was that this is something that I will be staring at for hours on end and why  
 
-## Desktop Apps
+## Apps
 
 - [Notion.so](https://www.notion.so/) is my note taking app of choice and will probably continue to be so for a long time.
 - [Alfred](https://www.alfredapp.com/) is my Spotlight replacement on MacOS and I love it for all the cool things you can do with it. 
