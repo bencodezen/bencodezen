@@ -6,11 +6,11 @@ excerpt: For those that have been following me for some time, this is approximat
 
 # Progress Over Perfection
 
-For those that have been following me for some time, this is approximately attempt #8 at establishing a solid writing ritual for my coding life. And while there's a part of me that feels ashamed of that fact, the fact this is yet another attempt at something I been unable to accomplish over the last two years encapsulates the essence of tonight's post.
+For those that have been following me for some time, this is approximately attempt #8 at establishing a solid writing ritual for my coding life. And while there's a part of me that feels ashamed of that fact, the fact this is yet another attempt at something I been failing at over the last two years encapsulates the essence of tonight's post.
 
 ## Obstacles I Have Encountered 
 
-For each time I failed to establish a proper blogging habit, there were so many mental attempts to motivate myself to keep it going. And while there are a number of reasons it kept falling short, here are some of the biggest obstacles I encountered:
+For each visible attempt you see here where I failed to establish a proper blogging habit, there were so many more false starts than I could possibly count. And while there are a number of reasons my efforts kept falling short, here are some of the biggest obstacles I encountered:
 
 - **Fear of critcism**: I was (and still am) concerned with the idea that I might write something that would draw criticism from the community or my peers. It is so easy for people to take things out of context these days and so many jump to conclusions without understanding the whole picture.
 
