@@ -12,7 +12,7 @@ For those that have been following me for some time, this is approximately attem
 
 For each visible attempt you see here where I failed to establish a proper blogging habit, there were so many more false starts than I could possibly count. And while there are a number of reasons my efforts kept falling short, here are some of the biggest obstacles I encountered:
 
-- **Fear of critcism**: I was (and still am) concerned with the idea that I might write something that would draw criticism from the community or my peers. It is so easy for people to take things out of context these days and so many jump to conclusions without understanding the whole picture.
+- **Fear of criticism**: I was (and still am) concerned with the idea that I might write something that would draw criticism from the community or my peers. It is so easy for people to take things out of context these days and so many jump to conclusions without understanding the whole picture.
 
 - **Someone else wrote about it**: Every time I came up with a concept, I would see an article with a similar title or concept and give up on the idea since I felt like people would say that I copied that article or that I wasn't original. 
 
