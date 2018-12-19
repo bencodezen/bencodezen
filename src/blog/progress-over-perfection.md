@@ -33,7 +33,7 @@ These techniques are by no means bulletproof, but I hope that they help to serve
 
 1. **What matters is *your* perspective.** The one thing that is original and unique is you. And even though a concept may have been explained a hundred different ways, what you have to remember is that your way could resonate with an entirely different audience.
 
-1. **Remember the importance of zero to one.** For those haven't read the book, the short version is that the impact of going from zero to one is huge. And so when you're faced with feature paralysis, the most important thing is to get your ideas out there. You can iterate on the rest as time goes on, but if your blog never goes up, there is zero chance that people can read your ideas.
+1. **Remember the importance of zero to one.** For those haven't read the book ["Zero to One"](https://amzn.to/2LpdaE4), the short version is that the impact of going from zero to one is incomparable to any other growth you could have. And so when you're faced with feature paralysis, the most important thing is to get your ideas out there. You can iterate on the rest as time goes on, but if your blog never goes up, there is zero chance that people can read your ideas.
 
 And since I am still formalizing my techniques for dealing with the fear of criticism, I would just start by recommending that you turn off commenting on your blog posts. This has a number of benefits:
 
