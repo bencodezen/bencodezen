@@ -7,6 +7,14 @@ export default {
             default: []
         }
     },
+    data() {
+        return {
+            displayRange: {
+                start: 0,
+                end: 4
+            }
+        }
+    },
     computed: {
         filteredList() {
             const props = this.$options.propsData
@@ -16,22 +24,42 @@ export default {
                     .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
             }
         }
+    },
+    methods: {
+        nextPage() {
+            this.displayRange.start += 5
+            this.displayRange.end += 5
+        },
+        previousPage() {
+            this.displayRange.start -= 5
+            this.displayRange.end -= 5   
+        }
     }
 }
 </script>
 
 <template>
-	<ul class="blog-list">
-        <li v-for="item in filteredList"
-            class="blog-list__item">
-            <BlogPostPreview 
-                :excerpt="item.frontmatter.excerpt" 
-                :path="item.path"
-                :publishDate="item.frontmatter.date"
-                :title="item.frontmatter.title"
-            />
-        </li>
-    </ul>
+	<div>
+        <ul class="blog-list">
+            <li v-for="(item, index) in filteredList"
+                class="blog-list__item">
+                <BlogPostPreview 
+                    v-show="index >= displayRange.start && index <= displayRange.end"
+                    :excerpt="item.frontmatter.excerpt" 
+                    :path="item.path"
+                    :publishDate="item.frontmatter.date"
+                    :title="item.frontmatter.title"
+                />
+            </li>
+        </ul>
+
+        <button @click="previousPage"
+            type="button" 
+        >
+            Previous
+        </button>
+        <button type="button" @click="nextPage">Next</button>
+    </div>
 </template>
 
 <style scoped>
