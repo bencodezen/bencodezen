@@ -53,12 +53,18 @@ export default {
             </li>
         </ul>
 
-        <button @click="previousPage"
+        <button v-show="displayRange.start !== 0" 
+            @click="previousPage"
             type="button" 
         >
             Previous
         </button>
-        <button type="button" @click="nextPage">Next</button>
+        <button v-show="displayRange.end < filteredList.length"
+            @click="nextPage"
+            type="button"
+        >
+            Next
+        </button>
     </div>
 </template>
 
