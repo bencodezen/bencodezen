@@ -23,7 +23,7 @@ module.exports = {
 	],
 	themeConfig: {
 		repo: 'https://gitlab.com/bencodezen/bencodezen',
-		repoLabel: 'GitLab',
+		repoLabel: 'Repo',
 		docsDir: 'src',
 		editLinks: true,
 		editLinkText: 'Found a bug? Help me improve this page!',
