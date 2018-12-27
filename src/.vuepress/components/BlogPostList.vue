@@ -12,7 +12,8 @@ export default {
             displayRange: {
                 start: 0,
                 end: 4
-            }
+            },
+            selectedTag: ''
         }
     },
     computed: {
@@ -20,10 +21,29 @@ export default {
             const props = this.$options.propsData
 
             if (props) {
-                return props.list.filter(item => item.path.indexOf("/blog/") > -1)
-                    .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+                if (this.selectedTag) {
+                    return props.list.filter(item => {
+                        const isBlogPost = item.path.indexOf("/blog/") > -1
+                        const isReadyToPublish = new Date(item.frontmatter.date) <= new Date()
+                        const hasTags = item.frontmatter.tags && item.frontmatter.tags.includes(this.selectedTag)
+                        
+                        if (isBlogPost && isReadyToPublish && hasTags) {
+                            return item
+                        }
+                    }).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+                } else {
+                    return props.list.filter(item => {
+                        const isBlogPost = item.path.indexOf("/blog/") > -1
+                        const isReadyToPublish = new Date(item.frontmatter.date) <= new Date()
+                        
+                        if (isBlogPost && isReadyToPublish) {
+                            return item
+                        }
+                    }).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
+                }
+                
             }
-        }
+        },
     },
     methods: {
         nextPage() {
@@ -33,13 +53,31 @@ export default {
         previousPage() {
             this.displayRange.start -= 5
             this.displayRange.end -= 5   
+        },
+        updateSelectedTag(tag) {
+            this.selectedTag = tag
         }
     }
 }
 </script>
 
 <template>
-	<div>
+	<div>   
+        <div 
+            v-if="selectedTag"
+            class="filtered-heading"
+        >
+            <h2>
+                Filtered by {{ selectedTag }} tag
+            </h2>
+            <button
+                type="button"
+                @click="selectedTag = ''"
+                class="btn clear-filter-btn"
+            >
+                Clear filter
+            </button>
+        </div>
         <ul class="blog-list">
             <li v-for="(item, index) in filteredList"
                 class="blog-list__item">
@@ -48,7 +86,9 @@ export default {
                     :excerpt="item.frontmatter.excerpt" 
                     :path="item.path"
                     :publishDate="item.frontmatter.date"
+                    :tags="item.frontmatter.tags"
                     :title="item.frontmatter.title"
+                    @updateSelectedTag="updateSelectedTag"
                 />
             </li>
         </ul>
@@ -99,6 +139,15 @@ export default {
     border: 1px solid #32c8cf;
     border-radius: 4px;
     color: #32c8cf;
+}
+
+.clear-filter-btn {
+    align-self: center;
+    margin-left: 20px;
+}
+
+.filtered-heading {
+    display: flex;
 }
 
 .pagination {
