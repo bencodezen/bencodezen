@@ -35,5 +35,16 @@ module.exports = {
 			{ text: 'Contact', link: '/contact/' },
 			{ text: 'RSS Feed', link: '/rss.xml' }
 		]
-	}
+	},
+	plugins: [
+		[
+			'vuepress-plugin-rss',
+			{
+				base_url: '/',
+				site_url: 'https://www.bencodezen.io',
+				filter: (frontmatter => frontmatter.date <= new Date()),
+				count: 20
+			}
+		]
+	]
 }
