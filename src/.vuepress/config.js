@@ -30,6 +30,7 @@ module.exports = {
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' },
+			{ text: 'Guides', link: '/guides/'},
 			{ text: 'Uses', link: '/uses/'},
 			{ text: 'About', link: '/about/' },
 			{ text: 'Contact', link: '/contact/' },
