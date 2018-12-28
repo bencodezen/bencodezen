@@ -26,6 +26,7 @@ module.exports = {
 		repoLabel: 'Repo',
 		docsDir: 'src',
 		editLinks: true,
+		logo: '/bencodezen-logo.png',
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' },
