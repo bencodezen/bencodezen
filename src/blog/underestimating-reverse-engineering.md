@@ -1,6 +1,7 @@
 ---
 title: Underestimating Reverse Engineering
 date: 2017-11-08 15:31:15
+type: post
 excerpt: When I first encountered my first Rubik's cube, I was fascinated by the numerous colors and patterns. Like many others, the fact that was a three dimensional puzzle had a certain beauty to it that caused me to obsess over it for some time. Yet while I would eventually be successful with solving the first two layers on my own, the final layer always eluded me.
 ---
 

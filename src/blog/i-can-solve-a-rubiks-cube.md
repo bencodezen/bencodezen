@@ -1,6 +1,7 @@
 ---
 title: I Can Solve a Rubik's Cube!
 date: 2017-11-07 16:00:05
+type: post
 excerpt: For my entire life, I've always envied those who could solve a Rubik's cube. Not only did I have a level of respect for what I thought would be an impossible task, but there was also a part of me that wanted to be able to join that "elite" group of people. Well, I'm proud to say that I can solve a Rubik's cube!
 ---
 

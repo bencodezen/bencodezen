@@ -1,6 +1,7 @@
 ---
 title: The Power of Repetition
 date: 2017-11-09 12:09:12
+type: post
 excerpt: Now that I had solved the Rubik's cube, one would think that I would never touch a Rubik's cube again. However, if my accomplishment was merely solving the cube once, this wouldn't really be a note worthy achievement. Because at the end of the day, my goal was to be able to solve any standard Rubik's cube without any instructions. So the last few days have been an interesting exploration into the power of repetition and there is value to doing the same thing over and over again.
 ---
 

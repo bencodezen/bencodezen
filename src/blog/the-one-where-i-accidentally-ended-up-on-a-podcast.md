@@ -1,6 +1,7 @@
 ---
 title: The One Where I Accidentally Ended up on a Podcast
 date: 2018-12-27 16:46:50
+type: post
 excerpt: You ever have that nightmare where you sign up for a class that you forget to drop out of and end up needing to take the final at the end of the semester? Well, this one doesn't fall too far from the tree.
 ---
 

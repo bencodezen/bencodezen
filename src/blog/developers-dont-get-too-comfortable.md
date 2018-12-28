@@ -1,6 +1,7 @@
 ---
 title: "Developers. Don't Get Too Comfortable"
 date: 2017-03-11 12:28:44
+type: post
 excerpt: I recently read "Ten Things I Have Learned" by Milton Glaser and was struck by the notion of the idea of "never having a job."
 ---
 

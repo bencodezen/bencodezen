@@ -1,6 +1,7 @@
 ---
 title: "The Elusive Return Statement"
 date: 2017-08-05 23:23:47
+type: post
 excerpt: Over the past few months, I've been taking a deep dive in ReactJS in ways I would have never anticipated. It's been a whirlwind, but the learning has been incredible yet hair-wrenching in others. This post is about the latter of the two.
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Emerging From a Crucible
 date: 2017-04-16 15:22:12
+type: post
 excerpt: It's been a little over a month since I last wrote here. And in that time, I have challenged myself to dive headfirst into projects equipped with little more than a belief that I could figure it out along the way.
 ---
 

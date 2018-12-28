@@ -1,6 +1,7 @@
 ---
 title: The Importance of Fundamentals (No Matter How "Experienced" You Are)
 date: 2017-08-18 14:30:31
+type: post
 excerpt: "As a self-taught developer, I've hit a couple of key milestones in my career: (1) managing to get a job in the field without any formal training and (2) proving that I was able to keep up with everyone and push forward regardless of the challenges in front of me. That said, there is always a question of what to do next. New framework? New language? New technology stack?"
 ---
 

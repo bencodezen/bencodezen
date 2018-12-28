@@ -1,6 +1,7 @@
 ---
 title: You Can Be Courageous or Comfortable, You Can't Be Both
 date: 2017-09-16 10:09:65
+type: post
 excerpt: As most people are aware, imposter syndrome and other insecurities constantly plague many of us. Unless you have your head completely buried in the ground ignoring your surroundings, there is always that nagging voice of not being good enough or falling behind.
 ---
 

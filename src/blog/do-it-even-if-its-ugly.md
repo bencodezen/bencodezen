@@ -1,6 +1,7 @@
 ---
 title: Do It Even If It's Ugly
 date: 2017-03-01 23:47:05
+type: post
 excerpt: I read this article by Addy Osmani a while back that was in response to the "How It Feels to Learn JavaScript in 2016" post. For those who have not read it, the essence of the article boiled down to this
 ---
 

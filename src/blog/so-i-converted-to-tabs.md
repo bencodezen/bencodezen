@@ -1,6 +1,7 @@
 ---
 title: So I Converted to Tabs...
 date: 2017-11-03 21:17:52
+type: post
 excerpt: For those who watch Silicon Valley, you might remember this hilarious scene where Richard is dating a girl who uses spaces instead of tabs and there's hilarity that ensues as they do work next to one another. Now, this is a topic that plenty of developers have gotten plenty heated over. And while I love an enthusiastic debate over little details like this from time to time, it's certainly not one of those things that I'd be willing to die on a hill for. Nonetheless, I wanted to write a post about my history with the topic and why I ended up on tabs.
 ---
 
