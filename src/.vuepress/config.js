@@ -31,7 +31,8 @@ module.exports = {
 			{ text: 'Home', link: '/' },
 			{ text: 'Uses', link: '/uses/'},
 			{ text: 'About', link: '/about/' },
-			{ text: 'Contact', link: '/contact/' }
+			{ text: 'Contact', link: '/contact/' },
+			{ text: 'RSS Feed', link: '/rss.xml' }
 		]
 	}
 }

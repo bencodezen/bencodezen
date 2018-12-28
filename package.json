@@ -8,7 +8,8 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"vuepress": "^0.14.4",
+		"vuepress": "^1.0.0-alpha.30",
+		"vuepress-plugin-rss": "^2.0.0",
 		"yaml-front-matter": "^4.0.0"
 	}
 }
