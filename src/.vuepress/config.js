@@ -22,7 +22,7 @@ module.exports = {
 		['meta', { 'name': "theme-color", 'content': "#ffffff" }]
 	],
 	themeConfig: {
-		repo: 'https://gitlab.com/bencodezen/bencodezen',
+		repo: 'https://github.com/bencodezen/bencodezen',
 		repoLabel: 'Repo',
 		docsDir: 'src',
 		editLinks: true,

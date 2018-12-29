@@ -2,6 +2,7 @@
 	"name": "bencodezen",
 	"description": "Personal site of BenCodeZen",
 	"license": "MIT",
+	"url": "https://github.com/bencodezen/bencodezen",
 	"scripts": {
 		"dev": "vuepress dev src",
 		"build": "vuepress build src"
