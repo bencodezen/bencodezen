@@ -21,27 +21,19 @@ export default {
             const props = this.$options.propsData
 
             if (props) {
-                if (this.selectedTag) {
+                if (props.list && props.list.length > 0) {
                     return props.list.filter(item => {
                         const isBlogPost = item.path.indexOf("/blog/") > -1
                         const isReadyToPublish = new Date(item.frontmatter.date) <= new Date()
                         const hasTags = item.frontmatter.tags && item.frontmatter.tags.includes(this.selectedTag)
+
+                        const shouldPublish = this.selectedTag ? isBlogPost && isReadyToPublish && hasTags : isBlogPost && isReadyToPublish
                         
-                        if (isBlogPost && isReadyToPublish && hasTags) {
-                            return item
-                        }
-                    }).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
-                } else {
-                    return props.list.filter(item => {
-                        const isBlogPost = item.path.indexOf("/blog/") > -1
-                        const isReadyToPublish = new Date(item.frontmatter.date) <= new Date()
-                        
-                        if (isBlogPost && isReadyToPublish) {
+                        if (shouldPublish) {
                             return item
                         }
                     }).sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
                 }
-                
             }
         },
     },
@@ -93,7 +85,7 @@ export default {
             </li>
         </ul>
 
-        <div class="pagination">
+        <div v-if="filteredList" class="pagination">
             <button v-show="displayRange.start !== 0" 
                 @click="previousPage"
                 class="button--pagination"
