@@ -6,81 +6,250 @@ sidebar: auto
 
 ## Introduction
 
-Welcome to my guide on how to use the [VuePress Blog Boilerplate](https://gitlab.com/bencodezen/vuepress-blog-boilerplate/)! The purpose of this project is simple: 
+Welcome to my guide on how to use the [VuePress Blog Boilerplate](https://github.com/bencodezen/vuepress-blog-boilerplate/)! This project was born out of a desire to use [VuePress](https://vuepress.vuejs.org) as my blogging engine and no clear path to do so. 
+
+### Purpose
+
+The objective for this project is simple: 
 
 > Allow a developer to started a blog with VuePress and deployed within 15 minutes.
+
+### Features
+
+By using this boilerplate, in addition to all the awesome things that already come with [VuePress](https://vuepress.vuejs.org), you get the following out of the box:
+
+- Automatically generated recent posts on the home page
+- Simple Google Analytics configuration
+- Automatic RSS Feed Generation
+- Easy favicon configuration
+- Simple pagination on the home page
 
 Piece of cake right? Well time's a wasting, let's get to it!
 
 ## Getting Started
 
-### Requirements
+### Prerequisites
 
 - [NodeJS >= 8](https://nodejs.org/)
 - [yarn](https://yarnpkg.com/lang/en/docs/install/) (Optional)
+- Basic knowledge of navigating the terminal
 
 ### Installation
 
-Navigate in your terminal to the desired directory where you want this project to live.
+::: tip 
+If your plan is follow the tutorial all the way through to deployment, make sure you fork this project instead of simply cloning it!
+:::
+
+In your terminal, navigate to the desired directory where you want this project to live.
 
 ```bash
-# Clone the repo
-git clone https://gitlab.com/bencodezen/vuepress-blog-boilerplate.git
+# Clone the repo for local development
+git clone https://github.com/bencodezen/vuepress-blog-boilerplate.git
 
 # Change directory into project
 cd vuepress-blog-boilerplate
 
 # Install dependencies
-yarn # OR npm install
+npm install # or yarn
 
 # Run local server
-yarn dev # OR npm run dev
+npm run dev # OR yarn dev
 ```
 
-## Tutorials
+You should now be able to visit [http:localhost:8080](http:localhost:8080) to see your local server running!
 
-### Writing Posts
+## Tutorial
 
-1. Create a Markdown file (`.md`) in the `./src/blog` directory
-2. Use the following frontmatter template to provide meta data about your blog post
-```yaml
+### Step 1: Create your first blog post
+
+1. Create a new file called `my-fourth-post.md` in the `./src/blog` directory
+
+Your file explorer should now look like this:
+
+```{9}
+.
+├── src
+│   └── .vuepress
+│   └── blog
+│       └── my-first-post.md
+│       └── my-second-post.md
+│       └── my-third-post.md
+│       └── my-fourth-post.md
+│   └── README.md
+├── .gitignore
+├── package.json
+├── README.md
+```
+
+2. Open `my-fourth-post.md` in your favorite text editor.
+
+3. Copy and paste the following into your markdown file:
+
+```
 ---
-title: Title of Your Post
-date: 2018-12-23 21:04:07
+title: My Fourth Post
+date: 2018-12-28 17:22:00
 type: post
-excerpt: This is the snippet that will show up on the home page as preview text
+excerpt: I'm creating my first post!
 tags:
-    - HTML
-    - CSS
-    - JavaScript
+    - Blogging
+    - Tutorials
 ---
+
+# Hello!
+
+This is pretty awesome!
+
+::: tip
+Aren't custom containers cool?
+:::
+
+> "I have a big head... and little arms." - T-rex from 'Meet the Robinsons'
 ```
-3. Write your blog post using regular Markdown, [extensions](https://vuepress.vuejs.org/guide/markdown.html), and [Vue.js](https://vuepress.vuejs.org/guide/using-vue.html)!
 
-Once you're done, you can expect the home page to automatically generate a `<BlogPostPreview>` component with the meta data you provided along with a link to the blog post itself.
+4. Once you save, you should now see the fourth post show up on your home page!
 
-#### Scheduling Posts for Future "Publishing"
+5. :confetti_ball: You now have the ability to write all the blog posts you want!
+
+### Step 2: Create a new page
+
+Odds are you will also want to customize the top navigation with a couple pages of your own to personalize the site. So let's create a simple About page together!
+
+1. Create a new directory in the `./src` directory called `about`
+
+2. Create a new file in the new `about` directory called `README.md`
+
+```{4-5}
+.
+├── src
+│   └── .vuepress
+│   └── about
+│       └── README.md
+│   └── blog
+│   └── README.md
+├── .gitignore
+├── package.json
+├── README.md
+```
+
+::: tip
+`README.md` files in directories get converted to `index.html` files at build time so don't worry if it looks weird right now.
+:::
+
+3. Let's just paste something simple in the `about/README.md` file.
+
+```md
+# About Me
+
+I'm a great developer who has a lot of great things to share with the world. 
+Can't wait to start writing more about topics I love and am passionate about!
+```
+
+4. Now if you visit, `http://localhost:8080/about/`, you should see your page!
+
+::: warning
+If you are getting an error, just restart your VuePress server and everything should be good to go!
+:::
+
+### Step 3: Add a new item to the main navigation
+
+1. Open the `./src/.vuepress/config.js` file in your favorite text editor
+
+2. Locate the section under `themeConfig.nav`:
+
+```js{12-15}
+module.exports = {
+	title: 'My New VuePress Blog',
+	ga: '',
+	dest: './public',
+	themeConfig: {
+		repo: 'https://wwww.github.com',
+		repoLabel: 'Custom Repo Label',
+		docsDir: 'src',
+		logo: '/vuepress-blog-logo.png',
+		editLinks: true,
+		editLinkText: 'Found a bug? Help me improve this page!',
+		nav: [
+			{ text: 'Home', link: '/' },
+			{ text: 'RSS Feed', link: '/rss.xml' }
+		]
+	},
+```
+
+3. Add a new object for the About page to the `nav` array like this:
+
+```js{14}
+module.exports = {
+	title: 'My New VuePress Blog',
+	ga: '',
+	dest: './public',
+	themeConfig: {
+		repo: 'https://wwww.github.com',
+		repoLabel: 'Custom Repo Label',
+		docsDir: 'src',
+		logo: '/vuepress-blog-logo.png',
+		editLinks: true,
+		editLinkText: 'Found a bug? Help me improve this page!',
+		nav: [
+			{ text: 'Home', link: '/' },
+            { text: 'About', link: '/about/' },
+			{ text: 'RSS Feed', link: '/rss.xml' }
+		]
+    },
+```
+::: warning
+When you want the user to go to the `index.html` of a directory, it's critical that you put a `/` at the end of the relative link because it will break otherwise. 
+
+```js
+// Good
+{ text: 'About', link: '/about/' }
+
+// Bad
+{ text: 'About', link: '/about' }
+```
+:::
+
+### Step 4: Deploy your site with Netlify
+
+1. Create an account with Netlify if you don't already have one
+1. Click `New site from Git` in the upper right corner
+1. Choose your Git provider
+1. Authorize Netlify to have access to your repos
+1. Choose your VuePress blog repo
+1. Configure the following "Build & deploy" settings:
+    - **Branch to deploy**s: master
+    - **Build command**: `npm run build`
+    - **Publish directory**: `public/`
+1. Click `Deploy site`
+
+Now your site will automatically deploy whenever you push updates to your repo!
+
+### Step 5: You're ready to go!
+
+You have gone from zero to one! Congratulations! :confetti_ball:
+
+For more advanced blogging features, be sure to check out the rest of the docs!
+
+## Blogging Features
+
+### Scheduling Posts for Future "Publishing"
 
 This blog theme currently allows you to set future "publish"* dates via [ISO-8601 format](https://en.wikipedia.org/wiki/ISO_8601) (i.e., YYYY-MM-DD hh:mm:ss).
 
-* Note: Your blog posts will technically be available, but the posts preview will not be surfaced on the home page and users will only be able to see your posts if they know the exact URL.
+::: warning
+Your blog posts will technically be available since VuePress is still generating the page at this time, however:
 
-### Deploying Your Site
+1. The post's preview will not be surfaced on the home page
+2. The RSS feed will not publish it so it won't show up in people's updates
 
-I recommend using [Netlify](https://www.netlify.com/) to deploy your VuePress site.
+Users will only be able to see your posts if they know the exact URL at this time, but I am working on a way to block it out entirely.
+:::
 
-A more thorough guide to come, but as far as a high level overview of the steps you need to take:
+> More feature guides coming soon!
 
-1. Create an account with Netlify if you don't already have one
-1. Create a "New site from Git"
-1. Connect your blog repo through the create a new site wizard
-1. Setup "Build & deploy" settings with the following settings:
-    - **Build command**: `npm run build`
-    - **Publish directory**: `public/`
+## Site Configuration
 
-## Site Configurations
-
-### Configuring Your Site
+Like any other site, there's still some manual configuration to do to add the final touches to your site. Here are the most important configurations you should consider for you blog:
 
 You'll want to checkout `./src/.vuepress/config.js` if you want to update the following information:
 
@@ -91,6 +260,32 @@ You'll want to checkout `./src/.vuepress/config.js` if you want to update the fo
 - Edit Page Link Text
 - Top Navigation
 - Favicon: Use [favicon-generator.org](https://www.favicon-generator.org/) to generate icons and simply replace all the files in `./src/.vuepress/public` and your favicon should just show up!
+
+## Architecture
+
+### How BlogPostList generates the posts
+
+All blog posts are currently expected to live in the `./src/blog` directory in order for the `<BlogPostList />` component to render the preview of your post.
+
+```{5-8}
+.
+├── src
+│   └── .vuepress
+│   └── about
+│   └── blog
+│       └── my-first-post.md
+│       └── my-second-post.md
+│       └── my-third-post.md
+│   └── contact
+│   └── README.md
+├── .gitignore
+├── package.json
+├── README.md
+```
+
+::: tip 
+In case you're wondering, `<BlogPostList />` will automatically be sorted by date when the list is generated.
+:::
 
 ## FAQs
 
