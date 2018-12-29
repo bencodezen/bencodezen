@@ -1,5 +1,6 @@
 ---
 sidebar: auto
+type: guide
 ---
 
 # VuePress Blog Boilerplate
