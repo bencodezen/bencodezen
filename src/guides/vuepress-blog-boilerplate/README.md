@@ -263,7 +263,7 @@ You'll want to checkout `./src/.vuepress/config.js` if you want to update the fo
 
 ## Architecture
 
-### How BlogPostList generates the posts
+### How <BlogPostList /> generates the posts
 
 All blog posts are currently expected to live in the `./src/blog` directory in order for the `<BlogPostList />` component to render the preview of your post.
 
@@ -286,6 +286,25 @@ All blog posts are currently expected to live in the `./src/blog` directory in o
 ::: tip 
 In case you're wondering, `<BlogPostList />` will automatically be sorted by date when the list is generated.
 :::
+
+### How the RSS feed is generated
+
+The `rss.xml` file being generated at build time uses the [VuePress Plugin RSS](https://github.com/youngtailors/vuepress-plugin-rss) repo. Although not clear on the site, the determining factor for what determines whether something is added to the RSS feed is whether there is a frontend matter property of `type` with the value `post`.
+
+```yaml
+# This will get picked up by the RSS plugin
+---
+title: The Post I Want to Add to RSS
+type: post
+---
+
+# This will not get picked up by the RSS plugin
+---
+title: The Post I Want to Add to RSS But Will Be Missing
+---
+```
+
+In addition, I've configured an additional filter to check for posts that are set to be published in the future. After all, wouldn't that be weird to get a post in your RSS feed update that has a date in the future? :laughing:
 
 ## FAQs
 
