@@ -151,7 +151,7 @@ Can't wait to start writing more about topics I love and am passionate about!
 If you are getting an error, just restart your VuePress server and everything should be good to go!
 :::
 
-### Step 3: Add a new item to the main navigation
+### Step 3: Add an item to the main nav
 
 1. Open the `./src/.vuepress/config.js` file in your favorite text editor
 
