@@ -66,7 +66,7 @@ You should now be able to visit [http:localhost:8080](http:localhost:8080) to se
 
 Your file explorer should now look like this:
 
-```{9}
+```{8}
 .
 ├── src
 │   └── .vuepress
