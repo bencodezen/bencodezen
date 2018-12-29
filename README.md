@@ -7,7 +7,11 @@
 
 ## Setup
 
-To work locally with this project, you'll have to follow the steps below:
+### Setup Your Own Version
+
+If you like my blog and would like to use the engine powering it, check out [VuePress Blog Boilerplate](https://github.com/bencodezen/vuepress-blog-boilerplate).
+
+### Local Setup
 
 1. Fork, clone or download this project
 1. Install dependencies: `npm install` or `yarn`
