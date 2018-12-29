@@ -251,6 +251,47 @@ Users will only be able to see your posts if they know the exact URL at this tim
 
 Like any other site, there's still some manual configuration to do to add the final touches to your site. Here are the most important configurations you should consider for you blog:
 
+### Site & Page Title
+
+On most pages, VuePress uses the following pattern:
+
+```html
+<title>{{ $page.title }} | {{ $siteTitle }}</title>
+```
+
+#### Site Title
+
+This attribute configures the site `<title>` element on your site. It is what determines `$siteTitle` in the VuePress app.
+
+1. Open `./src/.vuepress/config.js` in your favorite text editor
+
+```js{2}
+module.exports = {
+	title: 'My New VuePress Blog',
+	...
+}
+```
+
+2. Update the `title` key with your desired site title as a string
+
+#### Page Title
+
+By default, VuePress will assume that the h1 in your markdown file is the page title that you want:
+
+```md
+# My Heading One That Turns into a Title
+```
+
+If you would like to explicitly set a specific page title, use frontmatter to overwrite the default. 
+
+```
+---
+title: My Custom Title to Override the H1
+---
+
+# My Heading One That Turns into a Title
+```
+
 You'll want to checkout `./src/.vuepress/config.js` if you want to update the following information:
 
 - Site Title
@@ -263,7 +304,7 @@ You'll want to checkout `./src/.vuepress/config.js` if you want to update the fo
 
 ## Architecture
 
-### How <BlogPostList /> generates the posts
+### How BlogPostList generates the posts
 
 All blog posts are currently expected to live in the `./src/blog` directory in order for the `<BlogPostList />` component to render the preview of your post.
 
