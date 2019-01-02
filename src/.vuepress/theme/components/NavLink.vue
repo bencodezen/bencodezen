@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { isExternal, isMailto, isTel, isXml, ensureExt } from './util'
+import { isExternal, isMailto, isTel, isXml, ensureExt } from '../mixins/util'
 
 export default {
   props: {
