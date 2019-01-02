@@ -40,7 +40,7 @@ export default {
 
 <template>
 	<section class="blog-post">
-        <time>{{ formatPublishDate }}</time>
+        <time class="blog-post__time">{{ formatPublishDate }}</time>
         <h2 class="blog-post__title">
             <a :href="path" class="blog-post__link">{{ title }}</a>
         </h2>
@@ -62,14 +62,21 @@ primary-color = #22AAFF
 
 .blog-post__excerpt {
     margin-top: 0;
+    font-size: 1.2rem;
 }
 
 .blog-post__link {
+    font-weight: 700;
     color: #2c3e50;
 
     &:hover {
         text-decoration: underline;
     }
+}
+
+.blog-post__time {
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
 .blog-post__title {
@@ -78,13 +85,14 @@ primary-color = #22AAFF
 }
 
 .button {
+    font-family: 'Poppins';
+    font-weight: 500;
 	border: 1px solid primary-color;
 	border-radius: 4px;
 	color: primary-color;
 	font-size: 0.9rem;
 	padding: 0.3rem 0.6rem;
 	text-transform: uppercase;
-	font-weight: 700;
 	box-shadow: 0 0;
 	transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
