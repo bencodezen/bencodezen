@@ -42,7 +42,7 @@ export default {
 	<section>
         <time>{{ formatPublishDate }}</time>
         <h3 class="blog-post__title">{{ title }}</h3>
-        <p v-if="excerpt">{{ excerpt }}</p>
+        <p v-if="excerpt" class="blog-post__excerpt">{{ excerpt }}</p>
         <a class="button blog-post__button " :href="path">Read More ></a>
         <ul class="tag-list">
             <li 
@@ -68,8 +68,13 @@ export default {
 	display: inline-block;
 }
 
+.blog-post__excerpt {
+    margin-top: 0;
+}
+
 .blog-post__title {
 	margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .button {
