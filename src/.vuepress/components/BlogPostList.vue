@@ -104,7 +104,9 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style lang="stylus" scoped>
+primary-color = #22AAFF
+
 .blog-list {
 	padding: 0;
 	margin: 0;
@@ -115,7 +117,7 @@ export default {
 }
 
 .button--pagination {
-	background-color: #32c8cf;
+	background-color: primary-color;
 	border-radius: 4px;
 	color: #fff;
 	font-size: 0.8rem;
@@ -128,9 +130,9 @@ export default {
 
 .button--pagination:hover {
     background-color: #fff;
-    border: 1px solid #32c8cf;
+    border: 1px solid primary-color;
     border-radius: 4px;
-    color: #32c8cf;
+    color: primary-color;
 }
 
 .clear-filter-btn {

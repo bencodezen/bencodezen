@@ -44,25 +44,12 @@ export default {
         <h3 class="blog-post__title">{{ title }}</h3>
         <p v-if="excerpt" class="blog-post__excerpt">{{ excerpt }}</p>
         <a class="button blog-post__button " :href="path">Read More ></a>
-        <ul class="tag-list">
-            <li 
-                v-for="(tag, index) in tags"
-                :key="`${title}-${tag}`"
-                class="tag-list__item"
-            >                
-                <button  
-                    @click="$emit('updateSelectedTag', tag)"
-                    :key="title + '-' + tag"
-                    class="tag-list__btn"
-                >
-                    {{ tag }}
-                </button>
-            </li>
-        </ul>
     </section>
 </template>
 
-<style scoped>
+<style lang="stylus" scoped>
+primary-color = #22AAFF
+
 .blog-post__button {
 	margin-bottom: 1.5rem;
 	display: inline-block;
@@ -78,15 +65,21 @@ export default {
 }
 
 .button {
-	border: 1px solid #32c8cf;
+	border: 1px solid primary-color;
 	border-radius: 4px;
-	color: #32c8cf;
-	font-size: 0.8rem;
-	padding: 0.5rem 0.75rem;
+	color: primary-color;
+	font-size: 0.9rem;
+	padding: 0.3rem 0.6rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	box-shadow: 0 0;
 	transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: primary-color;
+    color: #fff;
+    text-decoration: none;
 }
 
 .tag-list {
