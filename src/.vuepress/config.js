@@ -22,8 +22,47 @@ module.exports = {
 					{ text: 'Contact', link: '/contact/' }
 				]
 			},
+			{ text: 'Contact', link: '/contact/' },
 			{ text: 'RSS Feed', link: '/rss.xml' }
-		]
+		],
+		user: {
+			socialMedia: [
+				{
+					name: "Twitter",
+					href: "https://twitter.com/bencodezen",
+					icon: "twitter"
+				},
+				{
+					name: "Twitch",
+					href: "https://www.twitch.tv/bencodezen",
+					icon: "twitch"
+				},
+				{
+					name: "GitLab",
+					href: "https://gitlab.com/bencodezen",
+					icon: "gitlab"
+				},
+				{
+					name: "GitHub",
+					href: "https://github.com/bencodezen",
+					icon: "github"
+				},
+				{
+					name: "CodePen",
+					href: "https://codepen.io/bencodezen/",
+					icon: "codepen"
+				},
+				{
+					name: "StackOverflow",
+					href: "https://stackoverflow.com/users/5100020/bencodezen",
+					icon: "stack-overflow"
+				},
+				{
+					name: "Notist",
+					href: "https://noti.st/bencodezen"
+				}
+			]
+		}
 	},
 	plugins: [
 		[
@@ -143,6 +182,14 @@ module.exports = {
 			'meta',
 			{ name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' }
 		],
-		['meta', { name: 'theme-color', content: '#ffffff' }]
+		['meta', { name: 'theme-color', content: '#ffffff' }],
+		[
+			'script', 
+			{ 
+				defer: true, 
+				src: "https://pro.fontawesome.com/releases/v5.6.3/js/all.js",
+				integrity: "sha384-4Gm0M5DjJ0zGaEtLu0ztNIoHWiuJ5rKiaVlpZKeNqXAW49eIIa2ymxb3C4c3uEXR", crossorigin: "anonymous" 
+			}
+		]
 	]
 }
