@@ -8,6 +8,7 @@ module.exports = {
 		docsDir: 'src',
 		editLinks: true,
 		logo: '/bencodezen-logo.png',
+		lastUpdated: 'Last Updated',
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' },
