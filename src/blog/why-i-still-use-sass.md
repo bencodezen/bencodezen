@@ -1,7 +1,7 @@
 ---
 title: Why I Still Use Sass
 date: 2018-01-24 09:40:57
-type: post
+blog: true
 excerpt: Recently I've been going back and forth on whether or not it was time for me to return to pure CSS land. With my recent foray in CSS Grid, CSS Variables, and Scoped CSS, there was a serious moment where I considered just going to CSS + PostCSS for all my styling going forward.
 ---
 

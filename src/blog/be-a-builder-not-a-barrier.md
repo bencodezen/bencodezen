@@ -1,7 +1,7 @@
 ---
 title: Be a Builder, Not a Barrier
 date: 2017-11-20 14:00:31
-type: post
+blog: true
 excerpt: Over the past few years, I’ve had the chance to talk with multiple designers about their work and what their environment is like. And perhaps I was naive, but I was surprised at the number of times I heard that they were told by developers that X feature they wanted to do was “not possible.” Then when I would ask more about the requirements of X feature, I would often be boggled by how simple the request often was. So that got me thinking, “Why are developers often so quick to say no to what designers want?”
 ---
 

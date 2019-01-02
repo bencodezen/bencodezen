@@ -1,7 +1,7 @@
 ---
 title: Why I Switched from Sublime to VS Code
 date: 2017-11-06 17:21:22
-type: post
+blog: true
 excerpt: Let me begin by stating that I have a been a hardcore Sublime Text user for the past 3 years. Not only did I spend $80 on a full license, but I also purchased Wes Bos' Sublime Text Power User guide for $45 so I could get even better at it. In other words, I was committed to the tool and had invested the time and money in it.
 ---
 

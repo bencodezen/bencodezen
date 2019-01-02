@@ -1,7 +1,7 @@
 ---
 title: My Thoughts on "Full Stack"
 date: 2017-11-04 22:13:30
-type: post
+blog: true
 excerpt: Being a full-stack developer is all the craze right now. It seems like all bootcamps with web developer programs are selling people on the idea of being full-stack. And to top it off, it seems like a lot of companies are interested in hiring them. So one might conclude that more developers should try to become full-stack right? Nope. I think not.
 ---
 

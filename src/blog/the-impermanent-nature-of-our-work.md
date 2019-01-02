@@ -1,7 +1,7 @@
 ---
 title: The Impermanent Nature of Our Work
 date: 2017-11-13 10:36:13
-type: post
+blog: true
 excerpt: Over this past weekend, I had the incredible opportunity of visiting Harry Potter world in Orlando, Florida for the first time! For those who don't know, I'm a huge Harry Potter nerd and to be able to get my robe at Madam Malkin's and then buy my wand at Ollivander's was absolutely magical. That said, while I spent my time in the park, I couldn't help but be blown away by the attention of detail and work that was put into the recreation of Hogsmeade and Diagon Alley. And for whatever reason, it suddenly gave me this moment of reflection on the impermanent nature of our work.
 ---
 

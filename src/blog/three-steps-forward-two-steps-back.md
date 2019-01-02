@@ -1,7 +1,7 @@
 ---
 title: Three Steps Forward. Two Steps Back
 date: 2017-11-01 16:51:46
-type: post
+blog: true
 excerpt: With the start of a new month, I've decided that it's time to be introspective on my past behavior and patterns in an effort to figure out what has held me back. In many ways, this year has been an exciting one with many new experiences and opportunities for growth that have been invaluable to me. On the flipside however, as I look back at the various goals I tried to set for myself, it seems like I'm still spinning my wheels when it comes to goals that should have been accomplished long ago.
 ---
 
