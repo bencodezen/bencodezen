@@ -1,3 +1,3 @@
-# Blog Posts
+## Blog Posts
 
 <BlogPostList :list="$site.pages" />
