@@ -39,9 +39,11 @@ export default {
 </script>
 
 <template>
-	<section>
+	<section class="blog-post">
         <time>{{ formatPublishDate }}</time>
-        <h3 class="blog-post__title">{{ title }}</h3>
+        <h2 class="blog-post__title">
+            <a :href="path" class="blog-post__link">{{ title }}</a>
+        </h2>
         <p v-if="excerpt" class="blog-post__excerpt">{{ excerpt }}</p>
         <a class="button blog-post__button " :href="path">Read More ></a>
     </section>
@@ -50,8 +52,11 @@ export default {
 <style lang="stylus" scoped>
 primary-color = #22AAFF
 
+.blog-post {
+    margin-bottom: 2.5rem;
+}
+
 .blog-post__button {
-	margin-bottom: 1.5rem;
 	display: inline-block;
 }
 
@@ -59,9 +64,17 @@ primary-color = #22AAFF
     margin-top: 0;
 }
 
+.blog-post__link {
+    color: #2c3e50;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .blog-post__title {
 	margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .button {
