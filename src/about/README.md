@@ -18,4 +18,4 @@ If you're looking for me around the IoT, here's a comprehensive list of everywhe
 
 ## Ask Me Anything (AMA)
 
-If you have any questions for me that I didn't answer here, feel free to [open an Issue](https://gitlab.com/bencodezen/bencodezen/issues/new?issue) with the `question` label and I'll do my best to answer it! 
+If you have any questions for me that I didn't answer here, feel free to [open an Issue](https://github.com/bencodezen/bencodezen/issues/new?issue) with the `question` label and I'll do my best to answer it! 
