@@ -1,3 +1,9 @@
-# Blog Posts
-
-<BlogPostList :list="$site.pages" />
+---
+home: true
+heroImage: /bencodezen-logo.png
+heroText: BenCodeZen
+tagline: Not your average coding blog
+actionText: Read the latest →
+actionLink: /blog/
+footer: © BenCodeZen 2019. Made with in VuePress.
+---

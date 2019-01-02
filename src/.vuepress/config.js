@@ -11,6 +11,7 @@ module.exports = {
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' },
+			{ text: 'Blog', link: '/blog/' },
 			{ text: 'Learn', link: '/learn/' },
 			{
 				text: 'About',
