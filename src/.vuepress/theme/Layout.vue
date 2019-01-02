@@ -36,6 +36,11 @@
       <component :is="$page.frontmatter.layout"/>
     </div>
 
+    <Blog 
+      v-else-if="$page.frontmatter.blog" 
+      :sidebar-items="sidebarItems"
+    />
+
     <Home v-else-if="$page.frontmatter.home"/>
 
     <Page
@@ -61,10 +66,11 @@ import Home from './layouts/Home.vue'
 import Navbar from './components/Navbar.vue'
 import Page from './layouts/Page.vue'
 import Sidebar from './components/Sidebar.vue'
+import Blog from './layouts/Blog.vue'
 import { resolveSidebarItems } from './mixins/util'
 
 export default {
-  components: { Home, Page, Sidebar, Navbar },
+  components: { Blog, Home, Page, Sidebar, Navbar },
 
   data () {
     return {
