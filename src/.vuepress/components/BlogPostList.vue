@@ -10,7 +10,6 @@ export default {
     data() {
         return {
             displayRange: {
-                start: 0,
                 end: 4
             },
             selectedTag: ''
@@ -38,13 +37,8 @@ export default {
         },
     },
     methods: {
-        nextPage() {
-            this.displayRange.start += 5
+        loadMore() {
             this.displayRange.end += 5
-        },
-        previousPage() {
-            this.displayRange.start -= 5
-            this.displayRange.end -= 5   
         },
         updateSelectedTag(tag) {
             this.selectedTag = tag
@@ -74,7 +68,7 @@ export default {
             <li v-for="(item, index) in filteredList"
                 class="blog-list__item">
                 <BlogPostPreview 
-                    v-show="index >= displayRange.start && index <= displayRange.end"
+                    v-show="index <= displayRange.end"
                     :excerpt="item.frontmatter.excerpt" 
                     :path="item.path"
                     :publishDate="item.frontmatter.date"
@@ -85,20 +79,13 @@ export default {
             </li>
         </ul>
 
-        <div v-if="filteredList" class="pagination">
-            <button v-show="displayRange.start !== 0" 
-                @click="previousPage"
-                class="button--pagination"
-                type="button" 
-            >
-                Previous
-            </button>
-            <button v-show="displayRange.end < filteredList.length"
-                @click="nextPage"
-                class="button--pagination"
+        <div v-if="displayRange.end <= filteredList.length" class="pagination">
+            <button
+                @click="loadMore"
+                class="button--load-more"
                 type="button"
             >
-                Next
+                Load More
             </button>
         </div>
     </div>
@@ -116,19 +103,20 @@ primary-color = #22AAFF
 	list-style-type: none;
 }
 
-.button--pagination {
+.button--load-more {
 	background-color: primary-color;
 	border-radius: 4px;
 	color: #fff;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	padding: 0.5rem 0.75rem;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 500;
 	box-shadow: 0 0;
+    cursor: pointer;
 	transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
-.button--pagination:hover {
+.button--load-more:hover {
     background-color: #fff;
     border: 1px solid primary-color;
     border-radius: 4px;
