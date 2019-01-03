@@ -3,14 +3,14 @@ title: Principles of an Ally
 date: 2019-01-03 13:46:12
 type: post
 blog: true
-excerpt: As many people are aware of, there is a big movement to support underrepresented groups in order to help them establish their voice and encourage more diversity in the community. That said, I have noticed that there are many people who mean well in their attempts to be "allies" and often end up with the opposite result.
+excerpt: As many people are aware of, there is a big movement to support underrepresented groups in order to help their voices be heard and encourage more diversity in the community. That said, I have noticed that there are many people who mean well in their attempts to be "allies" and often end up with the opposite result.
 tags:
     - ally
 ---
 
 ## Introduction
 
-As many people are aware of, there is a big movement to support underrepresented groups in order to help them establish their voice and encourage more diversity in the community. That said, I have noticed that there are many people who mean well in their attempts to be "allies" and often end up with the opposite result. So I have decided to write this quick overview on what I believe it means to be an ally. I hope that this will shed some light for those who want to be allies as well and don't know how to do so.
+As many people are aware of, there is a big movement to support underrepresented groups in order to help their voices be heard and encourage more diversity in the community. That said, I have noticed that there are many people who mean well in their attempts to be "allies" and often end up with the opposite result. So I have decided to write this quick overview on what I believe it means to be an ally. I hope that this will shed some light for those who want to be allies as well and don't know how to do so.
 
 ## Principles
 
@@ -42,7 +42,7 @@ More importantly, when we simply try to solution our way through their problems,
 
 - **Pay attention to the emotions at play and help them work through it.** If they feel frustrated or insecure, create a safe place for them to share it so that they can then work through it.
 
-- **Don't invalidate their emotions by saying things like "Well you shouldn't feel that way because...."** There will be times when you might think that there is no rational reason for them to feel a certain way. However, emotions do not work on pure logic and we are not robots. More importantly, invalidating these emotions further suppresses their ability to have a voice.
+- **Don't invalidate their emotions by saying things like "Well you shouldn't feel that way because...."** There will be times when you might think that there is no rational reason for them to feel a certain way. However, emotions do not work on pure logic and we are not robots. More importantly, invalidating these emotions further suppresses their ability to have a voice and be heard.
 
 - **Only provide a solution if they want it.** I can't state this enough. If they haven't asked for your advice, don't offer it. That is going to get you in trouble more often than not because giving unwarranted advice is more of a selfish act than a kind one.
 
@@ -60,7 +60,7 @@ One of the biggest reasons why people from underrepresented groups have a hard t
 - They have learned through various social environments that their opinions "are not valuable"
 - They acquired [learned helplessness](https://en.wikipedia.org/wiki/Learned_helplessness) and don't see a path forward
 
-Since our goal is empower underrepresented groups to have a voice, this means that we must help them alleviate that insecurity and negativity as much as possible. In other words, we have to prove to them that it's safe to speak up. And more importantly, **allies have to be ready to take the brunt of any negativity they might encounter if needed.**
+Since our goal is empower underrepresented groups to have a voice and be heard, this means that we must help them alleviate that insecurity and negativity as much as possible. In other words, we have to prove to them that it's safe to speak up. And more importantly, **allies have to be ready to take the brunt of any negativity they might encounter if needed.**
 
 So in the example of encouraging them to suggest new ideas, criticism is one of the biggest fears. After all, it can be crippling if someone who is already insecure is forced to defend against ill-formed critiques and insensitive comments. So the ally must also be ready to jump in at a moment's notice to support them if they need it. 
 
@@ -70,7 +70,7 @@ Here are some tactics to consider:
 
 - **Offer to lead a separate discussion if things get bad.** Sometimes the discussion can get too toxic for anyone to properly navigate, so it's important to jump in at this time to say something like, "How about I set up a separate time for us to talk about this?" By doing this, you are buying time and can help to prepare the person you're trying to support time to prepare their thoughts. In addition, since you would be leading this meeting, you are putting yourself in a position of power against toxic people which can help create an even safer environment.
 
-- **Champion their ideas while giving credit to them.** In the tactic I mentioned earlier regarding encouraging new ideas, there will be times where they feel uncomfortable speaking up in a large group setting. So once you ask for their permission, help give their ideas a voice by championing it while attributing it directly to that person so the group recognizes it is their idea.
+- **Champion their ideas while giving credit to them.** In the tactic I mentioned earlier regarding encouraging new ideas, there will be times where they feel uncomfortable speaking up in a large group setting. So once you ask for their permission, help give their ideas be heard by championing it while attributing it directly to that person so the group recognizes it is their idea.
 
 ## Final thoughts
 
