@@ -18,8 +18,7 @@ module.exports = {
 				text: 'About',
 				items: [
 					{ text: 'Intro', link: '/about/' },
-					{ text: 'Uses', link: '/uses/' },
-					{ text: 'Contact', link: '/contact/' }
+					{ text: 'Uses', link: '/uses/' }
 				]
 			},
 			{ text: 'Contact', link: '/contact/' },
