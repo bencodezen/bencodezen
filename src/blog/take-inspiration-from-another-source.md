@@ -1,6 +1,7 @@
 ---
 title: Take Inspiration from Another Source
 date: 2017-11-19 23:01:18
+type: post
 blog: true
 excerpt: I had a friend who recommended that I watch “Your Name” a while back. So I went ahead and purchased the blu-ray not knowing whether or not I’d like it, but I trusted his recommendation nonetheless. Well, it finally came in and I just finished watching it. And I am just in absolute awe at the moment. (Don’t worry. There won’t be any spoilers in this post.)
 ---

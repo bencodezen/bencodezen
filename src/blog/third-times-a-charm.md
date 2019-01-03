@@ -1,6 +1,7 @@
 ---
 title: "Third Time's a Charm"
 date: 2017-02-26 10:48:59
+type: post
 blog: true
 excerpt: For those who don't know me, my name is Ben and I come to the world of coding primarily self-taught and the simple fortuitous circumstance of being born in a time and place where technology was easily accessible for me.
 ---

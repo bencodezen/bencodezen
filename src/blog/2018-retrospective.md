@@ -1,6 +1,7 @@
 ---
 title: 2018 Retrospective
 date: 2019-01-01 13:20:21
+type: post
 blog: true
 excerpt: A little late to the party, but not too late to reflect on 2018 and everything that has happened. 
 tags:

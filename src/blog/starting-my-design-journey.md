@@ -1,6 +1,7 @@
 ---
 title: Starting My Design Journey
 date: 2018-08-07 04:56:04
+type: post
 blog: true
 excerpt: As most frontend developers are aware, one of the most frustrating aspects of our job is that we are often evaluated based on the quality of designs that we are building. Whether we like it or not, it is the first thing people see when we send them portfolio items / projects we've worked on. So while this is not as crippling to those with design skills, those of us that fall on the more technical side often have to resort to templates and design systems in order to work on projects without a designer.
 ---

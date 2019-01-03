@@ -1,6 +1,7 @@
 ---
 title: Just Google Translate Everything Right?
 date: 2017-02-28 00:05:09
+type: post
 blog: true
 excerpt: As I continue catching up on Front End Happy Hour, I came across the episode Mixed drinks and Mixed languages. The topic of discussion was on the trials and tribulations that come with trying to create a site / application that is supported globally (i.e., multiple languages).
 ---

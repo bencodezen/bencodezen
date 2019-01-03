@@ -1,6 +1,7 @@
 ---
 title: A Single Obsession
 date: 2017-11-05 23:26:11
+type: post
 blog: true
 excerpt: For those who don't know me, I'm a compulsive learner. I enjoy ramping up on new topics and since my interests are rather diverse, this leads me to often be pulled in eight different directions at once. And that's not an exaggeration in the slightest. The number of projects that were started with an initial burst of excitement and possibility often got quickly replaced by another which left a trail of project husks behind me.
 ---
