@@ -42,7 +42,7 @@ More importantly, when we simply try to solution our way through their problems,
 
 - **Pay attention to the emotions at play and help them work through it.** If they feel frustrated or insecure, create a safe place for them to share it so that they can then work through it.
 
-- **Don't invalidate their emotions by saying things like "Well you shouldn't feel that way because of...".** Yes. I understand that "logically speaking" it doesn't "make sense," but emotions don't work on rationality and invalidating those emotions just further suppresses their ability to have a voice. 
+- **Don't invalidate their emotions by saying things like "Well you shouldn't feel that way because...."** There will be times when you might think that there is no rational reason for them to feel a certain way. However, emotions do not work on pure logic and we are not robots. More importantly, invalidating these emotions further suppresses their ability to have a voice.
 
 - **Only provide a solution if they want it.** I can't state this enough. If they haven't asked for your advice, don't offer it. That is going to get you in trouble more often than not because giving unwarranted advice is more of a selfish act than a kind one.
 
