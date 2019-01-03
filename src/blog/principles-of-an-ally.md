@@ -50,7 +50,7 @@ More importantly, when we simply try to solution our way through their problems,
 - **If you don't know, ask them.** If you ever find yourself wondering whether they want advice, or whether they need something, just ask. Even though it might seem a little redundant sometimes, it will save you from making the mistake of assuming the wrong thing.
 
 ::: warning Note
-In case you've never heard "solution" used as a verb, it means that instead of actually trying to listen to someone's problem, your focus is entirely on coming up with a way to fix the problem. More often than not, the first step to helping someone is making them feel heard and understood. You would be surprised the number of times where they will often figure out the solution themselves in talking out the problem to you.
+In case you've never heard "solution" used as a verb, it means that instead of actually trying to listen to someone's problem, your focus is entirely on coming up with a way to fix the problem. More often than not, the first step to helping someone is making them feel heard and understood. You would be surprised the number of times where they will often figure out the solution themselves while talking out the problem to you.
 :::
 
 ### Alleviate any negativity they might encounter
