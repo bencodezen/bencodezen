@@ -38,7 +38,7 @@ As far as some ways you can support underrepresented groups without making it ab
 
 It's very easy to fall into the trap of trying to fix every problem of the group you're trying to support. So when you hear that they are having issues with X, you instantly want to figure out how to solve it with Y. However, to truly support them, our goal is to empower them to solve their own problems instead of simply getting rid of the problem.
 
-More importantly, when we simply try to solution our way through their problems, we often miss the point. And contrary to what most believe, when they are feeling frustrated, they really just need someone to actively listen and work through what they are feeling. What does this mean exactly?
+More importantly, when we simply try to solution our way through their problems, we often miss the point. And contrary to what most believe, when they are feeling frustrated, they may just need someone to actively listen and work through what they are feeling. So what does this mean exactly for allies?
 
 - **Pay attention to the emotions at play and help them work through it.** If they feel frustrated or insecure, create a safe place for them to share it so that they can then work through it.
 
