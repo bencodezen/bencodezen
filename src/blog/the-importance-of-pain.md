@@ -31,6 +31,18 @@ Like many of you, I never bothered trying to come up with a better solution beca
 
 The reality is that all of this is complete and utter nonsense. It's not about being the sole person responsible for creating the perfect solution, but about starting the discussion around finding that solution. There is power in numbers and this is no different for devising new solutions in our field.
 
+## Sharpen Your Sensitivity to the Pain
+
+Remember that encountering some sort of pain point is a signal that there is a problem to solve. More importantly, the drive to figure out the cure for the pain rather than simply treating the symptom is an unwillingness to simply accept the status quo. And if you think about it, odds are pretty good that if you are feeling that pain point, someone else in the world has felt it too and needs your help.
+
+## "Curing" the Pain
+
+I've run a loose metaphor through this post regarding the pain point being a sort of sickness. That said, I realized that it's important for me to write down alternatives to the band-aid solution:
+
+1. Blog about it - Even if it's only a few paragraphs and documenting what ideas you might have around the ideal solution, this provides a record that someone may also run into in the future. 
+1. Create a library - There are a ton of npm libraries out there that do things quite simple like changing the case of strings. So if someone hasn't created one to solve your proble, you can create one too! And then people can contribute to it with improvements and such as time goes on!
+1. Write up a feature proposal - Depending on your technical abilities, you could submit a proposal to the language specification to propose the new solution if you think it's a problem a lot of people have
+
 ## Final Thoughts
 
 This is going to take some effort on my part to change my habits, but after much thought, it is clear to me that I need to not take the pain that I or others around me for granted. Although the band-aid technique has gotten me quite far, I know that grasping the importance of pain is critical for me to reach the next level.
