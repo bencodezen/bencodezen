@@ -36,7 +36,7 @@ As far as some ways you can support underrepresented groups without making it ab
 
 ### Actively listen to their needs instead of trying to "solution"
 
-It's very easy to fall into the trap of trying to fix every problem of the group you're trying to support. So when you hear that they are having issues with X, we instantly want to figure out how to solve it with Y. However, to truly support them, our goal is to empower them to solve their own problems instead of simply getting rid of the problem.
+It's very easy to fall into the trap of trying to fix every problem of the group you're trying to support. So when you hear that they are having issues with X, you instantly want to figure out how to solve it with Y. However, to truly support them, our goal is to empower them to solve their own problems instead of simply getting rid of the problem.
 
 More importantly, when we simply try to solution our way through their problems, we often miss the point. And contrary to what most believe, when they are feeling frustrated, they really just need someone to actively listen and work through what they are feeling. What does this mean exactly?
 
@@ -52,11 +52,15 @@ More importantly, when we simply try to solution our way through their problems,
 In case you've never heard "solution" used as a verb, it means that instead of actually trying to listen to someone's problem, your focus is entirely on coming up with a way to fix the problem. More often than not, the first step to helping someone is making them feel heard and understood. You would be surprised the number of times where they will often figure out the solution themselves while talking out the problem to you.
 :::
 
-### Alleviate any negativity they might encounter
+### Be prepared to stand strong with them when the things gets tough
 
-One of the hardest parts about speaking up is the risk and insecurity that comes with it. Maybe they are afraid of sounding stupid? Perhaps they have been raised in a culture of deferring to their supervisors? The reasons are endless, but perfectly normal.
+One of the biggest reasons why people from underrepresented groups have a hard time speaking up is because the negative consequences that can come from it can be utterly terrifying. Besides the common human affliction of simply fearing the criticism or ridicule from our peers:
 
-Since our goal is empower underrepresented groups to have a voice, this means that we must help them alleviate that insecurity and negativity as much as possible. In other words, we have to prove to them that it's safe to speak up. And more importantly, we have to be ready to take the brunt of any negativity they might encounter if needed.
+- They were raised in a culture where your elders / superiors are always "right"
+- They have learned through various social environments that their opinions "are not valuable"
+- They acquired [learned helplessness](https://en.wikipedia.org/wiki/Learned_helplessness) and don't see a path forward
+
+Since our goal is empower underrepresented groups to have a voice, this means that we must help them alleviate that insecurity and negativity as much as possible. In other words, we have to prove to them that it's safe to speak up. And more importantly, **allies have to be ready to take the brunt of any negativity they might encounter if needed.**
 
 So in the example of encouraging them to suggest new ideas, criticism is one of the biggest fears. After all, it can be crippling if someone who is already insecure is forced to defend against ill-formed critiques and insensitive comments. So the ally must also be ready to jump in at a moment's notice to support them if they need it. 
 
