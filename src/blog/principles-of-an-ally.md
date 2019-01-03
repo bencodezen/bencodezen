@@ -3,6 +3,7 @@ title: Principles of an Ally
 date: 2019-01-03 13:46:12
 type: post
 blog: true
+sidebar: auto
 excerpt: As many people are aware of, there is a big movement to support underrepresented groups in order to help them establish their voice and encourage more diversity in the community. That said, I have noticed that there are many people who mean well in their attempts to be "allies" and often end up with the opposite result.
 tags:
     - ally
