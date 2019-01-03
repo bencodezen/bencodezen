@@ -24,7 +24,7 @@ Regardless of how well intentioned you are or how many people you have helped in
 
 What you have to remember is that **being an "ally" is something that is earned and given by others.** It becomes part of your reputation based on your actions and is not a trait you attribute to yourself. To give another example, take the label of "selfless." Imagine how it would feel if you met someone who described themselves as "a selfless person." I don't know about you, but the only thing that tells me is that the person thinks rather highly of themself.
 
-If you are truly an ally, you don't want the spotlight because the goal is to shine the spotlight on the group you're supporting and not yourself. Any attempt to show the world you're any ally comes off as you being more interested in your own reputation than anything else.
+If you are truly an ally, you don't want the spotlight because the goal is to shine the spotlight on the group you're supporting and not yourself. Any attempt to show the world you're an ally comes off as you being more interested in your own reputation than anything else.
 
 As far as some ways you can support underrepresented groups without making it about yourself:
 
