@@ -28,7 +28,7 @@ If you are truly an ally, you don't want the spotlight because the goal is to sh
 
 As far as some ways you can support underrepresented groups without making it about yourself:
 
-- **Encourage them to bring up their ideas to discussions.** This is most prevalent in work scenarios, but if you notice that they are not speaking up a lot, you might want to find out why. Whatever you do though, do not call them out in the middle of the meeting to try and encourage discussion. That is more likely to have the reverse effect and is utterly terrifying. If they are uncomfortable bringing it up in a large group setting, create a safe space before the meeting to help them raise new ideas that can be validated prior to the large group setting.
+- **Encourage them to speak up about their ideas.** This is most prevalent in work scenarios, but if you notice that they are not speaking up a lot, you might want to find out why. Whatever you do though, do not call them out in the middle of the meeting to try and encourage discussion. That is more likely to have the reverse effect and is utterly terrifying. If they are uncomfortable bringing it up in a large group setting, create a safe space before the meeting to help them raise new ideas that can be validated prior to the large group setting.
 
 - **Let them take leadership positions.** When you want to form an initiative around supporting an underrepresented group, you need to find someone from that group to serve as the leader of that group. In addition, you should be ready to do the legwork to make that group successful while staying in the shadows. 
 
