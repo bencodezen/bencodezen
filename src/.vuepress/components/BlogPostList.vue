@@ -48,7 +48,7 @@ export default {
 </script>
 
 <template>
-	<div>   
+	<div class="blog-list__container">   
         <div 
             v-if="selectedTag"
             class="filtered-heading"
@@ -97,6 +97,10 @@ primary-color = #22AAFF
 .blog-list {
 	padding: 0;
 	margin: 0;
+}
+
+.blog-list__container {
+    margin-top: 2rem;
 }
 
 .blog-list__item {
