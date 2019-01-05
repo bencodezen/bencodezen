@@ -12,17 +12,17 @@ module.exports = {
 		editLinkText: 'Found a bug? Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Blog', link: '/blog/' },
-			{ text: 'Learn', link: '/learn/' },
+			{ text: 'Blog', link: '/blog/index.html' },
+			{ text: 'Learn', link: '/learn/index.html' },
 			{
 				text: 'About',
 				items: [
-					{ text: 'Me', link: '/about/' },
-					{ text: 'Uses', link: '/uses/' },
-					{ text: 'Media Log', link: '/about/media-log/'}
+					{ text: 'Me', link: '/about/index.html' },
+					{ text: 'Uses', link: '/uses/index.html' },
+					{ text: 'Media Log', link: '/about/media-log/index.html'}
 				]
 			},
-			{ text: 'Contact', link: '/contact/' }
+			{ text: 'Contact', link: '/contact/index.html' }
 		],
 		user: {
 			socialMedia: [
@@ -181,14 +181,6 @@ module.exports = {
 			'meta',
 			{ name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' }
 		],
-		['meta', { name: 'theme-color', content: '#ffffff' }],
-		[
-			'script', 
-			{ 
-				defer: true, 
-				src: "https://pro.fontawesome.com/releases/v5.6.3/js/all.js",
-				integrity: "sha384-4Gm0M5DjJ0zGaEtLu0ztNIoHWiuJ5rKiaVlpZKeNqXAW49eIIa2ymxb3C4c3uEXR", crossorigin: "anonymous" 
-			}
-		]
+		['meta', { name: 'theme-color', content: '#ffffff' }]
 	]
 }

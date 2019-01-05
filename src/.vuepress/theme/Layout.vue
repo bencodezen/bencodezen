@@ -68,6 +68,7 @@ import Page from './layouts/Page.vue'
 import Sidebar from './components/Sidebar.vue'
 import Blog from './layouts/Blog.vue'
 import { resolveSidebarItems } from './mixins/util'
+import '@fortawesome/fontawesome-pro/css/all.min.css'
 
 export default {
   components: { Blog, Home, Page, Sidebar, Navbar },
