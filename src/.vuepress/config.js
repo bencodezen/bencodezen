@@ -19,7 +19,7 @@ module.exports = {
 				items: [
 					{ text: 'Me', link: '/about/' },
 					{ text: 'Uses', link: '/uses/' },
-					{ text: 'Media Log', link: '/about/media-log'}
+					{ text: 'Media Log', link: '/about/media-log/'}
 				]
 			},
 			{ text: 'Contact', link: '/contact/' }
