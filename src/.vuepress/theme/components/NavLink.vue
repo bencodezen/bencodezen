@@ -5,14 +5,6 @@
     v-if="!isExternal(link) && !isXml(link)"
     :exact="exact"
   >{{ item.text }}</router-link>
-  <a 
-    v-else-if="isXml(link)"
-    :href="link"
-    class="nav-link"
-  >
-    <i class="fas fa-rss"></i>
-    <span class="sr-only">{{ item.text }}</span>
-  </a>
   <a
     v-else
     :href="link"

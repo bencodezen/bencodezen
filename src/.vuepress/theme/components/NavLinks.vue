@@ -18,6 +18,16 @@
         :item="item"
       />
     </div>
+    <SearchBox />
+    <div class="nav-item">
+      <a 
+        href="/rss.xml"
+        class="nav-link"
+      >
+        <i class="fas fa-rss"></i>
+        <span class="sr-only">RSS Feed</span>
+      </a>
+    </div>
   </nav>
 </template>
 
@@ -25,9 +35,10 @@
 import DropdownLink from './DropdownLink.vue'
 import { resolveNavLinkItem } from '../mixins/util'
 import NavLink from './NavLink.vue'
+import SearchBox from './SearchBox.vue'
 
 export default {
-  components: { NavLink, DropdownLink },
+  components: { NavLink, DropdownLink, SearchBox },
 
   computed: {
     userNav () {
@@ -89,10 +100,8 @@ export default {
   .nav-item
     position relative
     display inline-block
-    margin-left 1.5rem
+    margin-right 1.5rem
     line-height 2rem
-    &:first-child
-      margin-left 0
   .repo-link
     margin-left 1.5rem
 

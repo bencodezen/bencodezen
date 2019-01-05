@@ -21,8 +21,7 @@ module.exports = {
 					{ text: 'Uses', link: '/uses/' }
 				]
 			},
-			{ text: 'Contact', link: '/contact/' },
-			{ text: 'RSS Feed', link: '/rss.xml' }
+			{ text: 'Contact', link: '/contact/' }
 		],
 		user: {
 			socialMedia: [
