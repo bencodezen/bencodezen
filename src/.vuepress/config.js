@@ -1,6 +1,5 @@
 module.exports = {
 	title: 'BenCodeZen',
-	ga: 'UA-92645815-1',
 	dest: './public',
 	themeConfig: {
 		repo: 'https://github.com/bencodezen/bencodezen',
@@ -64,6 +63,12 @@ module.exports = {
 		}
 	},
 	plugins: [
+		[
+			'@vuepress/google-analytics',
+			{
+				ga: 'UA-92645815-1'
+			}	
+		],
 		[
 			'vuepress-plugin-rss',
 			{
