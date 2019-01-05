@@ -1,7 +1,7 @@
 {
 	"name": "bencodezen",
 	"description": "Personal site of BenCodeZen",
-	"license": "Apache 2.0",
+	"license": "Apache-2.0",
 	"url": "https://github.com/bencodezen/bencodezen",
 	"scripts": {
 		"dev": "vuepress dev src",
