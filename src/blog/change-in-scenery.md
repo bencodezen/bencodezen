@@ -6,8 +6,6 @@ blog: true
 excerpt: Over these past couple of months, I have had the opportunity to work on some fun and challenging projects. And while it's been a phenomenal learning experience, it has been a bit of a whirlwind and I'm a little burnt out. So in an effort to try and get my head on straight again, I decided to get out of town for a bit.
 ---
 
-# {{ $page.title }}
-
 Over these past couple of months, I have had the opportunity to work on some fun and challenging projects. And while it's been a phenomenal learning experience, it has been a bit of a whirlwind and I'm a little burnt out. So in an effort to try and get my head on straight again, I decided to get out of town for a bit.
 
 They say when you are starting to feel yourself get in a rut or starting to burnout, it's usually a good idea to get a change of scenery. And what better way to get a change of scenery than to travel? So that's what I did. As I am writing this post, I am currently sitting in a cafe while listening to live music in New Orleans.

@@ -6,8 +6,6 @@ blog: true
 excerpt: Nowadays, it is pretty much impossible to get involved with a project without hearing about "being more agile." And even though I have been on a variety of projects of various agile flavors, one term that I've heard consistently is the team's "velocity."
 ---
 
-# {{ $page.title }}
-
 Nowadays, it is pretty much impossible to get involved with a project without hearing about "being more agile." And even though I have been on a variety of projects of various agile flavors, one term that I've heard consistently is the team's "velocity."
 
 For those who aren't as familiar with agile projects, velocity at its core can be defined as the number of tickets (i.e., work) that an individual or team can complete in a sprint (i.e., a set amount of time). To no one's surprise, the general sentiment is that the more work you can get done in the allotted time frame is a good thing.

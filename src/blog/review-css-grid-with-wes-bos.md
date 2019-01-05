@@ -6,8 +6,6 @@ blog: true
 excerpt: As most of you know, Wes Bos is responsible for creating some of the best courses out there on popular development topics (that are typically front-end). And with all the buzz about CSS Grid, I was looking forward the day he would release a course on it. Much to my delight, I managed to get early access to the course!
 ---
 
-# {{ $page.title }}
-
 As most of you know, [Wes Bos](https://twitter.com/wesbos) is responsible for creating some of the best [courses](http://wesbos.com/courses/) out there on popular development topics (that are typically front-end). And with all the buzz about [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), I was looking forward the day he would release a course on it. Much to my delight, I managed to get early access to the course!
 
 ## Overview

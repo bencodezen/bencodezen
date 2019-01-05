@@ -6,8 +6,6 @@ blog: true
 excerpt: When I first encountered my first Rubik's cube, I was fascinated by the numerous colors and patterns. Like many others, the fact that was a three dimensional puzzle had a certain beauty to it that caused me to obsess over it for some time. Yet while I would eventually be successful with solving the first two layers on my own, the final layer always eluded me.
 ---
 
-# {{ $page.title }}
-
 When I first encountered my first Rubik's cube, I was fascinated by the numerous colors and patterns. Like many others, the fact that was a three dimensional puzzle had a certain beauty to it that caused me to obsess over it for some time. Yet while I would eventually be successful with solving the first two layers on my own, the final layer always eluded me. And for the longest time, I refused to look up a solution because I had this notion that I had to figure it out "on my own." It wasn't until a few weeks ago that I realized that notion was stupid because it presumes that the best way to learn is linear. In fact, I would argue that the much less used cousin is just as valuable (if not more so): reverse-engineering.
 
 Did I look up the solution to the final step of the Rubik's cube? You can bet your grandma's house I did. And by doing so, I learned three important things:

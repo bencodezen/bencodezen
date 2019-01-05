@@ -6,8 +6,6 @@ blog: true
 excerpt: You ever have that nightmare where you sign up for a class that you forget to drop out of and end up needing to take the final at the end of the semester? Well, this one doesn't fall too far from the tree.
 ---
 
-# {{ $page.title }}
-
 ## Prologue
 
 I had just finished being a guest on my first podcast ever: [My JavaScript Story #082](https://devchat.tv/my-javascript-story/mjs-082-benjamin-hong/). My nerves were pretty shot and my voice was still shaking even after I got off the call. And even though part of me was utterly terrified that the episode was going to be terrible, it was exhilarating to be able to check that off my dev bucket list.

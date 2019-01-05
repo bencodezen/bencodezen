@@ -6,8 +6,6 @@ blog: true
 excerpt: Over the past few years, I’ve had the chance to talk with multiple designers about their work and what their environment is like. And perhaps I was naive, but I was surprised at the number of times I heard that they were told by developers that X feature they wanted to do was “not possible.” Then when I would ask more about the requirements of X feature, I would often be boggled by how simple the request often was. So that got me thinking, “Why are developers often so quick to say no to what designers want?”
 ---
 
-# {{ $page.title }}
-
 Over the past few years, I’ve had the chance to talk with multiple designers about their work and what their environment is like. And perhaps I was naive, but I was surprised at the number of times I heard that they were told by developers that X feature they wanted to do was “not possible.” Then when I would ask more about the requirements of X feature, I would often be boggled by how simple the request often was. So that got me thinking, “Why are developers often so quick to say no to what designers want?”
 
 To get a few of the obvious counter arguments out of the way, I’m going to be speaking purely from a front-end perspective since that’s my area of expertise; but I do think the sentiments in this post still apply to the rest of the field. In addition, I’m well aware of the fact that a number of things could be playing into a developer (or his team) being able to build X feature. Many reasonable explanations include:

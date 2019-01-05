@@ -6,8 +6,6 @@ blog: true
 excerpt: I have recently taken an interest in trying to utilizing the OKRs on my personal life. It has been a rather complex journey of trying various tools and what not, but I do think the method is promising and will be sure to write more as time goes on.
 ---
 
-# {{ $page.title }}
-
 ## Prologue
 
 I have recently taken an interest in trying to utilizing the [OKRs](https://weekdone.com/resources/objectives-key-results) on my personal life. It has been a rather complex journey of trying various tools and what not, but I do think the method is promising and will be sure to write more as time goes on.

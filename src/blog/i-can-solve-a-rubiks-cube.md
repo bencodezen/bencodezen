@@ -6,8 +6,6 @@ blog: true
 excerpt: For my entire life, I've always envied those who could solve a Rubik's cube. Not only did I have a level of respect for what I thought would be an impossible task, but there was also a part of me that wanted to be able to join that "elite" group of people. Well, I'm proud to say that I can solve a Rubik's cube!
 ---
 
-# {{ $page.title }}
-
 For my entire life, I've always envied those who could solve a Rubik's cube. Not only did I have a level of respect for what I thought would be an impossible task, but there was also a part of me that wanted to be able to join that "elite" group of people. Well, I'm proud to say that I can solve a Rubik's cube!
 
 "What does this have to coding?" is probably a question that's going through your head. Well, after achieving this goal of mine, it made me realize that this view I had of people who could solve a Rubik's cube was similar to how I see a lot of those well respected in our fields. 

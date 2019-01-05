@@ -6,8 +6,6 @@ blog: true
 excerpt: I had a friend who recommended that I watch “Your Name” a while back. So I went ahead and purchased the blu-ray not knowing whether or not I’d like it, but I trusted his recommendation nonetheless. Well, it finally came in and I just finished watching it. And I am just in absolute awe at the moment. (Don’t worry. There won’t be any spoilers in this post.)
 ---
 
-# {{ $page.title }}
-
 I had a friend who recommended that I watch “Your Name” a while back. So I went ahead and purchased the blu-ray not knowing whether or not I’d like it, but I trusted his recommendation nonetheless. Well, it finally came in and I just finished watching it. And I am just in absolute awe at the moment. (Don’t worry. There won’t be any spoilers in this post.)
 
 It’s been a long time since I’ve seen such a moving anime. It spoke to me in so many different ways it’s honestly hard to describe this immense energy of inspiration I feel within myself at the moment. Not only was the story-telling one of the most magnificent one I’ve seen in so long, but the beauty of the art and the and emotions conveyed left such a deep impact on me it’s almost unreal.

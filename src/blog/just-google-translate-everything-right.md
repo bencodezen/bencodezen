@@ -6,8 +6,6 @@ blog: true
 excerpt: As I continue catching up on Front End Happy Hour, I came across the episode Mixed drinks and Mixed languages. The topic of discussion was on the trials and tribulations that come with trying to create a site / application that is supported globally (i.e., multiple languages).
 ---
 
-# {{ $page.title }}
-
 As I continue catching up on [Front End Happy Hour](http://frontendhappyhour.com/), I came across the episode [Mixed drinks and Mixed languages](http://frontendhappyhour.com/episodes/mixed-drinks-and-mixed-languages/). The topic of discussion was on the trials and tribulations that come with trying to create a site / application that is supported globally (i.e., multiple languages).
 
 To be honest, when I first read the episode summary, it seemed like it would be a lackluster topic since after all, it's just a matter of swapping in text right? Well if that were the case, it would certainly make for a boring hour of discussion no?

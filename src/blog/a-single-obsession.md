@@ -6,8 +6,6 @@ blog: true
 excerpt: For those who don't know me, I'm a compulsive learner. I enjoy ramping up on new topics and since my interests are rather diverse, this leads me to often be pulled in eight different directions at once. And that's not an exaggeration in the slightest. The number of projects that were started with an initial burst of excitement and possibility often got quickly replaced by another which left a trail of project husks behind me.
 ---
 
-# {{ $page.title }}
-
 For those who don't know me, I'm a compulsive learner. I enjoy ramping up on new topics and since my interests are rather diverse, this leads me to often be pulled in eight different directions at once. And that's not an exaggeration in the slightest. The number of projects that were started with an initial burst of excitement and possibility often got quickly replaced by another which left a trail of project husks behind me.
 
 I'm currently in the process of re-"reading" (because I'm listening to it this time around) to **Ready Player One** by Ernest Cline. And as I listened to Will Wheaton narrate Wade's single obsession with the hunt for Halliday's egg, it struck me just how devoted he (and other professional gunters) were when it came to their quest. In fact, I found myself almost feeling envious of that devotion. And in that moment, I realized that just how fragmented I could be when it came to my own pursuits and interests.

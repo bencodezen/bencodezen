@@ -6,8 +6,6 @@ blog: true
 excerpt: Over the past few months, I've been taking a deep dive in ReactJS in ways I would have never anticipated. It's been a whirlwind, but the learning has been incredible yet hair-wrenching in others. This post is about the latter of the two.
 ---
 
-# {{ $page.title }}
-
 Over the past few months, I've been taking a deep dive in ReactJS in ways I would have never anticipated. It's been a whirlwind, but the learning has been incredible yet hair-wrenching in others. This post is about the latter of the two.
 
 I am in the midst of trying to write a function that would render multiple components based on the props passed into it. I won't get too much into the details, but let's start with the simplest way that I knew from VueJS:

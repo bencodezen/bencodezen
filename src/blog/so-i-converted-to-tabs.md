@@ -6,8 +6,6 @@ blog: true
 excerpt: For those who watch Silicon Valley, you might remember this hilarious scene where Richard is dating a girl who uses spaces instead of tabs and there's hilarity that ensues as they do work next to one another. Now, this is a topic that plenty of developers have gotten plenty heated over. And while I love an enthusiastic debate over little details like this from time to time, it's certainly not one of those things that I'd be willing to die on a hill for. Nonetheless, I wanted to write a post about my history with the topic and why I ended up on tabs.
 ---
 
-# {{ $page.title }}
-
 For those who watch Silicon Valley, you might remember this [hilarious scene](https://www.youtube.com/watch?v=SsoOG6ZeyUI) where Richard is dating a girl who uses spaces instead of tabs and there's hilarity that ensues as they do work next to one another. Now, this is a topic that plenty of developers have gotten plenty heated over. And while I love an enthusiastic debate over little details like this from time to time, it's certainly not one of those things that I'd be willing to die on a hill for. Nonetheless, I wanted to write a post about my history with the topic and why I ended up on tabs.
 
 As you can probably tell from the title, I used to use spaces for coding. In fact, I was pretty set on it because the reasons for using spaces were "obvious." For the record, I liked to use four spaces since it meant clearer separation of child and parent elements. I wasn't too concerned as far as two spaces in JS, but I used four on my files to be consistent across everything.
