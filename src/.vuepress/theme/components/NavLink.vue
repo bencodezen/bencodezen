@@ -10,7 +10,8 @@
     :href="link"
     class="nav-link"
   >
-    {{ item.text }}
+    <i class="fas fa-rss"></i>
+    <span class="sr-only">{{ item.text }}</span>
   </a>
   <a
     v-else
