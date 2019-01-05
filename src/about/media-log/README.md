@@ -3,7 +3,7 @@
 A list of media that I have read, watched, listened, or experienced throughout the year.
 
 ::: tip 🎩 Hat tip 
-Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to create one. You can find [her media logs here](https://jenmyers.net/log/): .
+Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to create one. You can find [her media logs here](https://jenmyers.net/log/).
 :::
 
 ## 2019
