@@ -1,6 +1,9 @@
 <template>
   <div class="blog">
-    <h1 class="blog__title">{{ $page.title }}</h1>
+    <div class="blog__header">
+      <p class="publish-date"><time :datetime="$frontmatter.date">{{ publishDate }}</time></p>
+      <h1 class="blog__title">{{ $page.title }}</h1>
+    </div>
 
     <Content custom />
 
@@ -16,13 +19,12 @@
         >{{ editLinkText }}</a>
         <OutboundLink/>
       </div>
-
       <div
         class="last-updated"
         v-if="lastUpdated"
       >
         <span class="prefix">{{ lastUpdatedText }}: </span>
-        <span class="time">{{ lastUpdated }}</span>
+        <time class="time" :datetime="$page.lastUpdated">{{ lastUpdated }}</time>
       </div>
     </div>
 
@@ -72,7 +74,15 @@ export default {
   computed: {
     lastUpdated () {
       if (this.$page.lastUpdated) {
-        return new Date(this.$page.lastUpdated).toLocaleString(this.$lang)
+        const dateFormat = new Date(this.$page.lastUpdated)
+
+        const options = {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        } 
+        
+        return `${dateFormat.toLocaleDateString(this.$lang, options)}, ${dateFormat.toLocaleTimeString(this.$lang)}`
       }
     },
 
@@ -137,6 +147,17 @@ export default {
         this.$site.themeConfig.editLinkText ||
         `Edit this page`
       )
+    },
+
+    publishDate() {
+        const dateFormat = new Date(this.$frontmatter.date)
+        const options = {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        } 
+        
+        return dateFormat.toLocaleDateString(this.$lang, options)
     }
   },
 
@@ -204,8 +225,17 @@ function find (page, items, offset) {
   @extend $wrapper
 }
 
-.blog__title {
+.blog__header {
   padding-top: 4.6rem;
+}
+
+.blog__title {
+  margin-top: 0;
+}
+
+.publish-date {
+  margin-bottom: 0.5rem;
+  font-family: 'Poppins';
 }
 
 .page-edit
