@@ -19,8 +19,8 @@ export default {
   >
     <div id="mc_embed_signup_scroll">
       <div class="mc-field-group">
-        <label class="mc-label" for="mce-EMAIL">Email Address</label>
-        <input type="email" value name="EMAIL" class="required email" id="mce-EMAIL" required>
+        <label class="email-label" for="mce-EMAIL">Email Address</label>
+        <input class="email-input" type="email" value name="EMAIL" id="mce-EMAIL" required>
       </div>
       <div class="mc-field-group input-group">
         <strong>GDPR Consent</strong>
@@ -77,3 +77,12 @@ input[type="radio"] {
 input:focus {
   border-color: #333;
 }
+
+.email-label {
+  display: block;
+}
+
+.email-input {
+  width: 100%;
+}
+</style>
