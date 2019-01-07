@@ -11,8 +11,6 @@ tags:
 
 Welcome to the first edition of Sunday Studies! Every week I'll be releasing a code challenge for you to solve for the week. The solution will be posted on Saturdays so you can see how I worked through the problem.
 
-This series is a work in progress, so feedback is welcome for improvements!
-
 ## Code Challenge
 
 You need to merge two arrays into one array for future manipulation. 
@@ -22,7 +20,7 @@ You need to merge two arrays into one array for future manipulation.
 This is what you have to start with:
 
 ```js
-const fruits = [
+var fruits = [
     { name: "apple", quantity: 5 },
     { name: "grapes", quantity: 8 },
     { name: "pear", quantity: 2 },
@@ -30,14 +28,14 @@ const fruits = [
     { name: "watermelon", quantity: 2 }
 ]
 
-const desserts = [
+var desserts = [
     { name: "cookie", quantity: 12 },
     { name: "cake", quantity: 1 },
     { name: "candy", quantity: 25 },
     { name: "cinnamon roll", quantity: 48 }
 ]
 
-const sweetStuff = []
+var sweetStuff = []
 
 console.log(sweetStuff)
 ```
