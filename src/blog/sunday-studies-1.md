@@ -9,7 +9,7 @@ tags:
     - puzzles
 ---
 
-Welcome to the first edition of Sunday Studies! Every week I'll be releasing a code challenge for you to solve for the week. The solution will be posted on Saturdays so you can see how I worked through the problem.
+Welcome to the first edition of Sunday Studies! Every Sunday I'll be releasing a code challenge for you to solve for the week. The solutions will be posted on Saturdays so you can see how I worked through the problem.
 
 ## Code Challenge
 
