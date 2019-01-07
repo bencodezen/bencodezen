@@ -40,6 +40,8 @@
 
     <Content custom/>
 
+    <MailchimpForm />
+
     <div
       class="footer"
       v-if="data.footer"
@@ -50,10 +52,14 @@
 </template>
 
 <script>
+import MailchimpForm from '../components/MailchimpForm.vue'
 import NavLink from '../components/NavLink.vue'
 
 export default {
-  components: { NavLink },
+  components: { 
+    MailchimpForm, 
+    NavLink 
+  },
 
   computed: {
     data () {
