@@ -1,0 +1,28 @@
+@charset "utf-8";
+.container {
+	background-color: #FFF url(none);
+	max-width: 420px;
+}
+header {
+	background: url(images/header_bg_phone.png) repeat-x;
+}
+.sidebar1 {
+	background-color: #FFF;
+	width: auto;
+	float: none;
+}
+.content {
+	flloat: none;
+	width: auto;
+}
+.sidebar1 img {
+	display: none;
+}
+.sidebar1 nav ul {
+	margin-top: 0;
+}
+.sidebar1 nav ul a, .sidebar1 nav ul a:visited {
+	font-size: 120%;
+	padding-left: 35px;
+	width: auto;
+}
