@@ -55,69 +55,20 @@ export default {};
         </div>
       </form>
     </div>
-    <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='MMERGE6';ftypes[6]='address';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
-    <!--End mc_embed_signup-->
   </div>
 </template>
 
-<style>
-/* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
-#mc_embed_signup form {
-  display: block;
-  position: relative;
-  text-align: left;
-  padding: 10px 0 10px 3%;
-}
-#mc_embed_signup h2 {
-  font-weight: bold;
-  padding: 0;
-  margin: 15px 0;
-  font-size: 1.4em;
-}
-#mc_embed_signup input {
-  border: 1px solid #abb0b2;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-#mc_embed_signup input[type="checkbox"] {
+<style scoped>
+input[type="checkbox"] {
   -webkit-appearance: checkbox;
 }
-#mc_embed_signup input[type="radio"] {
+
+input[type="radio"] {
   -webkit-appearance: radio;
 }
-#mc_embed_signup input:focus {
+
+input:focus {
   border-color: #333;
-}
-#mc_embed_signup .button {
-  clear: both;
-  background-color: #aaa;
-  border: 0 none;
-  border-radius: 4px;
-  transition: all 0.23s ease-in-out 0s;
-  color: #ffffff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: normal;
-  height: 32px;
-  line-height: 32px;
-  margin: 0 5px 10px 0;
-  padding: 0 22px;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: top;
-  white-space: nowrap;
-  width: auto;
-}
-#mc_embed_signup .button:hover {
-  background-color: #777;
-}
-#mc_embed_signup .small-meta {
-  font-size: 11px;
-}
-#mc_embed_signup .nowrap {
-  white-space: nowrap;
 }
 
 #mc_embed_signup .mc-field-group {
@@ -185,7 +136,7 @@ export default {};
   font-size: 11px;
   margin-right: 4%;
 }
-#mc_embed_signup .asterisk {
+..asterisk {
   color: #e85c41;
   font-size: 150%;
   font-weight: normal;
