@@ -1,5 +1,7 @@
 # BenCodeZen
 
+[![](https://img.shields.io/github/package-json/v/bencodezen/bencodezen.svg?style=flat-square)](https://github.com/bencodezen/bencodezen)
+
 ## Dependencies
 
 - [VuePress](https://vuepress.vuejs.org/) - Static site generator based with a [Vue.js](https://www.vuejs.org) powered theming system
