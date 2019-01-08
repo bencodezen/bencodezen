@@ -11,7 +11,7 @@ Recently my friend Chris DeMars tweeted the following:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When you are learning a new technology. This may sound like a dumb question. When do you get to the point when you know &quot;enough&quot; or do you never know enough?</p>&mdash; Chris DeMars @ CodeMash (@saltnburnem) <a href="https://twitter.com/saltnburnem/status/1081758206295191552?ref_src=twsrc%5Etfw">January 6, 2019</a></blockquote>
 
-When I clicked into the thread of responses, I was not surprised to see that a lot of the comments which range of "what is the definition of enough" to "it will never be enough." And as someone who has gone through the entire gamut of that range, I'd like to offer my thoughts on this.
+When I clicked into the thread of responses, I was not surprised to see that a lot of the comments ranged from "what is the definition of enough" to "it will never be enough." And as someone who has gone through the entire gamut of that range, I'd like to offer my thoughts on this.
 
 ## "It Depends"
 
