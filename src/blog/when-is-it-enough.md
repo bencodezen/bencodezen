@@ -43,7 +43,7 @@ To put it another way, when you are planting the seeds to grow a tree. Do you tr
 
 Contrary to popular opinion, it's important to know that there is a point where the learning is "enough." If I had to sum it up in one line, it would be:
 
-> It is enough when feel that you have acquired enough literacy to be able to navigate additional resources on your own.
+> You have learned "enough" when feel that you have acquired enough literacy to be able to navigate additional resources on your own.
 
 Consider the scenario where your goal is to move to a new country where you don't speak the language. And yes, we are assuming that you don't have internet / a translation app. Without any guidance or help, this is a terrifying scenario because you don't understand anything.
 
