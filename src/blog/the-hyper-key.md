@@ -32,7 +32,7 @@ So in order to prevent that from happening, then you have to explore using combi
 
 So when it comes to key combinations for macros, there is nothing more unique than:
 
-- `Cmd + Alt + Ctrl + Shift + {{ desiredKey }}`
+- `Cmd + Alt + Ctrl + Shift + ${desiredKey}`
 
 After all, can you imagine a UX designer proposing that a software requires a user hit five keys simultaneously in order to execute something? 🤣 However, because it is something that no application would ever do, this gives us the opportunity to create an entire set of keyboard shortcuts without any fear of collision.
 
