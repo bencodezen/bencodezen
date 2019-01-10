@@ -50,7 +50,7 @@ While there might be some who disagree with me, the `Caps Lock` key is pretty us
 
 Once you've chosen your sacrificial key, the key thing is to reprogram it using [Karabiner-Elements]([https://pqrs.org/osx/karabiner/](https://pqrs.org/osx/karabiner/)). This allows you to program any key to do different key combinations in a pretty straightforward manner.
 
-::: warning Sorry
+::: warning SORRY 😞
 Unfortunately I don't have a good guide for this on PC yet, but will be sure to release another post when I do.
 :::
 
