@@ -67,6 +67,25 @@ I'll come out with a more detailed tutorial in the future, but at a high level:
 If you are having issues with the hyper key, assign "No Action" to the `Caps Lock` key via your macOS Keyboard preferences under Modifier Keys.
 :::
 
+## How I Use My Hyper Key
+
+Currently my hyper key primarily serves as my launch point for common applications I use:
+
+- `Hyper + C`: Chrome
+- `Hyper + V`: VS Code
+- `Hyper + I`: iTerm 2
+- `Hyper + N`: Notion
+- etc.
+
+It also helps me to position windows on my desktop through the [Magnet](http://magnet.crowdcafe.com/) app. 
+
+- `Hyper + Right Arrow`: Right 50% of the screen
+- `Hyper + Left Arrow`: Left 50% of the screen
+- `Hyper + Up Arrow`: Top 50% of the screen
+- `Hyper + Down Arrow`: Bottom 50% of the screen
+
+So with two key strokes, I can position my window anywhere I need it to be with minimal effort. Or switch to an application that I use very frequently.
+
 ## Next Steps
 
 Of course, the next thing you'll want to do is to create macros with your new hyper key. I'll write more on this in the future, but in case you want to do some research on your own, be sure to check out [Keyboard Maestro]([https://www.keyboardmaestro.com/main/](https://www.keyboardmaestro.com/main/)). Till next week's edition of Wednesday Workflow!
