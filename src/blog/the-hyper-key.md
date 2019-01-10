@@ -14,7 +14,7 @@ For someone like me who is obsessed with being incredibly fast with accomplishin
 
 ## Quick Review: Macros
 
-Macros are basically keyboard shortcuts that you program yourself. For example, when you hit `Cmd/Ctrl + C`, that is a keyboard shortcut to execute the copy function. The cool thing is that you can have macros do multiple things based on your choosing, but more on that in another post!
+Macros are basically keyboard shortcuts for some function on your computer. For example, when you hit `Cmd/Ctrl + C` after highlighting text, that is a keyboard shortcut to execute the copy function. What a lot of people don't know is that you can create custom shortcuts for your own workflow and do some pretty nifty things. More on that in another post though!
 
 ## A Common Issue with Macros
 
