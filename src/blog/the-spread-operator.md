@@ -3,7 +3,7 @@ title: The Spread Operator
 date: 2019-01-08 22:48:44
 type: post
 blog: true
-excerpt:
+excerpt: "The spread operator is a shorthand technique introduced in ECMAScript 2015 to solve a common problem: Taking the items within an iterable and distributing them within another iterable."
 tags:
   - tutorials
   - javascript

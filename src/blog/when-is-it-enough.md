@@ -3,7 +3,7 @@ title: When Is It Enough?
 date: 2019-01-07 22:30:34
 type: post
 blog: true
-excerpt: A contrarian to the opinion of "it never is enough."
+excerpt: My thoughts on the concept of whether there is ever a time when learning is enough. We will examine common responses along with what I think is the correct answer to this question.
 tags:
 ---
 
