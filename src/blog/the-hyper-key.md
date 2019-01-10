@@ -44,7 +44,7 @@ That's right. We are going to "create" a hyper key!
 
 ## How I Created My Hyper Key
 
-Since my goal is to repurpose a key to be my hyper key, it means that I have to choose a sacrificial key that is easily accessible. For example, making my Esc key be the hyper key would be rather awkward because my left pinky finger would have to stretch awkwardly to access it every time and there's a decent risk of hitting the wrong key.
+Since you can't just add a new key to your keyboard, this means that you have to choose a sacrificial key that is also easily accessible. For example, making my `Esc` key be the hyper key would be rather awkward because my left pinky finger would have to stretch awkwardly to access it every time and there's a decent risk of hitting the wrong key.
 
 While there might be some who disagree with me, the `Caps Lock` key is pretty useless to me since I rarely type in all caps (and if I need to it's not that inconvenient to hold down the `Shift` key). So it was an easy choice for me to sacrifice it for my new hyper key.
 
