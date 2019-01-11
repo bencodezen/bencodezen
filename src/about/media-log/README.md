@@ -12,8 +12,13 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 ### January
 
+- [*Sherlock*](https://www.bbc.co.uk/programmes/b018ttws), S1-4 (TV) [R]
+
 #### 1st
 - [*Tidying Up with Marie Kondo*](https://www.netflix.com/title/80209379), S1E1 (TV)
 
 #### 4th
 - [*Success, failure and the drive to keep creating*](https://www.ted.com/talks/elizabeth_gilbert_success_failure_and_the_drive_to_keep_creating), TED2014 (L)
+
+#### 11th
+- [*Tidying Up with Marie Kondo*](https://www.netflix.com/title/80209379), S1E2 (TV)
