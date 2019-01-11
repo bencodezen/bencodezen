@@ -37,7 +37,54 @@ In other words, it should always be a work in progress. And the reason for this 
 
 ## Living and Breathing the 25/75 Rule
 
-As I wrote in my [Progress Over Perfection post](https://www.bencodezen.io/blog/progress-over-perfection.html), I have been trying my best to treat the blog as a place of brainstorming and trying out new concepts without trying to spend time polishing the content to the extreme. And in lieu of that, all of my blog posts lately have been the result of taking an idea and trying to push it into this 25/75 range. In other words, I spend no more than an hour on these sometimes before publishing it. And while this is terrifying on multiple levels to me, I always remind myself that I can update it as needed.
+As I wrote in my [Progress Over Perfection post](https://www.bencodezen.io/blog/progress-over-perfection.html), I have been trying my best to treat the blog like my sketchbook. In other words, it is a place of brainstorming and trying out new concepts without trying to spend time polishing the content. After all, based on my past experience, none of these posts would ever see the light of day 😅.
+
+### The Ideal Writing Process
+
+If I had to break down my ideal writing process into stages, it would look something like this:
+
+1. Come up with an idea and jot down the title
+1. Establish a couple bullet points that might be worth bringing up
+1. Fleshing out those bullet points into some sort of outline
+1. Writing whatever comes to mind based on that general outline (which is often a mental model and not necessarily something written down)
+1. Go through one pass of minor revisions for glaring mistakes
+1. Allow some time to go by so I can get fresh eyes on it
+1. Go through a more thorough reading of the piece
+1. Get stuck in a semi-infinite loop of revisions and self-doubt as to whether it's even worth publishing
+1. Miraculously get out of Step #8 and work up the courage to get feedback on the article
+1. Publish the article
+
+So in other words, if I could make it through every step, that would be the 100% completion of a blog post. From my past experience, I rarely got to the end because I usually got stuck at Step #8. And though I'm not proud to admit it, over time I just got discouraged at Step #3 because I became conditioned to think I would never get past Step #8.
+
+### My Current Writing Process
+
+Based on my ideal workflow, I would say that a single blog post would take at minimum 4 hours to go from ideation to completion assuming there are no delays in the process. For anyone who has ever written content before, they are probably laughing because it usually takes much longer than that.
+
+In an effort to try and minimize my self-doubt and perfectionist attitude that led me to never publish anything, I ended up modifying the writing process to look like this:
+
+1. Come up with an idea and jot down the title
+1. Write a couple of bullets for things I want to definitely cover
+1. Based on the vague mental model I generate from that, I write my first draft
+1. Go through one pass for minor revisions for obvious mistakes
+1. Publish the article
+
+As you can see, this process is far more streamlined that my ideal workflow for two primary reasons:
+
+1. I don't spend a ton of time revising the piece which prevents the perfectionist in me to keep the piece in a permanent draft state
+1. I move the feedback stage out of the initial publishing workflow because I know that I can still get feedback after and make edits as necessary
+
+If you think about it, without realizing it, I actually stumbled upon the 25/75 rule because my blog posts are usually about 60-70% complete when they are published. And as far as the time invested goes, they have been taking roughly 45 minutes each.
+
+## Final Thoughts
+
+While I have to deal with the occasional face palm of seeing a typo or odd phrasing, using the 25/75 approach has been revolutionary for my productivity and output. In addition to the simple benefit of actually publishing content, I have found that:
+
+- Being able to get these ideas out of my head has been a big mental relief since it makes room for other ideas
+- Rather than waiting to present the perfect version of a concept I care about which will never get published, I get something out there for people to think about
+- I am able to try out ideas and concepts that I might not have tried otherwise because the exercise of creating is more important right now than writing perfect articles
+- I can still get meaningful feedback on my work and make the proper updates as needed
+
+Thanks for reading!
 
 ::: warning Footnote
 I haven't been able to do the research to verify the fact that Pixar used or continues to use this technique in their meetings, but at this time, I'm not terribly worried about it since I think the principle is valid regardless.
