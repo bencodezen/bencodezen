@@ -13,6 +13,7 @@
 		"@fortawesome/fontawesome-pro": "^5.6.3",
 		"@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
 		"vuepress": "^1.0.0-alpha.30",
+		"vuepress-plugin-janitor": "^1.0.0",
 		"vuepress-plugin-rss": "^2.0.0",
 		"yaml-front-matter": "^4.0.0"
 	}
