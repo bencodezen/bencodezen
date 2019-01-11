@@ -2,6 +2,7 @@ module.exports = {
 	title: 'BenCodeZen',
 	dest: './public',
 	themeConfig: {
+		domain: 'https://www.bencodezen.io',
 		repo: 'https://github.com/bencodezen/bencodezen',
 		repoLabel: 'Repo',
 		docsDir: 'src',

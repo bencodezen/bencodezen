@@ -10,7 +10,8 @@
     <section class="share">
       <h2>Share</h2>
       <a class="share__button" 
-        href="https://twitter.com/intent/tweet?text=www.google.com"
+        :href="`https://twitter.com/intent/tweet?text=${$page.title} by @bencodezen ${$themeConfig.domain}${$page.path}`"
+        target="_blank"
       >
         <i class="fab fa-twitter"></i> Tweet
       </a>
