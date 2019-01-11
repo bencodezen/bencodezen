@@ -1,7 +1,7 @@
 {
 	"name": "bencodezen",
 	"description": "Personal site of BenCodeZen",
-	"version": "5.2.0",
+	"version": "5.2.1",
 	"license": "Apache-2.0",
 	"url": "https://github.com/bencodezen/bencodezen",
 	"scripts": {
