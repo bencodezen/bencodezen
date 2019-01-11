@@ -7,6 +7,15 @@
 
     <Content custom />
 
+    <section class="share">
+      <h2>Share</h2>
+      <a class="share__button" 
+        href="https://twitter.com/intent/tweet?text=www.google.com"
+      >
+        <i class="fab fa-twitter"></i> Tweet
+      </a>
+    </section>
+
     <div class="page-edit">
       <div
         class="edit-link"
@@ -271,6 +280,25 @@ function find (page, items, offset) {
     overflow auto // clear float
   .next
     float right
+
+.share {
+  margin-bottom: 2rem;
+
+  &__button {
+    padding: 0.5rem 1rem;
+    border: 1px solid $accentColor;
+    border-radius: 10px;
+    background-color: $accentColor;
+    color: #fff;
+    transition: 0.2s ease-in background-color,
+      0.2s ease-in color;
+
+    &:hover {
+      background-color: #fff;
+      color: $accentColor;
+    }
+  }
+}
 
 @media (max-width: $MQMobile)
   .page-edit
