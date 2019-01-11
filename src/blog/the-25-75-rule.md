@@ -30,7 +30,7 @@ According to Jared's article, when people are presenting their work at the Daili
 
 > The presented work should be at least 25% done and no more than 75% completed.
 
-In other words, it should always be a work in progress (WIP). And the reason for this is quite straightforward.
+In other words, it should always be a work in progress. And the reason for this is quite straightforward.
 
 1. If the work is less than 25% complete, it is too early to properly evaluate or review. After all, it is not worth people's time to look into since you haven't spent the time yourself to even vet the concept past the thought experiment phase.
 1. If the work is past 75% complete, there has often been so much resource invested into it that it is often difficult for the work to take criticism and/or feedback. After all, can you imagine being told to start over if you're 95% of the way there?
