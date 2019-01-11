@@ -3,7 +3,7 @@ title: The 25/75 Rule
 date: 2019-01-10 23:43:14
 type: post
 blog: true
-excerpt: 'I recently came across an article written by Jared Spool called "Good, Bads, and Dailies: Lessons for Conducting Great Critiques" which covers the concepts of what makes reviews / critiques good or bad. One thing that stuck out to me in particular was his discussion around Pixar's use of a meeting called "Dailies" and the 25-75 rule that governed the dailies.'
+excerpt: "I recently came across an article written by Jared Spool called Good, Bads, and Dailies: Lessons for Conducting Great Critiques which covers the concepts of what makes reviews / critiques good or bad. One thing that stuck out to me in particular was his discussion around Pixar's use of a meeting called Dailies and the 25-75 rule that governed the dailies."
 tags:
     - productivity
     - workflow
