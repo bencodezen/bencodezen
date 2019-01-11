@@ -35,10 +35,10 @@ In other words, it should always be a work in progress. And the reason for this 
 1. If the work is less than 25% complete, it is too early to properly evaluate or review. After all, it is not worth people's time to look into since you haven't spent the time yourself to even vet the concept past the thought experiment phase.
 1. If the work is past 75% complete, there has often been so much resource invested into it that it is often difficult for the work to take criticism and/or feedback. After all, can you imagine being told to start over if you're 95% of the way there?
 
-::: warning Note
-I haven't been able to do the research to verify the fact that Pixar used or continues to use this technique in their meetings, but at this time, I'm not terribly worried about it since I think the principle is valid regardless.
-:::
-
 ## Living and Breathing the 25/75 Rule
 
 As I wrote a while back in my Progress Over Perfection post, I have been trying my best to treat the blog as a place of brainstorming and trying out new concepts without trying to spend time polishing the content to the extreme. And in lieu of that, all of my blog posts lately have been the result of taking an idea and trying to push it into this 25/75 range. In other words, I spend no more than an hour on these sometimes before publishing it. And while this is terrifying on multiple levels to me, I always remind myself that I can update it as needed.
+
+::: warning Footnote
+I haven't been able to do the research to verify the fact that Pixar used or continues to use this technique in their meetings, but at this time, I'm not terribly worried about it since I think the principle is valid regardless.
+:::
