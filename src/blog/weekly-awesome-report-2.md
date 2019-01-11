@@ -16,7 +16,7 @@ Aside from my doubts and insecurities, I do want to say that I feel like I'm sta
 
 ## Achievements
 
-- 🎨 Started with the first live cohort of [DesignAcademy.io[(https://designacademy.io/)] with [Laura Elizabeth](https://twitter.com/laurium)
+- 🎨 Started with the first live cohort of [Design Academy](https://designacademy.io/) with [Laura Elizabeth](https://twitter.com/laurium)
 - 🏗️ Released [v0.9.0](https://github.com/bencodezen/vuepress-blog-boilerplate/blob/master/CHANGELOG.md) of [VuePress Blog Boilerplate](https://vuepress-blog-boilerplate.bencodezen.io/)
 - 🏗️ Released [v5.2.1](https://github.com/bencodezen/bencodezen/blob/master/CHANGELOG.md) of my site
 - 📝 Wrote five blog posts
