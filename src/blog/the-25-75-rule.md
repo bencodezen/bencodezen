@@ -10,7 +10,7 @@ tags:
     - principles
 ---
 
-I recently came across an article written by Jared Spool called "Good, Bads, and Dailies: Lessons for Conducting Great Critiques" which covers the concepts of what makes reviews / critiques good or bad. One thing that stuck out to me in particular was his discussion around Pixar's use of a meeting called "Dailies" and the 25-75 rule that governed the dailies.
+I recently came across an article written by [Jared Spool](https://twitter.com/jmspool) called [Good, Bads, and Dailies: Lessons for Conducting Great Critiques](https://articles.uie.com/great_critiques/) which covers the concepts of what makes reviews / critiques good or bad. One thing that stuck out to me in particular was his discussion around Pixar's use of a meeting called "Dailies" and the 25-75 rule that governed the dailies.
 
 ## The 80/20 Rule (i.e., the Pareto Principle)
 
