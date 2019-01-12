@@ -3,14 +3,14 @@ title: "Saturday Solutions #1"
 date: 2019-01-12 07:00:00
 type: post
 blog: true
-excerpt: 
+excerpt: "Today I will be breaking down different approaches for solving the code challenge in Sunday Studies #1. I will start with using fundamental JavaScript skills and then build up to more modern techniques like ES6."
 tags:
     - code challenges
     - solutions
     - javascript
 ---
 
-Today I will be breaking down different approaches for solving the code challenge in [Sunday Studies #1]. I will start with using fundamental JavaScript skills and then build up to more modern techniques like ES6.
+Today I will be breaking down different approaches for solving the code challenge in [Sunday Studies #1](/blog/sunday-studies-1.html). I will start with using fundamental JavaScript skills and then build up to more modern techniques with ES6+.
 
 ## Recap: The Problem
 
@@ -37,9 +37,11 @@ var sweetStuff = []
 console.log(sweetStuff)
 ```
 
+[CodePen](https://codepen.io/bencodezen/pen/VqxbdZ)
+
 ## Solution
 
-### Fundamentals
+### Starting with the Basics
 
 The first thing that pops into my head when confronted with a problem with iterating over items and manipulating them for some kind of action is **looping**. So as far as pseudo coding goes, the solution goes something like this:
 
@@ -48,7 +50,7 @@ The first thing that pops into my head when confronted with a problem with itera
 1. Loop through the `desserts` array
 1. For every dessert item, add it into `sweetStuff`
 
-And while some 
+Here's what it would look like with JavaScript (ES5).
 
 ```js
 // Loop through the fruits array
@@ -68,6 +70,10 @@ for (var i = 0; i < desserts.length; i++) {
 }
 ```
 
+[CodePen - Solution (Basics)](https://codepen.io/bencodezen/pen/OrawBJ)
+
+Is this the most efficient code? No, but it gets you from zero to one. And when it comes to solving problems (especially in a technical interview), just go with your gut and show that you can solve the problem with no frills.
+
 ### The Concat Method
 
 As with any programming language, the next step past the fundamental method is to learn what built-in functions help to with common scenarios such as this. So for those who haven't encountered it before, you'll definiteely want to check out the [concat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) array method.
@@ -80,9 +86,11 @@ So the solution would look like this:
 sweetStuff = fruits.concat(desserts)
 ```
 
+[CodePen - Sunday Studies #1: Solution (Concat)](https://codepen.io/bencodezen/pen/oJQMQa)
+
 ### ES6+ Method
 
-If the goal is to practice using ES6+ features, the one that should come to mind for this one the [spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax).
+If the goal is to practice using ES6+ features, the one that should come to mind for this one the [spread operator](/blog/the-spread-operator.html).
 
 TLDR; Take the items from an array / object and copies them into the new array / object
 
@@ -90,6 +98,12 @@ TLDR; Take the items from an array / object and copies them into the new array /
 sweetStuff  = [...fruits, ...desserts]
 ```
 
+[CodePen - Sunday Studies #1: Solution (Spread)](https://codepen.io/bencodezen/pen/BvGPMN)
+
 ### Extra Credit
 
 When I first wrote this code challenge, I thought that the ES6 method would be the answer to the extra credit. Upon closer inspection though, it turns out the `concat` method is shorter by two characters! 
+
+### Final Thoughts
+
+As I continue to iterate on this series, please feel free to reach out with requests and/or feedback. You can either reach out to me directly on [Twitter](https://www.twitter.com/bencodezen) or [open a new issue](https://github.com/bencodezen/bencodezen/issues/new). Thanks for reading!
