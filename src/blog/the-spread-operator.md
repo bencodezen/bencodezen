@@ -119,8 +119,8 @@ const list2 = [...list] // [1, 2, 3]
 list.push(4)
 
 // Only the original list is modified
-console.log(list) // [1, 2, 3]
-console.log(list2) // [1, 2, 3, 4]
+console.log(list) // [1, 2, 3, 4]
+console.log(list2) // [1, 2, 3]
 ```
 
 If you wanted to do this without the spread syntax, you'd have to write a lot more code. Here's a simple example of how one might do it:
