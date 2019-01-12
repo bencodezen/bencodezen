@@ -37,7 +37,7 @@ var sweetStuff = []
 console.log(sweetStuff)
 ```
 
-[CodePen](https://codepen.io/bencodezen/pen/VqxbdZ)
+[CodePen - Sunday Studies #1: Problem](https://codepen.io/bencodezen/pen/VqxbdZ)
 
 ## Solution
 
@@ -70,7 +70,7 @@ for (var i = 0; i < desserts.length; i++) {
 }
 ```
 
-[CodePen - Solution (Basics)](https://codepen.io/bencodezen/pen/OrawBJ)
+[CodePen - Sunday Studies #1: Solution (Basics)](https://codepen.io/bencodezen/pen/OrawBJ)
 
 Is this the most efficient code? No, but it gets you from zero to one. And when it comes to solving problems (especially in a technical interview), just go with your gut and show that you can solve the problem with no frills.
 
