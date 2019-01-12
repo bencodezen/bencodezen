@@ -139,3 +139,7 @@ for (let i = 0; i < list.length; i++) {
 ## In Summary
 
 The spread syntax is an incredibly powerful technique that you should use as often as you can. I'll try to come out with a worksheet to practice it soon, but feel free to let me know if you have any questions in the meantime.
+
+## Additional Resources
+
+- [MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
