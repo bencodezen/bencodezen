@@ -37,12 +37,10 @@
 </template>
 
 <script>
-import MailchimpForm from "../components/MailchimpForm.vue";
 import NavLink from "../components/NavLink.vue";
 
 export default {
   components: {
-    MailchimpForm,
     NavLink
   },
 
