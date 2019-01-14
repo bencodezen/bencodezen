@@ -19,6 +19,10 @@ What I will promise you is that you will **NEVER** get:
 - Spam. I loathe it and would never betray your trust in providing me space in your inbox.
 - Extraneous updates. When I say weekly, I mean weekly and no more than that. If I ever decide to create a more spontaneous newsletter, I will let people opt into that on their own and will never reuse the emails from the weekly list.
 
+## Subscribe
+
+<MailchimpForm style="margin: 1.5rem 0 3rem;" />
+
 ::: tip 🎩 tip
 Thanks to Harry Roberts for inspiring this page! You can find [his newsletter here](https://csswizardry.com/newsletter/).
 :::
