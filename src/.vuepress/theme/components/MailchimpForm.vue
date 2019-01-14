@@ -20,24 +20,27 @@ export default {
     <div id="mc_embed_signup_scroll">
       <div class="mc-field-group">
         <label class="email-label" for="mce-EMAIL">Email Address</label>
-        <input class="email-input" type="email" value name="EMAIL" id="mce-EMAIL" required>
+        <input 
+          class="email-input" 
+          type="email" 
+          value 
+          name="EMAIL" 
+          id="mce-EMAIL" 
+          placeholder="username@domain.com"
+          required>
       </div>
-      <div class="mc-field-group input-group">
-        <strong>GDPR Consent</strong>
-        <ul>
-          <li>
-            <input
-              type="checkbox"
-              value="1"
-              name="group[23521][1]"
-              id="mce-group[23521]-23521-0"
-              required
-            >
-            <label
-              for="mce-group[23521]-23521-0"
-            >I would like to subscribe to emails from BenCodeZen</label>
-          </li>
-        </ul>
+      <div class="input-group input-group--gdpr">
+        <strong class="email-label">GDPR Consent</strong>
+        <input
+          type="checkbox"
+          value="1"
+          name="group[23521][1]"
+          id="mce-group[23521]-23521-0"
+          required
+        >
+        <label
+          for="mce-group[23521]-23521-0"
+        >I would like to subscribe to emails from BenCodeZen</label>
       </div>
       <div id="mce-responses" class="clear">
         <div class="response" id="mce-error-response" style="display:none"></div>
@@ -58,7 +61,7 @@ export default {
         value="Subscribe"
         name="subscribe"
         id="mc-embedded-subscribe"
-        class="button"
+        class="submit-button"
         :disabled="isSpam"
       >
     </div>
@@ -78,11 +81,38 @@ input:focus {
   border-color: #333;
 }
 
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
 .email-label {
   display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 .email-input {
   width: 100%;
+  margin-bottom: 1.2rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-family: 'PT Serif', serif;
+}
+
+.submit-button {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #2af;
+  padding: 0.8rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.1s ease;
+  box-sizing: border-box;
+  border-bottom: 1px solid #059fff;
+  font-family: 'PT Serif', serif;
+}
+
+.input-group--gdpr {
+  font-size: 1rem;
 }
 </style>

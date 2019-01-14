@@ -152,10 +152,10 @@ export default {
 
 .subscribe {
   margin: 0 auto;
-  padding: 1.2rem 0;
+  padding: 3rem 0;
 
   &__title {
-    margin-top: 0.5rem;
+    margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: 0;
