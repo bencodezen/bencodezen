@@ -19,11 +19,15 @@ For this week, we are going to practice using these in order to gain familiarity
 
 ## Code Challenge
 
-For each problem below, write out as many versions of the solution as possible for practice:
+### Data
 
 ```js
 var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+
+### Scenarios
+
+For each problem below, write out as many versions of the solution as possible for practice:
 
 1. Double the value of every item in `list`
 1. Transform each item in `list` to be a string " o'clock" appended to the current item (i.e., `1` becomes `"1 o'clock"`)
