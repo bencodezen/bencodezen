@@ -10,7 +10,7 @@
     <section class="share">
       <h2>Share</h2>
       <a class="share__button" 
-        :href="`https://twitter.com/intent/tweet?text=${$page.title} by @bencodezen ${$themeConfig.domain}${$page.path}`"
+        :href="`https://twitter.com/intent/tweet?text=${urlPostTitle} by @bencodezen ${$themeConfig.domain}${$page.path}`"
         target="_blank"
       >
         <i class="fab fa-twitter"></i> Tweet
@@ -168,6 +168,10 @@ export default {
         } 
         
         return dateFormat.toLocaleDateString(this.$lang, options)
+    },
+
+    urlPostTitle() {
+      return encodeURIComponent(this.$page.title)
     }
   },
 
