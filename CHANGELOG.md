@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## 5.3.0 - 2019.01.14
+### Added
+- Email newsletter component
+- Newsletter page
+
 ## 5.2.1 - 2019.01.11
 ### Added
 - New plugin to clean up future posts in build directory 
