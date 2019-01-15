@@ -44,12 +44,14 @@ In other words, I created content with whatever concept or topic inspired me. He
 1. Giveaways
 1. CodePens
 1. Blog Posts
+1. Live Streaming
 
 And once I had that initial base of ideas, I just used them as a foundation to catapult into other ones based on whatever my interest was at the time. Some ideas that I had sketched out included:
 
 1. Super Smash Bros. inspired character selection
 1. Harry Potter inspired CodePens
 1. Code challenges
+1. Product reviews
 1. And so forth...
 
 While I ran out of time to fully execute on some of these concepts, the sheer act of coming up with idea after idea to have something for each day was incredible training. Was it difficult? Absolutely. Was it worth it? Absolutely.
