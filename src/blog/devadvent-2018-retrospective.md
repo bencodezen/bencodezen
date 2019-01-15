@@ -46,7 +46,7 @@ In other words, I created content with whatever concept or topic inspired me. He
 1. Blog Posts
 1. Live Streaming
 
-And once I had that initial base of ideas, I just used them as a foundation to catapult into other ones based on whatever my interest was at the time. Some ideas that I had sketched out included:
+And once I had those initial ideas, I used them as a foundation to catapult into other ones based on whatever my interest was at the time. Some ideas that I had sketched out included:
 
 1. Super Smash Bros. inspired character selection
 1. Harry Potter inspired CodePens
