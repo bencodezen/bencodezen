@@ -1,11 +1,11 @@
 <script>
 export default {
-  data() {
+  data () {
     return {
       isSpam: false
-    };
+    }
   }
-};
+}
 </script>
 
 <template>
@@ -94,9 +94,10 @@ input:focus {
 .email-input {
   width: 100%;
   margin-bottom: 1.2rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.7rem 0.7rem;
   font-size: 1.2rem;
   font-family: 'PT Serif', serif;
+  border: 1px solid rgb(186, 186, 186);
 }
 
 .submit-button {
