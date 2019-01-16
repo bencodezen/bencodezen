@@ -34,3 +34,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 13th
 
 - [The Good Place](https://www.nbc.com/the-good-place), S3E10 (TV)
+
+#### 16th
+
+- [SyntaxFM: Potluck - Where to start with JS × Freelancing × Cron jobs × Split testing × Frameworks in 2019 × More], Episode 108, (P)
