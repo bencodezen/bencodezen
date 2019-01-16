@@ -12,24 +12,24 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 ### January
 
-- [*Sherlock*](https://www.bbc.co.uk/programmes/b018ttws), S1-4 (TV) [R]
+- [Sherlock](https://www.bbc.co.uk/programmes/b018ttws), S1-4 (TV) [R]
 
 #### 1st
-- [*Tidying Up with Marie Kondo*](https://www.netflix.com/title/80209379), S1E1 (TV)
+- [Tidying Up with Marie Kondo](https://www.netflix.com/title/80209379), S1E1 (TV)
 
 #### 4th
-- [*Success, failure and the drive to keep creating*](https://www.ted.com/talks/elizabeth_gilbert_success_failure_and_the_drive_to_keep_creating), TED2014 (L)
+- [Success, failure and the drive to keep creating](https://www.ted.com/talks/elizabeth_gilbert_success_failure_and_the_drive_to_keep_creating), TED2014 (L)
 
 #### 10th
-- [*Tidying Up with Marie Kondo*](https://www.netflix.com/title/80209379), S1E5 (TV)
+- [Tidying Up with Marie Kondo](https://www.netflix.com/title/80209379), S1E5 (TV)
 
 #### 11th
 
-- [*The surprising habits of original thinkers*](https://www.ted.com/talks/adam_grant_the_surprising_habits_of_original_thinkers), TED2016 (L)
+- [The surprising habits of original thinkers](https://www.ted.com/talks/adam_grant_the_surprising_habits_of_original_thinkers), TED2016 (L)
 
 #### 12th
 
-- [*Tidying Up with Marie Kondo*](https://www.netflix.com/title/80209379), S1E3 (TV)
+- [Tidying Up with Marie Kondo](https://www.netflix.com/title/80209379), S1E3 (TV)
 
 #### 13th
 
@@ -37,4 +37,5 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 #### 16th
 
-- [SyntaxFM: Potluck - Where to start with JS × Freelancing × Cron jobs × Split testing × Frameworks in 2019 × More], Episode 108, (P)
+- [SyntaxFM: Potluck - Where to start with JS × Freelancing × Cron jobs × Split testing × Frameworks in 2019 × More](https://syntax.fm/show/108/potluck-where-to-start-with-js-freelancing-cron-jobs-split-testing-frameworks-in-2019-more), Episode 108, (P)
+- [The Seven Deadly Sins: Prisoners of the Sky](https://nanatsu-no-taizai.fandom.com/wiki/The_Seven_Deadly_Sins:_Prisoners_of_the_Sky) (F)
