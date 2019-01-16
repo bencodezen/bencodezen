@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## 5.3.1 - 2019.01.15
+### Changed
+- Enforcee all elements to use box-sizing border box
+
 ### Fixed
 - Newsletter submit button displaying odd on mobile
 
