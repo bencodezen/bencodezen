@@ -39,3 +39,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - [SyntaxFM: Potluck - Where to start with JS × Freelancing × Cron jobs × Split testing × Frameworks in 2019 × More](https://syntax.fm/show/108/potluck-where-to-start-with-js-freelancing-cron-jobs-split-testing-frameworks-in-2019-more), Episode 108, (P)
 - [The Seven Deadly Sins: Prisoners of the Sky](https://nanatsu-no-taizai.fandom.com/wiki/The_Seven_Deadly_Sins:_Prisoners_of_the_Sky) (F)
+
+#### 17th
+
+- [The power of passion and perseverance](https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance), TED Talks Education 2013 (L)
