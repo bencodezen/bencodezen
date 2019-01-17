@@ -136,6 +136,18 @@ for (let i = 0; i < list.length; i++) {
 
 🤦‍
 
+## Performance
+
+[@GMano](https://www.twitter.com/GM_twits) had a great question regarding the performance of spread operators. So, like any other performance test, my go to reference for these types of questions is [JSPerf.com](https://jsperf.com).
+
+Here's a series of tests that you can run to see the results! [https://jsperf.com/spread-operator-to-push/2](https://jsperf.com/spread-operator-to-push/2)
+
+![Table summary of JSPerf results](/images/2019/jsperf-spread-test.png)
+
+The basic takeaway is this: You want to use `concat` when working with large arrays that you want to fuse together. 
+
+Does that mean you should never use spread? Absolutely not! Similar to the practicality of algorithms, the data is often so small that the performance difference is negligible at best. The key thing to remember is when you're working with large data. Otherwise, keep using it to your heart's content!
+
 ## In Summary
 
 The spread syntax is an incredibly powerful technique that you should use as often as you can. I'll try to come out with a worksheet to practice it soon, but feel free to let me know if you have any questions in the meantime.
