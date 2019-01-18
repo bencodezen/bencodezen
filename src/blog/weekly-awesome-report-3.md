@@ -28,6 +28,7 @@ Till next week. Cheers! 🥂
 
 - 📹 Streamed with [Anna (@whatsupanna)](https://www.twitter.com/whatsupanna) as [we unboxed our Kano Harry Potter wands and tried out their teaching platform](https://www.youtube.com/watch?v=_FzvzQq8GBE)!
 - 🏗️ Released [v5.3.1](https://github.com/bencodezen/bencodezen/blob/master/CHANGELOG.md) of my site
+- 🎊 Figured out how to use GitLab's CI/CD to automatically trigger a deploy to a DigitalOcean server on updates to thee master branch!
 - 📝 Wrote three blog posts
 
 
