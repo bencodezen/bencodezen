@@ -202,6 +202,19 @@ export default {
         path
       )
     }
+  },
+
+  mounted() {
+    let tweets = document.querySelectorAll('.twitter-tweet')
+
+    if (tweets && tweets.length > 0) {
+      tweets.forEach(tweet => {
+        let id = tweet.dataset.twitterId
+        twttr.widgets.createTweet(id, tweet)
+        tweet.setAttribute('style', 'border: 0; padding: 0; margin-right: 0;')
+        tweet.children[0].setAttribute('style', 'display: none;')
+      })
+    }
   }
 }
 
@@ -231,7 +244,7 @@ function find (page, items, offset) {
 }
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
 @import '../styles/config.styl'
 @require '../styles/wrapper.styl'
 
@@ -303,6 +316,10 @@ function find (page, items, offset) {
       color: $accentColor;
     }
   }
+}
+
+.twitter-tweet-rendered {
+  margin: 10px auto;
 }
 
 @media (max-width: $MQMobile)
