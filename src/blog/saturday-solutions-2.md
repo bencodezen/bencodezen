@@ -25,8 +25,12 @@ Only loop through items that have an even index. In other words, the loop should
 
 ### Double the value of every item in list
 
+#### for loop
+
 ```js
-// for loop
+/**
+ * ES5
+ */
 var doubledList = []
 
 for (var i = 0; i < list.length; i++) {
@@ -36,8 +40,12 @@ for (var i = 0; i < list.length; i++) {
 }
 ```
 
+#### forEach
+
 ```js
-// forEach loop
+/**
+ * ES5
+ */
 var doubledList = []
 
 list.forEach(function(item) { 
@@ -45,8 +53,12 @@ list.forEach(function(item) {
 })
 ```
 
+#### map
+
 ```js
-// map
+/**
+ * ES5
+ */
 var doubledList = list.map(function(item) {
     return item * 2
 })
@@ -54,8 +66,12 @@ var doubledList = list.map(function(item) {
 
 ### Transform each item in list to be a string " o'clock" appended to the current item (i.e., 1 becomes "1 o'clock")
 
+#### for loop
+
 ```js
-// for loop
+/**
+ * ES5
+ */
 var timeList = []
 
 for (var i = 0; i < list.length; i++) {
@@ -65,8 +81,12 @@ for (var i = 0; i < list.length; i++) {
 }
 ```
 
+#### forEach
+
 ```js
-// forEach loop
+/**
+ * ES5
+ */
 var timeList = []
 
 list.forEach(function(item) {
@@ -74,8 +94,12 @@ list.forEach(function(item) {
 })
 ```
 
+#### map
+
 ```js
-// map
+/**
+ * ES5
+ */
 var timeList = list.map(function(item) {
     return item + " o'clock"
 })
@@ -86,6 +110,9 @@ var timeList = list.map(function(item) {
 This is a trick problem in that there is only one solution. If you use any other loop, you end up breaking the requirement of only running 5 iterations of the loop.
 
 ```js
+/**
+ * ES5
+ */
 var triList = []
 
 for (var i = 0; i < list.length; i += 2)  {
