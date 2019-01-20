@@ -51,6 +51,15 @@ var doubledList = []
 list.forEach(function(item) { 
     doubledList.push(item * 2)
 })
+
+/**
+ * ES6
+ */
+let doubledList = []
+
+list.forEach(item => { 
+    doubledList.push(item * 2)
+})
 ```
 
 #### map
@@ -62,6 +71,11 @@ list.forEach(function(item) {
 var doubledList = list.map(function(item) {
     return item * 2
 })
+
+/**
+ * ES6
+ */
+let doubledList = list.map(item => item * 2)
 ```
 
 ### Transform each item in list to be a string " o'clock" appended to the current item (i.e., 1 becomes "1 o'clock")
@@ -79,6 +93,17 @@ for (var i = 0; i < list.length; i++) {
 
     timeList.push(currentItem + " o'clock")
 }
+
+/**
+ * ES6
+ */
+let timeList = []
+
+for (let i = 0; i < list.length; i++) {
+    let currentItem = list[i]
+
+    timeList.push(`${currentItem} o'clock`)
+}
 ```
 
 #### forEach
@@ -92,6 +117,15 @@ var timeList = []
 list.forEach(function(item) {
     timeList.push(item + " o'clock")
 })
+
+/**
+ * ES6
+ */
+let timeList = []
+
+list.forEach(item => {
+    timeList.push(`${item} o'clock`)
+})
 ```
 
 #### map
@@ -103,6 +137,11 @@ list.forEach(function(item) {
 var timeList = list.map(function(item) {
     return item + " o'clock"
 })
+
+/**
+ * ES6
+ */
+let timeList = list.map(item => `${item} o'clock`)
 ```
 
 ### Replace every item that is divisible by 3 with the string "triforce." Only loop through items that have an even index. In other words, the loop should only run 5 times.
@@ -117,6 +156,21 @@ var triList = []
 
 for (var i = 0; i < list.length; i += 2)  {
     var currentItem  = list[i]
+
+    if (currentItem % 3 === 0) {
+        triList.push("triforce")
+    } else {
+        triList.push(currentItem)
+    }
+}
+
+/**
+ * ES6
+ */
+let triList = []
+
+for (let i = 0; i < list.length; i += 2)  {
+    let currentItem  = list[i]
 
     if (currentItem % 3 === 0) {
         triList.push("triforce")
