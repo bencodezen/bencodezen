@@ -83,6 +83,8 @@ var timeList = list.map(function(item) {
 
 #### Replace every item that is divisble by 3 with the string "triforce." Only loop through items that have an even index. In other words, the loop should only run 5 times.
 
+This is a trick problem in that there is only one solution. If you use any other loop, you end up breaking the requirement of only running 5 iterations of the loop.
+
 ```js
 var triList = []
 
