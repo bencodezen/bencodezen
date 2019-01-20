@@ -3,7 +3,7 @@ title: "Saturday Solutions #2"
 date: 2019-01-19 20:11:37
 type: post
 blog: true
-excerpt: "Today I will be breaking down different approaches for solving the code challenge in Sunday Studies 21. "
+excerpt: "Today I will be breaking down different approaches for solving the code challenge in Sunday Studies #1. Let's explore for loops, forEach, and map together!"
 tags:
     - code challenges
     - solutions
