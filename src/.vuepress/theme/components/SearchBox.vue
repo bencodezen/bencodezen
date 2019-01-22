@@ -177,7 +177,8 @@ export default {
       border-color $accentColor
       cursor text
       left 0
-      width 10rem
+      width 18rem
+      margin-left: 1rem
   .suggestions
     background #fff
     width 20rem
@@ -222,6 +223,7 @@ export default {
       left 0
       margin-top 1rem
       z-index 9
+      top: 1.75rem
 
 @media (max-width: $MQMobileNarrow)
   .search-box
