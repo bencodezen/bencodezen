@@ -15,7 +15,7 @@
     >
     <ul
       class="suggestions"
-      v-if="showSuggestions"
+      v-if="!showSuggestions"
       :class="{ 'align-right': alignRight }"
       @mouseleave="unfocus"
     >
@@ -187,6 +187,7 @@ export default {
     border-radius 6px
     padding 0.4rem
     list-style-type none
+    right 0
     &.align-right
       right 0
   .suggestion
