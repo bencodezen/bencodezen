@@ -177,7 +177,7 @@ export default {
       border-color $accentColor
       cursor text
       left 0
-      width 18rem
+      width 12rem
       margin-left: 1rem
   .suggestions
     background #fff
@@ -219,6 +219,8 @@ export default {
     margin-right 0
     input
       left 1rem
+      &:focus
+        width 18rem
     .suggestions
       left 0
       margin-top 1rem
