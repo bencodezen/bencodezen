@@ -1,5 +1,5 @@
 ---
-title: Recognizing It Is Time to Pivot
+title: Recognizing The Time to Pivot
 date: 2019-01-21 19:08:48
 type: post
 blog: true
