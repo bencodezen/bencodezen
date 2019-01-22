@@ -15,7 +15,7 @@
     >
     <ul
       class="suggestions"
-      v-if="!showSuggestions"
+      v-if="showSuggestions"
       :class="{ 'align-right': alignRight }"
       @mouseleave="unfocus"
     >
