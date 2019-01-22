@@ -3,7 +3,7 @@ title: Recognizing The Time to Pivot
 date: 2019-01-21 19:08:48
 type: post
 blog: true
-excerpt: 
+excerpt: Today's post is about recognizing the need to pivot. What to pivot on exactly? Well, my strategy for creating content. And while it has only been a few weeks, I have come to realize that learning to cut your losses and adapt is critical to long term success. So this post is to record this moment of admission that my original plan has failed and it is time to move on.
 tags:
     - Strategy
     - Writing
