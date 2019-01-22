@@ -26,3 +26,16 @@ What I will promise you is that you will **NEVER** get:
 ::: tip 🎩 tip
 Thanks to Harry Roberts for inspiring this page! You can find [his newsletter here](https://csswizardry.com/newsletter/).
 :::
+
+```html
+<!-- Markup for Layout component -->
+<section class="subscribe">
+    <h2 class="subscribe__title">Subscribe to my weekly newsletter</h2>
+    <p class="subscribe__text">
+    Every Tuesday, you'll receive the latest blog posts, articles, tutorials, and code challenges!
+    <a
+        href="/newsletters/"
+    >Learn more...</a>
+    </p>
+</section>
+```

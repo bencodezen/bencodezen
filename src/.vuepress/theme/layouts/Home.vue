@@ -21,17 +21,6 @@
 
     <Content custom/>
 
-    <section class="subscribe">
-      <h2 class="subscribe__title">Subscribe to my weekly newsletter</h2>
-      <p class="subscribe__text">
-        Every Tuesday, you'll receive the latest blog posts, articles, tutorials, and code challenges!
-        <a
-          href="/newsletters/"
-        >Learn more...</a>
-      </p>
-      <MailchimpForm/>
-    </section>
-
     <div class="footer" v-if="data.footer">{{ data.footer }}</div>
   </div>
 </template>
