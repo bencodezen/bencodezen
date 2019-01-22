@@ -219,7 +219,9 @@ export default {
     input
       left 1rem
     .suggestions
-      right 0
+      left 0
+      margin-top 1rem
+      z-index 9
 
 @media (max-width: $MQMobileNarrow)
   .search-box
