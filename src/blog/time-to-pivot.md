@@ -1,5 +1,5 @@
 ---
-title: Time to Pivot
+title: Recognizing It Is Time to Pivot
 date: 2019-01-21 19:08:48
 type: post
 blog: true
@@ -9,7 +9,7 @@ tags:
     - Writing
 ---
 
-Today's post is about recognizing the need to pivot. More importantly, I need to recognize that my original endeavor of blogging was a failed iteration. 
+Today's post is about recognizing the need to pivot. What to pivot on exactly? Well, my strategy for creating content. And while it has only been a few weeks, I have come to realize that learning to cut your losses and adapt is critical to long term success. So this post is to record this moment of admission that my original plan has failed and it is time to move on.
 
 ## The Original Plan
 
