@@ -9,7 +9,7 @@ module.exports = {
 		editLinks: true,
 		logo: '/bencodezen-logo.png',
 		lastUpdated: 'Last Updated',
-		editLinkText: 'Found a bug? Help me improve this page!',
+		editLinkText: 'Help me improve this page!',
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Blog', link: '/blog/index.html' },
