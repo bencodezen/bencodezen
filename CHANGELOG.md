@@ -6,12 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## 5.3.3 - 2019.01.22
+## 5.3.4 - 2019.01.22
 ### Fixed
 - Outbound icon is now clickable
 - Improve readability on features on mobile
 
-## 5.3.2 - 2019.01.21
+## 5.3.3 - 2019.01.21
 ### Fixed
 - Resolve issue with search suggestion display
 
