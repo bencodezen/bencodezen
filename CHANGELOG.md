@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Changed
 - Edit link PR swapped to filing a new issue
+- Move blog disclaimer into hover info icon
 
 ## 5.3.4 - 2019.01.22
 ### Fixed
