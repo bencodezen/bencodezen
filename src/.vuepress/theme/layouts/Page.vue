@@ -10,7 +10,7 @@
         v-if="editLink"
       >
         <a
-          :href="editLink"
+          href="https://github.com/bencodezen/bencodezen/issues/new"
           target="_blank"
           rel="noopener noreferrer"
         >
