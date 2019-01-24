@@ -25,6 +25,8 @@ This page is inspired from Wes Bos' [Uses](https://wesbos.com/uses/) page.
 - Desk:
     - [Jarvis Bamboo Standing Desk](https://www.fully.com/jarvis-adjustable-height-desk-bamboo.html)
     - [Topo Standing Mat](https://www.amazon.com/Ergodriven-Not-Flat-Anti-Fatigue-Calculated-Must-Have/dp/B00V3TO9EK/)
+- Portable Laptop Stand:
+    - [Roost Laptop Stand](https://www.therooststand.com/collections/roost-laptop-stand/products/roost-laptop-stand)
 
 
 ## Editor & Terminal
