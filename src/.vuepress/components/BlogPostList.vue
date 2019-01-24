@@ -48,7 +48,16 @@ export default {
 </script>
 
 <template>
-	<div class="blog-list__container">   
+	<div class="blog-list__container"> 
+        <div class="blog-list__header">
+            <h1>Blog Posts</h1> 
+            <div style="margin-left:20px;" class="tooltip-ex"><strong><i class="fas fa-info-circle"></i></strong>
+                <span class="tooltip-ex-text tooltip-ex-bottom">Everything here is written via the stream of consciousness writing technique and should be treated as a rough draft at best (i.e., very little editing). However, I promise you one thing:  <strong><em>none of the posts below are meant to be offensive or malicious in any way</em></strong>. So if you read something that you feel is offensive, please let me know and I'll be happy to take the time to rewrite it!</span>
+            </div>
+        </div>
+
+        <h2>Most Recent</h2>
+
         <div 
             v-if="selectedTag"
             class="filtered-heading"
@@ -103,6 +112,11 @@ primary-color = #22AAFF
     margin-top: 2rem;
 }
 
+.blog-list__header {
+    display: flex;
+    align-items: center;
+}
+
 .blog-list__item {
 	list-style-type: none;
 }
@@ -138,5 +152,39 @@ primary-color = #22AAFF
 
 .pagination {
     text-align: center;
+}
+
+.tooltip-ex { /* Container for our tooltip */
+ position: relative;
+ display: inline-block;
+ cursor: help;
+ margin-right: 20px;
+ display: inline-block;
+ float: left;
+}
+
+.tooltip-ex-bottom {
+ top: 135%;
+ left: 50%;
+ margin-left: -60px;
+}
+
+.tooltip-ex-text {
+ visibility: hidden;
+ position: absolute;
+ width: 300px;
+ background-color: #555;
+ color: #fff;
+ text-align: center;
+ padding: 20px;
+ border-radius: 6px;
+ z-index: 1;
+ opacity: 0;
+ transition: opacity .6s;
+}
+
+.tooltip-ex:hover .tooltip-ex-text { /* Makes tooltip visible when hovered on */
+ visibility: visible;
+ opacity: 1;
 }
 </style>
