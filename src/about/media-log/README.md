@@ -48,3 +48,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - [Mistakes Were Made (But Not by Me)](https://www.amazon.com/Mistakes-Were-Made-But-Not-ebook/dp/B003K15IOE/ref=sr_1_1?ie=UTF8&qid=1548271215&sr=8-1&keywords=mistakes+were+made+but+not+by+me), Chapter 7 (B)
 - [Hasty Treat - CSS Grid Level 2 aka Subgrid](https://syntax.fm/show/109/hasty-treat-css-grid-level-2-aka-subgrid), Episode 109 (P)
+
+#### 24th
+
+- [Mistakes Were Made (But Not by Me)](https://www.amazon.com/Mistakes-Were-Made-But-Not-ebook/dp/B003K15IOE/ref=sr_1_1?ie=UTF8&qid=1548271215&sr=8-1&keywords=mistakes+were+made+but+not+by+me), Chapter 8 (B)
