@@ -13,17 +13,19 @@ This page is inspired from Wes Bos' [Uses](https://wesbos.com/uses/) page.
 ## Hardware
 
 - Primary Laptop: 
-    - Macbook Pro 2018 with i9, 32GB RAM, and 512GB hard drive
+    - [Macbook Pro 2018 with i9, 32GB RAM, and 512GB hard drive](https://www.apple.com/macbook-pro/)
 - Desktop Monitor:
-    - Dell UltraSharp 34" Curved Monitor (U3417W)
+    - [Dell UltraSharp 34" Curved Monitor (U3417W)](https://deals.dell.com/mpp/productdetail/204g)
 - Portable Monitor:
-    - ASUS ZenScreen MB16AC 15.6-Inch Full HD IPS Monitor
+    - [ASUS ZenScreen MB16AC 15.6-Inch Full HD IPS Monitor](https://www.amazon.com/ASUS-ZenScreen-MB16AC-15-6-Inch-Monitor/dp/B071S84ZW7/ref=sr_1_2?s=electronics&ie=UTF8&qid=1548301672&sr=1-2&keywords=ASUS+ZenScreen+MB16AC+15.6-Inch+Full+HD+IPS+Monitor)
 - Mechanical Keyboard:
-    - Vortex POK3R Black Case RGB with Silent Cherry Reds
+    - [Vortex POK3R Black Case RGB with Silent Cherry Reds](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3527)
 - Mouse:
-    - Logitech G903 Wireless Gaming Mouse
+    - [Logitech G903 Wireless Gaming Mouse](https://www.amazon.com/Logitech-LIGHTSPEED-POWERPLAY-Wireless-Compatibility/dp/B0716ZFWWV/ref=sr_1_1?s=electronics&ie=UTF8&qid=1548301629&sr=1-1&keywords=logitech+903)
 - Desk:
     - [Jarvis Bamboo Standing Desk](https://www.fully.com/jarvis-adjustable-height-desk-bamboo.html)
+    - [Topo Standing Mat](https://www.amazon.com/Ergodriven-Not-Flat-Anti-Fatigue-Calculated-Must-Have/dp/B00V3TO9EK/)
+
 
 ## Editor & Terminal
 
