@@ -22,6 +22,8 @@ This page is inspired from Wes Bos' [Uses](https://wesbos.com/uses/) page.
     - Vortex POK3R Black Case RGB with Silent Cherry Reds
 - Mouse:
     - Logitech G903 Wireless Gaming Mouse
+- Desk:
+    - [Jarvis Bamboo Standing Desk](https://www.fully.com/jarvis-adjustable-height-desk-bamboo.html)
 
 ## Editor & Terminal
 
