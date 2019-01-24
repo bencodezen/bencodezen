@@ -40,6 +40,7 @@ This page is inspired from Wes Bos' [Uses](https://wesbos.com/uses/) page.
 
 ## Apps
 
+- [1Password](https://1password.com) is my password manager of choice. Worth every penny and I'm never going back to a password managerless life!
 - [Notion.so](https://www.notion.so/) is my note taking app of choice and will probably continue to be so for a long time.
 - [Alfred](https://www.alfredapp.com/) is my Spotlight replacement on MacOS and I love it for all the cool things you can do with it. 
 - [Keyboard Maestro](https://www.keyboardmaestro.com/main/) is an incredible tool for creating your own custom macros so you can get even faster with your keyboard. Combining this with [Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) allows me to create an array of scoped shortcuts with the hyper key (Cmd + Alt + Ctrl + Shift simultaneously)
