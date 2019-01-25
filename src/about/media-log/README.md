@@ -13,6 +13,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 ### January
 
 - [Sherlock](https://www.bbc.co.uk/programmes/b018ttws), S1-4 (TV) [R]
+- [The Good Place](https://www.nbc.com/the-good-place), S1-2 (TV) [R]
 
 #### 1st
 - [Tidying Up with Marie Kondo](https://www.netflix.com/title/80209379), S1E1 (TV)
@@ -53,4 +54,4 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - [Mistakes Were Made (But Not by Me)](https://www.amazon.com/Mistakes-Were-Made-But-Not-ebook/dp/B003K15IOE/ref=sr_1_1?ie=UTF8&qid=1548271215&sr=8-1&keywords=mistakes+were+made+but+not+by+me), Chapter 8 (B)
 - [Hasty Treat - Tidying Up Code](https://syntax.fm/show/111/hasty-treat-tidying-up-code), Episode 111 (P)
-- [The Effective Engineer](https://www.effectiveengineer.com/), Introduction - Chapter 3 (B)
+- [The Effective Engineer](https://www.effectiveengineer.com/), Introduction - Chapter 4 (B)
