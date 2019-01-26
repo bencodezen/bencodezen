@@ -55,3 +55,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 - [Mistakes Were Made (But Not by Me)](https://www.amazon.com/Mistakes-Were-Made-But-Not-ebook/dp/B003K15IOE/ref=sr_1_1?ie=UTF8&qid=1548271215&sr=8-1&keywords=mistakes+were+made+but+not+by+me), Chapter 8 (B)
 - [Hasty Treat - Tidying Up Code](https://syntax.fm/show/111/hasty-treat-tidying-up-code), Episode 111 (P)
 - [The Effective Engineer](https://www.effectiveengineer.com/), Introduction - Chapter 4 (B)
+
+#### 25th
+
+- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Introduction (B)
