@@ -22,6 +22,8 @@ Upon deeper introspection though, I realized that it was because I was ashamed o
 
 And while those things are not technically achievements, I'm writing this as a reminder that it is just as (if not equally) more valuable to spend time on that.
 
+More importantly, you should never judge yourself based on how much progress you are making. Even if it is but a single step forward, that is something to be proud of. You can always strive for more, but don't diminish the progress you have made thus far.
+
 On an entirely separate note, I'm on the verge of evolving my productivity system which is pretty exciting. So stay tuned for tips and tricks for how I get and track work done in the coming weeks. Cheers! 🥂
 
 ## Achievements
