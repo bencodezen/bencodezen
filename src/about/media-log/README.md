@@ -59,3 +59,8 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 25th
 
 - [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Introduction (B)
+
+#### 26th
+
+- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 1 (B)
+- [Carmen Sandiego](https://www.netflix.com/title/80167821), S1E1-E2 (TV)
