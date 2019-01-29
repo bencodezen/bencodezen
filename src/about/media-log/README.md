@@ -68,3 +68,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 27th
 
 - [Tidying Up with Marie Kondo](https://www.netflix.com/title/80209379), S1E8 (TV)
+
+#### 28th
+
+- [Carmen Sandiego](https://www.netflix.com/title/80167821), S1E3 (TV)
