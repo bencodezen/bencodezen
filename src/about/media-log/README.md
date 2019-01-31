@@ -77,3 +77,13 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - [How to Speak So That People Want to Listen](julian_treasure_how_to_speak_so_that_people_want_to_listen), TEDGlobal 2013 (L)
 - [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 2 (B)
+-[Conversations with a Killer: The Ted Bundy Tapes](https://www.netflix.com/title/80226612), S1E1-E2 (TV)
+
+#### 30th
+
+- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 3 (B)
+-[Conversations with a Killer: The Ted Bundy Tapes](https://www.netflix.com/title/80226612), S1E3-E4 (TV)
+
+#### 31st
+
+- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 4 (B)
