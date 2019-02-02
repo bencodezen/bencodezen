@@ -21,3 +21,9 @@ That said, hope everyone had a good January. It's another month and time to tack
 ## Achievement
 
 - Managed to commit some form of code or content for the first 31 days of the year
+
+## Pick of the Week
+
+### Song
+
+<iframe src="https://open.spotify.com/embed/track/3SEupjP7CBdIoNPrFrMozG" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
