@@ -98,3 +98,8 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - [Carmen Sandiego](https://www.netflix.com/title/80167821), S1E4 (TV)
 - [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 5 (B)
+
+#### 2nd
+
+- [Carmen Sandiego](https://www.netflix.com/title/80167821), S1E5 (TV)
+- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 6 (B)
