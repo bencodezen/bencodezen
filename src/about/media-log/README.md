@@ -110,3 +110,4 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 - [The Official Vue News: Episode #127](https://news.vuejs.org/issues/127) (P)
 - [The Official Vue News: Episode #128](https://news.vuejs.org/issues/128) (P)
 - [Views on Vue: Episode #29 - Sarah Drasner](https://devchat.tv/views-on-vue/vov-029-vue-with-sarah-drasner/) (P)
+- [Carmen Sandiego](https://www.netflix.com/title/80167821), S1E6 (TV)
