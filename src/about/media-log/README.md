@@ -117,3 +117,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - [Carmen Sandiego](https://www.netflix.com/title/80167821), S1E7-E9 (TV)
 - [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 8 (B)
+
+#### 5th
+
+- [The Effective Engineer](https://www.effectiveengineer.com/), Chapters 5-8 (B)
