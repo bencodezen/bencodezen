@@ -111,3 +111,8 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 - [The Official Vue News: Episode #128](https://news.vuejs.org/issues/128) (P)
 - [Views on Vue: Episode #29 - Sarah Drasner](https://devchat.tv/views-on-vue/vov-029-vue-with-sarah-drasner/) (P)
 - [Carmen Sandiego](https://www.netflix.com/title/80167821), S1E6 (TV)
+- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 7 (B)
+
+#### 4th
+
+- [Carmen Sandiego](https://www.netflix.com/title/80167821), S1E7-E9 (TV)
