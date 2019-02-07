@@ -131,3 +131,4 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - [The Official Vue News: Episode #129](https://news.vuejs.org/issues/129) (P)
 - [Views on Vue: Episode #46 - Component Composition at Kong with Darren Jennings](https://devchat.tv/views-on-vue/vov-046-component-composition-at-kong-with-darren-jennings/) (P)
+- [The Effective Engineer](https://www.effectiveengineer.com/), Chapter 10 - End (B)
