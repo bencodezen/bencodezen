@@ -121,3 +121,8 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 5th
 
 - [The Effective Engineer](https://www.effectiveengineer.com/), Chapters 5-8 (B)
+
+#### 6th
+
+- [Batman: Bad Blood](https://en.wikipedia.org/wiki/Batman:_Bad_Blood) (F)
+- [The Effective Engineer](https://www.effectiveengineer.com/), Chapter 9 (B)
