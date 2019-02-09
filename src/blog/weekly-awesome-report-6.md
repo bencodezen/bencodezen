@@ -18,8 +18,9 @@ With a little bit more luck and effort, here's to hoping I get back to building 
 
 ## Achievements
 
-- Finished The Effective Engineer
+- Finished reading "The Effective Engineer"
 - Began evolution of my productivity system by integrating it with Notion's database model
+- Completed "Design for Developers" on Frontend Masters
 
 ## Picks of the Week
 
