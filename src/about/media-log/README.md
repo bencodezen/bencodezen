@@ -2,7 +2,7 @@
 
 A list of media that I have read, watched, listened, or experienced throughout the year.
 
-::: tip 🎩 Hat tip 
+::: tip 🎩 Hat tip
 Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to create one. You can find [her media logs here](https://jenmyers.net/log/).
 :::
 
@@ -79,13 +79,11 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 29th
 
 - [How to Speak So That People Want to Listen](julian_treasure_how_to_speak_so_that_people_want_to_listen), TEDGlobal 2013 (L)
-- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 2 (B)
--[Conversations with a Killer: The Ted Bundy Tapes](https://www.netflix.com/title/80226612), S1E1-E2 (TV)
+- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 2 (B) -[Conversations with a Killer: The Ted Bundy Tapes](https://www.netflix.com/title/80226612), S1E1-E2 (TV)
 
 #### 30th
 
-- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 3 (B)
--[Conversations with a Killer: The Ted Bundy Tapes](https://www.netflix.com/title/80226612), S1E3-E4 (TV)
+- [The Company of One](https://www.amazon.com/Company-One-Staying-Small-Business-ebook/dp/B078962RHQ/ref=sr_1_1?ie=UTF8&qid=1548470880&sr=8-1&keywords=the+company+of+one), Chapter 3 (B) -[Conversations with a Killer: The Ted Bundy Tapes](https://www.netflix.com/title/80226612), S1E3-E4 (TV)
 
 #### 31st
 
@@ -136,3 +134,14 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 8th
 
 - [The Good Place](https://www.nbc.com/the-good-place), S3E11-E12 (TV)
+
+#### 9th
+
+- [FYRE: The Greatest Party That Never Happened](https://www.netflix.com/title/81035279) (F)
+- [A Taiwanese Tale of Two Cities](https://www.netflix.com/title/80189540), S1E1 (TV)
+- [Meteor Garden](https://www.netflix.com/title/81005506), S1E1 (TV)
+- [The Perfect Match](https://www.netflix.com/title/81020589), S1E1 (TV)
+
+#### 10th
+
+- [The Perfect Match](https://www.netflix.com/title/81020589), S1E2 (TV)
