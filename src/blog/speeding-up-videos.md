@@ -1,5 +1,5 @@
 ---
-title: Speeing Up Videos
+title: Speeding Up Videos
 date: 2019-02-12 09:11:17
 type: post
 blog: true
