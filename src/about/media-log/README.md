@@ -152,7 +152,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 #### 13th
 
-- Bad Blood (B)
-- The Lego Movie (F)
-- How to be a Great Emcee (B)
+- [Bad Blood](https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X) by John Carreyou (B)
+- [The Lego Movie](https://www.imdb.com/title/tt1490017/) (F)
+- [How to be a Great Emcee](https://www.amazon.com/How-Great-Emcee-memorable-Ceremonies-ebook/dp/B0052MMYSC/) (B)
 
