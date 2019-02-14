@@ -154,3 +154,5 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - Bad Blood (B)
 - The Lego Movie (F)
+- How to be a Great Emcee (B)
+
