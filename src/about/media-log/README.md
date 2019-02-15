@@ -156,3 +156,6 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 - [The Lego Movie](https://www.imdb.com/title/tt1490017/) (F)
 - [How to be a Great Emcee](https://www.amazon.com/How-Great-Emcee-memorable-Ceremonies-ebook/dp/B0052MMYSC/) (B)
 
+#### 14th
+
+[The Science of Stage Fright](https://blog.ted.com/required-watching-for-any-ted-speaker-the-science-of-stage-fright/) (L)
