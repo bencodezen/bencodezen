@@ -159,3 +159,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 14th
 
 [The Science of Stage Fright](https://blog.ted.com/required-watching-for-any-ted-speaker-the-science-of-stage-fright/) (L)
+
+#### 15th
+
+[Sword Art Online Alternative: Gun Gale Online](), S1E1 (TV)
