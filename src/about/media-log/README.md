@@ -163,3 +163,9 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 15th
 
 [Sword Art Online Alternative: Gun Gale Online](), S1E1 (TV)
+
+#### 17th
+
+[Sword Art Online Alternative: Gun Gale Online](), S1E2 - S1E12 (TV)
+[Sword Art Online Alternative: Ordinal Scale]() (F)
+
