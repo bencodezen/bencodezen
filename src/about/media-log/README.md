@@ -158,14 +158,22 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 #### 14th
 
-[The Science of Stage Fright](https://blog.ted.com/required-watching-for-any-ted-speaker-the-science-of-stage-fright/) (L)
+- [The Science of Stage Fright](https://blog.ted.com/required-watching-for-any-ted-speaker-the-science-of-stage-fright/) (L)
 
 #### 15th
 
-[Sword Art Online Alternative: Gun Gale Online](), S1E1 (TV)
+- [Sword Art Online Alternative: Gun Gale Online](), S1E1 (TV)
 
 #### 17th
 
-[Sword Art Online Alternative: Gun Gale Online](), S1E2 - S1E12 (TV)
-[Sword Art Online Alternative: Ordinal Scale]() (F)
+- [Sword Art Online Alternative: Gun Gale Online](), S1E2 - S1E12 (TV)
+- [Sword Art Online Alternative: Ordinal Scale]() (F)
 
+#### 18th
+
+- [The Perfect Match](https://www.netflix.com/title/81020589), S1E4 - S1E5 (TV)
+- [Sword Art Online: Alicization](https://swordartonline.fandom.com/wiki/Alicization_Arc), S1E1 (TV)
+
+#### 19th
+
+- [Sword Art Online: Alicization](https://swordartonline.fandom.com/wiki/Alicization_Arc), S1E2 - S1E9 (TV)
