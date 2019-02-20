@@ -176,4 +176,10 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 #### 19th
 
-- [Sword Art Online: Alicization](https://swordartonline.fandom.com/wiki/Alicization_Arc), S1E2 - S1E9 (TV)
+- [Sword Art Online: Alicization](https://swordartonline.fandom.com/wiki/Alicization_Arc), S1E2 - S1E17 (TV)
+- [The Perfect Match](https://www.netflix.com/title/81020589), S1E6 (TV)
+
+#### 20th
+
+- [Sword Art Online: Alicization](https://swordartonline.fandom.com/wiki/Alicization_Arc), S1E2 - S1E18 (TV)
+- [The Perfect Match](https://www.netflix.com/title/81020589), S1E7 (TV)
