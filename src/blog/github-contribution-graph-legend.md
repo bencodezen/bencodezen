@@ -10,7 +10,7 @@ commitLegend:
    color: "#ebedf0"
  - numberOfCommits: "1-6"
    color: "#c6e48b"
- - numberOfCommits: "7-12"
+ - numberOfCommits: "7-13"
    color: "#7bc96f"
  - numberOfCommits: "14-19"
    color: "#239a3b"
@@ -24,7 +24,7 @@ On every GitHub user's profile page, there is a graph that is hard to ignore:
 
 While there is controversy whether the graph is more harmful to developers ([see discussion thread](https://twitter.com/EmmaWedekind/status/1099235211555074048)), I have always been curious the amount of commits needed to generate a certain color within the graph. And while the internet is great for finding random information like this, I was unsuccessful at finding it. 
 
-So, thankfully my GitHub contribution graph has a fair amount of variance in the data to allow me to figure most of it out.
+So, thankfully my GitHub contribution graph has a fair amount of variance in the data to allow me to figure it out.
 
 ## Contribution Square Legend
 
@@ -35,10 +35,6 @@ So, thankfully my GitHub contribution graph has a fair amount of variance in the
     <p>{{ item.numberOfCommits }} commits: <code>{{ item.color }}</code></p>
   </li>
 </ul>
-
-::: warning Note
-I have not been able to confirm what color the 13 commit square has yet.
-:::
 
 ## Final Thoughts
 
