@@ -37,7 +37,7 @@ So, thankfully my GitHub contribution graph has a fair amount of variance in the
 </ul>
 
 ::: warning Note
-I have not been able to confirm what color 13 commits looks like yet.
+I have not been able to confirm what color the 13 commit square has yet.
 :::
 
 ## Final Thoughts
