@@ -6,15 +6,15 @@ blog: true
 excerpt: Ever wonder what it takes to achieve certain colors in the GitHub contribution graph? Here's a quick post on what I found.
 tags:
 commitLegend:
- - numberOfCommits: "0"
+ - numberOfContributions: "0"
    color: "#ebedf0"
- - numberOfCommits: "1-6"
+ - numberOfContributions: "1-6"
    color: "#c6e48b"
- - numberOfCommits: "7-13"
+ - numberOfContributions: "7-13"
    color: "#7bc96f"
- - numberOfCommits: "14-19"
+ - numberOfContributions: "14-19"
    color: "#239a3b"
- - numberOfCommits: "20+"
+ - numberOfContributions: "20+"
    color: "#196127"
 ---
 
@@ -28,11 +28,15 @@ So, thankfully my GitHub contribution graph has a fair amount of variance in the
 
 ## Contribution Square Legend
 
+::: warning
+So it turns out that there may be more to the algorithm than I'm aware of, I discovered that other people's contribution graphs don't match up with mine when it comes to number of contributions and what color the square is. 🤦‍
+:::
+
 <ul style="padding-left: 0">
   <li v-for="item in this.$frontmatter.commitLegend" 
     style="padding: 5px 15px; display: flex; align-items: center; margin-left: 0">
     <div :style="`background-color: ${item.color}; width: 50px; height: 50px; margin-right: 15px`"></div>
-    <p>{{ item.numberOfCommits }} commits: <code>{{ item.color }}</code></p>
+    <p>{{ item.numberOfCommits }} contributions: <code>{{ item.color }}</code></p>
   </li>
 </ul>
 
