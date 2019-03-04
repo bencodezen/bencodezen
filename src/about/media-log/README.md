@@ -183,3 +183,8 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 - [Sword Art Online: Alicization](https://swordartonline.fandom.com/wiki/Alicization_Arc), S1E2 - S1E18 (TV)
 - [The Perfect Match](https://www.netflix.com/title/81020589), S1E7 (TV)
+
+### March
+
+#### 4th
+- [Make It Stick: The Science of Successful Learning](https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013) - Chapters 1-2 (B)
