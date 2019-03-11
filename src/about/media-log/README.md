@@ -188,3 +188,9 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 
 #### 4th
 - [Make It Stick: The Science of Successful Learning](https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013) - Chapters 1-2 (B)
+
+#### 9th
+- Can't Hurt Me - Chapters 1-2 (B)
+
+#### 10th
+- Can't Hurt Me - Chapters 3-4 (B)
