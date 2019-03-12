@@ -193,7 +193,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 - [Can't Hurt Me](https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512287/ref=sr_1_1?keywords=can%27t+hurt+me&qid=1552268594&s=gateway&sr=8-1) by David Goggins - Chapters 1-2 (B)
 
 #### 10th
-- [Can't Hurt Me](https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512287/ref=sr_1_1?keywords=can%27t+hurt+me&qid=1552268594&s=gateway&sr=8-1) by David Goggins - Chapters 3-4 (B)
+- [Can't Hurt Me](https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512287/ref=sr_1_1?keywords=can%27t+hurt+me&qid=1552268594&s=gateway&sr=8-1) by David Goggins - Chapters 3-5 (B)
 
 #### 11th
 - [Make It Stick: The Science of Successful Learning](https://www.amazon.com/Make-Stick-Science-Successful-Learning/dp/0674729013) - Chapter 6 (B)
