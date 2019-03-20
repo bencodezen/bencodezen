@@ -215,3 +215,7 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 19th
 
 - Captain Marvel (F)
+
+#### 20th
+
+- Hunter X Hunter (TV)
