@@ -29,7 +29,7 @@ More importantly, it made it hard a lot of times to have a single source of trut
 
 ## Enter Notion
 
-[Notion.so](http://notion.so) is a new tool that's come into the productivity scene fairly recently. On its website, you'll see that it's claim is simple:
+[Notion.so](http://notion.so) is a new tool that's come into the productivity scene fairly recently. On its website, you'll see that its claim is simple:
 
 ![Notion.so home page](/images/2019/notion-webpage.png)
 
