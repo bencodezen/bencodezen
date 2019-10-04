@@ -226,3 +226,8 @@ Thanks to [Jen Myers](https://twitter.com/antiheroine) for inspiring me to creat
 #### 20th
 
 - Hunter X Hunter (TV)
+
+### October
+
+- Spiderman: Far from Home (F)
+- Inside Bill's Mind - Ep. 1 & 2 (TV)
