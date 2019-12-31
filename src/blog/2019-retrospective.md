@@ -38,14 +38,26 @@ To be clear though, I don't regret any time or energy spent on the people and pr
 
 ## Lessons Learned
 
+Rather than list out a bunch of things I aspire to accomplish in the next year, I felt it was more appropriate to list out the top three lessons learned from this year.
+
 1. Trust your instincts
 1. Failing is essential to growth
 1. In times of weakness, remember you are not alone
 
-More on this in future posts where I break this down more and the reasons behind each lesson.
+More on this in future posts where I break this down more and the reasons behind each lesson. However, as mentioned earlier, I realized that to continue growing at the pace I want, a major change was required.
 
 ## Final Thoughts
 
 While I would typically prefer to write about everything in more depth, the release of this post is progress for me after the many failures of 2019. It's not perfect, but it is something and I can always elaborate more in the future.
 
-And as I prepare to step into the next decade, that is perhaps the sole thing to remember: Don't focus on creating the perfect outcome. Instead, jump headfirst and enjoy the messy and imperfect process of creation.
+As I prepare to step into the next decade, that is perhaps the sole thing I need to remember:
+
+> Don't focus on creating the perfect outcome. Instead, jump headfirst and enjoy the messy and imperfect process of creation.
+
+And as I look back, while I will always be grateful for the system I built that brought me to where I am today, I know it's time to tear it down and get back to the basics.
+
+![Iron Man 2 scene where Tony Stark breaks down his lab to upgrade the hardware](/images/2019/iron-man-2-sledge-hammer.jpg)
+
+_Initiating Phoenix Protocol..._
+
+See you in 2020.
