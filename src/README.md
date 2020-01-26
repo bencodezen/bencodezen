@@ -12,5 +12,5 @@ features:
     details: I have spoken on various topics on web development and best practices. I'm always creating new topics as well, so please reach out if you'd like me to speak at your event!
   - title: Training & Workshops
     details: I have experience teaching groups of various sizes and skillsets. Whether it's Vue.js, CSS, or some other topic, I would love to share my knowledge with you and your group!
-footer: © BenCodeZen 2019. Made with VuePress.
+footer: © BenCodeZen 2020. Made with VuePress.
 ---
