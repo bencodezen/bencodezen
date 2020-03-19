@@ -3,10 +3,15 @@
     <slot name="top" />
 
     <div class="hero">
-      <h1>Ridiculously Reusable Components Workshop with Vue.js</h1>
-      <div class="hero-meta">
-        <date>April 4th, 2020</date>
-        <p>Remote</p>
+      <div class="hero-content">
+        <h1>Ridiculously Reusable Components Workshop with Vue.js</h1>
+        <div class="hero-meta">
+          <span><Icon /><date>April 4th, 2020</date></span>
+          <span style="display: flex; margin-left: 1rem;">
+            <Icon />
+            <p>Remote</p>
+          </span>
+        </div>
       </div>
     </div>
 
@@ -159,17 +164,37 @@ function find(page, items, offset) {
 .workshop .hero {
   background-image: linear-gradient(257deg, #0ea3a2, #2599e2);
   color: white;
-  height: 150px;
+  height: 250px;
   margin-top: 57px;
   padding-left: 36px;
   padding-right: 36px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin-top: 0;
+  }
+}
+
+.hero-content {
+  max-width: 740px;
 }
 
 .workshop .hero-meta {
   display: flex;
+  align-items: center;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  font-weight: bold;
+
+  p {
+    margin: 0;
+    margin-left: 0.5rem;
+  }
+
+  date {
+    margin-left: 0.5rem;
+  }
 }
 
 .workshop h2 {
