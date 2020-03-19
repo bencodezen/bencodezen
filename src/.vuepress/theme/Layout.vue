@@ -5,56 +5,28 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
-    />
+    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
 
-    <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
-    ></div>
+    <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
 
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-    >
-      <slot
-        name="sidebar-top"
-        slot="top"
-      />
-      <slot
-        name="sidebar-bottom"
-        slot="bottom"
-      />
+    <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
+      <slot name="sidebar-top" slot="top" />
+      <slot name="sidebar-bottom" slot="bottom" />
     </Sidebar>
 
-    <div
-      class="custom-layout"
-      v-if="$page.frontmatter.layout"
-    >
-      <component :is="$page.frontmatter.layout"/>
+    <div class="custom-layout" v-if="$page.frontmatter.layout">
+      <component :is="$page.frontmatter.layout" />
     </div>
 
-    <Blog 
-      v-else-if="$page.frontmatter.blog" 
-      :sidebar-items="sidebarItems"
-    />
+    <Workshop v-else-if="$page.frontmatter.workshop" />
 
-    <Home v-else-if="$page.frontmatter.home"/>
+    <Blog v-else-if="$page.frontmatter.blog" :sidebar-items="sidebarItems" />
 
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
-      <slot
-        name="page-top"
-        slot="top"
-      />
-      <slot
-        name="page-bottom"
-        slot="bottom"
-      />
+    <Home v-else-if="$page.frontmatter.home" />
+
+    <Page v-else :sidebar-items="sidebarItems">
+      <slot name="page-top" slot="top" />
+      <slot name="page-bottom" slot="bottom" />
     </Page>
   </div>
 </template>
@@ -67,25 +39,24 @@ import Navbar from './components/Navbar.vue'
 import Page from './layouts/Page.vue'
 import Sidebar from './components/Sidebar.vue'
 import Blog from './layouts/Blog.vue'
+import Workshop from './layouts/Workshop'
 import { resolveSidebarItems } from './mixins/util'
 import '@fortawesome/fontawesome-pro/css/all.min.css'
 
 export default {
-  components: { Blog, Home, Page, Sidebar, Navbar },
+  components: { Blog, Home, Page, Sidebar, Navbar, Workshop },
 
-  data () {
+  data() {
     return {
       isSidebarOpen: false
     }
   },
 
   computed: {
-    shouldShowNavbar () {
+    shouldShowNavbar() {
       const { themeConfig } = this.$site
       const { frontmatter } = this.$page
-      if (
-        frontmatter.navbar === false ||
-        themeConfig.navbar === false) {
+      if (frontmatter.navbar === false || themeConfig.navbar === false) {
         return false
       }
       return (
@@ -97,7 +68,7 @@ export default {
       )
     },
 
-    shouldShowSidebar () {
+    shouldShowSidebar() {
       const { frontmatter } = this.$page
       return (
         !frontmatter.layout &&
@@ -107,7 +78,7 @@ export default {
       )
     },
 
-    sidebarItems () {
+    sidebarItems() {
       return resolveSidebarItems(
         this.$page,
         this.$route,
@@ -116,7 +87,7 @@ export default {
       )
     },
 
-    pageClasses () {
+    pageClasses() {
       const userPageClass = this.$page.frontmatter.pageClass
       return [
         {
@@ -129,7 +100,7 @@ export default {
     }
   },
 
-  mounted () {
+  mounted() {
     window.addEventListener('scroll', this.onScroll)
 
     // configure progress bar
@@ -151,19 +122,19 @@ export default {
   },
 
   methods: {
-    toggleSidebar (to) {
+    toggleSidebar(to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
     },
 
     // side swipe
-    onTouchStart (e) {
+    onTouchStart(e) {
       this.touchStart = {
         x: e.changedTouches[0].clientX,
         y: e.changedTouches[0].clientY
       }
     },
 
-    onTouchEnd (e) {
+    onTouchEnd(e) {
       const dx = e.changedTouches[0].clientX - this.touchStart.x
       const dy = e.changedTouches[0].clientY - this.touchStart.y
       if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
@@ -175,7 +146,7 @@ export default {
       }
     },
 
-    onSWUpdated (e) {
+    onSWUpdated(e) {
       this.swUpdateEvent = e
     }
   }

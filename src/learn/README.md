@@ -13,3 +13,7 @@ Inspired from the old 90s game walkthroughs I used to read a ton as a kid, I am 
     imgAlt="VuePress Blog Boilerplate logo"
     href="https://vuepress-blog-boilerplate.bencodezen.io/"
 />
+
+## Workshops
+
+[RRC Workshop](/workshops/ridiculously-reusable-components.html)
