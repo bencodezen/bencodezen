@@ -50,6 +50,7 @@ export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
+    '@nuxt/content',
     '@nuxtjs/axios',
     '@nuxtjs/pwa'
   ],
