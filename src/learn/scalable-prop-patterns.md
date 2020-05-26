@@ -4,7 +4,7 @@ workshop: true
 
 ## About
 
-In almost every codebase, there is always this one component. You know what I'm talking about. That one component where:
+In almost every codebase, there is always that one component. You know the one that I am talking about. That one component where:
 
 - It is difficult to understand how it works
 - It is painful to make any changes to it
