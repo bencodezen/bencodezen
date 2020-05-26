@@ -8,10 +8,10 @@ In almost every codebase, there is always this one component. You know what I'm 
 
 - It is difficult to understand how it works
 - It is painful to make any changes to it
-- People would rather create a brand new component than modify the existing one
+- People would rather create a new component instead of modifying the existing one
 - The same developer keeps getting assigned work on it because they are the only ones who understand it
 
-One of the common causes for this is the misuse of props. While props are one of the first techniques Vue.js developers learn, it is simple; but deceptively so because the technical debts do not show up until it is seemingly "too late" or "too difficult" to refactor and change. And before you know it, what was once a simple component becomes the component that no one wants to use.
+One of the common causes for this is the misuse of props. While props are one of the first techniques Vue.js developers learn, it is simple, but deceptively complicated because the technical debts do not show up until it is seemingly "too late" or "too difficult" to refactor and change. And before you know it, what was once a simple component becomes the component that no one wants to use.
 
 <h2 class="section-title">What You Will Learn</h2>
 
@@ -47,30 +47,15 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 
 </div>
 
-## Sessions
+## Schedule
+
+This workshop is being offered on two different days.
 
 <workshop-details date="Wednesday, June 10th" time="1:30PM - 4:30PM EST" datetime="2020-06-10T13:30-5:00" class="mb-5"></workshop-details>
 
 <workshop-details date="Saturday, June 13th" time="1:30PM - 4:30PM EST" datetime="2020-06-13T13:30-5:00" class="mb-5"></workshop-details>
 
 <p class="highlight">Registration opens on Friday, May 29th at 12:00PM EST!</p>
-
-<countdown :end-date="new Date('2020-05-29T12:00')"></countdown>
-
-<p style="margin-top: 0;">Get an email reminder when it goes live!</p>
-
-<form
-  name="props-workshop-registration-update"
-  method="POST"
-  class="form"
-  data-netlify="true"
-  data-netlify-honeypot="bot-field"
-  style="margin-bottom: 1.25rem; margin-top: 0;"
->
-  <label for="email">
-    Email: <input type="email" id="email" style="padding: 0.5rem; font-size: 1rem; width: 100%; margin-top: 0.5rem; margin-bottom: 1.25rem;" /> 
-  </label>
-</form>
 
 ## Prerequisites
 

@@ -1,16 +1,18 @@
 <template>
   <div class="workshop">
     <header class="workshop-hero">
-      <h1 class="workshop-hero-title">
-        Scalable Prop Patterns with Vue.js
-      </h1>
-      <div class="workshop-hero-meta">
-        <icon-label icon="location" class="mr-5">
-          <p>Remote</p>
-        </icon-label>
-        <icon-label icon="clock">
-          <p>3 hours</p>
-        </icon-label>
+      <div class="workshop-content">
+        <h1 class="workshop-hero-title">
+          Scalable Prop Patterns <br> with Vue.js
+        </h1>
+        <div class="workshop-hero-meta">
+          <div style="display: flex; align-items: center; margin:">
+            <img src="../assets/calendar.png" style="margin-right: 0.5rem; max-width: 100%; flex: 1;" /><p style="margin: 0">June 10th or 13th</p>
+          </div>
+          <div style="display: flex; align-items: center; margin-left: 1rem;">
+            <img src="../assets/location.png" style="margin-right: 0.5rem; max-width: 100%; flex: 1;" /><p style="margin: 0">Remote</p>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -264,7 +266,12 @@ function find(page, items, offset) {
 
 .workshop {
 
-  >>> h2 {
+  &-content {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  h2 {
     color: #2599E2;
   }
 }
@@ -308,19 +315,23 @@ function find(page, items, offset) {
 
     color: #ffffff;
   }
+}
 
-  &-title {
-    font-family: Poppins;
+.workshop-hero-title {
+   font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 63px;
-    /* or 131% */
 
     letter-spacing: 0.272581px;
 
     color: #ffffff;
-  }
+}
+
+@media (min-width: 768px) {
+  .workshop-hero-title {
+    font-size: 4rem;
+    line-height: 4.25rem;
+  } 
 }
 
 .profile-image {
