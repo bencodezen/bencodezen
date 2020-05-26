@@ -10,25 +10,19 @@ In almost every codebase, there is always that one component. You know the one t
 - It is difficult to understand how it works
 - It is painful to make any changes to it
 - People would rather create a new component instead of modifying the existing one
-- The same developer keeps getting assigned work on it because they are the only ones who understand it
+- The same developer keeps getting assigned to work on it because they are the only one who understand it
 
-One of the common causes for this is the misuse of props. While props are one of the first techniques Vue.js developers learn, it is simple, but deceptively complicated because the technical debts do not show up until it is seemingly "too late" or "too difficult" to refactor and change. And before you know it, what was once a simple component becomes the component that no one wants to use.
+One of the common causes for this is the misuse of props. While props are one of the first techniques Vue.js developers learn, it is surprisingly complex because the technical debts do not show up until it is seemingly "too late" or "too difficult" to refactor and change. And before you know it, what was once a simple component becomes the component that no one wants to maintain.
+
+In this workshop, you will be guided through fundamental prop techniques, best practices and patterns for creating scalable Vue.js components.
 
 <h2 class="section-title">What You Will Learn</h2>
 
-<p class="mb-4">After taking this workshop, you will:</p>
+After taking this workshop, you will learn:
 
-<ul class="ml-0">
-  <li class="list-none mb-3">
-    <base-icon name="check" class="mr-2"></base-icon> Gain mastery of using props in components
-  </li>
-  <li class="list-none mb-3">
-    <base-icon name="check" class="mr-2"></base-icon> Learn best practices for using props
-  </li>
-  <li class="list-none mb-3">
-    <base-icon name="check" class="mr-2"></base-icon> Scalable patterns for reusable components
-  </li>
-</ul>
+- How to master using props with components
+- Best practices for creating and maintaining props
+- Scalable patterns for reusable components
 
 ## Benefits
 
@@ -48,9 +42,7 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 
 </div>
 
-## Schedule
-
-This workshop is being offered on two different days.
+## Workshop Details
 
 <workshop-details date="Wednesday, June 10th" time="1:30PM - 4:30PM EST" datetime="2020-06-10T13:30-5:00" class="mb-5"></workshop-details>
 
