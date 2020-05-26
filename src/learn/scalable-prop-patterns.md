@@ -71,11 +71,11 @@ Get a full refund (100%) up to 5 days prior to the course. No questions asked. A
 
 ### How do I convince my boss to let me take the workshop?
 
-This workshop is designed to only take a half day, which allows for lower impact on work hours while maximizing on your learning by diving deep into a topic. In addition, you will have the opportunity to ask questions about your code so you can
+This workshop is designed to only take a half day, which allows for lower impact on work hours while giving you opportunity to maximize your learning by diving deep into a specific topic. In addition, you will be able to ask questions about any code you want to bring in.
 
 ### How is this different from a conference workshop?
 
-This workshop is designed to maximize student and instructor interaction so that the material can be personalized to the class. In addition, while most workshops in the past have been full day workshops (approximately 8 hours)
+This workshop is designed to maximize student and instructor interaction so that the material can be personalized to the class.
 
 ### I have another question!
 
