@@ -1,0 +1,77 @@
+<script>
+export default {
+  props: {
+    date: {
+      type: String,
+      required: true
+    },
+    datetime: {
+      // Format ISO-8601
+      // TODO: Custom validator
+      type: String,
+      required: true
+    },
+    time: {
+      type: String,
+      required: true
+    }
+  }
+}
+</script>
+
+<template>
+  <div :class="$style.wrapper" class="flex items-center justify-between">
+    <div>
+      <time :datetime="datetime">
+        <span :class="$style.date">{{ date }}</span>
+        <span :class="$style.time">{{ time }}</span>
+      </time>
+      <p :class="$style.metaText">Location: Remote (Zoom)</p>
+      <p :class="$style.metaText">Price: $100 USD</p>
+    </div>
+    <!-- <a :class="$style.button" href="#">Register</a> -->
+  </div>
+</template>
+
+<style module>
+.button {
+  border-radius: 4px;
+  background: #d4dce0;
+  padding: 12px 14px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.date {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.0838709px;
+  color: #232323;
+  @apply block;
+  @apply mb-1;
+}
+
+.metaText {
+  @apply font-bold;
+  color: #4d585e;
+}
+
+.time {
+  font-family: Poppins;
+  @apply font-medium;
+  @apply mb-1;
+}
+
+.wrapper {
+  padding: 22px 24px;
+  border: 2px solid #d4dce0;
+
+  .time {
+    font-family: Poppins;
+  }
+}
+</style>
