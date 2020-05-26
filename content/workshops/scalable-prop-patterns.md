@@ -11,17 +11,17 @@ One of the common causes for this is the misuse of props. While props are one of
 
 <h2 class="section-title">What You Will Learn</h2>
 
-After taking this workshop, you will:
+<p class="mb-4">After taking this workshop, you will:</p>
 
 <ul class="ml-0">
-  <li class="list-none">
-    <base-icon name="check" class="mr-1"></base-icon> Gain mastery of using props in components
+  <li class="list-none mb-3">
+    <base-icon name="check" class="mr-2"></base-icon> Gain mastery of using props in components
   </li>
-  <li class="list-none">
-    <base-icon name="check" class="mr-1"></base-icon> Learn best practices for using props
+  <li class="list-none mb-3">
+    <base-icon name="check" class="mr-2"></base-icon> Learn best practices for using props
   </li>
-  <li class="list-none">
-    <base-icon name="check" class="mr-1"></base-icon> Scalable patterns for reusable components
+  <li class="list-none mb-3">
+    <base-icon name="check" class="mr-2"></base-icon> Scalable patterns for reusable components
   </li>
 </ul>
 
@@ -49,9 +49,9 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 
 <countdown :end-date="new Date('2020-05-29T12:00')" class="mb-5"></countdown>
 
-<workshop-details class="mb-5">Wednesday, April 7th: 1PM - 5PM EST</workshop-details>
+<workshop-details date="Wednesday, June 10th" time="1:30PM - 4:30PM EST" datetime="2020-06-10T13:30-5:00" class="mb-5"></workshop-details>
 
-<workshop-details class="mb-5">Wednesday, April 7th: 1PM - 5PM EST</workshop-details>
+<workshop-details date="Saturday, June 13th" time="1:30PM - 4:30PM EST" datetime="2020-06-13T13:30-5:00" class="mb-5"></workshop-details>
 
 ## Prerequisites
 

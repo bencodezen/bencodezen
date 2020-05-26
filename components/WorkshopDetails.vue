@@ -1,16 +1,35 @@
 <script>
-export default {}
+export default {
+  props: {
+    date: {
+      type: String,
+      required: true
+    },
+    datetime: {
+      // Format ISO-8601
+      // TODO: Custom validator
+      type: String,
+      required: true
+    },
+    time: {
+      type: String,
+      required: true
+    }
+  }
+}
 </script>
 
 <template>
   <div :class="$style.wrapper" class="flex items-center justify-between">
     <div>
-      <time :class="$style.date">Wednesday, April 7th</time>
-      <p class="font-bold text-lg mt-1">1:00PM - 5:00PM EST</p>
-      <p class="flex items-center">Remote</p>
-      <p>Price: $100 USD</p>
+      <time :datetime="datetime">
+        <span :class="$style.date">{{ date }}</span>
+        <span :class="$style.time">{{ time }}</span>
+      </time>
+      <p :class="$style.metaText">Location: Remote (Zoom)</p>
+      <p :class="$style.metaText">Price: $100 USD</p>
     </div>
-    <a :class="$style.button" href="#">Register</a>
+    <!-- <a :class="$style.button" href="#">Register</a> -->
   </div>
 </template>
 
@@ -30,14 +49,29 @@ export default {}
   font-size: 20px;
   line-height: 20px;
   /* identical to box height, or 100% */
-
   letter-spacing: 0.0838709px;
+  color: #232323;
+  @apply block;
+  @apply mb-1;
+}
 
-  color: #2599e2;
+.metaText {
+  @apply font-bold;
+  color: #4d585e;
+}
+
+.time {
+  font-family: Poppins;
+  @apply font-medium;
+  @apply mb-1;
 }
 
 .wrapper {
   padding: 22px 24px;
-  border: 2px solid #2599e2;
+  border: 2px solid #d4dce0;
+
+  .time {
+    font-family: Poppins;
+  }
 }
 </style>

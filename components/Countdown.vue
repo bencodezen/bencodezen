@@ -65,7 +65,7 @@ export default {
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .time-unit-box {
   width: 120px;
   height: 120px;

@@ -31,14 +31,11 @@ export default {
         Scalable Prop Patterns with Vue.js
       </h1>
       <div class="hero-meta">
-        <icon-label icon="calendar" class="mr-5">
-          <p>June 10th or 13th</p>
-        </icon-label>
-        <icon-label icon="clock" class="mr-5">
-          <p>3 hours</p>
-        </icon-label>
-        <icon-label icon="location">
+        <icon-label icon="location" class="mr-5">
           <p>Remote</p>
+        </icon-label>
+        <icon-label icon="clock">
+          <p>3 hours</p>
         </icon-label>
       </div>
     </header>
@@ -128,6 +125,7 @@ export default {
     @apply font-bold;
     @apply text-xl;
     @apply mt-3;
+    @apply mb-2;
   }
 
   ul {
