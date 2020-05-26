@@ -3,23 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        bencodezen
+        BenCodeZen
       </h1>
-      <h2 class="subtitle">
-        My website
-      </h2>
       <div class="links">
-        <nuxt-link to="/workshops" class="button--grey">Workshops</nuxt-link>
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+        <nuxt-link to="/workshops" class="button--green">Workshops</nuxt-link>
       </div>
     </div>
   </div>
@@ -35,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -46,13 +33,14 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Poppins', 'Quicksand', 'Source Sans Pro', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 60px;
   color: #35495e;
   letter-spacing: 1px;
+  @apply mt-3;
 }
 
 .subtitle {

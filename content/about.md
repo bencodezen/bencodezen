@@ -6,4 +6,4 @@ Aside from coding, I am a huge advocate giving back to the community through tea
 
 ## Ask Me Anything (AMA)
 
-If you have any questions for me that I didn't answer here, feel free to [open an issue](https://github.com/bencodezen/bencodezen/issues/new?issue) with the `question` label and I'll do my best to answer it! 
+If you have any questions for me that I didn't answer here, feel free to [open an issue](https://github.com/bencodezen/bencodezen/issues/new?issue) with the `question` label and I'll do my best to answer it!

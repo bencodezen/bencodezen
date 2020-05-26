@@ -1,5 +1,16 @@
+<script>
+import AppNavbar from '~/components/AppNavbar'
+
+export default {
+  components: {
+    AppNavbar
+  }
+}
+</script>
+
 <template>
   <div>
+    <AppNavbar />
     <nuxt />
   </div>
 </template>
