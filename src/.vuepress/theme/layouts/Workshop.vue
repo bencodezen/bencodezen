@@ -311,18 +311,40 @@ function find(page, items, offset) {
 .highlight {
   font-weight: bold;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 1.3rem !important; 
   position: relative;
+  display: inline-block;
+  font-family: Poppins;
+  margin-top: 0;
 
   &:before {
     content: '';
-    width: 95%;
+    width: 100%;
     height: 12px;
     background-color: yellow;
     position: absolute;
     left: 0;
     top: 15px;
     z-index: -1;
+  }
+
+  &:after {
+    content: '';
+    width: 100%;
+    height: 12px;
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    z-index: -1; 
+  }
+}
+
+@media (min-width: 638px) {
+  .highlight {
+    &:after {
+      width: 0;
+    }
   }
 }
 
