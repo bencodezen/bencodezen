@@ -265,7 +265,6 @@ function find(page, items, offset) {
 }
 
 .workshop {
-
   &-content {
     max-width: 850px;
     margin: 0 auto;
@@ -273,6 +272,35 @@ function find(page, items, offset) {
 
   h2 {
     color: #2599E2;
+  }
+}
+
+.workshop .content {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p,
+  ul {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .workshop .content {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p,
+    ul {
+      font-size: 18px;
+    }
+
   }
 }
 

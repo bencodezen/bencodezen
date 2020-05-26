@@ -46,8 +46,8 @@ export default {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
   /* identical to box height, or 100% */
   letter-spacing: 0.0838709px;
   color: #232323;
@@ -59,7 +59,7 @@ export default {
   font-weight: bold;
   color: #4d585e;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .time {
