@@ -53,7 +53,7 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 
 <workshop-details date="Saturday, June 13th" time="1:30PM - 4:30PM EST" datetime="2020-06-13T13:30-5:00" class="mb-5"></workshop-details>
 
-<p class="highlight">Registration opens on Friday, April 11th at 12:00PM EST!</p>
+<p class="highlight">Registration opens on Friday, May 29th at 12:00PM EST!</p>
 
 <countdown :end-date="new Date('2020-05-29T12:00')"></countdown>
 
