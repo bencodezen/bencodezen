@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-  <div :class="$style.wrapper" class="flex items-center justify-between">
+  <div :class="$style.wrapper">
     <div>
       <time :datetime="datetime">
         <span :class="$style.date">{{ date }}</span>
@@ -51,19 +51,21 @@ export default {
   /* identical to box height, or 100% */
   letter-spacing: 0.0838709px;
   color: #232323;
-  @apply block;
-  @apply mb-1;
+  display: block;
+  margin-bottom: 0.25rem;
 }
 
 .metaText {
-  @apply font-bold;
+  font-weight: bold;
   color: #4d585e;
+  margin: 0;
+  font-size: 0.9rem;
 }
 
 .time {
   font-family: Poppins;
-  @apply font-medium;
-  @apply mb-1;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
 }
 
 .wrapper {

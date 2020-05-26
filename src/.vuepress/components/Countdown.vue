@@ -67,8 +67,9 @@ export default {
 
 <style scoped>
 .time-unit-box {
-  width: 120px;
-  height: 120px;
+  max-width: 120px;
+  max-height: 120px;
+  margin-top: 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -76,21 +77,37 @@ export default {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
   line-height: 24px;
   /* identical to box height */
 
   letter-spacing: 0.299664px;
 
   color: #232323;
-  padding: 12px 20px 20px;
   text-transform: uppercase;
   margin-right: 12px;
 }
 
+.time-unit-box {
+  padding: 10px 8px;
+  letter-spacing: -0.5px;
+  font-size: 0.9rem;
+}
+
 .unit {
   font-weight: bold;
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+@media (min-width: 768px) {
+  .unit {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .time-unit-box {
+    font-size: 16px;
+    padding: 12px 20px 20px;
+  }
 }
 </style>

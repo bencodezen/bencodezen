@@ -1,3 +1,7 @@
+---
+workshop: true
+---
+
 ## About
 
 In almost every codebase, there is always this one component. You know what I'm talking about. That one component where:
@@ -33,10 +37,10 @@ One of the common causes for this is the misuse of props. While props are one of
 
 ## Instructor
 
-<div class="flex items-center">
+<div class="instructor-wrapper">
   <img src="https://pbs.twimg.com/profile_images/1106293516697849856/iW-hJPKU_400x400.png"
     alt="Ben Hong Profile Image"
-    class="profile-image mr-5"
+    class="profile-image"
   />
 
 Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery instructor. He is an international speaker and his workshops were sold out for the last two years at VueConfUS. He is also a self-taught developer, who believes in creating educational content that is approachable to people regardless of their training or skillset.
