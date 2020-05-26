@@ -70,6 +70,7 @@ export default {
   max-width: 120px;
   max-height: 120px;
   margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   align-items: center;
   flex-direction: column;
