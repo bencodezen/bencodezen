@@ -6,11 +6,11 @@
           Scalable Prop Patterns <br> with Vue.js
         </h1>
         <div class="workshop-hero-meta">
-          <div style="display: flex; align-items: center; margin:">
-            <img src="../assets/calendar.png" style="margin-right: 0.5rem; max-width: 100%; flex: 1;" /><p style="margin: 0">June 10th or 13th</p>
+          <div class="workshop-hero-meta-item">
+            <img src="../assets/calendar.png" style="margin-right: 0.5rem; max-width: 100%;" /><p style="margin: 0">June 10th or 13th</p>
           </div>
-          <div style="display: flex; align-items: center; margin-left: 1rem;">
-            <img src="../assets/location.png" style="margin-right: 0.5rem; max-width: 100%; flex: 1;" /><p style="margin: 0">Remote</p>
+          <div class="workshop-hero-meta-item">
+            <img src="../assets/location.png" style="margin-right: 0.5rem; max-width: 100%;" /><p style="margin: 0">Remote</p>
           </div>
         </div>
       </div>
@@ -304,6 +304,7 @@ function find(page, items, offset) {
 
   &-meta {
     display: flex;
+    flex-direction: column;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -317,14 +318,38 @@ function find(page, items, offset) {
   }
 }
 
+.workshop-hero-meta-item {
+  display: flex;
+  align-items: center;
+
+  &:nth-child(2) {
+    margin-top: 8px;
+    margin-left: -3px;
+  }
+}
+
+@media (min-width: 576px) {
+  .workshop-hero-meta {
+    flex-direction: row;
+  }
+
+  .workshop-hero-meta-item {
+    
+    &:nth-child(2) {
+      margin-top: 0;
+      margin-left: 1.25rem;
+    }
+  }
+}
+
 .workshop-hero-title {
-   font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 0.272581px;
 
-    letter-spacing: 0.272581px;
-
-    color: #ffffff;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
