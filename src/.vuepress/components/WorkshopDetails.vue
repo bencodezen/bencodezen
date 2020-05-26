@@ -11,6 +11,10 @@ export default {
       type: String,
       required: true
     },
+    option: {
+      type: String,
+      required: true
+    },
     time: {
       type: String,
       required: true
@@ -22,6 +26,7 @@ export default {
 <template>
   <div :class="$style.wrapper">
     <div>
+      <p :class="$style.optionLabel">Option #{{ option }}</p>
       <time :datetime="datetime">
         <span :class="$style.date">{{ date }}</span>
         <span :class="$style.time">{{ time }}</span>
@@ -34,6 +39,16 @@ export default {
 </template>
 
 <style module>
+.optionLabel {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Poppins;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
 .button {
   border-radius: 4px;
   background: #d4dce0;
