@@ -1,27 +1,27 @@
 <script>
 export default {
-    name: 'GuideItem',
-    props: {
-        description: {
-            type: String,
-            required: true
-        },
-        href: {
-            type: String,
-            required: true
-        },
-        imgSrc: {
-            type: String,
-            required: true
-        },
-        imgAlt: {
-            type: String
-        },
-        title: {
-            type: String,
-            required: true
-        }
+  name: 'GuideItem',
+  props: {
+    description: {
+      type: String,
+      required: true
+    },
+    href: {
+      type: String,
+      required: true
+    },
+    imgSrc: {
+      type: String,
+      required: true
+    },
+    imgAlt: {
+      type: String
+    },
+    title: {
+      type: String,
+      required: true
     }
+  }
 }
 </script>
 
@@ -43,6 +43,8 @@ export default {
 .guide-item {
     display: flex;
     padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
     align-items: center;
     border: 1px solid #ddd;    
     border-radius: 4px;
@@ -56,6 +58,7 @@ export default {
     max-width: 150px;
     max-height: 150px;
     margin-right: 10px;
+    margin-top: -5px;
 }
 
 .guide-item__title {
