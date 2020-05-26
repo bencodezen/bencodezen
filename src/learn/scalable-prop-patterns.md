@@ -33,7 +33,7 @@ After taking this workshop, you will learn:
 ## Instructor
 
 <div class="instructor-wrapper">
-  <img src="https://pbs.twimg.com/profile_images/1106293516697849856/iW-hJPKU_400x400.png"
+  <img src="/images/ben-profile-circle.jpg"
     alt="Ben Hong Profile Image"
     class="profile-image"
   />

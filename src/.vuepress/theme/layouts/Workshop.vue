@@ -413,6 +413,7 @@ function find(page, items, offset) {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+  flex: 1;
 }
 
 @media (min-width: 535px) {
