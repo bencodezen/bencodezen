@@ -1,4 +1,5 @@
 ---
+title: Scalable Prop Patterns
 workshop: true
 ---
 
