@@ -1,12 +1,16 @@
 <template>
-  <img src="~/assets/bencodezen-logo.png" alt="" class="logo" />
+  <img
+    src="~/assets/bencodezen-logo.png"
+    alt="BenCodeZen's Dragon Logo"
+    :class="$style.logo"
+  />
 </template>
 
-<style>
+<style lang="scss" module>
 .logo {
+  width: 250px;
+  @apply mt-3 mx-auto;
   animation: 1s appear;
-  margin: auto;
-  width: 300px;
 }
 
 @keyframes appear {
