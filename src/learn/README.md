@@ -8,6 +8,7 @@ This is the section where I will store more formal articles and tutorials for th
     title="Scalable Prop Patterns with Vue.js"
     description="Learn best practices that will allow to master props and the design patterns you need to create reusable components."
     href="/learn/scalable-prop-patterns.html"
+    style="margin-top: 18px"
 />
 
 ## Guide
