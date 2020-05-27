@@ -18,7 +18,7 @@ export default {}
         BenCodeZen
       </nuxt-link>
     </div>
-    <div>
+    <div class="navbar-item-wrapper">
       <nuxt-link to="/" class="navbar-item">Home</nuxt-link>
       <nuxt-link to="/blog" class="navbar-item">Blog</nuxt-link>
       <nuxt-link to="/learn" class="navbar-item">Learn</nuxt-link>
@@ -32,12 +32,15 @@ export default {}
 @import '../styles/_settings.scss';
 
 .navbar {
-  @apply flex justify-between items-center;
   @apply py-3 px-5;
   border-bottom: 2px solid #eaecef;
   color: #2c3e50;
   font-weight: 500;
   font-family: 'Poppins';
+
+  @include breakpoint($bk-navbar) {
+    @apply flex justify-between items-center;
+  }
 }
 
 .navbar-item {
@@ -53,10 +56,19 @@ export default {}
   }
 }
 
+.navbar-item-wrapper {
+  @apply text-center;
+}
+
 .navbar-logo {
   @apply flex items-center;
+  @apply mx-auto mb-3;
   font-size: 1.3rem;
   font-weight: 600;
+
+  @include breakpoint($bk-navbar) {
+    @apply mb-0;
+  }
 }
 
 .navbar-logo-image {

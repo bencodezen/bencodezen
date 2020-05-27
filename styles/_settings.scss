@@ -1,3 +1,13 @@
 // Colors
 
 $c-primary: hsl(203, 100%, 60%); // #34b1ff
+
+// Responsive
+@mixin breakpoint($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+// Responsive - Breakpoints
+$bk-navbar: 600px;
