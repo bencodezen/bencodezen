@@ -18,7 +18,7 @@ In this workshop, you will be guided through fundamental prop techniques, best p
 
 <h2 class="section-title">What You Will Learn</h2>
 
-After taking this workshop, you will learn:
+After taking this workshop, you will better understand:
 
 - How to master using props with components
 - Best practices for creating and maintaining props
