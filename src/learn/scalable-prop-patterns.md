@@ -53,7 +53,7 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 ## Prerequisites
 
 - Intermediate HTML, CSS & JavaScript
-- Familiarity with Vue.js Essentials
+- Familiarity with [Vue.js Essentials](https://vuejs.org/v2/guide/)
 
 ## FAQs
 
