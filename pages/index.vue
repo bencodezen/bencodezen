@@ -11,10 +11,11 @@ export default {
 <template>
   <div class="container">
     <div>
-      <logo />
+      <logo class="mt-10" />
       <h1 class="title">
         BenCodeZen
       </h1>
+      <p class="subtitle">Not your average coding blog</p>
       <div class="links">
         <nuxt-link to="/workshops" class="button--green">Workshops</nuxt-link>
       </div>
@@ -22,10 +23,11 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../styles/_settings.scss';
+
 .container {
   margin: 0 auto;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,19 +38,20 @@ export default {
   font-family: 'Poppins', 'Quicksand', 'Source Sans Pro', -apple-system,
     BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 60px;
   color: #35495e;
   letter-spacing: 1px;
   @apply mt-3;
+  @apply font-semibold;
+  @apply text-5xl;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  color: #57708a;
   padding-bottom: 15px;
+  font-family: $ff-serif;
 }
 
 .links {

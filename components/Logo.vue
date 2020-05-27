@@ -8,8 +8,8 @@
 
 <style lang="scss" module>
 .logo {
-  width: 250px;
-  @apply mt-3 mx-auto;
+  width: 200px;
+  @apply mx-auto;
   animation: 1s appear;
 }
 
