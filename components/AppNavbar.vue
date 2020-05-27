@@ -33,10 +33,9 @@ export default {}
 
 .navbar {
   @apply py-3 px-5;
-  border-bottom: 2px solid #eaecef;
-  color: #2c3e50;
-  font-weight: 500;
-  font-family: 'Poppins';
+  border-bottom: 2px solid $c-border;
+  color: $c-nav-link;
+  font-family: $ff-sans;
 
   @include breakpoint($bk-navbar) {
     @apply flex justify-between items-center;
@@ -46,6 +45,7 @@ export default {}
 .navbar-item {
   @apply mr-5;
   font-size: 0.9rem;
+  @apply font-medium;
 
   &:last-child {
     @apply mr-0;
@@ -64,7 +64,7 @@ export default {}
   @apply flex items-center;
   @apply mx-auto mb-3;
   font-size: 1.3rem;
-  font-weight: 600;
+  @apply font-semibold;
 
   @include breakpoint($bk-navbar) {
     @apply mb-0;
@@ -72,7 +72,7 @@ export default {}
 }
 
 .navbar-logo-image {
-  display: inline-block;
+  @apply inline-block;
   width: 36px;
   @apply mr-3;
 }
