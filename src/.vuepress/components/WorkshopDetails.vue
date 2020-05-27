@@ -31,7 +31,7 @@ export default {
         <span :class="$style.date">{{ date }}</span>
         <span :class="$style.time">{{ time }}</span>
       </time>
-      <p :class="$style.metaText">Location: Remote (Zoom)</p>
+      <p :class="$style.metaText">Location: Remote</p>
       <p :class="$style.metaText">Price: $100 USD</p>
     </div>
     <!-- <a :class="$style.button" href="#">Register</a> -->
