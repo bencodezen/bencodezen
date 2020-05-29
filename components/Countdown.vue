@@ -66,29 +66,36 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@import '../styles/_settings.scss';
+
 .time-unit-box {
-  width: 120px;
-  height: 120px;
   @apply flex flex-col items-center;
   border: 2px solid #2599e2;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 24px;
-  /* identical to box height */
-
   letter-spacing: 0.299664px;
 
   color: #232323;
-  padding: 12px 20px 20px;
+  padding: 6px 10px 14px;
   text-transform: uppercase;
   margin-right: 12px;
+
+  @include breakpoint(600px) {
+    padding: 12px 20px 20px;
+    font-size: 16px;
+  }
 }
 
 .unit {
   @apply font-bold;
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 30px;
+  line-height: 1.5;
+
+  @include breakpoint(600px) {
+    font-size: 40px;
+  }
 }
 </style>
