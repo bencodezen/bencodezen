@@ -14,7 +14,7 @@ export default {
   },
   async asyncData({ $content }) {
     const pageContent = await $content(
-      '/workshops/scalable-prop-patterns'
+      'workshops/scalable-prop-patterns'
     ).fetch()
 
     return {
