@@ -61,6 +61,18 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 
 No. This is to ensure that all students have the privacy and safety to ask questions and share code with the instructor and class.
 
+### Will this workshop be taught again in the future?
+
+There is nothing currently scheduled; but if you're interested in taking this workshop with me, you can sign up below to be notified when this workshop is offered again!
+
+<form class="bcz-form" name="spp-interest" method="POST" data-netlify="true">
+  <label class="form-label" for="spp-interest-email">
+    Email Address
+    <input class="form-input" type="email" id="spp-interest-email" />
+  </label>
+  <button class="form-submit" type="submit">Sign up</button> 
+</form>
+
 ### What if I need to cancel?
 
 Get a full refund (100%) up to 5 days prior to the course. No questions asked. All other cancellations will be considered on a case-by-case basis.

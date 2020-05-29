@@ -3,14 +3,23 @@
     <header class="workshop-hero">
       <div class="workshop-content">
         <h1 class="workshop-hero-title">
-          Scalable Prop Patterns <br> with Vue.js
+          Scalable Prop Patterns <br />
+          with Vue.js
         </h1>
         <div class="workshop-hero-meta">
           <div class="workshop-hero-meta-item">
-            <img src="../assets/calendar.png" style="margin-right: 0.5rem; max-width: 100%;" /><p style="margin: 0">June 10th or 13th</p>
+            <img
+              src="../assets/calendar.png"
+              style="margin-right: 0.5rem; max-width: 100%;"
+            />
+            <p style="margin: 0">June 10th or 13th</p>
           </div>
           <div class="workshop-hero-meta-item">
-            <img src="../assets/location.png" style="margin-right: 0.5rem; max-width: 100%;" /><p style="margin: 0">Remote</p>
+            <img
+              src="../assets/location.png"
+              style="margin-right: 0.5rem; max-width: 100%;"
+            />
+            <p style="margin: 0">Remote</p>
           </div>
         </div>
       </div>
@@ -21,10 +30,7 @@
     </main>
 
     <div class="page-edit">
-      <div
-        class="edit-link"
-        v-if="editLink"
-      >
+      <div class="edit-link" v-if="editLink">
         <a
           href="https://github.com/bencodezen/bencodezen/issues/new"
           target="_blank"
@@ -33,39 +39,25 @@
           Open an issue on GitHub <OutboundLink />
         </a>
       </div>
-      <div
-        class="last-updated"
-        v-if="lastUpdated"
-      >
+      <div class="last-updated" v-if="lastUpdated">
         <span class="prefix">{{ lastUpdatedText }}: </span>
-        <time class="time" :datetime="$page.lastUpdated">{{ lastUpdated }}</time>
+        <time class="time" :datetime="$page.lastUpdated">{{
+          lastUpdated
+        }}</time>
       </div>
     </div>
 
     <div class="page-nav" v-if="prev || next">
       <p class="inner">
-        <span
-          v-if="prev"
-          class="prev"
-        >
+        <span v-if="prev" class="prev">
           ←
-          <router-link
-            v-if="prev"
-            class="prev"
-            :to="prev.path"
-          >
+          <router-link v-if="prev" class="prev" :to="prev.path">
             {{ prev.title || prev.path }}
           </router-link>
         </span>
 
-        <span
-          v-if="next"
-          class="next"
-        >
-          <router-link
-            v-if="next"
-            :to="next.path"
-          >
+        <span v-if="next" class="next">
+          <router-link v-if="next" :to="next.path">
             {{ next.title || next.path }}
           </router-link>
           →
@@ -73,7 +65,7 @@
       </p>
     </div>
 
-    <slot name="bottom"/>
+    <slot name="bottom" />
   </div>
 </template>
 
@@ -258,6 +250,43 @@ function find(page, items, offset) {
 @import '../styles/config.styl'
 @require '../styles/wrapper.styl'
 
+.bcz-form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.form-input {
+  display: block;
+  border: 2px solid #232323;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: 'Poppins';
+  margin-top: 3px;
+  width: 100%;
+}
+
+.form-label {
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 1rem;
+  flex: 1;
+}
+
+.form-submit {
+  background-color: #2599E2;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 14px;
+  border: 1px solid #2599E2;
+  height: 49px;
+  box-sizing: border-box;
+  line-height: 0.7;
+}
+
 .instructor-wrapper {
   display: flex;
   align-items: center;
@@ -311,7 +340,7 @@ function find(page, items, offset) {
 .highlight {
   font-weight: bold;
   line-height: 30px;
-  font-size: 1.3rem !important; 
+  font-size: 1.3rem !important;
   position: relative;
   display: inline-block;
   font-family: Poppins;
@@ -336,7 +365,7 @@ function find(page, items, offset) {
     position: absolute;
     left: 0;
     top: 45px;
-    z-index: -1; 
+    z-index: -1;
   }
 }
 
@@ -384,7 +413,7 @@ function find(page, items, offset) {
   }
 
   .workshop-hero-meta-item {
-    
+
     &:nth-child(2) {
       margin-top: 0;
       margin-left: 1.25rem;
@@ -406,7 +435,7 @@ function find(page, items, offset) {
   .workshop-hero-title {
     font-size: 4rem;
     line-height: 4.25rem;
-  } 
+  }
 }
 
 .profile-image {
