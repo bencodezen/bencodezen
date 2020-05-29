@@ -3,17 +3,21 @@ export default {
   props: {
     date: {
       type: String,
-      required: true
+      default: ''
     },
     datetime: {
       // Format ISO-8601
       // TODO: Custom validator
       type: String,
+      default: ''
+    },
+    option: {
+      type: Number,
       required: true
     },
     time: {
       type: String,
-      required: true
+      default: ''
     }
   }
 }
@@ -22,11 +26,12 @@ export default {
 <template>
   <div :class="$style.wrapper" class="flex items-center justify-between">
     <div>
+      <p :class="$style.option">Option #{{ option }}</p>
       <time :datetime="datetime">
         <span :class="$style.date">{{ date }}</span>
         <span :class="$style.time">{{ time }}</span>
       </time>
-      <p :class="$style.metaText">Location: Remote (Zoom)</p>
+      <p :class="$style.metaText">Location: Remote</p>
       <p :class="$style.metaText">Price: $100 USD</p>
     </div>
     <!-- <a :class="$style.button" href="#">Register</a> -->
@@ -46,18 +51,28 @@ export default {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  @apply text-2xl;
   line-height: 20px;
   /* identical to box height, or 100% */
   letter-spacing: 0.0838709px;
   color: #232323;
   @apply block;
-  @apply mb-1;
+  @apply mb-2;
 }
 
 .metaText {
   @apply font-bold;
   color: #4d585e;
+}
+
+.option {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: Poppins !important;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #555;
 }
 
 .time {

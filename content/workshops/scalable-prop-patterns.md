@@ -9,6 +9,8 @@ In almost every codebase, there is always this one component. You know what I'm 
 
 One of the common causes for this is the misuse of props. While props are one of the first techniques Vue.js developers learn, it is simple; but deceptively so because the technical debts do not show up until it is seemingly "too late" or "too difficult" to refactor and change. And before you know it, what was once a simple component becomes the component that no one wants to use.
 
+In this workshop, you will be guided through fundamental prop techniques, best practices and patterns for creating scalable Vue.js components.
+
 <h2 class="section-title">What You Will Learn</h2>
 
 <p class="mb-4">After taking this workshop, you will:</p>
@@ -45,18 +47,18 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 
 ## Sessions
 
-<p class="highlight">Registration opens on Friday, April 11th at 12:00PM EST!</p>
-
 <countdown :end-date="new Date('2020-05-29T12:00')" class="mb-5"></countdown>
 
-<workshop-details date="Wednesday, June 10th" time="1:30PM - 4:30PM EST" datetime="2020-06-10T13:30-5:00" class="mb-5"></workshop-details>
+<workshop-details date="Wednesday, June 10th" time="1:30PM - 4:30PM ET" datetime="2020-06-10T13:30-5:00" class="mb-5" :option="1"></workshop-details>
 
-<workshop-details date="Saturday, June 13th" time="1:30PM - 4:30PM EST" datetime="2020-06-13T13:30-5:00" class="mb-5"></workshop-details>
+<workshop-details date="Saturday, June 13th" time="1:30PM - 4:30PM ET" datetime="2020-06-13T13:30-5:00" class="mb-5" :option="2"></workshop-details>
+
+<p class="highlight">Registration opens on Friday, May 29th at 12:00PM ET!</p>
 
 ## Prerequisites
 
 - Intermediate HTML, CSS & JavaScript
-- Familiarity with Vue.js Essentials
+- Familiarity with [Vue.js Essentials](https://vuejs.org/v2/guide/)
 
 ## FAQs
 

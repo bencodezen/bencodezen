@@ -48,22 +48,125 @@ export default {
 </template>
 
 <style lang="scss">
+@import '../../styles/_settings.scss';
+
+.hidden {
+  display: none;
+}
+
+.form-input {
+  display: block;
+  border: 2px solid #232323;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: 'Poppins';
+  margin-top: 3px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-label {
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.form-submit {
+  background-color: #2599e2;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 14px;
+  border: 1px solid #2599e2;
+  height: 49px;
+  box-sizing: border-box;
+  line-height: 0.7;
+}
+
+.instructor-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.workshop {
+  &-content {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    color: #2599e2;
+  }
+}
+
+.workshop .content {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p,
+  ul {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .workshop .content {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p,
+    ul {
+      font-size: 18px;
+    }
+  }
+}
+
 .highlight {
   font-weight: bold;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 1.3rem !important;
   position: relative;
-  @apply mb-5;
+  display: inline-block;
+  font-family: Poppins;
+  margin-top: 0;
 
   &:before {
     content: '';
-    width: 95%;
+    width: 100%;
     height: 12px;
     background-color: yellow;
     position: absolute;
     left: 0;
     top: 15px;
     z-index: -1;
+  }
+
+  &:after {
+    content: '';
+    width: 100%;
+    height: 12px;
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 638px) {
+  .highlight {
+    &:after {
+      width: 0;
+    }
   }
 }
 
@@ -106,6 +209,14 @@ export default {
 }
 
 .nuxt-content {
+  a {
+    color: $c-primary;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   h2 {
     font-family: Poppins;
     font-style: normal;
@@ -133,10 +244,16 @@ export default {
     @apply list-disc;
     @apply list-inside;
     font-family: PT Serif;
+    @apply text-lg;
+  }
+
+  li {
+    line-height: 1.6;
   }
 
   p {
     font-family: PT Serif;
+    @apply text-lg;
   }
 }
 </style>
