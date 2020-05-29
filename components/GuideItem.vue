@@ -12,7 +12,7 @@ export default {
     },
     image: {
       type: String,
-      required: true
+      default: ''
     },
     alt: {
       type: String,
@@ -28,7 +28,7 @@ export default {
 
 <template>
   <div class="guide-item">
-    <img class="guide-item-logo" :src="image" :alt="imgAlt" />
+    <img v-if="image" class="guide-item-logo" :src="image" :alt="alt" />
     <div>
       <nuxt-link class="guide-item-title" :to="href">{{ title }}</nuxt-link>
       <p class="guide-item-description">{{ description }}</p>

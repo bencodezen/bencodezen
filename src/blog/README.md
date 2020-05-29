@@ -1,1 +1,0 @@
-<BlogPostList :list="$site.pages" />

@@ -1,20 +1,20 @@
 ---
-title: "Weekly Awesome Report #6"
+title: 'Weekly Awesome Report #6'
 date: 2019-02-08 23:27:15
 type: post
 blog: true
 excerpt: A review and celebration of my achievements and picks of the week for the week leading up to February 8th, 2019.
 tags:
-    - Progress Reports
+  - Progress Reports
 ---
 
 ## Overview
 
 This week has been a challenging one since I found myself overwhelmed with the amount of things I was trying to do at once. And while the easiest explanation is that I signed myself up for too much, I know that a large part of it is due to my productivity system missing the infrastructure required to manage the workload I want to take on.
 
-Due to a stroke of luck and good fortune of talking with the incredible [Katie](https://twitter.com/KatieMaeFritz), I was able to find a path forward to take my old system and begin the steps necessary for me to make progress on the various projects in my life. 
+Due to a stroke of luck and good fortune of talking with the incredible [Katie](https://twitter.com/KatieMaeFritz), I was able to find a path forward to take my old system and begin the steps necessary for me to make progress on the various projects in my life.
 
-With a little bit more luck and effort, here's to hoping I get back to building things on a more regular basis going forward. Cheers!  🥂
+With a little bit more luck and effort, here's to hoping I get back to building things on a more regular basis going forward. Cheers! 🥂
 
 ## Achievements
 
@@ -30,10 +30,9 @@ With a little bit more luck and effort, here's to hoping I get back to building 
 
 - [Original Tweet](https://twitter.com/bencodezen/status/1093950724852142080)
 
-
 ### The Effective Engineer
 
-I bought this book a while ago and have been meaning to get around to it. Definitely a great read for anyone interested in learning from Edmond's experience in Silicon Valley. I learned a lot from the book and also felt good that a lot of my own philosophies coincided with Edmond's which let me know that I was on the right path. 
+I bought this book a while ago and have been meaning to get around to it. Definitely a great read for anyone interested in learning from Edmond's experience in Silicon Valley. I learned a lot from the book and also felt good that a lot of my own philosophies coincided with Edmond's which let me know that I was on the right path.
 
 It's worth noting that I purchased the Master Package and will be sure to write about that when I've finished the various pieces of it. In the meantime, I'll make sure to write up a full review of the book for those who are interested.
 

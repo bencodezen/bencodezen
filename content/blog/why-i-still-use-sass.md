@@ -56,19 +56,19 @@ Just to illustrate my point, here's the CSS version:
 
 ```css
 .my-class {
-	...;
+  ...;
 }
 .my-class__date {
-	...;
+  ...;
 }
 .my-class__list {
-	...;
+  ...;
 }
 .my-class__title {
-	...;
+  ...;
 }
 .my-class__title:hover {
-	...;
+  ...;
 }
 ```
 
@@ -94,25 +94,25 @@ If I had to do this the normal CSS way, it'd look like this:
 
 ```css
 .my-class__date {
-	...;
+  ...;
 }
 
 @media (min-width: 480px) {
-	.my-class__date {
-		...;
-	}
+  .my-class__date {
+    ...;
+  }
 }
 
 @media (min-width: 676px) {
-	.my-class__date {
-		...;
-	}
+  .my-class__date {
+    ...;
+  }
 }
 
 @media (min-width: 1024px) {
-	.my-class__date {
-		...;
-	}
+  .my-class__date {
+    ...;
+  }
 }
 ```
 

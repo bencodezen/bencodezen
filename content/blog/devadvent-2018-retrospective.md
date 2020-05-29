@@ -5,11 +5,11 @@ type: post
 blog: true
 excerpt: Before it gets too far into 2019, I wanted to write my thoughts on how my DevAdvent experience in 2018 was.
 tags:
-    - retrospective
-    - devadvent
+  - retrospective
+  - devadvent
 ---
 
-Before it gets too far into 2019, I wanted to write my thoughts on how my DevAdvent experience in 2018 was. As a preface, I had heard of DevAdvent years ago through the site [24 WAYS](https://24ways.org) and had always thought it was a great initiative. However, I never attempted to try doing my own since I never thought I could generate enough content or I  woould forget to plan it out.
+Before it gets too far into 2019, I wanted to write my thoughts on how my DevAdvent experience in 2018 was. As a preface, I had heard of DevAdvent years ago through the site [24 WAYS](https://24ways.org) and had always thought it was a great initiative. However, I never attempted to try doing my own since I never thought I could generate enough content or I would forget to plan it out.
 
 ## Fast Forward to 2018
 
@@ -58,6 +58,6 @@ While I ran out of time to fully execute on some of these concepts, the sheer ac
 
 ## Final Thoughts
 
-Even though I did not manage to complete the full 24 days, I did manage to create 20 days of content of varying levels. And although I did not know it at the time, DevAdvent would prove to be the crucible I needed to get me out of my rut. I have spent so much time doubting my self-worth and value that doing something crazy like this was the medicine I needed. 
+Even though I did not manage to complete the full 24 days, I did manage to create 20 days of content of varying levels. And although I did not know it at the time, DevAdvent would prove to be the crucible I needed to get me out of my rut. I have spent so much time doubting my self-worth and value that doing something crazy like this was the medicine I needed.
 
 Looking forward to an even better DevAdvent calendar later this year!

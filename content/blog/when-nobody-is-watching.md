@@ -1,5 +1,5 @@
 ---
-title: "When Nobody is Watching"
+title: 'When Nobody is Watching'
 date: 2017-03-04 15:08:55
 type: post
 blog: true
@@ -14,7 +14,7 @@ To my surprise, I found myself more interested in what Matt had to say prior to 
 
 Of all the things he said, the thing that stuck out the most to me is:
 
-**"What matters is the work you put in *when nobody is watching.*"****
+**"What matters is the work you put in _when nobody is watching._"\*\***
 
 The desire to become better at something is often tied with some level of desire for that achievement to be met with recognition. So in the instance of dance, while there is the joy of dancing for the sake of dancing, it would be naiive to ignore the adrenaline and high one gets when performing in front of a crowd of people who are celebrating your art. Yet it is at Matt says, what ultimately matters is the work ethic you put into things when no one is watching.
 

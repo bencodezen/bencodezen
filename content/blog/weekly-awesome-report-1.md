@@ -1,11 +1,11 @@
 ---
-title: "Weekly Awesome Report #1"
+title: 'Weekly Awesome Report #1'
 date: 2019-01-04 17:00:00
 type: post
 blog: true
 excerpt: A review and celebration of my achievements and picks of the week for the week of January 4th, 2019.
 tags:
-    - Progress Reports
+  - Progress Reports
 ---
 
 ## Overview
@@ -23,7 +23,7 @@ The theme of this week has been putting the [progress over perfection](/blog/pro
 ### Coding
 
 - [DevTo: Seven Reasons to Learn Vue.js in 2019](https://dev.to/rossta/seven-reasons-learn-vuejs-in-2019-2n9o) by [
-Ross Kaffenberger](https://twitter.com/rossta)
+  Ross Kaffenberger](https://twitter.com/rossta)
 - [CodePen: Awesome animated SVG illustration with Anime.js](https://codepen.io/fitzsyke/pen/pKdYyE)
 - [CodePen: Incredible Bullet Journal with CSS](https://codepen.io/oliviale/pen/aPwaXm)
 

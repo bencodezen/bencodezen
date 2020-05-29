@@ -3,9 +3,9 @@ title: 2018 Retrospective
 date: 2019-01-01 13:20:21
 type: post
 blog: true
-excerpt: A little late to the party, but not too late to reflect on 2018 and everything that has happened. 
+excerpt: A little late to the party, but not too late to reflect on 2018 and everything that has happened.
 tags:
-    - Retrospective
+  - Retrospective
 ---
 
 ## Overview
@@ -24,7 +24,7 @@ That said, let's do a deep dive shall we?
 
 ## Speaking & Teaching
 
-This was a big year for me as it was the one that I finally had my breakthrough and spoke at my first tech conference.*
+This was a big year for me as it was the one that I finally had my breakthrough and spoke at my first tech conference.\*
 
 ![Dance party from The Office](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 

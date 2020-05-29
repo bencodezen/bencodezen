@@ -1,11 +1,11 @@
 ---
-title: "Weekly Awesome Report #4"
+title: 'Weekly Awesome Report #4'
 date: 2019-01-26 06:37:32
 type: post
 blog: true
 excerpt: A review and celebration of my achievements and picks of the week for the week leading up to January 25th, 2019.
 tags:
-    - Progress Reports
+  - Progress Reports
 ---
 
 ## Overview

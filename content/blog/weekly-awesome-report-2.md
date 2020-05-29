@@ -1,11 +1,11 @@
 ---
-title: "Weekly Awesome Report #2"
+title: 'Weekly Awesome Report #2'
 date: 2019-01-11 17:00:00
 type: post
 blog: true
 excerpt: A review and celebration of my achievements and picks of the week for the week leading up to January 11th, 2019.
 tags:
-    - Progress Reports
+  - Progress Reports
 ---
 
 ## Overview
@@ -28,7 +28,7 @@ Aside from my doubts and insecurities, I do want to say that I feel like I'm sta
 ### Coding
 
 - [Houdini: Demistifying CSS](https://developers.google.com/web/updates/2016/05/houdini) by [
-Surma](https://twitter.com/DasSurma)
+  Surma](https://twitter.com/DasSurma)
 
 ### Song
 
@@ -36,4 +36,4 @@ Surma](https://twitter.com/DasSurma)
 
 ### Inspiration
 
--  [*The surprising habits of original thinkers*](https://www.ted.com/talks/adam_grant_the_surprising_habits_of_original_thinkers) by Adam Grant
+- [_The surprising habits of original thinkers_](https://www.ted.com/talks/adam_grant_the_surprising_habits_of_original_thinkers) by Adam Grant
