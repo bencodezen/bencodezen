@@ -45,7 +45,9 @@ export default {
       <a :href="path" class="blog-post__link">{{ title }}</a>
     </h2>
     <p v-if="excerpt" class="blog-post__excerpt">{{ excerpt }}</p>
-    <a class="button blog-post__button " :href="path">Read More ></a>
+    <nuxt-link class="button blog-post__button " :to="path"
+      >Read More ></nuxt-link
+    >
   </section>
 </template>
 
