@@ -5,7 +5,7 @@ const HOURS_IN_DAY = 24
 
 export default {
   props: {
-    endDate: {
+    deadline: {
       type: Date,
       required: true
     }
@@ -37,7 +37,7 @@ export default {
       return this.timeRemaining % SECONDS_IN_MINUTE
     },
     timeRemaining() {
-      return Math.round((this.endDate - this.currentTime) / 1000)
+      return Math.round((this.deadline - this.currentTime) / 1000)
     }
   },
   mounted() {

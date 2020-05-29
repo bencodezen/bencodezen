@@ -53,7 +53,6 @@ export default {
   font-weight: bold;
   @apply text-2xl;
   line-height: 20px;
-  /* identical to box height, or 100% */
   letter-spacing: 0.0838709px;
   color: #232323;
   @apply block;
@@ -63,6 +62,7 @@ export default {
 .metaText {
   @apply font-bold;
   color: #4d585e;
+  font-size: 1rem !important;
 }
 
 .option {
@@ -76,9 +76,11 @@ export default {
 }
 
 .time {
+  @apply block;
   font-family: Poppins;
   @apply font-medium;
-  @apply mb-1;
+  @apply mb-2;
+  @apply text-lg;
 }
 
 .wrapper {

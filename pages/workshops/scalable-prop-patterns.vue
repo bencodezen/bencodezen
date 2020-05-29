@@ -27,20 +27,22 @@ export default {
 <template>
   <div>
     <header class="hero">
-      <h1 class="hero-title mb-5">
-        Scalable Prop Patterns with Vue.js
-      </h1>
-      <div class="hero-meta">
-        <icon-label icon="location" class="mr-5">
-          <p>Remote</p>
-        </icon-label>
-        <icon-label icon="clock">
-          <p>3 hours</p>
-        </icon-label>
+      <div class="hero-content">
+        <h1 class="hero-title mb-5">
+          Scalable Prop Patterns <br />with Vue.js
+        </h1>
+        <div class="hero-meta">
+          <icon-label icon="location" class="mr-5">
+            <p>Remote</p>
+          </icon-label>
+          <icon-label icon="clock">
+            <p>3 hours</p>
+          </icon-label>
+        </div>
       </div>
     </header>
     <main>
-      <article class="container mx-auto w-3/5 pt-10">
+      <article class="container mx-auto content pt-10">
         <nuxt-content :document="pageContent" />
       </article>
     </main>
@@ -89,6 +91,10 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  @include breakpoint(700px) {
+    flex-direction: row;
+  }
 }
 
 .workshop {
@@ -172,7 +178,11 @@ export default {
 
 .hero {
   background: linear-gradient(200.04deg, #0ea3a2 0.87%, #2599e2 93.36%);
-  padding: 72px 55px;
+  padding: 50px 40px;
+
+  @include breakpoint(600px) {
+    padding: 72px 55px;
+  }
 
   &-meta {
     display: flex;
@@ -181,31 +191,39 @@ export default {
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;
-    /* identical to box height */
-
     letter-spacing: 0.165121px;
-
     color: #ffffff;
   }
+}
 
-  &-title {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 63px;
-    /* or 131% */
+.hero-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: 0.272581px;
+  color: #ffffff;
 
-    letter-spacing: 0.272581px;
-
-    color: #ffffff;
+  @include breakpoint(600px) {
+    font-size: 3.5rem;
   }
+}
+
+.hero-content {
+  max-width: 825px;
+  @apply mx-auto;
 }
 
 .profile-image {
   border-radius: 50%;
   width: 125px;
   height: 125px;
+  @apply mb-4;
+
+  @include breakpoint(700px) {
+    @apply mb-0 mr-4;
+  }
 }
 
 .nuxt-content {
@@ -218,7 +236,7 @@ export default {
   }
 
   h2 {
-    font-family: Poppins;
+    font-family: $ff-sans;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -233,6 +251,7 @@ export default {
   }
 
   h3 {
+    font-family: $ff-sans;
     @apply font-bold;
     @apply text-xl;
     @apply mt-3;

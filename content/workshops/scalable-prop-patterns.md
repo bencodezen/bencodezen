@@ -1,31 +1,27 @@
+---
+title: Scalable Prop Patterns
+---
+
 ## About
 
-In almost every codebase, there is always this one component. You know what I'm talking about. That one component where:
+In almost every codebase, there is always that one component. You know the one that I am talking about. That one component where:
 
 - It is difficult to understand how it works
 - It is painful to make any changes to it
-- People would rather create a brand new component than modify the existing one
-- The same developer keeps getting assigned work on it because they are the only ones who understand it
+- People would rather create a new component instead of modifying the existing one
+- The same developer keeps getting assigned to work on it because they are the only one who understand it
 
-One of the common causes for this is the misuse of props. While props are one of the first techniques Vue.js developers learn, it is simple; but deceptively so because the technical debts do not show up until it is seemingly "too late" or "too difficult" to refactor and change. And before you know it, what was once a simple component becomes the component that no one wants to use.
+One of the common causes for this is the misuse of props. While props are one of the first techniques Vue.js developers learn, it is surprisingly complex because the technical debts do not show up until it is seemingly "too late" or "too difficult" to refactor and change. And before you know it, what was once a simple component becomes the component that no one wants to maintain.
 
-In this workshop, you will be guided through fundamental prop techniques, best practices and patterns for creating scalable Vue.js components.
+<p class="mt-4">In this workshop, you will be guided through fundamental prop techniques, best practices and patterns for creating scalable Vue.js components.</p>
 
 <h2 class="section-title">What You Will Learn</h2>
 
-<p class="mb-4">After taking this workshop, you will:</p>
+After taking this workshop, you will better understand:
 
-<ul class="ml-0">
-  <li class="list-none mb-3">
-    <base-icon name="check" class="mr-2"></base-icon> Gain mastery of using props in components
-  </li>
-  <li class="list-none mb-3">
-    <base-icon name="check" class="mr-2"></base-icon> Learn best practices for using props
-  </li>
-  <li class="list-none mb-3">
-    <base-icon name="check" class="mr-2"></base-icon> Scalable patterns for reusable components
-  </li>
-</ul>
+- How to master using props with components
+- Best practices for creating and maintaining props
+- Scalable patterns for reusable components
 
 ## Benefits
 
@@ -35,25 +31,25 @@ In this workshop, you will be guided through fundamental prop techniques, best p
 
 ## Instructor
 
-<div class="flex items-center">
-  <img src="https://pbs.twimg.com/profile_images/1106293516697849856/iW-hJPKU_400x400.png"
+<div class="instructor-wrapper">
+  <img src="/images/ben-profile-circle.jpg"
     alt="Ben Hong Profile Image"
-    class="profile-image mr-5"
+    class="profile-image"
   />
 
 Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery instructor. He is an international speaker and his workshops were sold out for the last two years at VueConfUS. He is also a self-taught developer, who believes in creating educational content that is approachable to people regardless of their training or skillset.
 
 </div>
 
-## Sessions
+## Workshop Details
 
-<countdown :end-date="new Date('2020-05-29T12:00')" class="mb-5"></countdown>
+<countdown :deadline="new Date('2020-05-29T12:00-05:00')" style="margin-bottom: 1.5rem;"></countdown>
 
-<workshop-details date="Wednesday, June 10th" time="1:30PM - 4:30PM ET" datetime="2020-06-10T13:30-5:00" class="mb-5" :option="1"></workshop-details>
+<workshop-details :option="1" date="Wednesday, June 10th" time="1:30PM - 4:30PM EDT" datetime="2020-06-10T13:30-5:00" class="mb-5"></workshop-details>
 
-<workshop-details date="Saturday, June 13th" time="1:30PM - 4:30PM ET" datetime="2020-06-13T13:30-5:00" class="mb-5" :option="2"></workshop-details>
+<workshop-details :option="2" date="Saturday, June 13th" time="1:30PM - 4:30PM EDT" datetime="2020-06-13T13:30-5:00" class="mb-5"></workshop-details>
 
-<p class="highlight">Registration opens on Friday, May 29th at 12:00PM ET!</p>
+<p class="highlight">Registration opens on Friday, May 29th at 12:00PM EDT!</p>
 
 ## Prerequisites
 
@@ -72,11 +68,24 @@ Get a full refund (100%) up to 5 days prior to the course. No questions asked. A
 
 ### How do I convince my boss to let me take the workshop?
 
-This workshop is designed to only take a half day, which allows for lower impact on work hours while maximizing on your learning by diving deep into a topic. In addition, you will have the opportunity to ask questions about your code so you can
+This workshop is designed to only take a half day, which allows for lower impact on work hours while giving you opportunity to maximize your learning by diving deep into a specific topic. In addition, you will be able to ask questions about any code you want to bring in.
 
 ### How is this different from a conference workshop?
 
-This workshop is designed to maximize student and instructor interaction so that the material can be personalized to the class. In addition, while most workshops in the past have been full day workshops (approximately 8 hours)
+This workshop is designed to maximize student and instructor interaction so that the material can be personalized to the class.
+
+### Will there be other workshops in the future?
+
+<p class="mb-3">To get updates for any other workshops I'm teaching in the future, you can sign up below:</p>
+
+<form netlify-honeypot="seek-field" name="workshop-interest" method="POST" data-netlify="true" class="mb-5">
+  <label class="hidden">Don't fill out if you're a human: <input name="seek-field-2" type="text" /></label>
+  <label class="form-label" for="workshop-interest-email">
+    Email Address
+    <input class="form-input" type="email" id="workshop-interest-email" name="workshop-interest-email" />
+  </label>
+  <button class="form-submit" type="submit">Sign up</button> 
+</form>
 
 ### I have another question!
 
