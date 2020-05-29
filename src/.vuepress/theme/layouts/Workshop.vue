@@ -250,6 +250,10 @@ function find(page, items, offset) {
 @import '../styles/config.styl'
 @require '../styles/wrapper.styl'
 
+.hidden {
+  display: none;
+}
+
 .form-input {
   display: block;
   border: 2px solid #232323;
