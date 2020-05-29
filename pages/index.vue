@@ -9,16 +9,16 @@ export default {
 </script>
 
 <template>
-  <div class="container">
+  <div class="container mx-auto text-center">
     <div>
-      <logo class="mt-10" />
+      <logo class="mt-20" />
       <h1 class="title">
         BenCodeZen
       </h1>
       <p class="subtitle">Not your average coding blog</p>
-      <div class="links">
-        <nuxt-link to="/workshops" class="button--green">Workshops</nuxt-link>
-      </div>
+      <nuxt-link to="/workshops" class="button"
+        >Check out the latest news!</nuxt-link
+      >
     </div>
   </div>
 </template>
@@ -26,23 +26,25 @@ export default {
 <style lang="scss" scoped>
 @import '../styles/_settings.scss';
 
-.container {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.button {
+  display: inline-block;
+  @apply mt-3;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: $c-primary;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  transition: background-color 0.1s ease;
 }
 
 .title {
-  font-family: 'Poppins', 'Quicksand', 'Source Sans Pro', -apple-system,
-    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  color: #35495e;
-  letter-spacing: 1px;
+  @apply block;
   @apply mt-3;
+  color: $c-navy;
+  font-family: $ff-sans;
   @apply font-semibold;
   @apply text-5xl;
+  letter-spacing: 1px;
 }
 
 .subtitle {
@@ -52,9 +54,5 @@ export default {
   color: #57708a;
   padding-bottom: 15px;
   font-family: $ff-serif;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>

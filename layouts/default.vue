@@ -1,24 +1,25 @@
 <script>
+import AppFooter from '~/components/AppFooter'
 import AppNavbar from '~/components/AppNavbar'
 
 export default {
   components: {
+    AppFooter,
     AppNavbar
   }
 }
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col min-h-screen">
     <AppNavbar />
-    <nuxt />
+    <nuxt class="flex-1" />
+    <AppFooter />
   </div>
 </template>
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
