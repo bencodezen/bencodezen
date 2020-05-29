@@ -76,16 +76,7 @@ This workshop is designed to maximize student and instructor interaction so that
 
 ### Will there be other workshops in the future?
 
-<p class="mb-3">To get updates for any other workshops I'm teaching in the future, you can sign up below:</p>
-
-<form netlify-honeypot="seek-field" name="workshop-interest" method="POST" data-netlify="true" class="mb-5">
-  <label class="hidden">Don't fill out if you're a human: <input name="seek-field-2" type="text" /></label>
-  <label class="form-label" for="workshop-interest-email">`
-    Email Address
-    <input class="form-input" type="email" id="workshop-interest-email" name="workshop-interest-email" />
-  </label>
-  <button class="form-submit" type="submit">Sign up</button> 
-</form>
+<p class="mb-3">To get updates for any other workshops I'm teaching in the future, you can <a href="https://forms.gle/FobFLjhpRKNc91iz9">sign up to get email updates!</a></p>
 
 ### I have another question!
 
