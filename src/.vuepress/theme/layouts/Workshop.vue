@@ -250,11 +250,6 @@ function find(page, items, offset) {
 @import '../styles/config.styl'
 @require '../styles/wrapper.styl'
 
-.bcz-form {
-  display: flex;
-  align-items: flex-end;
-}
-
 .form-input {
   display: block;
   border: 2px solid #232323;
@@ -262,6 +257,7 @@ function find(page, items, offset) {
   font-size: 1rem;
   font-family: 'Poppins';
   margin-top: 3px;
+  margin-bottom: 1rem;
   width: 100%;
 }
 
@@ -270,8 +266,6 @@ function find(page, items, offset) {
   font-family: 'Poppins';
   font-size: 12px;
   font-weight: 600;
-  margin-right: 1rem;
-  flex: 1;
 }
 
 .form-submit {
