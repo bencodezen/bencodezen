@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <main>
+  <main class="container mx-auto">
     <nuxt-content :document="page"></nuxt-content>
   </main>
 </template>

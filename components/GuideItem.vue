@@ -10,11 +10,11 @@ export default {
       type: String,
       required: true
     },
-    imgSrc: {
+    image: {
       type: String,
       required: true
     },
-    imgAlt: {
+    alt: {
       type: String,
       default: ''
     },
@@ -28,10 +28,10 @@ export default {
 
 <template>
   <div class="guide-item">
-    <img class="guide-item__logo" :src="imgSrc" :alt="imgAlt" />
+    <img class="guide-item-logo" :src="image" :alt="imgAlt" />
     <div>
-      <nuxt-link class="guide-item__title" :to="href">{{ title }}</nuxt-link>
-      <p class="guide-item__description">{{ description }}</p>
+      <nuxt-link class="guide-item-title" :to="href">{{ title }}</nuxt-link>
+      <p class="guide-item-description">{{ description }}</p>
     </div>
   </div>
 </template>
@@ -39,23 +39,23 @@ export default {
 <style lang="scss" scoped>
 .guide-item {
   display: flex;
-  padding: 10px;
+  @apply p-5;
   align-items: center;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.guide-item__description {
-  margin-top: 0;
+.guide-item-description {
+  @apply mt-0 mb-2;
 }
 
-.guide-item__logo {
+.guide-item-logo {
   max-width: 150px;
   max-height: 150px;
-  margin-right: 10px;
+  @apply mr-5;
 }
 
-.guide-item__title {
+.guide-item-title {
   display: block;
   font-family: 'Poppins';
   font-size: 1.4rem;
