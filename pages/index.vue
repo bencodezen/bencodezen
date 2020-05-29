@@ -16,7 +16,7 @@ export default {
         BenCodeZen
       </h1>
       <p class="subtitle">Not your average coding blog</p>
-      <nuxt-link to="/workshops" class="button"
+      <nuxt-link to="/learn" class="button"
         >Check out the latest news!</nuxt-link
       >
     </div>
