@@ -11,15 +11,6 @@ export default {
     Countdown,
     IconLabel,
     WorkshopDetails
-  },
-  async asyncData({ $content }) {
-    const pageContent = await $content(
-      'workshops/scalable-prop-patterns'
-    ).fetch()
-
-    return {
-      pageContent
-    }
   }
 }
 </script>
@@ -43,7 +34,183 @@ export default {
     </header>
     <main>
       <article class="container mx-auto content pt-10">
-        <nuxt-content :document="pageContent" />
+        <h2>About</h2>
+
+        <p>
+          In almost every codebase, there is always that one component. You know
+          the one that I am talking about. That one component where:
+        </p>
+
+        <ul>
+          <li>It is difficult to understand how it works</li>
+          <li>It is painful to make any changes to it</li>
+          <li>
+            People would rather create a new component instead of modifying the
+            existing one
+          </li>
+          <li>
+            The same developer keeps getting assigned to work on it because they
+            are the only one who understand it
+          </li>
+        </ul>
+
+        <p>
+          One of the common causes for this is the misuse of props. While props
+          are one of the first techniques Vue.js developers learn, it is
+          surprisingly complex because the technical debts do not show up until
+          it is seemingly "too late" or "too difficult" to refactor and change.
+          And before you know it, what was once a simple component becomes the
+          component that no one wants to maintain.
+        </p>
+
+        <p class="mt-4">
+          In this workshop, you will be guided through fundamental prop
+          techniques, best practices and patterns for creating scalable Vue.js
+          components.
+        </p>
+
+        <h2 class="section-title">What You Will Learn</h2>
+
+        <p>After taking this workshop, you will better understand:</p>
+
+        <ul>
+          <li>How to master using props with components</li>
+          <li>Best practices for creating and maintaining props</li>
+          <li>Scalable patterns for reusable components</li>
+        </ul>
+
+        ## Benefits
+
+        <ul>
+          <li>Small classroom experience (12 students maximum)</li>
+          <li>Interactive learning experience with code challenges</li>
+          <li>Opportunities to ask questions about your own code</li>
+        </ul>
+
+        <h2>Instructor</h2>
+
+        <div class="instructor-wrapper">
+          <img
+            src="/images/ben-profile-circle.jpg"
+            alt="Ben Hong Profile Image"
+            class="profile-image"
+          />
+
+          <p>
+            Ben Hong is a Vue Core Team member, Google Developer Expert and Vue
+            Mastery instructor. He is an international speaker and his workshops
+            were sold out for the last two years at VueConfUS. He is also a
+            self-taught developer, who believes in creating educational content
+            that is approachable to people regardless of their training or
+            skillset.
+          </p>
+        </div>
+
+        <h2>Workshop Details</h2>
+
+        <countdown
+          :deadline="new Date('2020-05-29T12:00-05:00')"
+          style="margin-bottom: 1.5rem;"
+        ></countdown>
+
+        <workshop-details
+          :option="1"
+          date="Wednesday, June 10th"
+          time="1:30PM - 4:30PM EDT"
+          datetime="2020-06-10T13:30-5:00"
+          class="mb-5"
+        ></workshop-details>
+
+        <workshop-details
+          :option="2"
+          date="Saturday, June 13th"
+          time="1:30PM - 4:30PM EDT"
+          datetime="2020-06-13T13:30-5:00"
+          class="mb-5"
+        ></workshop-details>
+
+        <p class="highlight">
+          Registration opens on Friday, May 29th at 12:00PM EDT!
+        </p>
+
+        <h2>Prerequisites</h2>
+
+        <ul>
+          <li>Intermediate HTML, CSS & JavaScript</li>
+          <li>
+            Familiarity with [Vue.js Essentials](https://vuejs.org/v2/guide/)
+          </li>
+        </ul>
+        <h2>FAQs</h2>
+
+        <h3>Will this workshop be recorded?</h3>
+
+        <p>
+          No. This is to ensure that all students have the privacy and safety to
+          ask questions and share code with the instructor and class.
+        </p>
+
+        <h3>What if I need to cancel?</h3>
+
+        <p>
+          Get a full refund (100%) up to 5 days prior to the course. No
+          questions asked. All other cancellations will be considered on a
+          case-by-case basis.
+        </p>
+
+        <h3>How do I convince my boss to let me take the workshop?</h3>
+
+        <p>
+          This workshop is designed to only take a half day, which allows for
+          lower impact on work hours while giving you opportunity to maximize
+          your learning by diving deep into a specific topic. In addition, you
+          will be able to ask questions about any code you want to bring in.
+        </p>
+
+        <h3>How is this different from a conference workshop?</h3>
+
+        <p>
+          This workshop is designed to maximize student and instructor
+          interaction so that the material can be personalized to the class.
+        </p>
+
+        <h3>Will there be other workshops in the future?</h3>
+
+        <p class="mb-3">
+          To get updates for any other workshops I'm teaching in the future, you
+          can sign up below:
+        </p>
+
+        <form
+          netlify-honeypot="seek-field"
+          name="workshop-interest"
+          method="POST"
+          data-netlify="true"
+          class="mb-5"
+        >
+          <label class="hidden"
+            >Don't fill out if you're a human:
+            <input name="seek-field-2" type="text"
+          /></label>
+          <label class="form-label" for="workshop-interest-email">
+            Email Address
+            <input
+              class="form-input"
+              type="email"
+              id="workshop-interest-email"
+              name="workshop-interest-email"
+            />
+          </label>
+          <button class="form-submit" type="submit">Sign up</button>
+        </form>
+
+        <h3>I have another question!</h3>
+
+        <p>
+          Email me at
+          <a href="mailto:hello@bencodezen.io">hello@bencodezen.io</a> and we'll
+          take it from there!
+        </p>
       </article>
     </main>
   </div>
@@ -226,7 +393,7 @@ export default {
   }
 }
 
-.nuxt-content {
+.content {
   a {
     color: $c-primary;
 
