@@ -18,6 +18,10 @@ export default {
     time: {
       type: String,
       default: ''
+    },
+    url: {
+      type: String,
+      default: ''
     }
   }
 }
@@ -34,17 +38,21 @@ export default {
       <p :class="$style.metaText">Location: Remote</p>
       <p :class="$style.metaText">Price: $100 USD</p>
     </div>
-    <!-- <a :class="$style.button" href="#">Register</a> -->
+    <a v-if="url" :class="$style.button" :href="url">Register</a>
   </div>
 </template>
 
 <style lang="scss" module>
+@import '../styles/_settings.scss';
+
 .button {
   border-radius: 4px;
-  background: #d4dce0;
+  background: $c-primary;
   padding: 12px 14px;
   text-transform: capitalize;
-  color: white;
+  color: white !important;
+  font-family: $ff-sans;
+  text-transform: uppercase;
 }
 
 .date {
