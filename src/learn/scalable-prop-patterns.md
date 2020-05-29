@@ -65,11 +65,12 @@ No. This is to ensure that all students have the privacy and safety to ask quest
 
 There is nothing currently scheduled; but if you're interested in taking this workshop with me, you can sign up below to be notified when this workshop is offered again!
 
-<form class="bcz-form" name="spp-interest" method="POST" data-netlify="true">
+<form class="bcz-form" data-netlify-recaptcha="true" name="spp-interest" method="POST" data-netlify="true">
   <label class="form-label" for="spp-interest-email">
     Email Address
-    <input class="form-input" type="email" id="spp-interest-email" />
+    <input class="form-input" type="email" id="spp-interest-email" name="spp-interest-email" />
   </label>
+  <div data-netlify-recaptcha="true"></div>
   <button class="form-submit" type="submit">Sign up</button> 
 </form>
 
