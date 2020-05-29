@@ -20,6 +20,11 @@ export default {
     return {
       pageContent
     }
+  },
+  head() {
+    return {
+      title: 'Scalable Prop Patterns - BenCodeZen'
+    }
   }
 }
 </script>
