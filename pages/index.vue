@@ -30,6 +30,7 @@ export default {
   display: inline-block;
   @apply mt-3;
   font-size: 1.2rem;
+  font-family: $ff-serif;
   color: #fff;
   background-color: $c-primary;
   padding: 0.8rem 1.6rem;
