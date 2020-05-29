@@ -221,9 +221,9 @@ export default {
 }
 
 .profile-image {
+  max-width: 100%;
   border-radius: 50%;
-  width: 125px;
-  height: 125px;
+  width: 600px;
   @apply mb-4;
 
   @include breakpoint(700px) {
