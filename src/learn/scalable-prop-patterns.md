@@ -61,19 +61,6 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 
 No. This is to ensure that all students have the privacy and safety to ask questions and share code with the instructor and class.
 
-### Will this workshop be taught again in the future?
-
-There is nothing currently scheduled; but if you're interested in taking this workshop with me, you can sign up below to be notified when this workshop is offered again!
-
-<form netlify-honeypot="seek-field" name="spp-interest" method="POST" data-netlify="true">
-  <label class="hidden">Don't fill out if you're a human: <input name="seek-field" type="text" /></label>
-  <label class="form-label" for="spp-interest-email">
-    Email Address
-    <input class="form-input" type="email" id="spp-interest-email" name="spp-interest-email" />
-  </label>
-  <button class="form-submit" type="submit">Sign up</button> 
-</form>
-
 ### What if I need to cancel?
 
 Get a full refund (100%) up to 5 days prior to the course. No questions asked. All other cancellations will be considered on a case-by-case basis.
@@ -90,7 +77,7 @@ This workshop is designed to maximize student and instructor interaction so that
 
 To get updates for any other workshops I'm teaching in the future, you can sign up below:
 
-<form netlify-honeypot="seek-field-2" name="workshop-interest" method="POST" data-netlify="true">
+<form netlify-honeypot="seek-field" name="workshop-interest" method="POST" data-netlify="true">
   <label class="hidden">Don't fill out if you're a human: <input name="seek-field-2" type="text" /></label>
   <label class="form-label" for="workshop-interest-email">
     Email Address
