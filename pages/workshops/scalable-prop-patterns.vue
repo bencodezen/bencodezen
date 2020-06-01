@@ -221,10 +221,10 @@ export default {
 }
 
 .profile-image {
-  max-width: 100%;
+  width: 150px;
   border-radius: 50%;
-  width: 600px;
   @apply mb-4;
+  flex: 1 1 100%;
 
   @include breakpoint(700px) {
     @apply mb-0 mr-4;
