@@ -21,7 +21,7 @@ export default {
       :class="$style.iconLabelImage"
       :src="iconPath"
       :alt="`${icon} icon`"
-      class="mr-1"
+      class="mr-2"
     />
     <slot></slot>
   </div>
