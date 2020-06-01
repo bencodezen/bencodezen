@@ -43,11 +43,9 @@ Ben Hong is a Vue Core Team member, Google Developer Expert and Vue Mastery inst
 
 ## Workshop Details
 
-<p class="highlight" style="margin-bottom: 1rem;">Registration opens on Friday, May 29th at 12:00PM EDT!</p>
+<workshop-details date="Wednesday, June 10th" time="1:30PM - 4:30PM EDT" datetime="2020-06-10T13:30-5:00" url="https://www.eventbrite.com/e/scalable-prop-patterns-june-10th-tickets-107161559108" class="mb-5"></workshop-details>
 
-<workshop-details :option="1" date="Wednesday, June 10th" time="1:30PM - 4:30PM EDT" datetime="2020-06-10T13:30-5:00" url="https://www.eventbrite.com/e/scalable-prop-patterns-june-10th-tickets-107161559108" class="mb-5"></workshop-details>
-
-<workshop-details :option="2" date="Saturday, June 13th" time="1:30PM - 4:30PM EDT" datetime="2020-06-13T13:30-5:00" url="https://www.eventbrite.com/e/scalable-prop-patterns-june-13th-tickets-107165537006" class="mb-5"></workshop-details>
+<workshop-details date="Saturday, June 13th" time="1:30PM - 4:30PM EDT" datetime="2020-06-13T13:30-5:00" url="https://www.eventbrite.com/e/scalable-prop-patterns-june-13th-tickets-107165537006" class="mb-5"></workshop-details>
 
 ## Prerequisites
 

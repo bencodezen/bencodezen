@@ -29,8 +29,8 @@ export default {
 
 <template>
   <div :class="$style.wrapper" class="flex items-center justify-between">
-    <div>
-      <p :class="$style.option">Option #{{ option }}</p>
+    <div class="pt-2">
+      <p v-if="option" :class="$style.option">Option #{{ option }}</p>
       <time :datetime="datetime">
         <span :class="$style.date">{{ date }}</span>
         <span :class="$style.time">{{ time }}</span>
