@@ -264,9 +264,8 @@ export default {
   }
 
   ul {
-    @apply mt-3 mb-3;
+    @apply mt-3 mb-3 ml-6;
     @apply list-disc;
-    @apply list-inside;
     font-family: PT Serif;
     @apply text-lg;
   }
