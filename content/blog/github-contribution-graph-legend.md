@@ -6,35 +6,36 @@ blog: true
 excerpt: Ever wonder what it takes to achieve certain colors in the GitHub contribution graph? Here's a quick post on what I found.
 tags:
 commitLegend:
- - numberOfCommits: "0"
-   color: "#ebedf0"
- - numberOfCommits: "1-6"
-   color: "#c6e48b"
- - numberOfCommits: "7-13"
-   color: "#7bc96f"
- - numberOfCommits: "14-19"
-   color: "#239a3b"
- - numberOfCommits: "20+"
-   color: "#196127"
+  - numberOfCommits: '0'
+    color: '#ebedf0'
+  - numberOfCommits: '1-6'
+    color: '#c6e48b'
+  - numberOfCommits: '7-13'
+    color: '#7bc96f'
+  - numberOfCommits: '14-19'
+    color: '#239a3b'
+  - numberOfCommits: '20+'
+    color: '#196127'
 ---
 
 On every GitHub user's profile page, there is a graph that is hard to ignore:
 
 ![My GitHub contribution graph](/images/2019/2019-02-26-contribution-graph.png)
 
-While there is controversy whether the graph is more harmful to developers ([see discussion thread](https://twitter.com/EmmaWedekind/status/1099235211555074048)), I have always been curious the amount of commits needed to generate a certain color within the graph. And while the internet is great for finding random information like this, I was unsuccessful at finding it. 
+While there is controversy whether the graph is more harmful to developers ([see discussion thread](https://twitter.com/EmmaWedekind/status/1099235211555074048)), I have always been curious the amount of commits needed to generate a certain color within the graph. And while the internet is great for finding random information like this, I was unsuccessful at finding it.
 
 So, thankfully my GitHub contribution graph has a fair amount of variance in the data to allow me to figure it out.
 
 ## Contribution Square Legend
 
-<ul style="padding-left: 0">
-  <li v-for="item in this.$frontmatter.commitLegend" 
+<!-- TODO: FIX -->
+<!-- <ul style="padding-left: 0">
+  <li v-for="item in this.$frontmatter.commitLegend"
     style="padding: 5px 15px; display: flex; align-items: center; margin-left: 0">
     <div :style="`background-color: ${item.color}; width: 50px; height: 50px; margin-right: 15px`"></div>
     <p>{{ item.numberOfCommits }} commits: <code>{{ item.color }}</code></p>
   </li>
-</ul>
+</ul> -->
 
 ## Contributions Are Not Created Equal
 
