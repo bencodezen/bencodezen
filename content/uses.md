@@ -1,13 +1,10 @@
-`---
-sidebar: auto
-
----
-
 # Uses
 
 There are times where people ask me about what software or gear I am using. This page will serve as a living document for people to always know the latest and greatest.
 
-🎩 This page is inspired from Wes Bos' [Uses](https://wesbos.com/uses/) page.
+<p class="mt-3">
+🎩 This page is inspired from <a href="https://wesbos.com/uses/">Wes Bos' Uses page.</a>
+</p>
 
 ## Hardware
 
@@ -49,4 +46,3 @@ There are times where people ask me about what software or gear I am using. This
 - [Rocket](https://matthewpalmer.net/rocket/) is the emoji picker you always needed. It's sadly macOS only, but I imagine there is a PC alternative somewhere. Basically, you can queue up the emoji selector with a hotkey which makes for a more Slack/Discord like experience for any app you're in. And if you're concerned, you can exclude apps too if you don't want it to trigger.
 
 If you have any questions or would like to know more about other aspects about my workflow, please [submit an issue](https://github.com/bencodezen/bencodezen/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) and I'll do my best to get it addressed!
-`
