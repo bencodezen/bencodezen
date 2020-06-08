@@ -31,7 +31,7 @@ To better understand the gravity of the situation, you should know that most of 
 
 Why does that matter? Well, this means that my parent's generation came to this country with next to nothing and learned English as a second language. So for them to get a job in the federal government is a big freaking deal. Or to put it in another way, for them to get that job was to live by design. However, in my case, given the advantages I have born here in the United States and being able to speak English fluently, getting a government job was living by default.
 
-And so, even though many of my family members vehemently disagreed with this, I ultimately chose to leave the federal government to join the riskier world of private contracting (where job security was much less stable) in order to forge my own path. Though it may insignificant, that decision to embark on my journey in tech was the first major decision I made where I decided to take the path less taken and live by own design.
+And so, even though many of my family members vehemently disagreed with this, I ultimately chose to leave the federal government to join the riskier world of private contracting (where job security was much less stable) in order to forge my own path. Though it may seem insignificant, that decision to embark on my journey in tech was the first major decision I made where I decided to take the path less taken and live by own design.
 
 ## Challenge
 
