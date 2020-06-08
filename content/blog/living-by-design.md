@@ -37,4 +37,4 @@ And so, even though many of my family members vehemently disagreed with this, I 
 
 > Reflect on a decision in your life that has some significance to you and think about whether you made it by design or by default.
 
-If you made it by default, that's okay! The purpose of this challenge is to awaken the instinct for whether you are living life by according to your own values and principles (i.e., by design) so you have a fighting chance next time another decision point rolls around.
+If you made it by default, that's okay! The purpose of this challenge is to awaken the instinct for whether you are living life according to your own values and principles (i.e., by design) so you have a fighting chance next time another decision point comes around.
