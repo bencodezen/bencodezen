@@ -54,6 +54,11 @@ export default {
 }
 
 .nuxt-content {
+  blockquote {
+    font-style: italic;
+    @apply ml-3;
+  }
+
   h2 {
     color: $c-navy;
     font-family: $ff-sans;
