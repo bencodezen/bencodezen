@@ -4,6 +4,7 @@
   "description": "My website",
   "author": "Ben Hong",
   "private": true,
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
