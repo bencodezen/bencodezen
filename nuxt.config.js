@@ -116,6 +116,7 @@ export default {
     extend(config, ctx) {}
   },
   generate: {
+    fallback: '404.html',
     async routes() {
       const { $content } = require('@nuxt/content')
       const files = await $content('blog').fetch()
