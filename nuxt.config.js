@@ -52,13 +52,23 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxt/content',
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/sentry'
   ],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  /*
+   ** Axios module configuration
+   ** See https://axios.nuxtjs.org/options
+   */
+  sentry: {
+    dsn:
+      'https://bd297683671646539eb56ee77d407e62@o405530.ingest.sentry.io/5271314',
+    config: {}
+  },
   /*
    ** Build configuration
    */
