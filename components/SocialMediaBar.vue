@@ -13,8 +13,8 @@ export default {
           url: 'https://www.twitter.com/bencodezen'
         },
         {
-          name: 'GitHub',
-          url: 'https://www.github.com/bencodezen'
+          name: 'Instagram',
+          url: 'https://www.instagram.com/bencodezen'
         },
         {
           name: 'YouTube',
@@ -23,6 +23,10 @@ export default {
         {
           name: 'Twitch',
           url: 'https://www.twitch.tv/bencodezen'
+        },
+        {
+          name: 'GitHub',
+          url: 'https://www.github.com/bencodezen'
         }
       ]
     }
