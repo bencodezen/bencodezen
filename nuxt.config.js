@@ -52,6 +52,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxt/content',
     '@nuxtjs/axios',
+    '@nuxtjs/feed',
     '@nuxtjs/pwa',
     '@nuxtjs/sentry'
   ],
@@ -61,8 +62,44 @@ export default {
    */
   axios: {},
   /*
-   ** Axios module configuration
-   ** See https://axios.nuxtjs.org/options
+   ** Feed module configuration
+   ** See https://github.com/nuxt-community/feed-module
+   */
+  feed: [
+    {
+      path: '/rss.xml',
+      async create(feed) {
+        const { $content } = require('@nuxt/content')
+        const files = await $content('blog').fetch()
+
+        feed.options = {
+          title: "BenCodeZen's Blog",
+          link: 'https://www.bencodezen.io/feed.xml',
+          description: 'Get the latest posts from BenCodeZen'
+        }
+
+        files.forEach((post) => {
+          feed.addItem({
+            title: post.title,
+            id: post.path,
+            link: `https://www.bencodezen.io${post.path}`,
+            description: post.excerpt
+          })
+        })
+
+        feed.addContributor({
+          name: 'Ben Hong',
+          email: 'hello@bencodezen.io',
+          link: 'https://www.bencodezen.io'
+        })
+      },
+      cacheTime: 1000 * 60 * 15,
+      type: 'rss2'
+    }
+  ],
+  /*
+   ** Sentry module configuration
+   ** See https://github.com/nuxt-community/sentry-module
    */
   sentry: {
     dsn:
