@@ -39,9 +39,16 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
+    // Docs: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
+    // Docs: https://github.com/nuxt-community/analytics-module
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-177350053-1'
+      }
+    ],
+    // Docs: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     '@nuxtjs/tailwindcss'
   ],
