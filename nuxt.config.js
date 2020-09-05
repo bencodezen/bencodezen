@@ -50,6 +50,7 @@ export default {
     ],
     // Docs: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
+    // Docs: https://github.com/nuxt-community/tailwindcss-module
     '@nuxtjs/tailwindcss'
   ],
   /*
