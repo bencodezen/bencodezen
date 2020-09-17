@@ -9,7 +9,7 @@ There are times where people ask me about what software or gear I am using. This
 ## Hardware
 
 - Primary Laptop:
-  - [Macbook Pro 2018 with i9, 32GB RAM, and 512GB hard drive](https://www.apple.com/macbook-pro/)
+  - [Macbook Pro 16" 2019 with i9, 64GB RAM, and 1TB hard drive](https://www.apple.com/macbook-pro/)
 - Desktop Monitor:
   - [Dell UltraSharp 34" Curved Monitor (U3417W)](https://deals.dell.com/mpp/productdetail/204g)
 - Portable Monitor:
