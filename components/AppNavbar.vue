@@ -23,6 +23,7 @@ export default {}
       <nuxt-link to="/learn" class="navbar-item">Learn</nuxt-link>
       <nuxt-link to="/blog" class="navbar-item">Blog</nuxt-link>
       <nuxt-link to="/uses" class="navbar-item">Uses</nuxt-link>
+      <nuxt-link to="/about" class="navbar-item">About</nuxt-link>
     </div>
   </nav>
 </template>
