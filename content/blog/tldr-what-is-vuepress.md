@@ -9,6 +9,10 @@ tags:
   - vuepress
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iRhRdY7SQJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
 Hey everyone! Welcome to the inaugural episode of the TL;DR series, where I'll be writing about one of my favorite tools: VuePress!
 
 ## What is VuePress?
