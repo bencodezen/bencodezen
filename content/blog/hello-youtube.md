@@ -1,6 +1,6 @@
 ---
-title: Hello YouTube
-published: 2020-09-28 23:39:31
+title: 'Hello YouTube'
+date: 2020-09-28 23:39:31
 excerpt: It's official. My YouTube channel is live!
 tags:
 ---
