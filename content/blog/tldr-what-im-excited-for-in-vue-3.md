@@ -13,7 +13,7 @@ tags:
 
 What's up everyone? For those who might not have heard the news, Vue 3 is now production ready! So for this episode of TL;DR, let's talk about some of the things I'm excited about in Vue 3!
 
-## 1. Fragments
+## Fragments
 
 For those of us who have used frameworks for a little while now, there is an error that's pretty consistent across frameworks: The template requires exactly one root element.
 
@@ -23,7 +23,7 @@ Thankfully, Vue 3 introduces the concept of fragments, which means we will be ab
 
 Using our last example, this means we can now eliminate the wrapping div and this will be perfectly valid code. Huzzah!
 
-## 2. Teleport
+## Teleport
 
 The next feature I'm stoked about is the new teleport component.
 What is the teleport component exactly?
@@ -34,7 +34,7 @@ In the past, this was difficult to manage and though people found ways to hack a
 
 With the teleport component, you will be able to organize your code while still allowing it to render in the appropriate location on the site.
 
-## 3. Composition API
+## Composition API
 
 For those who have been following Vue 3's development, it should be no surprise that of course Composition API must be mentioned.
 
@@ -42,7 +42,7 @@ In case you haven't heard, the Composition API is a new technique that allows de
 
 It is an enhancement to the current Options API and should not be considered a replacement. With this new ability ability and freedom, it's important to remember that the Composition API will not magically make your code better. In other words, because it gives you the freedom to compose features together, this means that the responsibility of good software architecture is on you when using it.
 
-## 4. Emits Component Option
+## Emits Component Option
 
 One of the best things I loved about Vue was the ability to easily define props and document them so it was easier for other developers to understand how to use it.
 
@@ -52,7 +52,7 @@ With this in mind, it's not surprising that this led to some proponents of passi
 
 Thankfully, in Vue 3, rather than trying to figure out how the emitted events work, they can now be defined inside the component definition to provide better documentation!
 
-## 5. State Driven CSS Variables
+## State Driven CSS Variables
 
 One of the challenges of working in applications is that there are times when you need styles to be managed via JavaScript as far as things like color variables and such.
 
