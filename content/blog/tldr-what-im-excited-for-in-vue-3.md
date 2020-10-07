@@ -9,6 +9,10 @@ tags:
   - vuepress
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w_wGpI9DM-E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
 ## Introduction
 
 What's up everyone? For those who might not have heard the news, Vue 3 is now production ready! So for this episode of TL;DR, let's talk about some of the things I'm excited about in Vue 3!
