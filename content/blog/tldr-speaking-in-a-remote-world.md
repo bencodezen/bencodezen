@@ -6,6 +6,10 @@ blog: true
 excerpt: With in-person events having transitioned to a remote setting, it can be challenging for speakers to adjust to this new world. In this post, I talk about some of my thoughts on the transition and some tips for dealing with it.
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ptwseOmO0iY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+
 ## Introduction
 
 Today I'm here to talk about a topic that's near and dear to me: speaking in a remote world.
