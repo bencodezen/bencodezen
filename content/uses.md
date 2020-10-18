@@ -11,9 +11,10 @@ There are times where people ask me about what software or gear I am using. This
 - Primary Laptop:
   - [Macbook Pro 16" 2019 with i9, 64GB RAM, and 1TB hard drive](https://www.apple.com/macbook-pro/)
 - Desktop Monitor:
-  - [Dell UltraSharp 34" Curved Monitor (U3417W)](https://deals.dell.com/mpp/productdetail/204g)
+  - Dell UltraSharp U2720Q 27 Inch 4K UHD (3840 x 2160) LED Backlit LCD IPS USB-C Monitor (7GZ651)
+  - ASUS ProArt PA329Q 32" UHD 3840 x 2160 (4K) 5ms (GTG) 60 Hz 4 x HDMI, DisplayPort, Mini Mini DisplayPort, Card Reader Built-in Speakers IPS Professional Monitor, Quantum Dot, 99.5% Adobe RGB, Hardware Calibration, Color Accuracy Delta E< 2
 - Portable Monitor:
-  - [ASUS ZenScreen MB16AC 15.6-Inch Full HD IPS Monitor](https://www.amazon.com/ASUS-ZenScreen-MB16AC-15-6-Inch-Monitor/dp/B071S84ZW7/ref=sr_1_2?s=electronics&ie=UTF8&qid=1548301672&sr=1-2&keywords=ASUS+ZenScreen+MB16AC+15.6-Inch+Full+HD+IPS+Monitor)
+  - iPad Pro 10.9"
 - Mechanical Keyboard:
   - [Vortex POK3R Black Case RGB with Silent Cherry Reds](https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=3527)
 - Mouse:
@@ -23,6 +24,13 @@ There are times where people ask me about what software or gear I am using. This
   - [Topo Standing Mat](https://www.amazon.com/Ergodriven-Not-Flat-Anti-Fatigue-Calculated-Must-Have/dp/B00V3TO9EK/)
 - Portable Laptop Stand:
   - [Roost Laptop Stand](https://www.therooststand.com/collections/roost-laptop-stand/products/roost-laptop-stand)
+
+### Archive
+
+- Monitor:
+  - [Dell UltraSharp 34" Curved Monitor (U3417W)](https://deals.dell.com/mpp/productdetail/204g)
+- Portable Monitor:
+  - [ASUS ZenScreen MB16AC 15.6-Inch Full HD IPS Monitor](https://www.amazon.com/ASUS-ZenScreen-MB16AC-15-6-Inch-Monitor/dp/B071S84ZW7/ref=sr_1_2?s=electronics&ie=UTF8&qid=1548301672&sr=1-2&keywords=ASUS+ZenScreen+MB16AC+15.6-Inch+Full+HD+IPS+Monitor)
 
 ## Editor & Terminal
 
