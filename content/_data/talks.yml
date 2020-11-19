@@ -8,3 +8,7 @@ talks:
   - event: CONNECT.TECH
     date: 2020-10-14
     title: What You Can Be Excited About in Vue 3
+workshops:
+  - event: Frontend Masters
+    date: 2020-11-24
+    title: Production-Grade Vue
