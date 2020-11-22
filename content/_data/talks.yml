@@ -8,6 +8,9 @@ talks:
   - event: CONNECT.TECH
     date: 2020-10-14
     title: What You Can Be Excited About in Vue 3
+  - event: Smashing Meets Holiay
+    date: 2020-12-17
+    title: Getting Started with Vue 3's Composition API
 workshops:
   - event: Frontend Masters
     date: 2020-11-24
