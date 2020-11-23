@@ -1,32 +1,13 @@
-# BenCodeZen
+# Hello! I'm BenCodeZen!
 
-This repo contains the code that powers my own site, [bencodezen.io](https://www.bencodezen.io).
+## About Me
 
-## Technology Stack
+- Vue.js Core Team
+- Senior Developer Experience Engineer @ Netlify
+- Lead Instructor @ Vue Mastery
 
-- Framework: [Vue.js](https://www.vuejs.org)
-- Static Site Generation: [Nuxt](https://www.nuxtjs.org)
-- Markdown Management: [Nuxt Content](https://content.nuxtjs.org/)
-- Deployment: [Netlify](https://www.netlify.com)
-- CSS Pre-processor: [Sass](https://sass-lang.com/)
-- CSS Framework: [TailwindCSS](https://tailwindcss.com/)
-- Error Catching: [Sentry](https://wwww.sentry.io)
+## Other Channels
 
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- https://www.twitter.com/bencodezen
+- https://www.youtube.com/bencodezen
+- https://www.instagram.com/bencodezen
