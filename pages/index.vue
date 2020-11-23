@@ -15,7 +15,6 @@ export default {
       <h1 class="title">
         BenCodeZen
       </h1>
-      <p class="subtitle">Not your average coding blog</p>
       <nuxt-link to="/learn" class="button"
         >Check out the latest news!</nuxt-link
       >
@@ -46,14 +45,5 @@ export default {
   @apply font-semibold;
   @apply text-5xl;
   letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 1.6rem;
-  line-height: 1.3;
-  color: #57708a;
-  padding-bottom: 15px;
-  font-family: $ff-serif;
 }
 </style>
