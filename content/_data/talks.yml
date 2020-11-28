@@ -11,6 +11,10 @@ talks:
   - event: Smashing Meets Holiday
     date: 2020-12-17
     title: Getting Started with Vue 3's Composition API
+  - event: Modern Web Conference
+    date:
+      start: 2021-03-22
+      end: 2021-03-26
 workshops:
   - event: Frontend Masters
     date: 2020-11-24
