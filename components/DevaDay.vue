@@ -47,7 +47,7 @@ export default {
       />
       <p class="deva-day-text">
         <a :href="day.surprise.url">
-          {{ day.surprise.text }} More Text and Some Words
+          {{ day.surprise.text }}
         </a>
       </p>
     </div>
