@@ -22,17 +22,20 @@ export default {
         December is going to be an exciting month! Come back each day before
         Christmas to see a new video, livestream, and/or talk that'll go live!
       </p>
-      <ul>
-        <li v-for="day in days" :key="`day-${day}`">
-          {{ day }}
-          <img src="../../assets/images/dev-advent-2020/lights.svg" />
+      <ul class="deva-calendar">
+        <li v-for="day in days" :key="`day-${day}`" class="deva-day">
+          <span class="deva-day-number">{{ day }}</span>
+          <img
+            class="deva-day-icon"
+            src="../../assets/images/dev-advent-2020/lights.svg"
+          />
         </li>
       </ul>
     </article>
   </main>
 </template>
 
-<style>
+<style lang="scss">
 .dev-advent-page {
   background-color: #0a4846;
 
@@ -58,5 +61,49 @@ export default {
 
 .daw-description {
   max-width: 700px;
+  margin-bottom: 42px;
+}
+
+.deva-calendar {
+  display: grid;
+  grid-template-columns: repeat(4, 176px);
+  grid-template-rows: repeat(6, 176px);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.deva-day {
+  background-color: white;
+  position: relative;
+  width: 100%;
+
+  &::after {
+    content: '';
+    width: 176px;
+    height: 176px;
+    background-image: url('../../assets/images/dev-advent-2020/bg-dots.png');
+    background-size: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 0;
+  }
+}
+
+.deva-day-icon {
+  transform: translateX(50%) translateY(50%);
+  z-index: 1;
+  position: absolute;
+}
+
+.deva-day-number {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  z-index: 1;
+  color: #951010;
+  font-size: 45px;
+  font-weight: 900;
 }
 </style>
