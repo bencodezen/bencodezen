@@ -61,8 +61,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/axios',
     '@nuxtjs/feed',
-    '@nuxtjs/pwa',
-    '@nuxtjs/sentry'
+    '@nuxtjs/pwa'
   ],
   /*
    ** Axios module configuration
@@ -105,15 +104,6 @@ export default {
       type: 'rss2'
     }
   ],
-  /*
-   ** Sentry module configuration
-   ** See https://github.com/nuxt-community/sentry-module
-   */
-  sentry: {
-    dsn:
-      'https://bd297683671646539eb56ee77d407e62@o405530.ingest.sentry.io/5271314',
-    config: {}
-  },
   /*
    ** Build configuration
    */
