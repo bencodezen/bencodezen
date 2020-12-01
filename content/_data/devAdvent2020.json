@@ -2,7 +2,11 @@
   {
     "number": 1,
     "status": "current",
-    "icon": "lights"
+    "icon": "lights",
+    "surprise": {
+      "text": "DevAdvent Calendar 2020",
+      "url": "https://youtu.be/DlkONFT1iRQ"
+    }
   },
   {
     "number": 2,
