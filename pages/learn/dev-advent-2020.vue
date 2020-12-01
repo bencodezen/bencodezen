@@ -1,7 +1,11 @@
 <script>
+import DevaDay from '../../components/DevaDay'
 import devAdventData from '../../content/_data/devAdvent2020.json'
 
 export default {
+  components: {
+    DevaDay
+  },
   data: () => ({
     devAdventData
   }),
@@ -28,21 +32,7 @@ export default {
         Christmas to see a new video, livestream, and/or talk that'll go live!
       </p>
       <ul class="deva-calendar">
-        <li
-          v-for="day in devAdventData"
-          :key="`day-${day}`"
-          class="deva-day"
-          :class="day.ready ? 'is-ready' : ''"
-        >
-          <span class="deva-day-number">{{ day.number }}</span>
-          <img
-            class="deva-day-icon"
-            :src="
-              require(`../../assets/images/dev-advent-2020/${day.icon}.svg`)
-            "
-          />
-          <button v-if="day.ready" class="deva-day-button">Open</button>
-        </li>
+        <DevaDay v-for="day in devAdventData" :key="`day-${day}`" :day="day" />
       </ul>
     </article>
   </main>
@@ -90,53 +80,5 @@ $fontHeading: 'Playfair Display', serif;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   margin-bottom: 120px;
-}
-
-.deva-day {
-  background-color: white;
-  position: relative;
-  width: 100%;
-  background-image: url('../../assets/images/dev-advent-2020/bg-dots.png');
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.deva-day.is-ready {
-  background-image: url('../../assets/images/dev-advent-2020/stars@2x.png');
-  background-size: cover;
-}
-
-.deva-day-icon {
-  width: 88px;
-  height: 88px;
-}
-
-.deva-day-button {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  color: #0a4846;
-  padding: 5px 15px;
-  border-radius: 2px;
-  border: 2px solid #0a4846;
-  transition: background 0.2s ease-in, color 0.2s ease-in;
-
-  &:hover {
-    background-color: #0a4846;
-    color: #fcfcfc;
-  }
-}
-
-.deva-day-number {
-  position: absolute;
-  top: 0;
-  left: 15px;
-  z-index: 1;
-  color: #951010;
-  font-family: $fontHeading;
-  font-size: 45px;
-  font-weight: 900;
 }
 </style>
