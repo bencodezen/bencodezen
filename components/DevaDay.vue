@@ -11,16 +11,19 @@ export default {
   }),
   computed: {
     devaDayClassNames() {
-      if (this.surpriseVisible) {
+      if (this.day.status === 'visible' || this.surpriseVisible) {
         return 'deva-day'
-      } else if (this.day.ready) {
+      } else if (this.day.status === 'current') {
         return 'deva-day has-cover is-ready'
       } else {
         return 'deva-day has-cover'
       }
     },
     showSurprise() {
-      return this.day.surprise && this.surpriseVisible
+      return (
+        this.day.status === 'visible' ||
+        (this.day.surprise && this.surpriseVisible)
+      )
     }
   },
   methods: {
@@ -51,7 +54,11 @@ export default {
         class="deva-day-icon"
         :src="require(`../assets/images/dev-advent-2020/${day.icon}.svg`)"
       />
-      <button v-if="day.ready" class="deva-day-button" @click="revealSurprise">
+      <button
+        v-if="day.status === 'current'"
+        class="deva-day-button"
+        @click="revealSurprise"
+      >
         Open
       </button>
     </div>

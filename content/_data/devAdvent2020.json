@@ -1,122 +1,122 @@
 [
   {
     "number": 1,
-    "ready": true,
+    "status": "current",
     "icon": "lights"
   },
   {
     "number": 2,
-    "ready": false,
+    "status": "upcoming",
     "icon": "ornament"
   },
   {
     "number": 3,
-    "ready": false,
+    "status": "upcoming",
     "icon": "wreath"
   },
   {
     "number": 4,
-    "ready": false,
+    "status": "upcoming",
     "icon": "candy-cane"
   },
   {
     "number": 5,
-    "ready": false,
+    "status": "upcoming",
     "icon": "mistletoe"
   },
   {
     "number": 6,
-    "ready": false,
+    "status": "upcoming",
     "icon": "bell"
   },
   {
     "number": 7,
-    "ready": false,
+    "status": "upcoming",
     "icon": "reindeer"
   },
   {
     "number": 8,
-    "ready": false,
+    "status": "upcoming",
     "icon": "gift-tag"
   },
   {
     "number": 9,
-    "ready": false,
+    "status": "upcoming",
     "icon": "lights"
   },
   {
     "number": 10,
-    "ready": false,
+    "status": "upcoming",
     "icon": "ornament"
   },
   {
     "number": 11,
-    "ready": false,
+    "status": "upcoming",
     "icon": "wreath"
   },
   {
     "number": 12,
-    "ready": false,
+    "status": "upcoming",
     "icon": "candy-cane"
   },
   {
     "number": 13,
-    "ready": false,
+    "status": "upcoming",
     "icon": "mistletoe"
   },
   {
     "number": 14,
-    "ready": false,
+    "status": "upcoming",
     "icon": "bell"
   },
   {
     "number": 15,
-    "ready": false,
+    "status": "upcoming",
     "icon": "reindeer"
   },
   {
     "number": 16,
-    "ready": false,
+    "status": "upcoming",
     "icon": "gift-tag"
   },
   {
     "number": 17,
-    "ready": false,
+    "status": "upcoming",
     "icon": "lights"
   },
   {
     "number": 18,
-    "ready": false,
+    "status": "upcoming",
     "icon": "ornament"
   },
   {
     "number": 19,
-    "ready": false,
+    "status": "upcoming",
     "icon": "wreath"
   },
   {
     "number": 20,
-    "ready": false,
+    "status": "upcoming",
     "icon": "candy-cane"
   },
   {
     "number": 21,
-    "ready": false,
+    "status": "upcoming",
     "icon": "mistletoe"
   },
   {
     "number": 22,
-    "ready": false,
+    "status": "upcoming",
     "icon": "bell"
   },
   {
     "number": 23,
-    "ready": false,
+    "status": "upcoming",
     "icon": "reindeer"
   },
   {
     "number": 24,
-    "ready": false,
+    "status": "upcoming",
     "icon": "gift-tag"
   }
 ]
