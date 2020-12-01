@@ -36,9 +36,12 @@ export default {
 </template>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+
+$fontHeading: 'Playfair Display', serif;
+
 .dev-advent-page {
   background-color: #0a4846;
-
   background-image: url('../../assets/images/dev-advent-2020/bg-snowflake.png');
 }
 
@@ -50,6 +53,7 @@ export default {
 }
 
 .daw-title {
+  font-family: $fontHeading;
   text-align: center;
   font-size: 40px;
   margin-top: 60px;
@@ -62,6 +66,8 @@ export default {
 .daw-description {
   max-width: 700px;
   margin-bottom: 42px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
 }
 
 .deva-calendar {
@@ -103,6 +109,7 @@ export default {
   left: 15px;
   z-index: 1;
   color: #951010;
+  font-family: $fontHeading;
   font-size: 45px;
   font-weight: 900;
 }
