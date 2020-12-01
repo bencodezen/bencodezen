@@ -1,5 +1,10 @@
 <script>
+import devAdventData from '../../content/_data/devAdvent2020.json'
+
 export default {
+  data: () => ({
+    devAdventData
+  }),
   computed: {
     days() {
       const daysList = []
@@ -23,11 +28,12 @@ export default {
         Christmas to see a new video, livestream, and/or talk that'll go live!
       </p>
       <ul class="deva-calendar">
-        <li v-for="day in days" :key="`day-${day}`" class="deva-day">
-          <span class="deva-day-number">{{ day }}</span>
+        <li v-for="day in devAdventData" :key="`day-${day}`" class="deva-day">
+          <span class="deva-day-number">{{ day.number }}</span>
           <img
-            class="deva-day-icon"
-            src="../../assets/images/dev-advent-2020/lights.svg"
+            :src="
+              require(`../../assets/images/dev-advent-2020/${day.icon}.svg`)
+            "
           />
         </li>
       </ul>
@@ -76,31 +82,17 @@ $fontHeading: 'Playfair Display', serif;
   grid-template-rows: repeat(6, 176px);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  margin-bottom: 120px;
 }
 
 .deva-day {
   background-color: white;
   position: relative;
   width: 100%;
-
-  &::after {
-    content: '';
-    width: 176px;
-    height: 176px;
-    background-image: url('../../assets/images/dev-advent-2020/bg-dots.png');
-    background-size: 25%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-    z-index: 0;
-  }
-}
-
-.deva-day-icon {
-  transform: translateX(50%) translateY(50%);
-  z-index: 1;
-  position: absolute;
+  background-image: url('../../assets/images/dev-advent-2020/bg-dots.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .deva-day-number {
