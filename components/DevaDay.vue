@@ -28,14 +28,16 @@ export default {
   },
   methods: {
     revealSurprise() {
-      this.surpriseVisible = true
+      if (this.day.status === 'current') {
+        this.surpriseVisible = true
+      }
     }
   }
 }
 </script>
 
 <template>
-  <li :class="devaDayClassNames">
+  <li :class="devaDayClassNames" @click="revealSurprise">
     <span class="deva-day-number">{{ day.number }}</span>
     <div v-if="showSurprise" class="deva-day-surprise">
       <img
@@ -76,6 +78,7 @@ $fontHeading: 'Playfair Display', serif;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-height: 129px;
 }
 
 .deva-day.has-cover {
@@ -85,6 +88,11 @@ $fontHeading: 'Playfair Display', serif;
 .deva-day.is-ready {
   background-image: url('../assets/images/dev-advent-2020/stars@2x.png');
   background-size: cover;
+  background-position-y: 50%;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .deva-day-icon {
@@ -93,21 +101,28 @@ $fontHeading: 'Playfair Display', serif;
 }
 
 .deva-day-button {
-  position: absolute;
-  bottom: 16px;
-  right: 54px;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  color: #0a4846;
-  padding: 5px 15px;
-  border-radius: 2px;
-  border: 2px solid #0a4846;
-  transition: background 0.2s ease-in, color 0.2s ease-in;
+  display: none;
+}
 
-  &:hover {
-    background-color: #0a4846;
-    color: #fcfcfc;
+@media screen and (min-width: 768px) {
+  .deva-day-button {
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    right: 54px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0a4846;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: 2px solid #0a4846;
+    transition: background 0.2s ease-in, color 0.2s ease-in;
+
+    &:hover {
+      background-color: #0a4846;
+      color: #fcfcfc;
+    }
   }
 }
 

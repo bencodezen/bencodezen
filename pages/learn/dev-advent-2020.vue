@@ -51,6 +51,7 @@ $fontHeading: 'Playfair Display', serif;
 .dev-advent-wrapper {
   max-width: 766px;
   margin: 0 auto;
+  padding: 0 42px;
   color: #fcfcfc;
   text-align: center;
 }
@@ -75,10 +76,30 @@ $fontHeading: 'Playfair Display', serif;
 
 .deva-calendar {
   display: grid;
-  grid-template-columns: repeat(4, 176px);
-  grid-template-rows: repeat(6, 176px);
+  grid-auto-columns: 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   margin-bottom: 120px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 540px) {
+  .deva-calendar {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .deva-calendar {
+    grid-template-columns: repeat(3, 176px);
+    grid-auto-rows: 176px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .deva-calendar {
+    grid-template-columns: repeat(4, 176px);
+  }
 }
 </style>
