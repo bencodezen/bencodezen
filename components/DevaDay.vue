@@ -93,6 +93,9 @@ $fontHeading: 'Playfair Display', serif;
 }
 
 .deva-day-button {
+  position: absolute;
+  bottom: 16px;
+  right: 54px;
   font-family: 'Titillium Web', sans-serif;
   font-size: 13px;
   font-weight: bold;
