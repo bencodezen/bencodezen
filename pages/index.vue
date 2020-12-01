@@ -15,9 +15,9 @@ export default {
       <h1 class="title">
         BenCodeZen
       </h1>
-      <nuxt-link to="/learn" class="button"
-        >Check out the latest news!</nuxt-link
-      >
+      <nuxt-link to="/learn/dev-advent-2020" class="button">
+        Check out DevAdvent Calendar 2020!
+      </nuxt-link>
     </div>
   </div>
 </template>
