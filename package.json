@@ -27,7 +27,7 @@
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/sentry": "^4.1.2",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.14.7"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
