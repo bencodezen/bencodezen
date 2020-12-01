@@ -79,6 +79,7 @@ $fontHeading: 'Playfair Display', serif;
   align-items: center;
   flex-direction: column;
   min-height: 129px;
+  box-shadow: 10px 10px 0px 0px #000000;
 }
 
 .deva-day.has-cover {
