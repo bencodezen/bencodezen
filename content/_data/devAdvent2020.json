@@ -1,7 +1,7 @@
 [
   {
     "number": 1,
-    "status": "current",
+    "status": "visible",
     "icon": "lights",
     "surprise": {
       "text": "DevAdvent Calendar 2020",
@@ -10,8 +10,12 @@
   },
   {
     "number": 2,
-    "status": "upcoming",
-    "icon": "ornament"
+    "status": "current",
+    "icon": "ornament",
+    "surprise": {
+      "text": "My Favorite Visual Studio Code Extensions",
+      "url": "https://youtu.be/WqRT2j_FB3U"
+    }
   },
   {
     "number": 3,
