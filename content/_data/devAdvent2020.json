@@ -10,7 +10,7 @@
   },
   {
     "number": 2,
-    "status": "current",
+    "status": "visible",
     "icon": "ornament",
     "surprise": {
       "text": "My Favorite Visual Studio Code Extensions",
@@ -19,8 +19,12 @@
   },
   {
     "number": 3,
-    "status": "upcoming",
-    "icon": "wreath"
+    "status": "current",
+    "icon": "wreath",
+    "surprise": {
+      "text": "Why I Love CSS Modules in Vue.js",
+      "url": "https://youtu.be/ZxPTBMcaoqo"
+    }
   },
   {
     "number": 4,
