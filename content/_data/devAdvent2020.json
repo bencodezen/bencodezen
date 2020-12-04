@@ -19,7 +19,7 @@
   },
   {
     "number": 3,
-    "status": "current",
+    "status": "visible",
     "icon": "wreath",
     "surprise": {
       "text": "Why I Love CSS Modules in Vue.js",
@@ -28,8 +28,12 @@
   },
   {
     "number": 4,
-    "status": "upcoming",
-    "icon": "candy-cane"
+    "status": "current",
+    "icon": "candy-cane",
+    "surprise": {
+      "text": "Space Game Live Stream - Part 3",
+      "url": "https://youtu.be/0WUjgqCuoXE"
+    }
   },
   {
     "number": 5,
