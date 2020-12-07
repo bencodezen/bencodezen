@@ -28,7 +28,7 @@
   },
   {
     "number": 4,
-    "status": "current",
+    "status": "visible",
     "icon": "candy-cane",
     "surprise": {
       "text": "Space Game Live Stream - Part 3",
@@ -37,13 +37,21 @@
   },
   {
     "number": 5,
-    "status": "upcoming",
-    "icon": "mistletoe"
+    "status": "visible",
+    "icon": "mistletoe",
+    "surprise": {
+      "text": "Refactoring Todo MVC in Vue 3 and Vite",
+      "url": "https://www.youtube.com/watch?v=pmokyQ9u5dY"
+    }
   },
   {
     "number": 6,
-    "status": "upcoming",
-    "icon": "bell"
+    "status": "current",
+    "icon": "bell",
+    "surprise": {
+      "text": "Fixing a v-model in List Bug with Vue.js",
+      "url": "https://www.youtube.com/watch?v=MrvVuhbtFeE"
+    }
   },
   {
     "number": 7,
