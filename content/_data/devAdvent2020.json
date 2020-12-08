@@ -55,13 +55,21 @@
   },
   {
     "number": 7,
-    "status": "upcoming",
-    "icon": "reindeer"
+    "status": "visible",
+    "icon": "reindeer",
+    "surprise": {
+      "text": "Refactoring Peek-a-Vue into Components",
+      "url": "https://youtu.be/RCfKRA5ktBc"
+    }
   },
   {
     "number": 8,
-    "status": "upcoming",
-    "icon": "gift-tag"
+    "status": "current",
+    "icon": "gift-tag",
+    "surprise": {
+      "text": "Learn with Jason: Vue 3!",
+      "url": "https://www.learnwithjason.dev/let-s-learn-vue-3"
+    }
   },
   {
     "number": 9,
