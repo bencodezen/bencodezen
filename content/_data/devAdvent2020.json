@@ -68,13 +68,17 @@
     "icon": "gift-tag",
     "surprise": {
       "text": "Learn with Jason: Vue 3!",
-      "url": "https://www.learnwithjason.dev/let-s-learn-vue-3"
+      "url": "https://www.youtube.com/watch?v=TCMuqQB94No"
     }
   },
   {
     "number": 9,
-    "status": "upcoming",
-    "icon": "lights"
+    "status": "current",
+    "icon": "lights",
+    "surprise": {
+      "text": "Build a Tamagotchi Clone with Vue 3 and SVGs",
+      "url": "https://www.youtube.com/watch?v=KB6CRow6Ulw"
+    }
   },
   {
     "number": 10,
