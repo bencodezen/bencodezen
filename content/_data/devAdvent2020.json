@@ -64,7 +64,7 @@
   },
   {
     "number": 8,
-    "status": "current",
+    "status": "visible",
     "icon": "gift-tag",
     "surprise": {
       "text": "Learn with Jason: Vue 3!",
@@ -73,7 +73,7 @@
   },
   {
     "number": 9,
-    "status": "current",
+    "status": "visible",
     "icon": "lights",
     "surprise": {
       "text": "Build a Tamagotchi Clone with Vue 3 and SVGs",
@@ -82,18 +82,30 @@
   },
   {
     "number": 10,
-    "status": "upcoming",
-    "icon": "ornament"
+    "status": "visible",
+    "icon": "ornament",
+    "surprise": {
+      "text": "Build a Tamagotchi Clone with Vue 3 and SVGs - Part 2",
+      "url": "https://www.youtube.com/watch?v=a3n2l0MyZw8"
+    }
   },
   {
     "number": 11,
-    "status": "upcoming",
-    "icon": "wreath"
+    "status": "visible",
+    "icon": "wreath",
+    "surprise": {
+      "text": "Adventures with Vue.js 3 and Animations - Part 1",
+      "url": "https://www.youtube.com/watch?v=XEeeW8hOons"
+    }
   },
   {
     "number": 12,
-    "status": "upcoming",
-    "icon": "candy-cane"
+    "status": "curent",
+    "icon": "candy-cane",
+    "surprise": {
+      "text": "Adventures with Vue.js 3 and Animations - Part 2",
+      "url": "https://www.youtube.com/watch?v=jJ30fjcPzQA"
+    }
   },
   {
     "number": 13,
