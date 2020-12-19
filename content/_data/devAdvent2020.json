@@ -46,7 +46,7 @@
   },
   {
     "number": 6,
-    "status": "current",
+    "status": "visible",
     "icon": "bell",
     "surprise": {
       "text": "Fixing a v-model in List Bug with Vue.js",
@@ -85,7 +85,7 @@
     "status": "visible",
     "icon": "ornament",
     "surprise": {
-      "text": "Build a Tamagotchi Clone with Vue 3 and SVGs - Part 2",
+      "text": "Build a Tamagotchi Clone with Vue 3 and SVGs - Pt 2",
       "url": "https://www.youtube.com/watch?v=a3n2l0MyZw8"
     }
   },
@@ -94,48 +94,72 @@
     "status": "visible",
     "icon": "wreath",
     "surprise": {
-      "text": "Adventures with Vue.js 3 and Animations - Part 1",
+      "text": "Adventures with Vue 3 & Animations: Pt 1",
       "url": "https://www.youtube.com/watch?v=XEeeW8hOons"
     }
   },
   {
     "number": 12,
-    "status": "curent",
+    "status": "visible",
     "icon": "candy-cane",
     "surprise": {
-      "text": "Adventures with Vue.js 3 and Animations - Part 2",
+      "text": "Adventures w/ Vue 3 & Animations: Pt 2",
       "url": "https://www.youtube.com/watch?v=jJ30fjcPzQA"
     }
   },
   {
     "number": 13,
-    "status": "upcoming",
-    "icon": "mistletoe"
+    "status": "visible",
+    "icon": "mistletoe",
+    "surprise": {
+      "text": "Vue Language Features Extension",
+      "url": "https://www.youtube.com/watch?v=0A565GidebA"
+    }
   },
   {
     "number": 14,
-    "status": "upcoming",
-    "icon": "bell"
+    "status": "visible",
+    "icon": "bell",
+    "surprise": {
+      "text": "What are Vue.js options?",
+      "url": "https://www.youtube.com/watch?v=LZ-65TjiSxI"
+    }
   },
   {
     "number": 15,
-    "status": "upcoming",
-    "icon": "reindeer"
+    "status": "visible",
+    "icon": "reindeer",
+    "surprise": {
+      "text": "What is the Vue.js Data Option?",
+      "url": "https://www.youtube.com/watch?v=_9W3Pg9ckQk"
+    }
   },
   {
     "number": 16,
-    "status": "upcoming",
-    "icon": "gift-tag"
+    "status": "visible",
+    "icon": "gift-tag",
+    "surprise": {
+      "text": "Submit Your Q&As!",
+      "url": "https://twitter.com/bencodezen/status/1339423218508173317"
+    }
   },
   {
     "number": 17,
-    "status": "upcoming",
-    "icon": "lights"
+    "status": "visible",
+    "icon": "lights",
+    "surprise": {
+      "text": "Launching with Composition API Course",
+      "url": "https://twitter.com/bencodezen/status/1339615024814452737"
+    }
   },
   {
     "number": 18,
-    "status": "upcoming",
-    "icon": "ornament"
+    "status": "visible",
+    "icon": "ornament",
+    "surprise": {
+      "text": "Gift Giveaway!",
+      "url": "https://twitter.com/bencodezen/status/1340052310425219081"
+    }
   },
   {
     "number": 19,
