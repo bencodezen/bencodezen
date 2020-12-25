@@ -3,8 +3,8 @@
 ## About Me
 
 - Vue.js Core Team
-- Senior Developer Experience Engineer @ Netlify
-- Lead Instructor @ Vue Mastery
+- Senior Developer Experience Engineer @ [Netlify](https://www.netlify.com)
+- Lead Instructor @ [Vue Mastery](https://www.vuemastery.com)
 
 ## My Work
 
