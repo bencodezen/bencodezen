@@ -163,13 +163,21 @@
   },
   {
     "number": 19,
-    "status": "upcoming",
-    "icon": "wreath"
+    "status": "visible",
+    "icon": "wreath",
+    "surprise": {
+      "text": "Adventures with Hasura and Vue.js 3 - Part 1",
+      "url": "https://www.twitch.tv/videos/843309867"
+    }
   },
   {
     "number": 20,
-    "status": "upcoming",
-    "icon": "candy-cane"
+    "status": "visible",
+    "icon": "candy-cane",
+    "surprise": {
+      "text": "Export CSS Variables to SFCs Tip",
+      "url": "https://twitter.com/bencodezen/status/1340880486063869952"
+    }
   },
   {
     "number": 21,
