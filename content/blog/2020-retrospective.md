@@ -20,7 +20,7 @@ And though it started off well, the reality is that whatever plan I had for the 
 
 ### Separation from Community
 
-Like many others, the separation from friends and family has been a difficult one. But perhaps one thing that I might comment on which is perhaps more unique to our communit is the massive shift from in-person events to remote events. This yielded some fascinating lessons learned when it came to trying to navigate this world as a speaker, organizer and attendee.
+Like many others, the separation from friends and family has been a difficult one. But perhaps one thing that I might comment on which is perhaps more unique to our community is the massive shift from in-person events to remote events. This yielded some fascinating lessons learned when it came to trying to navigate this world as a speaker, organizer and attendee.
 
 And while some of the organic aspects of meeting people in the community at conferences were lost, I will say the glimmer of sunshine I found in the transition from in-person to remote events is that I was able to meet people in the community who would not have been able to attend the event otherwise.
 
