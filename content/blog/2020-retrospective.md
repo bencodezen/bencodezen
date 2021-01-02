@@ -18,31 +18,6 @@ Let's start with the obvious: 2020 did not go exactly as planned for anyone. Whe
 
 And though it started off well, the reality is that whatever plan I had for the rest of year was out of the window. With plans disrupted by the pandemic (i.e., I was supposed to travel to Australia for ComponentConf), like everyone else, I made the best I could of the situation.
 
-### Accomplishments
-
-While it's been a rollercoaster of emotions this year, here are some of the things I managed to accomplish:
-
-- 🎉 Joined the Vue.js core team
-- 🎤 Spoke and/or taught workshops at over 10 events
-- 👨‍🏫 Taught my first Frontend Masters workshop
-- 🗣️ Spoke at my first Smashing Magazine event
-- 🌄 Started a new Vue.js podcast: [Enjoy the Vue](https://www.enjoythevue.io)
-- 🎙 Recorded over 50 podcast episodes
-- 💼 Joined Netlify's DX team and worked with other incredible teams:
-  - Vue Mastery
-  - Cypress.io
-  - OpenClassrooms
-- 🎒 Created four courses
-  - [Component Design Patterns - Vue Mastery](https://www.vuemastery.com/courses/component-design-patterns/introduction/)
-  - [Vue 3 and TypeScript - Vue Mastery](https://www.vuemastery.com/courses/vue3-typescript/why-vue-&-typescript/)
-  - [Production-Grade Vue - Frontend Masters](https://frontendmasters.com/workshops/production-vue/)
-  - [Launching with Composition API - Netlify](https://explorers.netlify.com/learn/launching-with-composition-api?utm_source=twitter&utm_medium=mission-lca-bh&utm_campaign=devex)
-- 📹 Started a [YouTube channel](https://www.youtube.com/bencodezen) and published 30 videos
-
-That said, it's important not to understate the difficulties encountered this year.
-
-### Obstacles
-
 Without going too much into the details, here are some of the key obstacles that 2020 presented for me:
 
 - Being separated from friends and family which impacted my mental health like many others
@@ -59,14 +34,14 @@ Since all my time was spent indoors and away from the public, it's been a lot of
 - Brand Strategist
 - Ukulele Lessons
 - Part Time YouTube Academy
-- Second-Brain
+- Second-Brain / Zettelkasten
 - Productivity Systems
 - Peloton
 
-And we haven't even listed all the tech and gear I've purchased trying to accommodate the new lifestyle. 😅
+And I haven't even listed all the random tech, gear and gizmos I purchased trying to keep my sanity in the midst of the year.
 
 ## Next Steps
 
-Unlike last year, I won't try and make any big proclamations about what 2021 will be like. I just know that I will keep trying to make the best of each day and try to live it according to a set of principles and values I can be proud of. And if can end the day each ["good tired"](https://www.youtube.com/watch?v=zbpoUWO3kA8), then that will be enough for me.
+Unlike last year, I won't try and make any big proclamations about what 2021 will be like. I just know that I will keep trying to make the best of each day and try to live it according to a set of principles and values I can be proud of. And if I can end the day each ["good tired"](https://www.youtube.com/watch?v=zbpoUWO3kA8), then that will be enough for me.
 
 With all that said, while it's certainly been a challenging year, I am incredibly grateful to everyone who made helped make the best out of it. And a big thank you to all those who have supported my work
