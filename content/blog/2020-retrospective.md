@@ -21,7 +21,6 @@ And though it started off well, the reality is that whatever plan I had for the 
 Without going too much into the details, here are some of the key obstacles that 2020 presented for me:
 
 - Being separated from friends and family which impacted my mental health like many others
-- Attempting to be productive but failing time and time again
 - Feeling guilty for not being as productive as I thought I should be
 - Many hours spent trying new things and making lots mistakes and finding dead ends
 
