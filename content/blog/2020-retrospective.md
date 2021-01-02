@@ -28,7 +28,15 @@ While it's been a rollercoaster of emotions this year, here are some of the thin
 - 🗣️ Spoke at my first Smashing Magazine event
 - 🌄 Started a new Vue.js podcast: [Enjoy the Vue](https://www.enjoythevue.io)
 - 🎙 Recorded over 50 podcast episodes
-- 🎒 Created four courses - [Component Design Patterns - Vue Mastery](https://www.vuemastery.com/courses/component-design-patterns/introduction/) - [Vue 3 and TypeScript - Vue Mastery](https://www.vuemastery.com/courses/vue3-typescript/why-vue-&-typescript/) - [Production-Grade Vue - Frontend Masters](https://frontendmasters.com/workshops/production-vue/) - [Launching with Composition API - Netlify](https://explorers.netlify.com/learn/launching-with-composition-api?utm_source=twitter&utm_medium=mission-lca-bh&utm_campaign=devex)
+- 💼 Joined Netlify's DX team and worked with other incredible teams:
+  - Vue Mastery
+  - Cypress.io
+  - OpenClassrooms
+- 🎒 Created four courses
+  - [Component Design Patterns - Vue Mastery](https://www.vuemastery.com/courses/component-design-patterns/introduction/)
+  - [Vue 3 and TypeScript - Vue Mastery](https://www.vuemastery.com/courses/vue3-typescript/why-vue-&-typescript/)
+  - [Production-Grade Vue - Frontend Masters](https://frontendmasters.com/workshops/production-vue/)
+  - [Launching with Composition API - Netlify](https://explorers.netlify.com/learn/launching-with-composition-api?utm_source=twitter&utm_medium=mission-lca-bh&utm_campaign=devex)
 - 📹 Started a [YouTube channel](https://www.youtube.com/bencodezen) and published 30 videos
 
 That said, it's important not to understate the difficulties encountered this year.
