@@ -18,29 +18,37 @@ Let's start with the obvious: 2020 did not go exactly as planned for anyone. Whe
 
 And though it started off well, the reality is that whatever plan I had for the rest of year was out of the window. With all plans disrupted by the pandemic, like everyone else, I made the best I could out of the situation.
 
-Without going too much into the details, here are some of the key obstacles that 2020 presented for me:
+### Separation from Community
 
-- Being separated from friends and family which impacted my mental health like many others
-- Feeling guilty for not being as productive as I thought I should be
-- Many hours spent trying new things and making lots mistakes and finding dead ends
+Like many others, the separation from friends and family has been a difficult one. But perhaps one thing that I might comment on which is perhaps more unique to our communit is the massive shift from in-person events to remote events. This yielded some fascinating lessons learned when it came to trying to navigate this world as a speaker, organizer and attendee.
 
-Since all my time was spent indoors and away from the public, it's been a lot of trial and error. **A lot** of trial and error. Here are just some of the things I've tried:
+And while some of the organic aspects of meeting people in the community at conferences were lost, I will say the glimmer of sunshine I found in the transition from in-person to remote events is that I was able to meet people in the community who would not have been able to attend the event otherwise.
+
+### Struggling to be Productive
+
+As many have experienced, the pandemic took a toll on people's mental health and productivity. And just like everyone else, I also struggled with productivity because while work provided a much needed distraction from the rest of the world, it also added stress and pressure whether intentional or not. There were many aspirations to do X or Y thing, but I often found myself struggling to put the pieces together when it came down to it.
+
+### Searching for a Distraction
+
+In trying to do my part in the pandemic, this meant that most of my time was spent indoors. My place isn't really big, so naturally I found myself spending many hours trying new things in hopes that it would help get me through each day.
+
+Like most experiments, it was been a lot of trial and error. I mean **a lot** of trial and error. Many hours were spent trying different things and often resulting in dead ends. Here are just some of the things I've tried:
 
 - Yoga
 - Knitting
 - Communication Workshop
 - Podcast
 - Voice Coach
-- Brand Strategist
+- Brand Strategy
 - Ukulele Lessons
-- Part Time YouTube Academy
+- Live Streaming
 - Second-Brain / Zettelkasten
 - Productivity Systems
-- Peloton
+- [YouTube](https://www.youtube.com/bencodezen)
 
 And I haven't even listed all the random tech, gear and gizmos I purchased trying to keep my sanity in the midst of the year.
 
-To be fair though, it hasn't been a gigantic downhill since this all started. In addition to having the chance to work with the incredible teams at [Vue Mastery](https://www.vuemastery.com/) and [Cypress.io](https://www.cypress.io/), one of the biggest highlights from this year was having the opportunity to join Netlify's DX team and help with the launch of [Jamstack Explorers](https://explorers.netlify.com/?utm_source=blog&utm_medium=explorers-bh&utm_campaign=devex), a free video learning platform, in addition to publishing my own [Composition API course](https://explorers.netlify.com/learn/launching-with-composition-api?utm_source=twitter&utm_medium=mission-lca-bh&utm_campaign=devex) on there as well.
+To be fair though, it hasn't been a gigantic downhill since this all started. In addition to having the chance to work with the incredible teams at [Vue Mastery](https://www.vuemastery.com/) and [Cypress.io](https://www.cypress.io/), one of the biggest highlights from this year was having the opportunity to join Netlify's DX team and help with the launch of [Jamstack Explorers](https://explorers.netlify.com/?utm_source=blog&utm_medium=explorers-bh&utm_campaign=devex), a free video learning platform. And to top it off, I even got to publish my own [Composition API course](https://explorers.netlify.com/learn/launching-with-composition-api?utm_source=twitter&utm_medium=mission-lca-bh&utm_campaign=devex) on there as well.
 
 ## Next Steps
 
