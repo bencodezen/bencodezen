@@ -4,7 +4,7 @@
   status = 404
 
 [[redirects]]
-  from = "https://www.bencodezen.io/notes/*"
+  from = "https://bencodezen.io/notes/*"
   to = "https://publish.obsidian.md/serve?url=bencodezen.io/notes/:splat"
   status = 200
   force = true
