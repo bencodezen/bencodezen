@@ -2,3 +2,9 @@
   from = "/*"
   to = "/404.html"
   status = 404
+
+[[redirects]]
+  from = "https://www.bencodezen.io/notes/*"
+  to = "https://publish.obsidian.md/serve?url=bencodezen.io/notes/:splat"
+  status = 200
+  force = true
