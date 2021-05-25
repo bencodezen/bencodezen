@@ -1,6 +1,4 @@
-Learn
-
-<counter></counter>
+# Learn
 
 This is the section where I will store more formal articles and tutorials for things that I create. It is different from the blog section which is more catered to stream of thought writing, whereas the content in this section get a lot of revisions.
 
