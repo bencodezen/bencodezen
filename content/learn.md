@@ -1,10 +1,12 @@
-<h1 class="page-title">Learn</h1>
+Learn
+
+<counter></counter>
 
 This is the section where I will store more formal articles and tutorials for things that I create. It is different from the blog section which is more catered to stream of thought writing, whereas the content in this section get a lot of revisions.
 
-## Workshops
-
 <guide-item title="Scalable Prop Patterns with Vue.js" description="Learn to master props and best practices to create reusable components." href="/workshops/scalable-prop-patterns"></guide-item>
+
+## Workshops
 
 ## Guides
 

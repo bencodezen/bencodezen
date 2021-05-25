@@ -1,11 +1,5 @@
 <script>
-/* eslint-disable vue/no-unused-components */
-import GuideItem from '~/components/GuideItem'
-
 export default {
-  components: {
-    GuideItem
-  },
   async asyncData({ $content }) {
     const page = await $content('learn').fetch()
 

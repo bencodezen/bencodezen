@@ -23,6 +23,10 @@ export default {
     ]
   },
   /*
+   ** Components Property
+   */
+  components: true,
+  /*
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
