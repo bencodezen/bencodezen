@@ -20,7 +20,7 @@ commitLegend:
 
 On every GitHub user's profile page, there is a graph that is hard to ignore:
 
-![My GitHub contribution graph](/images/2019/2019-02-26-contribution-graph.png)
+<blog-image alt="My GitHub contribution graph" src="/images/2019/2019-02-26-contribution-graph.png"></blog-image>
 
 While there is controversy whether the graph is more harmful to developers ([see discussion thread](https://twitter.com/EmmaWedekind/status/1099235211555074048)), I have always been curious the amount of commits needed to generate a certain color within the graph. And while the internet is great for finding random information like this, I was unsuccessful at finding it.
 

@@ -56,7 +56,7 @@ As I prepare to step into the next decade, that is perhaps the sole thing I need
 
 And as I look back, while I will always be grateful for the system I built that brought me to where I am today, I know it's time to tear it down and get back to the basics.
 
-![Iron Man 2 scene where Tony Stark breaks down his lab to upgrade the hardware](/images/2019/iron-man-2-sledge-hammer.jpg)
+<blog-image alt="Iron Man 2 scene where Tony Stark breaks down his lab to upgrade the hardware" src="/images/2019/iron-man-2-sledge-hammer.jpg"></blog-image>
 
 _Initiating Phoenix Protocol..._
 

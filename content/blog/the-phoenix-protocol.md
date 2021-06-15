@@ -62,6 +62,6 @@ Throughout Iron Man 3, Tony Stark wrestles with what it means to be a hero outsi
 
 However, at the end of the movie, he manages to make peace with his inner demons and initiates the "clean slate protocol" where all of his suits detonate in a fireworks like display.
 
-![Iron Man 3 Scene](/images/2020/iron-man-3-csp.png)
+<blog-image alt="Iron Man 3 Scene" src="/images/2020/iron-man-3-csp.png"></blog-image>
 
 So in a lot of ways, Iron Man 3 helped to provide the final spark for me to create my own "clean slate protocol."

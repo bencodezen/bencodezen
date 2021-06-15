@@ -3,7 +3,7 @@ title: The Spread Operator
 date: 2019-01-08 22:48:44
 type: post
 blog: true
-excerpt: "The spread operator is a shorthand technique introduced in ECMAScript 2015 to solve a common problem: Taking the items within an iterable and distributing them within another iterable."
+excerpt: 'The spread operator is a shorthand technique introduced in ECMAScript 2015 to solve a common problem: Taking the items within an iterable and distributing them within another iterable.'
 tags:
   - tutorials
   - javascript
@@ -16,6 +16,7 @@ The spread operator is a shorthand technique introduced in ECMAScript 2015 to so
 > Taking the items within an iterable and distributing them within another iterable.
 
 ### Quick Review: Iterables
+
 Just to ensure we're all on the same page, an iterable is a data type that where its pieces can be divided into smaller data. Here are some examples:
 
 ```js
@@ -27,8 +28,8 @@ const listItem3 = list[2] // 3
 
 // Objects
 const pet = {
-	name: 'Destinio',
-	type: 'dragon'
+  name: 'Destinio',
+  type: 'dragon'
 }
 const petName = pet.name // 'Destinio'
 const petType = pet.type // 'dragon'
@@ -95,7 +96,7 @@ Take the following snippet:
 
 ```js
 // These two lines appear to accomplish
-// the task of copying the data 
+// the task of copying the data
 const list = [1, 2, 3] // [1, 2, 3]
 const list2 = list // [1, 2, 3]
 
@@ -130,7 +131,7 @@ const list = [1, 2, 3]
 const list2 = []
 
 for (let i = 0; i < list.length; i++) {
-    list2.push(list[i])
+  list2.push(list[i])
 }
 ```
 
@@ -142,9 +143,9 @@ for (let i = 0; i < list.length; i++) {
 
 Here's a series of tests that you can run to see the results! [https://jsperf.com/spread-operator-to-push/2](https://jsperf.com/spread-operator-to-push/2)
 
-![Table summary of JSPerf results](/images/2019/jsperf-spread-test.png)
+<blog-image alt="Table summary of JSPerf results" src="/images/2019/jsperf-spread-test.png"></blog-image>
 
-The basic takeaway is this: You want to use `concat` when working with large arrays that you want to fuse together. 
+The basic takeaway is this: You want to use `concat` when working with large arrays that you want to fuse together.
 
 Does that mean you should never use spread? Absolutely not! Similar to the practicality of algorithms, the data is often so small that the performance difference is negligible at best. The key thing to remember is when you're working with large data. Otherwise, keep using it to your heart's content!
 
