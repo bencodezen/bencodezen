@@ -28,6 +28,12 @@ export default {
    */
   components: true,
   /*
+   ** Image Property
+   */
+  image: {
+    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
+  },
+  /*
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
