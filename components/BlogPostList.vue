@@ -36,9 +36,7 @@ export default {
                 ? isBlogPost && isReadyToPublish && hasTags
                 : isBlogPost && isReadyToPublish
 
-              if (shouldPublish) {
-                return item
-              }
+              return shouldPublish
             })
             .sort((a, b) => new Date(b.date) - new Date(a.date))
         }

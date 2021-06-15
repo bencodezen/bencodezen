@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   /*
    ** Headers of the page
    */
@@ -42,6 +43,8 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
+    // Docs: https://image.nuxtjs.org/
+    '@nuxt/image',
     // Docs: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Docs: https://github.com/nuxt-community/analytics-module

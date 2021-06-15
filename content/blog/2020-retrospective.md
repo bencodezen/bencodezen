@@ -14,7 +14,7 @@ Let's start with the obvious: 2020 did not go exactly as planned for anyone. Whe
 
 2020 started off with an exciting milestone for me as I joined the Vue.js core team and started a brand new Vue.js podcast: [Enjoy the Vue](https://www.enjoythevue.io). And then to top it off, I got to attend VueConfUS in person and had an incredible time teaching a workshop and emceeing the conference with my amazing co-host [Maria Lamardo](https://twitter.com/MariaLamardo).
 
-![Maria and I in our dino costumes for VueConfUS 2020](/images/2020/vueconfus-2020-dino.jpeg)
+<nuxt-img src="/images/2020/vueconfus-2020-dino.jpeg" alt="Maria and I in our dino costumes for VueConfUS 2020" sizes="lg:100vw md:100vw sm:100vw"></nuxt-img>
 
 And though it started off well, the reality is that whatever plan I had for the rest of year was out of the window. With all plans disrupted by the pandemic, like everyone else, I made the best I could out of the situation.
 
