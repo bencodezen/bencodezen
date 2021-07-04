@@ -1,10 +1,16 @@
 [[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
+  from = "/calendar"
+  to = "https://calendar.google.com/calendar/u/0?cid=Y19ydWlzbHQzcnVsZjh0MGQ1aXU1OGpibGs3MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "https://bencodezen.io/notes/*"
   to = "https://publish.obsidian.md/serve?url=bencodezen.io/notes/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
