@@ -5,9 +5,6 @@ export default {
       type: Object,
       required: true
     }
-  },
-  mounted() {
-    this.$sentry.captureException(this.error)
   }
 }
 </script>
