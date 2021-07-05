@@ -7,20 +7,29 @@ export default {
     }
   },
   computed: {
-    iconPath() {
-      return require(`../assets/icons/${this.name}.svg`)
+    iconComponent() {
+      return () => import(`./icons/social/${this.name}`)
     }
   }
 }
 </script>
 
 <template>
-  <img :src="iconPath" :alt="`${name} icon`" :class="$style.small" />
+  <div class="base-icon">
+    <component :is="iconComponent" />
+  </div>
 </template>
 
-<style lang="scss" module>
-.small {
-  width: 30px;
+<style lang="scss">
+.base-icon {
   display: inline-block;
+  width: 24px;
+  height: 24px;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
 }
 </style>
