@@ -20,7 +20,7 @@ export default {
     },
     excerpt: {
       type: String,
-      required: true
+      default: ''
     }
   },
   computed: {
@@ -41,17 +41,17 @@ export default {
 <template>
   <section class="blog-post">
     <time class="blog-post__time">{{ formatPublishDate }}</time>
-    <h2 class="blog-post__title">
+    <h3 class="title">
       <a :href="path" class="blog-post__link">{{ title }}</a>
-    </h2>
+    </h3>
     <p v-if="excerpt" class="blog-post__excerpt">{{ excerpt }}</p>
-    <nuxt-link class="button blog-post__button " :to="path"
-      >Read More ></nuxt-link
-    >
+    <nuxt-link class="button blog-post__button " :to="path">
+      Read More
+    </nuxt-link>
   </section>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import '../styles/_settings.scss';
 $primary-color: #22aaff;
 
@@ -59,8 +59,10 @@ $primary-color: #22aaff;
   margin-bottom: 2.5rem;
 }
 
-.blog-post__button {
+a.blog-post__button {
   display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
 }
 
 .blog-post__excerpt {
@@ -83,16 +85,22 @@ $primary-color: #22aaff;
   font-weight: 500;
 }
 
-.blog-post__title {
+.blog-post .title {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
-  @apply font-bold;
-  font-family: $ff-sans;
-  @apply text-2xl;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .button {
-  font-family: 'Poppins';
   font-weight: 500;
   border: 1px solid $c-primary;
   border-radius: 4px;

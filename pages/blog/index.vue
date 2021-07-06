@@ -16,9 +16,11 @@ export default {
 </script>
 
 <template>
-  <div class="content">
-    <BlogPostList :list="posts" />
-  </div>
+  <article class="post-section">
+    <div class="post-content">
+      <BlogPostList :list="posts" />
+    </div>
+  </article>
 </template>
 
 <style></style>
