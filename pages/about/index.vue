@@ -9,9 +9,11 @@ export default {
 </script>
 
 <template>
-  <div class="content">
-    <nuxt-content :document="page"></nuxt-content>
-  </div>
+  <article class="post-section">
+    <div class="post-content">
+      <nuxt-content :document="page"></nuxt-content>
+    </div>
+  </article>
 </template>
 
 <style lang="scss" scoped>
