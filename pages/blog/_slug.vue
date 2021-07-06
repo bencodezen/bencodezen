@@ -22,13 +22,13 @@ export default {
 </script>
 
 <template>
-  <main>
-    <article class="content">
+  <article class="post-section">
+    <div class="post-content">
       <p class="blog-publish-date">{{ formatPublishDate }}</p>
       <h1 class="blog-title">{{ page.title }}</h1>
       <nuxt-content :document="page" />
-    </article>
-  </main>
+    </div>
+  </article>
 </template>
 
 <style lang="scss">
