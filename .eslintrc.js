@@ -16,5 +16,14 @@ module.exports = {
   ],
   plugins: ['prettier'],
   // add your custom rules here
-  rules: {}
+  rules: {
+    'vue/v-slot-style': [
+      'error',
+      {
+        atComponent: 'v-slot',
+        default: 'longform',
+        named: 'longform'
+      }
+    ]
+  }
 }
