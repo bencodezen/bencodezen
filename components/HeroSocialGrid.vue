@@ -57,11 +57,15 @@ export default {
 .hero-social-grid {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   grid-row-gap: 1rem;
   grid-column-gap: 2rem;
   align-items: center;
   justify-items: center;
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .hero-social-grid-link {
@@ -71,6 +75,7 @@ export default {
   position: relative;
 
   width: 100%;
+  height: 40px;
   padding: 0.5rem;
   border: 1px solid #fff;
   border-radius: 8px;
@@ -87,6 +92,7 @@ export default {
   .link-text {
     opacity: 0;
     padding-left: 2rem;
+    white-space: nowrap;
     transition: all 0.2s ease;
   }
 

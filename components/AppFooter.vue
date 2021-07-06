@@ -1,10 +1,5 @@
 <script>
-import SocialMediaBar from './SocialMediaBar'
-
 export default {
-  components: {
-    SocialMediaBar
-  },
   computed: {
     currentYear() {
       const today = new Date()
@@ -16,10 +11,10 @@ export default {
 
 <template>
   <footer class="footer">
-    <SocialMediaBar />
     <p class="text-center">
       © BenCodeZen {{ currentYear }}. Made with
-      <a href="https://www.nuxtjs.org">NuxtJS</a> 💚.
+      <a href="https://www.nuxtjs.org">NuxtJS</a> and
+      <a href="https://ntl.fyi/3jJX1My">Netlify</a> 💚.
     </p>
   </footer>
 </template>
@@ -28,11 +23,7 @@ export default {
 @import '../styles/_settings.scss';
 
 .footer {
-  @apply text-center;
-  font-family: $ff-serif;
-  @apply text-lg;
-  @apply mt-12;
-  @apply p-8;
+  text-align: center;
   border-top: 2px solid $c-border;
 }
 </style>
