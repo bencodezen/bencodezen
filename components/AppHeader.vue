@@ -33,9 +33,6 @@ export default {
             <li><nuxt-link to="/learn">Learn</nuxt-link></li>
           </ul>
           <ul>
-            <li id="search-open" class="header-search">
-              <span>Search</span>
-            </li>
             <li><nuxt-link to="/blog">Blog</nuxt-link></li>
             <li><nuxt-link to="/uses">Uses</nuxt-link></li>
             <li><nuxt-link to="/about">About</nuxt-link></li>

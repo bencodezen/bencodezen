@@ -15,6 +15,7 @@ export default {
       <main class="global-main">
         <nuxt />
       </main>
+      <AppFooter />
     </div>
   </div>
 </template>

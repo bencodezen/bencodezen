@@ -1,64 +1,54 @@
 <script>
-export default {
-  name: 'GuideItem',
-  props: {
-    description: {
-      type: String,
-      required: true
-    },
-    href: {
-      type: String,
-      required: true
-    },
-    image: {
-      type: String,
-      default: ''
-    },
-    alt: {
-      type: String,
-      default: ''
-    },
-    title: {
-      type: String,
-      required: true
-    }
-  }
-}
+export default {}
 </script>
 
 <template>
   <div class="guide-item">
-    <img v-if="image" class="guide-item-logo" :src="image" :alt="alt" />
-    <div>
-      <nuxt-link class="guide-item-title" :to="href">{{ title }}</nuxt-link>
-      <p class="guide-item-description">{{ description }}</p>
+    <div class="guide-item-logo">
+      <slot name="image" />
+    </div>
+    <div class="guide-item-content">
+      <slot name="content" />
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .guide-item {
   display: flex;
-  @apply p-5;
+  padding: 2rem 1.5rem;
   align-items: center;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 2rem;
 }
 
-.guide-item-description {
-  @apply mt-0 mb-2;
+.guide-item:first-child {
+  margin-bottom: 0;
 }
 
-.guide-item-logo {
+.guide-item-logo img {
   max-width: 150px;
   max-height: 150px;
-  @apply mr-5;
+  margin-right: 1rem;
 }
 
-.guide-item-title {
-  display: block;
-  font-family: 'Poppins';
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
+.guide-item-content {
+  h3 {
+    display: block;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .description {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+  }
+
+  h3 + .subtitle {
+    margin-bottom: 1rem;
+  }
 }
 </style>

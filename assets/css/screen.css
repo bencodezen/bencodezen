@@ -1239,7 +1239,7 @@ small.global-question a:hover {
 }
 
 .header-nav a:not(.global-button):hover::before {
-  background-color: var(--color-three);
+  background-color: #22aaff;
 }
 
 /* Dropdown
@@ -1556,7 +1556,7 @@ small.global-question a:hover {
     flex-wrap: wrap;
     max-width: 200px;
     padding-top: 15px;
-    padding-bottom: 65px;
+    padding-bottom: 15px;
   }
 
   .header-checkbox:checked ~ nav ul {
