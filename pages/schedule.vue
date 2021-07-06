@@ -7,8 +7,8 @@ export default {}
     <div class="post-content">
       <h1>Schedule</h1>
       <p>
-        Here's what's coming up on the schedule! You can add the schedule to
-        your calendar and/or subscribe on Twitch!
+        Here's what's coming up on soon! You can add the schedule to your
+        calendar and/or subscribe on Twitch!
       </p>
       <div class="schedule-cta">
         <a
