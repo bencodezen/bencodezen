@@ -7,28 +7,28 @@ export default {
         url: 'https://www.twitter.com/bencodezen'
       },
       {
-        name: 'GitHub',
-        url: 'https://www.github.com/bencodezen'
-      },
-      {
-        name: 'Instagram',
-        url: 'https://www.instagram.com/bencodezen'
-      },
-      {
         name: 'YouTube',
         url: 'https://www.youtube.com/bencodezen'
-      },
-      {
-        name: 'TikTok',
-        url: 'https://www.tiktok.com/@bencodezen'
       },
       {
         name: 'Twitch',
         url: 'https://www.twitch.tv/bencodezen'
       },
       {
+        name: 'GitHub',
+        url: 'https://www.github.com/bencodezen'
+      },
+      {
         name: 'Polywork',
         url: 'https://www.polywork.com/bencodezen'
+      },
+      {
+        name: 'TikTok',
+        url: 'https://www.tiktok.com/@bencodezen'
+      },
+      {
+        name: 'Instagram',
+        url: 'https://www.instagram.com/bencodezen'
       },
       {
         name: 'CodePen',
