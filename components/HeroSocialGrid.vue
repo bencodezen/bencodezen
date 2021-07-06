@@ -45,7 +45,7 @@ export default {
       v-for="social in socialList"
       :key="`hero-${social.name}-social`"
       :class="`hero-social-grid-link ${social.name.toLowerCase()}`"
-      href="https://www.twitter.com/bencodezen"
+      :href="social.url"
     >
       <base-icon :name="social.name" class="link-icon" />
       <span class="link-text">{{ social.name }}</span>
