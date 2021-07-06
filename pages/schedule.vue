@@ -29,6 +29,10 @@ export default {}
         <p class="date">Tuesday, July 6th, 2021 at 12:00PM EST</p>
       </div>
       <div class="schedule-item">
+        <h3 class="title">ThePractical Dev Twitch Stream</h3>
+        <p class="date">Wednesday, July 7th, 2021 at 1:00PM EST</p>
+      </div>
+      <div class="schedule-item">
         <h3 class="title">Obsidian Office Hours (#7)</h3>
         <p class="date">Thursday, July 8th, 2021 at 2:00PM EST</p>
       </div>
