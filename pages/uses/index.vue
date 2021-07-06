@@ -11,8 +11,10 @@ export default {
 </script>
 
 <template>
-  <article class="container mx-auto content pt-10">
-    <nuxt-content :document="page" />
+  <article class="post-section">
+    <div class="post-content">
+      <nuxt-content :document="page" />
+    </div>
   </article>
 </template>
 
