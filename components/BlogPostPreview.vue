@@ -81,7 +81,6 @@ a.blog-post__button {
 }
 
 .blog-post__time {
-  font-family: 'Poppins';
   font-weight: 500;
 }
 
