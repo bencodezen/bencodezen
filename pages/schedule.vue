@@ -3,32 +3,49 @@ export default {}
 </script>
 
 <template>
-  <main class="container mx-auto content">
-    <div class="hero">
+  <article class="post-section">
+    <div class="post-content">
       <h1>Schedule</h1>
-      <p>Here's what's coming up on the schedule!</p>
       <p>
-        Make sure to never miss an episode by adding the Google Calendar,
-        bookmarking YouTube, and/or subscribing on Twitch!
+        Here's what's coming up on the schedule! You can add the schedule to
+        your calendar and/or subscribe on Twitch!
       </p>
-      <a href="/calendar" target="_blank">Add to Calendar</a>
-      <a href="https://www.youtube.com/bencodezen">Subscribe on YouTube</a>
-      <a href="https://www.twitch.tv/bencodezen">Subscribe on Twitch</a>
+      <a
+        class="btn"
+        href="https://calendar.google.com/calendar/u/0?cid=Y19ydWlzbHQzcnVsZjh0MGQ1aXU1OGpibGs3MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+        target="_blank"
+        >Add to Calendar</a
+      >
+
+      <a class="btn" href="https://www.twitch.tv/bencodezen">
+        Subscribe on Twitch
+      </a>
+      <h2>Upcoming</h2>
+      <div class="schedule-item">
+        <h3 class="title">Build with Ben (#7)</h3>
+        <p class="date">Tuesday, July 6th, 2021 at 12:00PM EST</p>
+      </div>
+      <div class="schedule-item">
+        <h3 class="title">Obsidian Office Hours (#7)</h3>
+        <p class="date">Thursday, July 8th, 2021 at 2:00PM EST</p>
+      </div>
     </div>
-    <h2>Upcoming</h2>
-    <ul>
-      <li></li>
-    </ul>
-    <h2>Past Episodes</h2>
-  </main>
+  </article>
 </template>
 
-<style>
-.hero {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 4rem 5vw;
+<style lang="scss">
+a.btn {
+  border: 2px solid #22aaff;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #22aaff;
+  font-weight: 600;
+}
+
+.schedule-item {
+  .title {
+    margin-bottom: 0;
+  }
 }
 </style>
