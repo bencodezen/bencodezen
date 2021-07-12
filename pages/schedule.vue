@@ -25,6 +25,15 @@ export default {}
       </div>
       <h2>Upcoming</h2>
       <div class="schedule-item">
+        <h3 class="title">Build with Ben (#8)</h3>
+        <p class="date">Tuesday, July 13th, 2021 at 12:00PM EST</p>
+      </div>
+      <div class="schedule-item">
+        <h3 class="title">Obsidian Office Hours (#7)</h3>
+        <p class="date">Thursday, July 15th, 2021 at 2:00PM EST</p>
+      </div>
+      <h2>Past</h2>
+      <div class="schedule-item">
         <h3 class="title">Build with Ben (#7)</h3>
         <p class="date">Tuesday, July 6th, 2021 at 12:00PM EST</p>
       </div>
