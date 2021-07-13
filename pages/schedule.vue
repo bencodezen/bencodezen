@@ -29,8 +29,24 @@ export default {}
         <p class="date">Tuesday, July 13th, 2021 at 12:00PM EST</p>
       </div>
       <div class="schedule-item">
-        <h3 class="title">Obsidian Office Hours (#7)</h3>
+        <h3 class="title">Obsidian Office Hours (#8)</h3>
         <p class="date">Thursday, July 15th, 2021 at 2:00PM EST</p>
+      </div>
+      <div class="schedule-item">
+        <h3 class="title">Build with Ben (#9)</h3>
+        <p class="date">Tuesday, July 20th, 2021 at 12:00PM EST</p>
+      </div>
+      <div class="schedule-item">
+        <h3 class="title">Obsidian Office Hours (#9)</h3>
+        <p class="date">Thursday, July 22th, 2021 at 2:00PM EST</p>
+      </div>
+      <div class="schedule-item">
+        <h3 class="title">Build with Ben (#10)</h3>
+        <p class="date">Tuesday, July 27th, 2021 at 12:00PM EST</p>
+      </div>
+      <div class="schedule-item">
+        <h3 class="title">Obsidian Office Hours (#10)</h3>
+        <p class="date">Thursday, July 29th, 2021 at 2:00PM EST</p>
       </div>
       <h2>Past</h2>
       <div class="schedule-item">
