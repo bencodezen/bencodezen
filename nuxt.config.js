@@ -79,8 +79,10 @@ export default {
    */
   axios: {},
   content: {
-    prism: {
-      theme: 'prism-themes/themes/night-owl.css'
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-night-owl.css'
+      }
     }
   },
   /*

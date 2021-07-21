@@ -17,7 +17,7 @@ Yep. The tagging system in Obsidian is built on "generational relationships" so 
 
 If we utilize the [Obsidian Dataview Plugin](https://blacksmithgu.github.io/obsidian-dataview/), we can expose all the tags that are contained within a given file. Using only the search parameter for `#type/blog`, you'll see in this screenshot that the root tag of `#type` is included in the list of available tags.
 
-```bash
+```
 TABLE file.tags
 FROM #type/blog
 ```
