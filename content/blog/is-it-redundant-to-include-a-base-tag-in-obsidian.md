@@ -5,7 +5,7 @@ type: post
 blog: true
 ---
 
-> 🎩 Credit goes to @ADubhlaoich for original question!
+> 🎩 Credit goes to @ADubhlaoich for the original question!
 
 ## TL;DR
 
