@@ -5,6 +5,8 @@ type: post
 blog: true
 ---
 
+> 🎩 Credit goes to @ADubhlaoich for original question!
+
 ## TL;DR
 
 Yep. The tagging system in Obsidian is built on "generational relationships" so that all subsequent tags in a generation are inherently included in the previous tags.
