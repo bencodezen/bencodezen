@@ -26,7 +26,8 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "nuxt": "^2.14.7"
+    "nuxt": "^2.14.7",
+    "prism-themes": "^1.8.0"
   },
   "devDependencies": {
     "@nuxt/image": "^0.4.14",

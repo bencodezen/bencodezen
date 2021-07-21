@@ -2963,39 +2963,6 @@ small.global-question a:hover {
   margin-bottom: 10px;
 }
 
-/* Code
-   –––––––––––––––––––––––––––––––––––––––––––––––––––– */
-.post-content code {
-  font-size: 85%;
-  padding: 2px 5px;
-  border-radius: calc(var(--border-radius) / 1.2);
-}
-
-.post-content p code {
-  border-radius: calc(var(--border-radius) / 6);
-}
-
-.post-content pre > code {
-  display: block;
-  padding: 20px 25px;
-  white-space: pre-wrap;
-}
-
-.post-content pre,
-.post-content .kg-code-card {
-  min-width: 100%;
-}
-
-.post-content .kg-code-card pre,
-.post-content .kg-code-card code {
-  margin: 0;
-}
-
-.post-content code,
-.post-content p code {
-  background-color: var(--color-one);
-}
-
 /* Image
    –––––––––––––––––––––––––––––––––––––––––––––––––––– */
 .post-content img,

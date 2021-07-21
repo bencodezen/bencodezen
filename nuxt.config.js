@@ -78,6 +78,11 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  content: {
+    prism: {
+      theme: 'prism-themes/themes/night-owl.css'
+    }
+  },
   /*
    ** Feed module configuration
    ** See https://github.com/nuxt-community/feed-module
