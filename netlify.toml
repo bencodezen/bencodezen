@@ -1,3 +1,8 @@
+[build]
+  command = "nuxt generate"
+  functions = "netlify/functions"
+  publish = "dist"
+
 [[redirects]]
   from = "/calendar"
   to = "https://calendar.google.com/calendar/u/0?cid=Y19ydWlzbHQzcnVsZjh0MGQ1aXU1OGpibGs3MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
@@ -9,6 +14,11 @@
   to = "https://publish.obsidian.md/serve?url=bencodezen.io/notes/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
 
 [[redirects]]
   from = "/*"

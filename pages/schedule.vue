@@ -1,5 +1,16 @@
 <script>
-export default {}
+export default {
+  data: () => ({
+    eventList: []
+  }),
+  async mounted() {
+    // Fetch from /api/events
+    // Return public events
+    const eventsData = await fetch('/api/events').then((res) => res.json())
+
+    this.eventList = eventsData
+  }
+}
 </script>
 
 <template>
@@ -24,6 +35,25 @@ export default {}
         </a>
       </div>
       <h2>Upcoming</h2>
+      <ul>
+        <li v-for="event in eventList" class="schedule-item" :key="event">
+          <h3 class="title">{{ event.fields['Name'] }}</h3>
+          <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
+        </li>
+      </ul>
+      <h2>Past</h2>
+      <div class="schedule-item">
+        <h3 class="title">Build with Ben (#7)</h3>
+        <p class="date">Tuesday, July 6th, 2021 at 12:00PM EST</p>
+      </div>
+      <div class="schedule-item">
+        <h3 class="title">ThePractical Dev Twitch Stream</h3>
+        <p class="date">Wednesday, July 7th, 2021 at 1:00PM EST</p>
+      </div>
+      <div class="schedule-item">
+        <h3 class="title">Obsidian Office Hours (#7)</h3>
+        <p class="date">Thursday, July 8th, 2021 at 2:00PM EST</p>
+      </div>
       <div class="schedule-item">
         <h3 class="title">Build with Ben (#8)</h3>
         <p class="date">Tuesday, July 13th, 2021 at 12:00PM EST</p>
@@ -47,19 +77,6 @@ export default {}
       <div class="schedule-item">
         <h3 class="title">Obsidian Office Hours (#10)</h3>
         <p class="date">Thursday, July 29th, 2021 at 2:00PM EST</p>
-      </div>
-      <h2>Past</h2>
-      <div class="schedule-item">
-        <h3 class="title">Build with Ben (#7)</h3>
-        <p class="date">Tuesday, July 6th, 2021 at 12:00PM EST</p>
-      </div>
-      <div class="schedule-item">
-        <h3 class="title">ThePractical Dev Twitch Stream</h3>
-        <p class="date">Wednesday, July 7th, 2021 at 1:00PM EST</p>
-      </div>
-      <div class="schedule-item">
-        <h3 class="title">Obsidian Office Hours (#7)</h3>
-        <p class="date">Thursday, July 8th, 2021 at 2:00PM EST</p>
       </div>
     </div>
   </article>
