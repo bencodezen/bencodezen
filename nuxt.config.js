@@ -69,6 +69,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxt/content',
+    '@nuxt/http',
     '@nuxtjs/axios',
     '@nuxtjs/feed',
     '@nuxtjs/pwa'

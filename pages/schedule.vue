@@ -1,8 +1,12 @@
 <script>
 export default {
-  data: () => ({
-    eventList: []
-  }),
+  async asyncData({ $http }) {
+    const eventsData = await $http.get('/api/events').then((res) => res.json())
+
+    return {
+      eventList: eventsData
+    }
+  },
   computed: {
     pastEventList() {
       return this.eventList.filter(
@@ -14,13 +18,6 @@ export default {
         (event) => new Date() <= new Date(event.fields['Starts On'])
       )
     }
-  },
-  async mounted() {
-    // Fetch from /api/events
-    // Return public events
-    const eventsData = await fetch('/api/events').then((res) => res.json())
-
-    this.eventList = eventsData
   }
 }
 </script>
