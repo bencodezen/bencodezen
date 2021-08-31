@@ -86,6 +86,13 @@ export default {
       }
     }
   },
+  // $http Configuration: https://go.nuxtjs.dev/config-build
+  http: {
+    baseUrl:
+      process.env.NODE_ENV !== 'production'
+        ? 'http://localhost:8888'
+        : 'https://www.bencodezen.io'
+  },
   /*
    ** Feed module configuration
    ** See https://github.com/nuxt-community/feed-module
