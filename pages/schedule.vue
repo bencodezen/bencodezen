@@ -7,7 +7,16 @@ export default {
       eventList: eventsData
     }
   },
+  data: () => ({
+    pastEventPage: 0
+  }),
   computed: {
+    filteredPastEventList() {
+      return this.pastEventList.slice(
+        this.pastEventPage,
+        this.pastEventPage + 5
+      )
+    },
     pastEventList() {
       return this.eventList
         .filter((event) => new Date() > new Date(event.fields['Starts On']))
@@ -68,11 +77,26 @@ export default {
       </ul>
       <h2>Past</h2>
       <ul>
-        <li v-for="event in pastEventList" class="schedule-item" :key="event">
+        <li
+          v-for="event in filteredPastEventList"
+          class="schedule-item"
+          :key="event"
+        >
           <h3 class="title">{{ event.fields['Name'] }}</h3>
           <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
         </li>
       </ul>
+      <div v-if="pastEventList.length > 5">
+        <button v-show="pastEventPage > 0" @click="pastEventPage -= 5">
+          Newer Events
+        </button>
+        <button
+          v-show="pastEventPage + 5 < pastEventList.length"
+          @click="pastEventPage += 5"
+        >
+          Older Events
+        </button>
+      </div>
     </div>
   </article>
 </template>
