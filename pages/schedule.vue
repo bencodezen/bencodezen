@@ -1,10 +1,10 @@
 <script>
 export default {
   async asyncData({ $http }) {
-    const eventsData = await $http.get('/api/events').then((res) => res.json())
+    const eventsData = await $http.$get('/api/events')
 
     return {
-      eventList: eventsData
+      eventList: eventsData || []
     }
   },
   data: () => ({
