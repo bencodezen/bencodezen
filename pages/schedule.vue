@@ -9,14 +9,26 @@ export default {
   },
   computed: {
     pastEventList() {
-      return this.eventList.filter(
-        (event) => new Date() > new Date(event.fields['Starts On'])
-      )
+      return this.eventList
+        .filter((event) => new Date() > new Date(event.fields['Starts On']))
+        .sort((a, b) => {
+          const dateA = new Date(a.fields['Starts On'])
+          const dateB = new Date(b.fields['Starts On'])
+
+          // Sort by most recent date
+          return dateB - dateA
+        })
     },
     upcomingEventList() {
-      return this.eventList.filter(
-        (event) => new Date() <= new Date(event.fields['Starts On'])
-      )
+      return this.eventList
+        .filter((event) => new Date() <= new Date(event.fields['Starts On']))
+        .sort((a, b) => {
+          const dateA = new Date(a.fields['Starts On'])
+          const dateB = new Date(b.fields['Starts On'])
+
+          // Sort by closest date to today
+          return dateA - dateB
+        })
     }
   }
 }
