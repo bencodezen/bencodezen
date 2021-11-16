@@ -1,12 +1,40 @@
 <script>
-export default {}
+import { Client } from '@notionhq/client'
+
+export default {
+  async asyncData({ env }) {
+    const notion = new Client({ auth: env.notionApiKey })
+    const databaseId = '52fcfd11b497413387ec15c9db5f4bd6'
+    const databaseContent = await notion.databases.query({
+      database_id: databaseId,
+      sorts: [
+        {
+          property: 'End Date',
+          direction: 'descending'
+        }
+      ]
+    })
+
+    return {
+      databaseContent
+    }
+  },
+  computed: {
+    databaseCourses() {
+      return this.databaseContent.results.filter((item) => {
+        const typeList = item.properties.Type.multi_select
+
+        return typeList.find((type) => type.name === 'Course')
+      })
+    }
+  }
+}
 </script>
 
 <template>
   <article class="post-section">
     <div class="post-content">
       <h1>Learn</h1>
-
       <p>
         This is the section where I will store more formal articles and
         tutorials for things that I create. It is different from the blog
@@ -22,20 +50,18 @@ export default {}
         on other platforms.
       </p>
 
-      <guide-item>
-        <template v-slot:image>
-          <img
-            src="/images/jamstack-explorers-serverless.png"
-            alt="Up and Running with Serverless Functions Cover Image"
-          />
-        </template>
+      <guide-item v-for="resource in databaseCourses" :key="resource.id">
         <template v-slot:content>
           <h3>
-            <a href="https://ntl.fyi/3z8ghbZ">
-              Up and Running with Serverless Functions
+            <a :href="resource.properties['Publish URL'].url">
+              {{ resource.properties.Name.title[0].text.content }}
             </a>
           </h3>
-          <p class="subtitle">Jamstack Explorers</p>
+          <p class="subtitle">
+            {{ resource.properties.Platform.select.name }} ({{
+              resource.properties['End Date'].date.start
+            }})
+          </p>
           <p class="description">
             Serverless functions is a very popular topic, but it can often be
             confusing to many. And if you're like me and come more from the
@@ -43,51 +69,6 @@ export default {}
             This course will take you from zero to building the foundation you
             need to equip yourselves with the confidence to use serverless
             functions in your applications.
-          </p>
-        </template>
-      </guide-item>
-
-      <guide-item>
-        <template v-slot:image>
-          <img
-            src="/images/production-grade-vue.jpeg"
-            alt="Frontend Masters Production Grade Vue"
-          />
-        </template>
-        <template v-slot:content>
-          <h3>
-            <a href="https://frontendmasters.com/courses/production-vue/">
-              Production Grade Vue.js
-            </a>
-          </h3>
-          <p class="subtitle">Frontend Masters</p>
-          <p class="description">
-            Learn best practices for building production-grade Vue.js
-            applications that can scale and grow! You'll learn component design
-            patterns, workflows to enhance productivity, testing methodologies,
-            state management, routing, best practices for architecting
-            increasingly complex applications, and more.
-          </p>
-        </template>
-      </guide-item>
-
-      <guide-item>
-        <template v-slot:image>
-          <img
-            src="/images/vue3-typescript.png"
-            alt="Vue Mastery: Vue 3 + TypeScript Logo"
-          />
-        </template>
-        <template v-slot:content>
-          <h3>
-            <a href="https://www.vuemastery.com/courses/vue3-typescript">
-              Vue 3 + TypeScript
-            </a>
-          </h3>
-          <p class="subtitle">Vue Mastery</p>
-          <p class="description">
-            With Vue 3's enhanced TypeScript support, using it just got easier.
-            Learn how to strengthen your Vue apps with this popular technology.
           </p>
         </template>
       </guide-item>
