@@ -1,8 +1,8 @@
 <script>
 export default {
-  async asyncData() {
+  async asyncData({ env }) {
     const databaseContent = await fetch(
-      'http://localhost:8888/api/courses'
+      `${env.baseUrl}/api/courses`
     ).then((res) => res.json())
 
     return {

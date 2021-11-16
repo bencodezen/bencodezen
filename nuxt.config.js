@@ -1,5 +1,11 @@
 export default {
   target: 'static',
+  env: {
+    baseUrl:
+      process.env.NODE_ENV === 'production'
+        ? 'https://www.bencodezen.io'
+        : 'http://localhost:8888'
+  },
   /*
    ** Headers of the page
    */
