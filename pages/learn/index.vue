@@ -1,31 +1,12 @@
 <script>
-import { Client } from '@notionhq/client'
-
 export default {
-  async asyncData({ env }) {
-    const notion = new Client({ auth: env.notionApiKey })
-    const databaseId = '52fcfd11b497413387ec15c9db5f4bd6'
-    const databaseContent = await notion.databases.query({
-      database_id: databaseId,
-      sorts: [
-        {
-          property: 'End Date',
-          direction: 'descending'
-        }
-      ]
-    })
+  async asyncData() {
+    const databaseContent = await fetch(
+      'http://localhost:8888/api/courses'
+    ).then((res) => res.json())
 
     return {
       databaseContent
-    }
-  },
-  computed: {
-    databaseCourses() {
-      return this.databaseContent.results.filter((item) => {
-        const typeList = item.properties.Type.multi_select
-
-        return typeList.find((type) => type.name === 'Course')
-      })
     }
   }
 }
@@ -50,17 +31,15 @@ export default {
         on other platforms.
       </p>
 
-      <guide-item v-for="resource in databaseCourses" :key="resource.id">
+      <guide-item v-for="resource in databaseContent" :key="resource.id">
         <template v-slot:content>
           <h3>
-            <a :href="resource.properties['Publish URL'].url">
-              {{ resource.properties.Name.title[0].text.content }}
+            <a :href="resource.publishUrl">
+              {{ resource.title }}
             </a>
           </h3>
           <p class="subtitle">
-            {{ resource.properties.Platform.select.name }} ({{
-              resource.properties['End Date'].date.start
-            }})
+            {{ resource.platform }} ({{ resource.endDate }})
           </p>
           <p class="description">
             Serverless functions is a very popular topic, but it can often be
