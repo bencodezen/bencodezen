@@ -23,6 +23,46 @@ export default {
         content in this section get a lot of revisions.
       </p>
 
+      <h2>Live Stream</h2>
+
+      <p>
+        If you want the latest and greatest, be sure to check out my live
+        streams on Twitch where you can ask questions and chat with me. For
+        upcoming sessions, check out
+        <nuxt-link to="/schedule">schedule page</nuxt-link>!
+      </p>
+
+      <ul>
+        <li>
+          <p>
+            <b>Build with Ben</b> - In this session, we focus on building things
+            (usually for the web) and I'll share my thoughts as I embark on
+            various coding adventures!
+          </p>
+          <p>
+            For past episodes, check out this
+            <a
+              href="https://www.youtube.com/watch?v=WQa9-4K3me4&list=PLdW65tjm2FbZeF5wtyoAyhSvZf6oUCxId"
+              >Building with Ben YouTube playlist</a
+            >!
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Obsidian Office Hours</b> - In this session, we talk about all
+            things <a href="https://obsidian.md/">Obsidian</a> and productivity
+            workflow things.
+          </p>
+          <p>
+            For past episodes, check out this
+            <a
+              href="https://www.youtube.com/playlist?list=PLdW65tjm2FbbDGQHpi_ywrOYreLfxWKDi"
+              >Obsidian Office Hours YouTube playlist</a
+            >!
+          </p>
+        </li>
+      </ul>
+
       <h2>Courses</h2>
 
       <p>
