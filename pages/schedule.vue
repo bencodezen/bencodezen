@@ -66,10 +66,30 @@ export default {
       </div>
       <h2>Upcoming</h2>
       <ul>
+        <li class="schedule-item">
+          <h3 class="title">Build with Ben (#23)</h3>
+          <p class="date">
+            Tuesday, Jan 4th, 2022 from 12:00PM to 1:00PM EST
+          </p>
+          <p class="location">
+            <a href="https://www.twitch.tv/bencodezen"
+              >https://www.twitch.tv/bencodezen</a
+            >
+          </p>
+        </li>
+        <li class="schedule-item">
+          <h3 class="title">Productivity Power Hour (#1)</h3>
+          <p class="date">Thursday, Jan 6th, 2022 from 2:00PM to 3:00PM EST</p>
+          <p class="location">
+            <a href="https://www.twitch.tv/bencodezen"
+              >https://www.twitch.tv/bencodezen</a
+            >
+          </p>
+        </li>
         <li
           v-for="event in upcomingEventList"
-          class="schedule-item"
           :key="event"
+          class="schedule-item"
         >
           <h3 class="title">{{ event.fields['Name'] }}</h3>
           <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
@@ -103,8 +123,12 @@ export default {
 
 <style lang="scss">
 .schedule-item {
+  .date {
+    margin-bottom: 5px;
+  }
+
   .title {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 }
 
