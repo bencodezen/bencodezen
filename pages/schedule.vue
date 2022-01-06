@@ -67,7 +67,10 @@ export default {
       <h2>Upcoming</h2>
       <ul>
         <li class="schedule-item">
-          <h3 class="title">Productivity Power Hour (#1)</h3>
+          <h3 class="title">
+            Productivity Power Hour (#1): My Workflow for Making Notes in
+            Obsidian
+          </h3>
           <p class="date">Thursday, Jan 6th, 2022 from 2:00PM to 3:00PM EST</p>
           <p class="location">
             <a href="https://www.twitch.tv/bencodezen"
@@ -87,7 +90,9 @@ export default {
           </p>
         </li>
         <li class="schedule-item">
-          <h3 class="title">Productivity Power Hour (#2)</h3>
+          <h3 class="title">
+            Productivity Power Hour (#2): Let's Talk About with RemNote
+          </h3>
           <p class="date">Thursday, Jan 13th, 2022 from 2:00PM to 3:00PM EST</p>
           <p class="location">
             <a href="https://www.twitch.tv/bencodezen"
@@ -107,7 +112,9 @@ export default {
           </p>
         </li>
         <li class="schedule-item">
-          <h3 class="title">Productivity Power Hour (#3)</h3>
+          <h3 class="title">
+            Productivity Power Hour (#3): Let's Talk About Raycast!
+          </h3>
           <p class="date">Thursday, Jan 20th, 2022 from 2:00PM to 3:00PM EST</p>
           <p class="location">
             <a href="https://www.twitch.tv/bencodezen"
