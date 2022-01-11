@@ -1,5 +1,5 @@
 ---
-title: Build with Ben (#23) - VueUse + Vue 3
+title: Build with Ben (#23) - VueUse + Vue 3 Overview
 date: 2022-01-11 11:00:00
 type: post
 blog: true
