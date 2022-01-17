@@ -67,17 +67,6 @@ export default {
       <h2>Upcoming</h2>
       <ul>
         <li class="schedule-item">
-          <h3 class="title">
-            Productivity Power Hour (#2): Let's Talk About with RemNote
-          </h3>
-          <p class="date">Thursday, Jan 13th, 2022 from 2:00PM to 3:00PM EST</p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li class="schedule-item">
           <h3 class="title">Build with Ben (#25)</h3>
           <p class="date">
             Tuesday, Jan 18th, 2022 from 12:00PM to 1:30PM EST
@@ -130,6 +119,17 @@ export default {
       </ul>
       <h2>Past</h2>
       <ul>
+        <li class="schedule-item">
+          <h3 class="title">
+            Productivity Power Hour (#2): Let's Talk About with RemNote
+          </h3>
+          <p class="date">Thursday, Jan 13th, 2022 from 2:00PM to 3:00PM EST</p>
+          <p class="location">
+            <a href="https://www.twitch.tv/bencodezen"
+              >https://www.twitch.tv/bencodezen</a
+            >
+          </p>
+        </li>
         <li class="schedule-item">
           <h3 class="title">
             Build with Ben (#24): Trello Clone with Nuxt 3 (Beta) (Part 2)
