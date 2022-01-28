@@ -66,10 +66,38 @@ export default {
       </div>
       <h2>Upcoming</h2>
       <ul>
+        <li
+          v-for="event in upcomingEventList"
+          :key="event"
+          class="schedule-item"
+        >
+          <h3 class="title">{{ event.fields['Name'] }}</h3>
+          <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
+        </li>
+      </ul>
+      <h2>Past</h2>
+      <ul>
         <li class="schedule-item">
-          <h3 class="title">Build with Ben (#25)</h3>
+          <h3 class="title">Productivity Power Hour (#4)</h3>
+          <p class="date">Thursday, Jan 27th, 2022 from 2:00PM to 3:00PM EST</p>
+          <p class="location">
+            <a href="https://www.twitch.tv/bencodezen"
+              >https://www.twitch.tv/bencodezen</a
+            >
+          </p>
+        </li>
+        <li
+          v-for="event in upcomingEventList"
+          :key="event"
+          class="schedule-item"
+        >
+          <h3 class="title">{{ event.fields['Name'] }}</h3>
+          <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
+        </li>
+        <li class="schedule-item">
+          <h3 class="title">Build with Ben (#26)</h3>
           <p class="date">
-            Tuesday, Jan 18th, 2022 from 12:00PM to 1:30PM EST
+            Tuesday, Jan 25th, 2022 from 12:00PM to 1:30PM EST
           </p>
           <p class="location">
             <a href="https://www.twitch.tv/bencodezen"
@@ -89,9 +117,9 @@ export default {
           </p>
         </li>
         <li class="schedule-item">
-          <h3 class="title">Build with Ben (#26)</h3>
+          <h3 class="title">Build with Ben (#25)</h3>
           <p class="date">
-            Tuesday, Jan 25th, 2022 from 12:00PM to 1:30PM EST
+            Tuesday, Jan 18th, 2022 from 12:00PM to 1:30PM EST
           </p>
           <p class="location">
             <a href="https://www.twitch.tv/bencodezen"
@@ -99,26 +127,6 @@ export default {
             >
           </p>
         </li>
-        <li class="schedule-item">
-          <h3 class="title">Productivity Power Hour (#4)</h3>
-          <p class="date">Thursday, Jan 27th, 2022 from 2:00PM to 3:00PM EST</p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li
-          v-for="event in upcomingEventList"
-          :key="event"
-          class="schedule-item"
-        >
-          <h3 class="title">{{ event.fields['Name'] }}</h3>
-          <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
-        </li>
-      </ul>
-      <h2>Past</h2>
-      <ul>
         <li class="schedule-item">
           <h3 class="title">
             Productivity Power Hour (#2): Let's Talk About with RemNote
