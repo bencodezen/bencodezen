@@ -19,10 +19,10 @@ export default {
     },
     pastEventList() {
       return this.eventList
-        .filter((event) => new Date() > new Date(event.fields['Starts On']))
+        .filter((event) => new Date() > new Date(event.recording.date.start))
         .sort((a, b) => {
-          const dateA = new Date(a.fields['Starts On'])
-          const dateB = new Date(b.fields['Starts On'])
+          const dateA = new Date(a.recording.date.start)
+          const dateB = new Date(b.recording.date.start)
 
           // Sort by most recent date
           return dateB - dateA
@@ -30,10 +30,10 @@ export default {
     },
     upcomingEventList() {
       return this.eventList
-        .filter((event) => new Date() <= new Date(event.fields['Starts On']))
+        .filter((event) => new Date() <= new Date(event.recording.date.start))
         .sort((a, b) => {
-          const dateA = new Date(a.fields['Starts On'])
-          const dateB = new Date(b.fields['Starts On'])
+          const dateA = new Date(a.recording.date.start)
+          const dateB = new Date(b.recording.date.start)
 
           // Sort by closest date to today
           return dateA - dateB
@@ -71,116 +71,19 @@ export default {
           :key="event"
           class="schedule-item"
         >
-          <h3 class="title">{{ event.fields['Name'] }}</h3>
-          <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
+          <h3 class="title">{{ event.title }}</h3>
+          <p class="date">{{ new Date(event.recording.date.start) }}</p>
         </li>
       </ul>
       <h2>Past</h2>
       <ul>
-        <li class="schedule-item">
-          <h3 class="title">Productivity Power Hour (#4)</h3>
-          <p class="date">Thursday, Jan 27th, 2022 from 2:00PM to 3:00PM EST</p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li
-          v-for="event in upcomingEventList"
-          :key="event"
-          class="schedule-item"
-        >
-          <h3 class="title">{{ event.fields['Name'] }}</h3>
-          <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
-        </li>
-        <li class="schedule-item">
-          <h3 class="title">Build with Ben (#26)</h3>
-          <p class="date">
-            Tuesday, Jan 25th, 2022 from 12:00PM to 1:30PM EST
-          </p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li class="schedule-item">
-          <h3 class="title">
-            Productivity Power Hour (#3): Let's Talk About Raycast!
-          </h3>
-          <p class="date">Thursday, Jan 20th, 2022 from 2:00PM to 3:00PM EST</p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li class="schedule-item">
-          <h3 class="title">Build with Ben (#25)</h3>
-          <p class="date">
-            Tuesday, Jan 18th, 2022 from 12:00PM to 1:30PM EST
-          </p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li class="schedule-item">
-          <h3 class="title">
-            Productivity Power Hour (#2): Let's Talk About with RemNote
-          </h3>
-          <p class="date">Thursday, Jan 13th, 2022 from 2:00PM to 3:00PM EST</p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li class="schedule-item">
-          <h3 class="title">
-            Build with Ben (#24): Trello Clone with Nuxt 3 (Beta) (Part 2)
-          </h3>
-          <p class="date">
-            Tuesday, Jan 11th, 2022 from 12:00PM to 1:30PM EST
-          </p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li class="schedule-item">
-          <h3 class="title">
-            Productivity Power Hour (#1): My Workflow for Making Notes in
-            Obsidian
-          </h3>
-          <p class="date">Thursday, Jan 6th, 2022 from 2:00PM to 3:00PM EST</p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
-        <li class="schedule-item">
-          <h3 class="title">Build with Ben (#23)</h3>
-          <p class="date">
-            Tuesday, Jan 4th, 2022 from 12:00PM to 1:00PM EST
-          </p>
-          <p class="location">
-            <a href="https://www.twitch.tv/bencodezen"
-              >https://www.twitch.tv/bencodezen</a
-            >
-          </p>
-        </li>
         <li
           v-for="event in filteredPastEventList"
-          class="schedule-item"
           :key="event"
+          class="schedule-item"
         >
-          <h3 class="title">{{ event.fields['Name'] }}</h3>
-          <p class="date">{{ new Date(event.fields['Starts On']) }}</p>
+          <h3 class="title">{{ event.title }}</h3>
+          <p class="date">{{ new Date(event.recording.date.start) }}</p>
         </li>
       </ul>
       <div v-if="pastEventList.length > 5">

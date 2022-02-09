@@ -1,33 +1,36 @@
-const airtable = require('airtable')
+const { Client } = require('@notionhq/client')
 
-exports.handler = (event, context, callback) => {
-  airtable.configure({
-    endpointUrl: 'https://api.airtable.com',
-    apiKey: process.env.AIRTABLE_API_KEY
+exports.handler = async () => {
+  const notion = new Client({ auth: process.env.NOTION_API_KEY })
+  const databaseId = '52fcfd11b497413387ec15c9db5f4bd6'
+  const databaseContent = await notion.databases.query({
+    database_id: databaseId,
+    filter: {
+      property: 'Tags',
+      multi_select: {
+        contains: 'Public Schedule'
+      }
+    }
   })
 
-  const base = airtable.base('apperZstCqJMt9MuV')
-  const eventData = []
-
-  base('Events')
-    .select({
-      view: 'Public Events'
-    })
-    .eachPage(
-      function page(records, fetchNextPage) {
-        records.forEach((record) => {
-          eventData.push(record)
-        })
-        fetchNextPage()
+  const finalResults = databaseContent.results.map((item) => {
+    return {
+      id: item.id,
+      recordDate: item.properties['Record Date'],
+      title: item.properties.Name.title[0].text.content,
+      recording: {
+        url: item.properties['Recording URL']?.url,
+        date: item.properties['Recording Date']?.date
       },
-      function done(err) {
-        if (err) {
-          console.error(err)
-        }
-        callback(null, {
-          statusCode: 200,
-          body: JSON.stringify(eventData)
-        })
+      publishing: {
+        url: item.properties['Publishing URL']?.url,
+        date: item.properties['Publishing Date']?.date
       }
-    )
+    }
+  })
+
+  return {
+    statusCode: 200,
+    body: JSON.stringify(finalResults)
+  }
 }
