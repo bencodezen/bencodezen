@@ -68,7 +68,7 @@ export default {
       <ul>
         <li
           v-for="event in upcomingEventList"
-          :key="event"
+          :key="event.id"
           class="schedule-item"
         >
           <h3 class="title">{{ event.title }}</h3>
@@ -79,19 +79,26 @@ export default {
       <ul>
         <li
           v-for="event in filteredPastEventList"
-          :key="event"
+          :key="event.id"
           class="schedule-item"
         >
           <h3 class="title">{{ event.title }}</h3>
           <p class="date">{{ new Date(event.recording.date.start) }}</p>
         </li>
       </ul>
-      <div v-if="pastEventList.length > 5">
-        <button v-show="pastEventPage > 0" @click="pastEventPage -= 5">
-          Newer Events
-        </button>
+      <div v-if="pastEventList.length > 5" class="pagination-row">
+        <div>
+          <button
+            v-show="pastEventPage > 0"
+            class="btn"
+            @click="pastEventPage -= 5"
+          >
+            Newer Events
+          </button>
+        </div>
         <button
           v-show="pastEventPage + 5 < pastEventList.length"
+          class="btn"
           @click="pastEventPage += 5"
         >
           Older Events
@@ -102,7 +109,27 @@ export default {
 </template>
 
 <style lang="scss">
-.schedule-item {
+.btn {
+  border: 2px solid #22aaff;
+  background-color: transparent;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #22aaff;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.pagination-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.post-content .schedule-item {
+  margin-bottom: 20px;
+
   .date {
     margin-bottom: 5px;
   }
@@ -118,13 +145,7 @@ export default {
 
   .btn {
     margin-right: 2rem;
-    border: 2px solid #22aaff;
     text-decoration: none;
-    padding: 1rem;
-    border-radius: 8px;
-    color: #22aaff;
-    font-weight: 600;
-    white-space: nowrap;
   }
 
   .btn:last-child {
