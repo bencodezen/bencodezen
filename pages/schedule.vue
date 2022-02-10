@@ -64,23 +64,24 @@ export default {
           Subscribe on Twitch
         </a>
       </div>
-      <h2>Upcoming</h2>
-      <ul>
+      <h2 class="schedule-heading">Upcoming</h2>
+      <ul class="schedule-list">
         <li
           v-for="event in upcomingEventList"
           :key="event.id"
-          class="schedule-item"
+          class="schedule-list-item"
         >
           <h3 class="title">{{ event.title }}</h3>
           <p class="date">{{ new Date(event.recording.date.start) }}</p>
+          <a :href="event.recording.url">{{ event.recording.url }}</a>
         </li>
       </ul>
-      <h2>Past</h2>
-      <ul>
+      <h2 class="schedule-heading">Past</h2>
+      <ul class="schedule-list">
         <li
           v-for="event in filteredPastEventList"
           :key="event.id"
-          class="schedule-item"
+          class="schedule-list-item"
         >
           <h3 class="title">{{ event.title }}</h3>
           <p class="date">{{ new Date(event.recording.date.start) }}</p>
@@ -127,8 +128,23 @@ export default {
   margin-top: 2rem;
 }
 
-.post-content .schedule-item {
-  margin-bottom: 20px;
+.post-content .schedule-heading {
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #aaa;
+}
+
+.post-content .schedule-list {
+  padding: 0;
+  margin: 0;
+}
+
+.post-content .schedule-list-item {
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 2px solid white;
+  border-radius: 8px;
+  list-style: none;
 
   .date {
     margin-bottom: 5px;
@@ -136,6 +152,7 @@ export default {
 
   .title {
     margin-bottom: 10px;
+    font-size: 1.5rem;
   }
 }
 
