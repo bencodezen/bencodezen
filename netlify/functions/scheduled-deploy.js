@@ -2,7 +2,7 @@ const fetch = require('node-fetch')
 const { schedule } = require('@netlify/functions')
 
 const handler = async function() {
-  console.log('Build hook triggered.')
+  console.log('Automated build triggered.')
 
   await fetch('https://api.netlify.com/build_hooks/620bd20bc7433d2230c94653', {
     method: 'POST'
@@ -15,4 +15,4 @@ const handler = async function() {
   }
 }
 
-module.exports.handler = schedule('31 * * * *', handler)
+module.exports.handler = schedule('0 0 * * 1,3,5', handler)
