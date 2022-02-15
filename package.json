@@ -22,6 +22,7 @@
     }
   },
   "dependencies": {
+    "@netlify/functions": "^1.0.0",
     "@notionhq/client": "^0.4.6",
     "@nuxt/content": "^1.14.0",
     "@nuxt/http": "^0.6.4",
@@ -29,6 +30,7 @@
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "airtable": "^0.11.1",
+    "node-fetch": "^2.6.1",
     "nuxt": "^2.14.7",
     "prism-themes": "^1.8.0"
   },
