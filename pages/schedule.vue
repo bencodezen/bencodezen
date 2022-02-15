@@ -1,4 +1,7 @@
 <script>
+import isAfter from 'date-fns/isAfter'
+import isSameDay from 'date-fns/isSameDay'
+
 export default {
   async asyncData({ $http }) {
     const eventsData = await $http.$get('/api/events')
@@ -19,7 +22,12 @@ export default {
     },
     pastEventList() {
       return this.eventList
-        .filter((event) => new Date() > new Date(event.recording.date.start))
+        .filter((event) => {
+          const today = new Date()
+          const eventDate = new Date(event.recording.date.start)
+
+          return isAfter(today, eventDate) && !isSameDay(today, eventDate)
+        })
         .sort((a, b) => {
           const dateA = new Date(a.recording.date.start)
           const dateB = new Date(b.recording.date.start)
@@ -30,7 +38,12 @@ export default {
     },
     upcomingEventList() {
       return this.eventList
-        .filter((event) => new Date() <= new Date(event.recording.date.start))
+        .filter((event) => {
+          const today = new Date()
+          const eventDate = new Date(event.recording.date.start)
+
+          return isSameDay(eventDate, today) || isAfter(eventDate, today)
+        })
         .sort((a, b) => {
           const dateA = new Date(a.recording.date.start)
           const dateB = new Date(b.recording.date.start)
