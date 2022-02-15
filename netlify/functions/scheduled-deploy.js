@@ -8,4 +8,4 @@ const handler = function(event, context) {
   }
 }
 
-module.exports.handler = schedule('23 * * * *', handler)
+module.exports.handler = schedule('27 * * * *', handler)
