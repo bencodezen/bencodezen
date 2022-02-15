@@ -78,16 +78,8 @@ export default {
               {{ resource.title }}
             </a>
           </h3>
-          <p class="subtitle">
-            {{ resource.platform }} ({{ resource.endDate }})
-          </p>
           <p class="description">
-            Serverless functions is a very popular topic, but it can often be
-            confusing to many. And if you're like me and come more from the
-            front-end side of development, it can be downright intimidating.
-            This course will take you from zero to building the foundation you
-            need to equip yourselves with the confidence to use serverless
-            functions in your applications.
+            {{ resource.description }}
           </p>
         </template>
       </guide-item>
@@ -128,4 +120,8 @@ export default {
 
 <style lang="scss">
 @import '../../styles/_settings.scss';
+
+.guide-item-content .description {
+  margin-top: 1rem;
+}
 </style>
