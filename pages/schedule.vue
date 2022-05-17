@@ -98,6 +98,9 @@ export default {
         >
           <h3 class="title">{{ event.title }}</h3>
           <p class="date">{{ new Date(event.recording.date.start) }}</p>
+          <p v-if="event.publishing.url" style="margin-bottom: 0;">
+            📼 Recording: <a :href="event.publishing.url">YouTube Video</a>
+          </p>
         </li>
       </ul>
       <div v-if="pastEventList.length > 5" class="pagination-row">
