@@ -84,6 +84,15 @@ export default {
         </template>
       </guide-item>
 
+      <h2>Obsidian Notes</h2>
+
+      <p>
+        If you're looking for my public digital forest, you can find it here:
+        <a href="https://publish.obsidian.md/bencodezen/Home+Page"
+          >https://publish.obsidian.md/bencodezen/Home+Page</a
+        >
+      </p>
+
       <h2>Guides</h2>
 
       <p>
