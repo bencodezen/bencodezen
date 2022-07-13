@@ -76,6 +76,10 @@ export default {
         >
       </div>
     </div>
+    <p>
+      To subscribe via RSS, you can use
+      <a href="/rss.xml">https://www.bencodezen.io/rss.xml</a>.
+    </p>
 
     <h2 class="blog-list-subtitle">Most Recent</h2>
 
