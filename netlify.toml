@@ -10,6 +10,12 @@
   force = true
 
 [[redirects]]
+  from = "/newsletter"
+  to = "https://bencodezen.ghost.io/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "https://bencodezen.io/notes/*"
   to = "https://publish.obsidian.md/serve?url=bencodezen.io/notes/:splat"
   status = 200
