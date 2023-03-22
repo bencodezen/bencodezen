@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   css: ['~/assets/css/theme.css'],
+  modules: ['@nuxt/image-edge'],
+  image: {
+    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
+  },
   vite: {
     css: {
       preprocessorOptions: {
