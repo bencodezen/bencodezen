@@ -3,34 +3,34 @@
 <template>
   <div class="hero-social-grid">
     <HeroSocialGridItem name="Twitter" url="https://www.twitter.com/bencodezen">
-      <Twitter />
+      <IconTwitter />
     </HeroSocialGridItem>
     <HeroSocialGridItem name="YouTube" url="https://www.youtube.com/bencodezen">
-      <YouTube />
+      <IconYouTube />
     </HeroSocialGridItem>
     <HeroSocialGridItem name="Twitch" url="https://www.twitch.tv/bencodezen">
-      <Twitch />
+      <IconTwitch />
     </HeroSocialGridItem>
     <HeroSocialGridItem name="GitHub" url="https://www.github.com/bencodezen">
-      <GitHub />
+      <IconGitHub />
     </HeroSocialGridItem>
     <HeroSocialGridItem
       name="Polywork"
       url="https://www.polywork.com/bencodezen"
     >
-      <Polywork />
+      <IconPolywork />
     </HeroSocialGridItem>
     <HeroSocialGridItem name="TikTok" url="https://www.tiktok.com/@bencodezen">
-      <TikTok />
+      <IconTikTok />
     </HeroSocialGridItem>
     <HeroSocialGridItem
       name="Instagram"
       url="https://www.instagram.com/bencodezen"
     >
-      <Instagram />
+      <IconInstagram />
     </HeroSocialGridItem>
     <HeroSocialGridItem name="CodePen" url="https://www.codepen.io/bencodezen">
-      <CodePen />
+      <IconCodePen />
     </HeroSocialGridItem>
   </div>
 </template>
