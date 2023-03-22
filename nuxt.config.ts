@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   components: ['~/components/icons', '~/components'],
   css: ['~/assets/css/theme.css'],
-  modules: ['@nuxt/image-edge'],
+  modules: ['@nuxt/content', '@nuxt/image-edge'],
   image: {
     staticFilename: '[publicPath]/images/[name]-[hash][ext]'
   },
