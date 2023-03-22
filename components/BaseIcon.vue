@@ -1,17 +1,8 @@
-<script setup lang="ts">
-const props = defineProps({
-  name: {
-    type: String,
-    required: true
-  }
-})
-
-resolveComponent(props.name)
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="base-icon">
-    <component :is="name" />
+    <slot />
   </div>
 </template>
 

@@ -28,11 +28,11 @@
               Vue, Netlify, Obsidian, Nuxt, Notion and more...
             </h2>
             <p class="item-excerpt global-zigzag">
-              <zigzag />
+              <Zigzag />
               I love building things for the web and learning about new ideas
               and techniques for productivity and workflows.
             </p>
-            <hero-social-grid />
+            <HeroSocialGrid />
           </div>
         </div>
       </article>

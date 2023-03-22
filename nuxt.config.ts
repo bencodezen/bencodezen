@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  components: ['~/components/icons', '~/components'],
   css: ['~/assets/css/theme.css'],
   modules: ['@nuxt/image-edge'],
   image: {
