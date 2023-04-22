@@ -20,7 +20,6 @@ export default {}
     </div>
     <div class="navbar-item-wrapper">
       <nuxt-link to="/" class="navbar-item">Home</nuxt-link>
-      <nuxt-link to="/schedule" class="navbar-item">Schedule</nuxt-link>
       <nuxt-link to="/learn" class="navbar-item">Learn</nuxt-link>
       <nuxt-link to="/blog" class="navbar-item">Blog</nuxt-link>
       <nuxt-link to="/uses" class="navbar-item">Uses</nuxt-link>
