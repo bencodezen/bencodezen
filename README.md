@@ -1,42 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Hello! I'm BenCodeZen!
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## About Me
 
-## Setup
+- Vue.js Core Team
+- Senior Developer Experience Engineer @ [Netlify](https://www.netlify.com/?utm_source=ghrepo&utm_medium=bcz-bh&utm_campaign=devex)
+- Lead Instructor @ [Vue Mastery](https://www.vuemastery.com)
+- Google Developer Expert
 
-Make sure to install the dependencies:
+## My Work
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- https://www.bencodezen.io
+- https://www.twitter.com/bencodezen
+- https://www.youtube.com/bencodezen
+- https://www.twitch.tv/bencodezen
+- https://www.instagram.com/bencodezen
