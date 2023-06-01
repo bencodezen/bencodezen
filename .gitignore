@@ -1,10 +1,21 @@
-node_modules
-*.log*
+# nuxt.js build output
 .nuxt
 .nitro
 .cache
 .output
-.env
 dist
+
+# Dependency directories
+node_modules
+
+# Logs
+*.log*
+
+# dotenv environment variables file
+.env
+
+# macOS
 .DS_Store
+
+# Local Netlify folder
 .netlify
