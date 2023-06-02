@@ -9,10 +9,12 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.5.2",
+    "@nuxt/devtools": "^0.5.5",
     "@nuxt/image-edge": "^1.0.0-27990059.c3f31ce",
     "nuxt": "^3.5.2"
   },
   "dependencies": {
+    "@notionhq/client": "^2.2.5",
     "sass": "^1.59.3",
     "sass-loader": "^13.2.1"
   }
