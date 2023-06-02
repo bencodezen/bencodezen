@@ -3,8 +3,8 @@ const { Client } = require('@notionhq/client')
 exports.handler = async () => {
   const notion = new Client({ auth: process.env.NOTION_API_KEY })
   const databaseId = '52fcfd11b497413387ec15c9db5f4bd6'
-  const databaseContent = await notion.databases.query({
-    database_id: databaseId
+  const databaseContent = await notion.databases.retrieve({
+    database_id: databaseId,
   })
 
   const finalResults = databaseContent.results
@@ -22,12 +22,12 @@ exports.handler = async () => {
         description:
           item.properties.Description.rich_text.length > 0
             ? item.properties.Description.rich_text[0].text.content
-            : ''
+            : '',
       }
     })
 
   return {
     statusCode: 200,
-    body: JSON.stringify(finalResults)
+    body: JSON.stringify(finalResults),
   }
 }

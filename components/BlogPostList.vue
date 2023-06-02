@@ -2,22 +2,20 @@
 const props = defineProps({
   list: {
     type: Array,
-    default: () => []
-  }
+    default: () => [],
+  },
 })
 
 const displayRange = ref({
-  end: 4
+  end: 4,
 })
 
 const selectedTag = ref('')
 
-console.log(props.list)
-
 const filteredList = computed(() => {
   if (props.list && props.list.length > 0) {
     return props.list
-      .filter(item => {
+      .filter((item) => {
         const isBlogPost = item._path.includes('/blog/')
         const isReadyToPublish = new Date(item.date) <= new Date()
         const hasTags = item.tags && item.tags.includes(selectedTag.value)

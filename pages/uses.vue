@@ -4,9 +4,9 @@ export default {
     const page = await $content('uses').fetch()
 
     return {
-      page
+      page,
     }
-  }
+  },
 }
 </script>
 
@@ -18,6 +18,4 @@ export default {
   </article>
 </template>
 
-<style lang="scss">
-@import '../../styles/_settings.scss';
-</style>
+<style lang="scss"></style>

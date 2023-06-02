@@ -4,24 +4,24 @@ export default {
   props: {
     published: {
       type: String,
-      required: true
+      required: true,
     },
     tags: {
       type: Array,
-      default: () => []
+      default: () => [],
     },
     title: {
       type: String,
-      required: true
+      required: true,
     },
     path: {
       type: String,
-      required: true
+      required: true,
     },
     excerpt: {
       type: String,
-      default: ''
-    }
+      default: '',
+    },
   },
   computed: {
     formatPublishDate() {
@@ -29,12 +29,12 @@ export default {
       const options = {
         year: 'numeric',
         month: 'long',
-        day: 'numeric'
+        day: 'numeric',
       }
 
       return dateFormat.toLocaleDateString('en-US', options)
-    }
-  }
+    },
+  },
 }
 </script>
 
@@ -45,14 +45,13 @@ export default {
       <a :href="path" class="blog-post__link">{{ title }}</a>
     </h3>
     <p v-if="excerpt" class="blog-post__excerpt">{{ excerpt }}</p>
-    <nuxt-link class="button blog-post__button " :to="path">
+    <nuxt-link class="button blog-post__button" :to="path">
       Read More
     </nuxt-link>
   </section>
 </template>
 
 <style lang="scss">
-@import '../styles/_settings.scss';
 $primary-color: #22aaff;
 
 .blog-post {

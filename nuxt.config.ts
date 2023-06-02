@@ -3,9 +3,11 @@ export default defineNuxtConfig({
   components: ['~/components/icons', '~/components'],
   css: ['~/assets/css/theme.css'],
   modules: ['@nuxt/content', '@nuxt/image-edge'],
+
   image: {
     staticFilename: '[publicPath]/images/[name]-[hash][ext]'
   },
+
   vite: {
     css: {
       preprocessorOptions: {
@@ -14,5 +16,9 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+
+  devtools: {
+    enabled: true
   }
 })

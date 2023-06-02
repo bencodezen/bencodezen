@@ -3,9 +3,9 @@ export default {
   props: {
     error: {
       type: Object,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 }
 </script>
 
@@ -18,8 +18,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import '../styles/_settings.scss';
-
 .container {
   text-align: center;
 }
