@@ -1,8 +1,7 @@
 import { Client } from '@notionhq/client'
 
-export default defineEventHandler(async (event) => {
+export default defineEventHandler(async () => {
   const notion = new Client({ auth: process.env.NOTION_API_KEY })
-  console.log(process.env.NOTION_API_KEY)
   const databaseId = '52fcfd11b497413387ec15c9db5f4bd6'
   const databaseContent = await notion.databases.query({
     database_id: databaseId,
