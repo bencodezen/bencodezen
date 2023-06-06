@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data } = await useAsyncData('about', () =>
+const { data: content } = await useAsyncData('blog', () =>
   queryContent('about').findOne()
 )
 </script>
@@ -7,7 +7,7 @@ const { data } = await useAsyncData('about', () =>
 <template>
   <article class="post-section">
     <div class="post-content">
-      <ContentRenderer v-if="data" :value="data" />
+      <ContentRenderer :value="content" />
     </div>
   </article>
 </template>

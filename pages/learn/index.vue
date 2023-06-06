@@ -1,9 +1,5 @@
 <script setup lang="ts">
-const databaseContent = ref([])
-
 const { data: courseData } = await useFetch('/api/courses')
-
-console.log(courseData.value)
 </script>
 
 <template>

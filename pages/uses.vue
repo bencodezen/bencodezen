@@ -1,19 +1,13 @@
-<script>
-export default {
-  async asyncData({ $content }) {
-    const page = await $content('uses').fetch()
-
-    return {
-      page,
-    }
-  },
-}
+<script setup lang="ts">
+const { data: content } = await useAsyncData('blog', () =>
+  queryContent('uses').findOne()
+)
 </script>
 
 <template>
   <article class="post-section">
     <div class="post-content">
-      <nuxt-content :document="page" />
+      <ContentRenderer :value="content" />
     </div>
   </article>
 </template>
