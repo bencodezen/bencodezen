@@ -6,7 +6,8 @@ interface EventUrl {
 
 interface Event {
   id: string
-  title: string
+  series: string
+  topic: string
   recording: {
     date: {
       start: string
@@ -19,7 +20,8 @@ interface Event {
 const eventList = ref<Event[]>([
   {
     id: '6f10875f-9fc7-42b1-88d0-2e8e1397f770',
-    title: 'Obsidian Office Hours: First look at Obsidian Bookmarks',
+    series: 'Obsidian Office Hours',
+    topic: 'First look at Obsidian Bookmarks',
     recording: {
       date: {
         start: '2023-06-07T14:30:00-07:00',
@@ -36,11 +38,12 @@ const eventList = ref<Event[]>([
   },
   {
     id: 'f2703911-8b2c-4702-89b7-1daa5d461cd9',
-    title: 'Build with Ben: Migrate my website to Nuxt 3',
+    series: 'Build with Ben',
+    topic: 'Migrate my website to Nuxt 3',
     recording: {
       date: {
-        start: '2023-06-06T14:30:00-08:00',
-        end: '2023-06-06T15:30:00-08:00',
+        start: '2023-06-06T14:30:00-07:00',
+        end: '2023-06-06T15:30:00-07:00',
       },
       url: [
         { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
@@ -52,6 +55,18 @@ const eventList = ref<Event[]>([
     },
   },
 ])
+
+const formattedEventDate = (date: string) => {
+  return new Date(date).toLocaleString('en-US', {
+    weekday: 'short',
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    timeZoneName: 'short',
+  })
+}
 
 const upcomingEventList = computed(() => {
   return eventList.value.filter((event) => {
@@ -100,8 +115,14 @@ const pastEventList = computed(() => {
           :key="event.id"
           class="schedule-list-item"
         >
-          <h3 class="title">{{ event.title }}</h3>
-          <p class="date">{{ new Date(event.recording.date.start) }}</p>
+          <h3 class="title">
+            <span class="series">{{ event.series }}</span>
+            <br />
+            {{ event.topic }}
+          </h3>
+          <p class="date">
+            {{ formattedEventDate(event.recording.date.start) }}
+          </p>
           <ul>
             <li v-for="platform in event.recording.url">
               <a :href="platform.url">{{ platform.label }}</a>
@@ -190,5 +211,11 @@ const pastEventList = computed(() => {
   .btn:last-child {
     margin-right: 0;
   }
+}
+
+.title .series {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #bbb;
 }
 </style>
