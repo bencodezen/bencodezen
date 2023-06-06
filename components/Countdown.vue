@@ -7,12 +7,12 @@ export default {
   props: {
     deadline: {
       type: Date,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     return {
-      currentTime: Date.now()
+      currentTime: Date.now(),
     }
   },
   computed: {
@@ -38,13 +38,13 @@ export default {
     },
     timeRemaining() {
       return Math.round((this.deadline - this.currentTime) / 1000)
-    }
+    },
   },
   mounted() {
     setInterval(() => {
       this.currentTime = Date.now()
     }, 1000)
-  }
+  },
 }
 </script>
 
@@ -66,8 +66,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import '../styles/_settings.scss';
-
 .time-unit-box {
   @apply flex flex-col items-center;
   border: 2px solid #2599e2;

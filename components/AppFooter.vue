@@ -20,8 +20,6 @@ export default {
 </template>
 
 <style lang="scss">
-@import '../styles/_settings.scss';
-
 .footer {
   text-align: center;
   border-top: 2px solid $c-border;

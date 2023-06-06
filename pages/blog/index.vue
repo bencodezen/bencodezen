@@ -1,24 +1,13 @@
-<script>
-import BlogPostList from '~/components/BlogPostList'
-
-export default {
-  components: {
-    BlogPostList
-  },
-  async asyncData({ $content }) {
-    const posts = await $content('blog').fetch()
-
-    return {
-      posts
-    }
-  }
-}
+<script setup lang="ts">
+const { data: posts } = await useAsyncData('blog', () =>
+  queryContent('blog').find()
+)
 </script>
 
 <template>
   <article class="post-section">
     <div class="post-content">
-      <BlogPostList :list="posts" />
+      <BlogPostList v-if="posts" :list="posts" />
     </div>
   </article>
 </template>

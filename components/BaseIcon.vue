@@ -1,22 +1,8 @@
-<script>
-export default {
-  props: {
-    name: {
-      type: String,
-      required: true
-    }
-  },
-  computed: {
-    iconComponent() {
-      return () => import(`./icons/social/${this.name}`)
-    }
-  }
-}
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="base-icon">
-    <component :is="iconComponent" />
+    <slot />
   </div>
 </template>
 

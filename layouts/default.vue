@@ -1,19 +1,11 @@
-<script>
-export default {
-  head: {
-    bodyAttrs: {
-      class: 'global-hash-dark-version'
-    }
-  }
-}
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="global-wrap">
     <div class="global-content">
       <AppHeader />
       <main class="global-main">
-        <nuxt />
+        <slot />
       </main>
       <AppFooter />
     </div>

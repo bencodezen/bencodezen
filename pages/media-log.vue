@@ -1,15 +1,11 @@
-<script>
-export default {
-  async asyncData({ $content }) {
-    const page = await $content('media-log').fetch()
-
-    return { page }
-  }
-}
+<script setup lang="ts">
+const { data } = await useAsyncData('media-log', () =>
+  queryContent('media-log').find()
+)
 </script>
 
 <template>
-  <nuxt-content :document="page"></nuxt-content>
+  <p>{{ data }}</p>
 </template>
 
 <style></style>

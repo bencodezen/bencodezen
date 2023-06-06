@@ -1,15 +1,5 @@
-<script>
-export default {
-  async asyncData({ env }) {
-    const databaseContent = await fetch(
-      `${env.baseUrl}/api/courses`
-    ).then((res) => res.json())
-
-    return {
-      databaseContent
-    }
-  }
-}
+<script setup lang="ts">
+const { data: courseData } = await useFetch('/api/courses')
 </script>
 
 <template>
@@ -71,7 +61,7 @@ export default {
         on other platforms.
       </p>
 
-      <guide-item v-for="resource in databaseContent" :key="resource.id">
+      <GuideItem v-for="resource in courseData" :key="resource.id">
         <template v-slot:content>
           <h3>
             <a :href="resource.publishUrl">
@@ -82,7 +72,7 @@ export default {
             {{ resource.description }}
           </p>
         </template>
-      </guide-item>
+      </GuideItem>
 
       <h2>Obsidian Notes</h2>
 
@@ -103,7 +93,7 @@ export default {
         anything you'd like to see me write one on!
       </p>
 
-      <guide-item>
+      <GuideItem>
         <template v-slot:image>
           <img
             src="/images/vuepress-blog-logo.png"
@@ -122,14 +112,12 @@ export default {
             to use VuePress to power their blogs.
           </p>
         </template>
-      </guide-item>
+      </GuideItem>
     </div>
   </article>
 </template>
 
 <style lang="scss">
-@import '../../styles/_settings.scss';
-
 .guide-item-content .description {
   margin-top: 1rem;
 }

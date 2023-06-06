@@ -1,59 +1,90 @@
-<script>
-import isAfter from 'date-fns/isAfter'
-import isSameDay from 'date-fns/isSameDay'
+<script setup lang="ts">
+interface EventUrl {
+  label: string
+  url: string
+}
 
-export default {
-  async asyncData({ $http }) {
-    const eventsData = await $http.$get('/api/events')
-
-    return {
-      eventList: eventsData || []
+interface Event {
+  id: string
+  series: string
+  topic: string
+  recording: {
+    date: {
+      start: string
+      end: string
     }
-  },
-  data: () => ({
-    pastEventPage: 0
-  }),
-  computed: {
-    filteredPastEventList() {
-      return this.pastEventList.slice(
-        this.pastEventPage,
-        this.pastEventPage + 5
-      )
-    },
-    pastEventList() {
-      return this.eventList
-        .filter((event) => {
-          const today = new Date()
-          const eventDate = new Date(event.recording.date.start)
-
-          return isAfter(today, eventDate) && !isSameDay(today, eventDate)
-        })
-        .sort((a, b) => {
-          const dateA = new Date(a.recording.date.start)
-          const dateB = new Date(b.recording.date.start)
-
-          // Sort by most recent date
-          return dateB - dateA
-        })
-    },
-    upcomingEventList() {
-      return this.eventList
-        .filter((event) => {
-          const today = new Date()
-          const eventDate = new Date(event.recording.date.start)
-
-          return isSameDay(eventDate, today) || isAfter(eventDate, today)
-        })
-        .sort((a, b) => {
-          const dateA = new Date(a.recording.date.start)
-          const dateB = new Date(b.recording.date.start)
-
-          // Sort by closest date to today
-          return dateA - dateB
-        })
-    }
+    url: EventUrl[]
   }
 }
+
+const eventList = ref<Event[]>([
+  {
+    id: '6f10875f-9fc7-42b1-88d0-2e8e1397f770',
+    series: 'Obsidian Office Hours',
+    topic: 'First look at Obsidian Bookmarks',
+    recording: {
+      date: {
+        start: '2023-06-07T14:30:00-07:00',
+        end: '2023-06-07T15:30:00-07:00',
+      },
+      url: [
+        { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
+        {
+          label: 'YouTube',
+          url: 'https://www.youtube.com/bencodezen',
+        },
+      ],
+    },
+  },
+  {
+    id: 'f2703911-8b2c-4702-89b7-1daa5d461cd9',
+    series: 'Build with Ben',
+    topic: 'Migrate my website to Nuxt 3',
+    recording: {
+      date: {
+        start: '2023-06-06T14:30:00-07:00',
+        end: '2023-06-06T15:30:00-07:00',
+      },
+      url: [
+        { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
+        {
+          label: 'YouTube',
+          url: 'https://www.youtube.com/watch?v=Us3IPCKEooI',
+        },
+      ],
+    },
+  },
+])
+
+const formattedEventDate = (date: string) => {
+  return new Date(date).toLocaleString('en-US', {
+    weekday: 'short',
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    timeZoneName: 'short',
+  })
+}
+
+const upcomingEventList = computed(() => {
+  return eventList.value.filter((event) => {
+    const eventEndDate = new Date(event.recording.date.end)
+    const now = new Date()
+
+    return eventEndDate > now
+  })
+})
+
+const pastEventList = computed(() => {
+  return eventList.value.filter((event) => {
+    const eventEndDate = new Date(event.recording.date.end)
+    const now = new Date()
+
+    return eventEndDate < now
+  })
+})
 </script>
 
 <template>
@@ -84,43 +115,39 @@ export default {
           :key="event.id"
           class="schedule-list-item"
         >
-          <h3 class="title">{{ event.title }}</h3>
-          <p class="date">{{ new Date(event.recording.date.start) }}</p>
-          <a :href="event.recording.url">{{ event.recording.url }}</a>
-        </li>
-      </ul>
-      <h2 class="schedule-heading">Past</h2>
-      <ul class="schedule-list">
-        <li
-          v-for="event in filteredPastEventList"
-          :key="event.id"
-          class="schedule-list-item"
-        >
-          <h3 class="title">{{ event.title }}</h3>
-          <p class="date">{{ new Date(event.recording.date.start) }}</p>
-          <p v-if="event.publishing.url" style="margin-bottom: 0;">
-            📼 Recording: <a :href="event.publishing.url">YouTube Video</a>
+          <h3 class="title">
+            <span class="series">{{ event.series }}</span>
+            <br />
+            {{ event.topic }}
+          </h3>
+          <p class="date">
+            {{ formattedEventDate(event.recording.date.start) }}
           </p>
+          <ul>
+            <li v-for="platform in event.recording.url">
+              <a :href="platform.url">{{ platform.label }}</a>
+            </li>
+          </ul>
         </li>
       </ul>
-      <div v-if="pastEventList.length > 5" class="pagination-row">
-        <div>
-          <button
-            v-show="pastEventPage > 0"
-            class="btn"
-            @click="pastEventPage -= 5"
+      <section v-if="pastEventList.length > 0">
+        <h2 class="schedule-heading">Past</h2>
+        <ul class="schedule-list">
+          <li
+            v-for="event in pastEventList"
+            :key="event.id"
+            class="schedule-list-item"
           >
-            Newer Events
-          </button>
-        </div>
-        <button
-          v-show="pastEventPage + 5 < pastEventList.length"
-          class="btn"
-          @click="pastEventPage += 5"
-        >
-          Older Events
-        </button>
-      </div>
+            <h3 class="title">{{ event.title }}</h3>
+            <p class="date">{{ new Date(event.recording.date.start) }}</p>
+            <ul>
+              <li v-for="platform in event.recording.url">
+                <a :href="platform.url">{{ platform.label }}</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
     </div>
   </article>
 </template>
@@ -184,5 +211,11 @@ export default {
   .btn:last-child {
     margin-right: 0;
   }
+}
+
+.title .series {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #bbb;
 }
 </style>

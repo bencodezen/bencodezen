@@ -1,58 +1,53 @@
-<script>
-import BlogPostPreview from '~/components/BlogPostPreview'
-
-export default {
-  name: 'BlogPostList',
-  components: {
-    BlogPostPreview
+<script setup lang="ts">
+const props = defineProps({
+  list: {
+    type: Array,
+    default: () => [],
   },
-  props: {
-    list: {
-      type: Array,
-      default: () => []
-    }
-  },
-  data() {
-    return {
-      displayRange: {
-        end: 4
-      },
-      selectedTag: ''
-    }
-  },
-  computed: {
-    filteredList() {
-      const props = this.$options.propsData
+})
 
-      if (props) {
-        if (props.list && props.list.length > 0) {
-          return props.list
-            .filter((item) => {
-              const isBlogPost = item.path.includes('/blog/')
-              const isReadyToPublish = new Date(item.date) <= new Date()
-              const hasTags = item.tags && item.tags.includes(this.selectedTag)
+const { data: ghostPosts } = await useFetch('/api/ghost')
 
-              const shouldPublish = this.selectedTag
-                ? isBlogPost && isReadyToPublish && hasTags
-                : isBlogPost && isReadyToPublish
+const displayRange = ref({
+  end: 4,
+})
 
-              return shouldPublish
-            })
-            .sort((a, b) => new Date(b.date) - new Date(a.date))
-        }
-      }
+const formattedEventDate = (date: string) => {
+  return new Date(date).toLocaleString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  })
+}
 
-      return false
-    }
-  },
-  methods: {
-    loadMore() {
-      this.displayRange.end += 5
-    },
-    updateSelectedTag(tag) {
-      this.selectedTag = tag
-    }
+const selectedTag = ref('')
+
+const filteredList = computed(() => {
+  if (props.list && props.list.length > 0) {
+    return props.list
+      .filter((item) => {
+        const isBlogPost = item._path.includes('/blog/')
+        const isReadyToPublish = new Date(item.date) <= new Date()
+        const hasTags = item.tags && item.tags.includes(selectedTag.value)
+
+        const shouldPublish = selectedTag.value
+          ? isBlogPost && isReadyToPublish && hasTags
+          : isBlogPost && isReadyToPublish
+
+        return shouldPublish
+      })
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
   }
+
+  return false
+})
+
+function loadMore() {
+  displayRange.value.end += 5
+}
+
+function updateSelectedTag(tag) {
+  selectedTag.value = tag
 }
 </script>
 
@@ -60,7 +55,7 @@ export default {
   <div class="blog-list__container">
     <div class="blog-list__header">
       <h1 class="blog-list-title">Blog Posts</h1>
-      <div style="margin-left:20px;" class="tooltip-ex">
+      <div style="margin-left: 20px" class="tooltip-ex">
         <strong><i class="fas fa-info-circle"></i></strong>
         <span class="tooltip-ex-text tooltip-ex-bottom"
           >Everything here is written via the stream of consciousness writing
@@ -80,6 +75,14 @@ export default {
       To subscribe via RSS, you can use
       <a href="/rss.xml">https://www.bencodezen.io/rss.xml</a>.
     </p>
+    <h2>Ghost Posts</h2>
+    <ul>
+      <li v-for="post in ghostPosts" :key="post.id">
+        <p>{{ formattedEventDate(post.published_at) }}</p>
+        <a :href="post.url">{{ post.title }}</a>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    </ul>
 
     <h2 class="blog-list-subtitle">Most Recent</h2>
 
@@ -102,7 +105,7 @@ export default {
         <BlogPostPreview
           v-show="index <= displayRange.end"
           :excerpt="item.excerpt"
-          :path="item.path"
+          :path="item._path"
           :published="item.date"
           :tags="item.tags"
           :title="item.title"
@@ -120,8 +123,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import '../styles/_settings.scss';
-
 $primary-color: #22aaff;
 
 .blog-list {

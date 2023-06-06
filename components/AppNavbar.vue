@@ -29,8 +29,6 @@ export default {}
 </template>
 
 <style lang="scss">
-@import '../styles/_settings.scss';
-
 .navbar {
   @apply py-3 px-5;
   border-bottom: 2px solid $c-border;
