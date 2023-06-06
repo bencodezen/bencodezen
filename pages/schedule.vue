@@ -10,18 +10,20 @@ interface Event {
   recording: {
     date: {
       start: string
+      end: string
     }
     url: EventUrl[]
   }
 }
 
-const upcomingEventList = ref<Event[]>([
+const eventList = ref<Event[]>([
   {
     id: '6f10875f-9fc7-42b1-88d0-2e8e1397f770',
-    title: 'Obsidian Office Hours: Obsidian Bookmarks',
+    title: 'Obsidian Office Hours: First look at Obsidian Bookmarks',
     recording: {
       date: {
-        start: '2023-06-07T14:30:00-08:00',
+        start: '2023-06-07T14:30:00-07:00',
+        end: '2023-06-07T15:30:00-07:00',
       },
       url: [
         { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
@@ -38,6 +40,7 @@ const upcomingEventList = ref<Event[]>([
     recording: {
       date: {
         start: '2023-06-06T14:30:00-08:00',
+        end: '2023-06-06T15:30:00-08:00',
       },
       url: [
         { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
@@ -49,6 +52,24 @@ const upcomingEventList = ref<Event[]>([
     },
   },
 ])
+
+const upcomingEventList = computed(() => {
+  return eventList.value.filter((event) => {
+    const eventEndDate = new Date(event.recording.date.end)
+    const now = new Date()
+
+    return eventEndDate > now
+  })
+})
+
+const pastEventList = computed(() => {
+  return eventList.value.filter((event) => {
+    const eventEndDate = new Date(event.recording.date.end)
+    const now = new Date()
+
+    return eventEndDate < now
+  })
+})
 </script>
 
 <template>
@@ -88,6 +109,24 @@ const upcomingEventList = ref<Event[]>([
           </ul>
         </li>
       </ul>
+      <section v-if="pastEventList.length > 0">
+        <h2 class="schedule-heading">Past</h2>
+        <ul class="schedule-list">
+          <li
+            v-for="event in pastEventList"
+            :key="event.id"
+            class="schedule-list-item"
+          >
+            <h3 class="title">{{ event.title }}</h3>
+            <p class="date">{{ new Date(event.recording.date.start) }}</p>
+            <ul>
+              <li v-for="platform in event.recording.url">
+                <a :href="platform.url">{{ platform.label }}</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
     </div>
   </article>
 </template>
