@@ -1,4 +1,54 @@
-<script>
+<script setup lang="ts">
+interface EventUrl {
+  label: string
+  url: string
+}
+
+interface Event {
+  id: string
+  title: string
+  recording: {
+    date: {
+      start: string
+    }
+    url: EventUrl[]
+  }
+}
+
+const upcomingEventList = ref<Event[]>([
+  {
+    id: '6f10875f-9fc7-42b1-88d0-2e8e1397f770',
+    title: 'Obsidian Office Hours: Obsidian Bookmarks',
+    recording: {
+      date: {
+        start: '2023-06-07T14:30:00-08:00',
+      },
+      url: [
+        { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
+        {
+          label: 'YouTube',
+          url: 'https://www.youtube.com/bencodezen',
+        },
+      ],
+    },
+  },
+  {
+    id: 'f2703911-8b2c-4702-89b7-1daa5d461cd9',
+    title: 'Build with Ben: Migrate my website to Nuxt 3',
+    recording: {
+      date: {
+        start: '2023-06-06T14:30:00-08:00',
+      },
+      url: [
+        { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
+        {
+          label: 'YouTube',
+          url: 'https://www.youtube.com/watch?v=Us3IPCKEooI',
+        },
+      ],
+    },
+  },
+])
 </script>
 
 <template>
@@ -31,7 +81,11 @@
         >
           <h3 class="title">{{ event.title }}</h3>
           <p class="date">{{ new Date(event.recording.date.start) }}</p>
-          <a :href="event.recording.url">{{ event.recording.url }}</a>
+          <ul>
+            <li v-for="platform in event.recording.url">
+              <a :href="platform.url">{{ platform.label }}</a>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
