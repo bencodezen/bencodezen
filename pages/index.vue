@@ -18,7 +18,7 @@
         </small>
         <div class="item-container">
           <div class="item-image global-image">
-            <nuxt-img
+            <img
               src="/images/home-hero.png"
               sizes="sm:350px md:500px lg:600px"
             />
