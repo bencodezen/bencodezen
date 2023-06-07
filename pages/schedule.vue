@@ -138,7 +138,11 @@ const pastEventList = computed(() => {
             :key="event.id"
             class="schedule-list-item"
           >
-            <h3 class="title">{{ event.title }}</h3>
+            <h3 class="title">
+              <span class="series">{{ event.series }}</span>
+              <br />
+              {{ event.topic }}
+            </h3>
             <p class="date">{{ new Date(event.recording.date.start) }}</p>
             <ul>
               <li v-for="platform in event.recording.url">
