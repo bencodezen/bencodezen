@@ -2,23 +2,23 @@
 export default defineNuxtConfig({
   components: ['~/components/icons', '~/components'],
   css: ['~/assets/css/theme.css'],
-  modules: ['@nuxt/content', '@nuxt/image-edge'],
+  modules: ['@nuxt/content', '@nuxt/image'],
 
   image: {
-    staticFilename: '[publicPath]/images/[name]-[hash][ext]'
+    staticFilename: '[publicPath]/images/[name]-[hash][ext]',
   },
 
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@import "styles/_settings.scss";'
-        }
-      }
-    }
+          additionalData: '@import "styles/_settings.scss";',
+        },
+      },
+    },
   },
 
   devtools: {
-    enabled: true
-  }
+    enabled: true,
+  },
 })
