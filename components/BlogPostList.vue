@@ -6,8 +6,6 @@ const props = defineProps({
   },
 })
 
-const { data: ghostPosts } = await useFetch('/api/ghost')
-
 const displayRange = ref({
   end: 4,
 })
@@ -75,14 +73,6 @@ function updateSelectedTag(tag) {
       To subscribe via RSS, you can use
       <a href="/rss.xml">https://www.bencodezen.io/rss.xml</a>.
     </p>
-    <h2>Ghost Posts</h2>
-    <ul>
-      <li v-for="post in ghostPosts" :key="post.id">
-        <p>{{ formattedEventDate(post.published_at) }}</p>
-        <a :href="post.url">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-      </li>
-    </ul>
 
     <h2 class="blog-list-subtitle">Most Recent</h2>
 
