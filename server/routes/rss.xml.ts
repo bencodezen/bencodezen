@@ -14,6 +14,16 @@ export default defineEventHandler(async (event) => {
     .find()
 
   const blogPosts = docs.filter((doc) => doc?._path?.includes('/blog'))
+  const ghostPosts = await $fetch('/api/ghost')
+
+  for (const post of ghostPosts) {
+    feed.item({
+      title: post.title,
+      url: post.url,
+      date: post.published_at,
+      description: post.excerpt,
+    })
+  }
 
   for (const doc of blogPosts) {
     feed.item({
