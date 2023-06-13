@@ -19,13 +19,31 @@ interface Event {
 
 const eventList = ref<Event[]>([
   {
+    id: '4288f6f8-ea22-4c4e-85b3-7b02bf2c74ba',
+    series: 'Build with Ben',
+    topic: 'Adding a RSS feed to my website',
+    recording: {
+      date: {
+        start: '2023-06-07T15:30:00-05:00',
+        end: '2023-06-07T16:30:00-05:00',
+      },
+      url: [
+        { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
+        {
+          label: 'YouTube',
+          url: 'https://www.youtube.com/bencodezen',
+        },
+      ],
+    },
+  },
+  {
     id: '6f10875f-9fc7-42b1-88d0-2e8e1397f770',
     series: 'Obsidian Office Hours',
     topic: 'First look at Obsidian Bookmarks',
     recording: {
       date: {
-        start: '2023-06-07T14:30:00-07:00',
-        end: '2023-06-07T15:30:00-07:00',
+        start: '2023-06-07T14:30:00-08:00',
+        end: '2023-06-07T15:30:00-08:00',
       },
       url: [
         { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
@@ -42,8 +60,8 @@ const eventList = ref<Event[]>([
     topic: 'Migrate my website to Nuxt 3',
     recording: {
       date: {
-        start: '2023-06-06T14:30:00-07:00',
-        end: '2023-06-06T15:30:00-07:00',
+        start: '2023-06-06T14:30:00-08:00',
+        end: '2023-06-06T15:30:00-08:00',
       },
       url: [
         { label: 'Twitch', url: 'https://www.twitch.tv/bencodezen' },
