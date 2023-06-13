@@ -16,12 +16,21 @@ export default defineEventHandler(async (event) => {
   const blogPosts = docs.filter((doc) => doc?._path?.includes('/blog'))
   const ghostPosts = await $fetch('/api/ghost')
 
-  for (const post of ghostPosts) {
+  const cleanGhostPosts = ghostPosts.map((post) => {
+    return {
+      title: post.title,
+      url: `https://www.bencodezen.io/blog/${post.slug}`,
+      date: post.published_at,
+      description: post.excerpt,
+    }
+  })
+
+  for (const post of cleanGhostPosts) {
     feed.item({
       title: post.title,
       url: post.url,
-      date: post.published_at,
-      description: post.excerpt,
+      date: post.date,
+      description: post.description,
     })
   }
 
