@@ -12,12 +12,6 @@ const { data: ghostPost } = useFetch('/api/ghost', {
   },
 })
 
-if (localPost.value) {
-  console.log('Found it in Nuxt Content')
-} else {
-  console.log('It should be in Ghost!')
-}
-
 const formatPublishDate = (isoDateString) => {
   const dateFormat = new Date(isoDateString)
   const options = {
@@ -33,18 +27,18 @@ const formatPublishDate = (isoDateString) => {
 <template>
   <article class="post-section">
     <div class="post-content">
-      <template v-if="localPost">
-        <p class="blog-publish-date">{{ formatPublishDate }}</p>
-        <h1 class="blog-title">{{ localPost.title }}</h1>
-        <ContentDoc :path="localPost._path" />
-      </template>
-      <template v-else>
+      <template v-if="ghostPost">
         <p class="blog-publish-date">
           {{ formatPublishDate(ghostPost.published_at) }}
         </p>
 
         <h1 class="blog-title">{{ ghostPost.title }}</h1>
         <div v-html="ghostPost.html" />
+      </template>
+      <template v-else>
+        <p class="blog-publish-date">{{ formatPublishDate }}</p>
+        <h1 class="blog-title">{{ localPost.title }}</h1>
+        <ContentDoc :path="localPost._path" />
       </template>
     </div>
   </article>
