@@ -104,7 +104,10 @@ function updateSelectedTag(tag) {
       </li>
     </ul>
 
-    <div v-if="displayRange.end <= filteredList.length" class="pagination">
+    <div
+      v-if="displayRange.end <= filteredList.length"
+      class="pagination-section"
+    >
       <button class="button--load-more" type="button" @click="loadMore">
         Load More
       </button>
