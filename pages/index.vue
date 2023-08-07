@@ -24,9 +24,7 @@
             />
           </div>
           <div class="item-content">
-            <h2 class="item-title">
-              Vue, Netlify, Obsidian, Nuxt, Notion and more...
-            </h2>
+            <h2 class="item-title">Vue, Obsidian, Nuxt, Notion and more...</h2>
             <p class="item-excerpt global-zigzag">
               <IconZigzag />
               I love building things for the web and learning about new ideas
