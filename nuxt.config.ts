@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   css: ['~/assets/css/theme.css'],
   modules: ['@nuxt/content', '@nuxt/image'],
 
+  content: {
+    highlight: {
+      theme: 'github-dark',
+    },
+  },
+
   image: {
     staticFilename: '[publicPath]/images/[name]-[hash][ext]',
   },
