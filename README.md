@@ -3,7 +3,6 @@
 ## About Me
 
 - Vue.js Core Team
-- Senior Developer Experience Engineer @ [Netlify](https://www.netlify.com/?utm_source=ghrepo&utm_medium=bcz-bh&utm_campaign=devex)
 - Lead Instructor @ [Vue Mastery](https://www.vuemastery.com)
 - Google Developer Expert
 
