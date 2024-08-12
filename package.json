@@ -13,7 +13,7 @@
     "@nuxt/image": "^1.0.0-rc.1",
     "@nuxt/image-edge": "^1.0.0-27990059.c3f31ce",
     "@types/tryghost__content-api": "^1.3.11",
-    "nuxt": "^3.5.2"
+    "nuxt": "^3.12.4"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.5",
